@@ -1,0 +1,125 @@
+# Modular Buildings — 108 free 3D models (Buildings)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/modular-buildings/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/modular-buildings.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 805 KB.
+
+## Models
+
+- [Building Block](https://models.codelove.in/models/modular-buildings-building-block/) — https://models.codelove.in/library/modular-buildings/building-block.glb · 12 tris · 1×0.63×1 · 7 KB
+- [Building Corner](https://models.codelove.in/models/modular-buildings-building-corner/) — https://models.codelove.in/library/modular-buildings/building-corner.glb · 16 tris · 1×0.63×1 · 7 KB
+- [Building Corner Bottom](https://models.codelove.in/models/modular-buildings-building-corner-bottom/) — https://models.codelove.in/library/modular-buildings/building-corner-bottom.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Corner Top](https://models.codelove.in/models/modular-buildings-building-corner-top/) — https://models.codelove.in/library/modular-buildings/building-corner-top.glb · 14 tris · 1×0.63×1 · 7 KB
+- [Building Corner Window](https://models.codelove.in/models/modular-buildings-building-corner-window/) — https://models.codelove.in/library/modular-buildings/building-corner-window.glb · 32 tris · 1×0.63×1 · 7 KB
+- [Building Corner Window Middle](https://models.codelove.in/models/modular-buildings-building-corner-window-middle/) — https://models.codelove.in/library/modular-buildings/building-corner-window-middle.glb · 32 tris · 1×0.63×1 · 7 KB
+- [Building Corner Window Narrow](https://models.codelove.in/models/modular-buildings-building-corner-window-narrow/) — https://models.codelove.in/library/modular-buildings/building-corner-window-narrow.glb · 32 tris · 1×0.63×1 · 7 KB
+- [Building Corner Window Sill](https://models.codelove.in/models/modular-buildings-building-corner-window-sill/) — https://models.codelove.in/library/modular-buildings/building-corner-window-sill.glb · 72 tris · 1×0.63×1 · 8 KB
+- [Building Corner Window Top Round](https://models.codelove.in/models/modular-buildings-building-corner-window-top-round/) — https://models.codelove.in/library/modular-buildings/building-corner-window-top-round.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Corner Window Top Square](https://models.codelove.in/models/modular-buildings-building-corner-window-top-square/) — https://models.codelove.in/library/modular-buildings/building-corner-window-top-square.glb · 32 tris · 1×0.63×1 · 7 KB
+- [Building Door](https://models.codelove.in/models/modular-buildings-building-door/) — https://models.codelove.in/library/modular-buildings/building-door.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Door Window](https://models.codelove.in/models/modular-buildings-building-door-window/) — https://models.codelove.in/library/modular-buildings/building-door-window.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Door Window Narrow](https://models.codelove.in/models/modular-buildings-building-door-window-narrow/) — https://models.codelove.in/library/modular-buildings/building-door-window-narrow.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Edges Door](https://models.codelove.in/models/modular-buildings-building-edges-door/) — https://models.codelove.in/library/modular-buildings/building-edges-door.glb · 36 tris · 1×0.63×1 · 7 KB
+- [Building Sample House A](https://models.codelove.in/models/modular-buildings-building-sample-house-a/) — https://models.codelove.in/library/modular-buildings/building-sample-house-a.glb · 312 tris · 1.1×1.14×2 · 11 KB
+- [Building Sample House B](https://models.codelove.in/models/modular-buildings-building-sample-house-b/) — https://models.codelove.in/library/modular-buildings/building-sample-house-b.glb · 374 tris · 1.09×1.98×2.2 · 13 KB
+- [Building Sample House C](https://models.codelove.in/models/modular-buildings-building-sample-house-c/) — https://models.codelove.in/library/modular-buildings/building-sample-house-c.glb · 322 tris · 2×1.98×2.2 · 12 KB
+- [Building Sample Tower A](https://models.codelove.in/models/modular-buildings-building-sample-tower-a/) — https://models.codelove.in/library/modular-buildings/building-sample-tower-a.glb · 398 tris · 1.1×2.5×1.25 · 13 KB
+- [Building Sample Tower B](https://models.codelove.in/models/modular-buildings-building-sample-tower-b/) — https://models.codelove.in/library/modular-buildings/building-sample-tower-b.glb · 326 tris · 1.1×1.89×1.25 · 12 KB
+- [Building Sample Tower C](https://models.codelove.in/models/modular-buildings-building-sample-tower-c/) — https://models.codelove.in/library/modular-buildings/building-sample-tower-c.glb · 384 tris · 1.1×3.14×1.27 · 12 KB
+- [Building Sample Tower D](https://models.codelove.in/models/modular-buildings-building-sample-tower-d/) — https://models.codelove.in/library/modular-buildings/building-sample-tower-d.glb · 524 tris · 1.1×3.76×1.1 · 14 KB
+- [Building Steps Narrow](https://models.codelove.in/models/modular-buildings-building-steps-narrow/) — https://models.codelove.in/library/modular-buildings/building-steps-narrow.glb · 74 tris · 1×0.84×1.2 · 8 KB
+- [Building Steps Narrow Windows](https://models.codelove.in/models/modular-buildings-building-steps-narrow-windows/) — https://models.codelove.in/library/modular-buildings/building-steps-narrow-windows.glb · 106 tris · 1×0.84×1.2 · 8 KB
+- [Building Steps Narrow Windows Round](https://models.codelove.in/models/modular-buildings-building-steps-narrow-windows-round/) — https://models.codelove.in/library/modular-buildings/building-steps-narrow-windows-round.glb · 130 tris · 1×0.84×1.2 · 9 KB
+- [Building Steps Wide](https://models.codelove.in/models/modular-buildings-building-steps-wide/) — https://models.codelove.in/library/modular-buildings/building-steps-wide.glb · 82 tris · 1×0.84×1.2 · 8 KB
+- [Building Window](https://models.codelove.in/models/modular-buildings-building-window/) — https://models.codelove.in/library/modular-buildings/building-window.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Window Awnings](https://models.codelove.in/models/modular-buildings-building-window-awnings/) — https://models.codelove.in/library/modular-buildings/building-window-awnings.glb · 116 tris · 1×0.63×1.13 · 8 KB
+- [Building Window Balcony](https://models.codelove.in/models/modular-buildings-building-window-balcony/) — https://models.codelove.in/library/modular-buildings/building-window-balcony.glb · 72 tris · 1×0.63×1.15 · 8 KB
+- [Building Window Door Window](https://models.codelove.in/models/modular-buildings-building-window-door-window/) — https://models.codelove.in/library/modular-buildings/building-window-door-window.glb · 60 tris · 1×0.63×1 · 7 KB
+- [Building Window Door Window Round](https://models.codelove.in/models/modular-buildings-building-window-door-window-round/) — https://models.codelove.in/library/modular-buildings/building-window-door-window-round.glb · 84 tris · 1×0.63×1 · 8 KB
+- [Building Window Large](https://models.codelove.in/models/modular-buildings-building-window-large/) — https://models.codelove.in/library/modular-buildings/building-window-large.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Window Large Left](https://models.codelove.in/models/modular-buildings-building-window-large-left/) — https://models.codelove.in/library/modular-buildings/building-window-large-left.glb · 24 tris · 1×0.63×1 · 7 KB
+- [Building Window Large Middle](https://models.codelove.in/models/modular-buildings-building-window-large-middle/) — https://models.codelove.in/library/modular-buildings/building-window-large-middle.glb · 20 tris · 1×0.63×1 · 7 KB
+- [Building Window Large Right](https://models.codelove.in/models/modular-buildings-building-window-large-right/) — https://models.codelove.in/library/modular-buildings/building-window-large-right.glb · 24 tris · 1×0.63×1 · 7 KB
+- [Building Window Left](https://models.codelove.in/models/modular-buildings-building-window-left/) — https://models.codelove.in/library/modular-buildings/building-window-left.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Window Left Sill](https://models.codelove.in/models/modular-buildings-building-window-left-sill/) — https://models.codelove.in/library/modular-buildings/building-window-left-sill.glb · 40 tris · 1×0.63×1.05 · 7 KB
+- [Building Window Right](https://models.codelove.in/models/modular-buildings-building-window-right/) — https://models.codelove.in/library/modular-buildings/building-window-right.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Window Right Sill](https://models.codelove.in/models/modular-buildings-building-window-right-sill/) — https://models.codelove.in/library/modular-buildings/building-window-right-sill.glb · 68 tris · 1×0.63×1.05 · 8 KB
+- [Building Window Sill](https://models.codelove.in/models/modular-buildings-building-window-sill/) — https://models.codelove.in/library/modular-buildings/building-window-sill.glb · 40 tris · 1×0.63×1.05 · 7 KB
+- [Building Window Wide](https://models.codelove.in/models/modular-buildings-building-window-wide/) — https://models.codelove.in/library/modular-buildings/building-window-wide.glb · 28 tris · 1×0.63×1 · 7 KB
+- [Building Window Wide Sill](https://models.codelove.in/models/modular-buildings-building-window-wide-sill/) — https://models.codelove.in/library/modular-buildings/building-window-wide-sill.glb · 40 tris · 1×0.63×1.05 · 7 KB
+- [Building Windows](https://models.codelove.in/models/modular-buildings-building-windows/) — https://models.codelove.in/library/modular-buildings/building-windows.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Windows High Middle](https://models.codelove.in/models/modular-buildings-building-windows-high-middle/) — https://models.codelove.in/library/modular-buildings/building-windows-high-middle.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Windows High Top Round](https://models.codelove.in/models/modular-buildings-building-windows-high-top-round/) — https://models.codelove.in/library/modular-buildings/building-windows-high-top-round.glb · 68 tris · 1×0.63×1 · 8 KB
+- [Building Windows High Top Square](https://models.codelove.in/models/modular-buildings-building-windows-high-top-square/) — https://models.codelove.in/library/modular-buildings/building-windows-high-top-square.glb · 44 tris · 1×0.63×1 · 7 KB
+- [Building Windows Round](https://models.codelove.in/models/modular-buildings-building-windows-round/) — https://models.codelove.in/library/modular-buildings/building-windows-round.glb · 68 tris · 1×0.63×1 · 7 KB
+- [Building Windows Sills](https://models.codelove.in/models/modular-buildings-building-windows-sills/) — https://models.codelove.in/library/modular-buildings/building-windows-sills.glb · 68 tris · 1×0.63×1.05 · 8 KB
+- [Building Windows Sills Round](https://models.codelove.in/models/modular-buildings-building-windows-sills-round/) — https://models.codelove.in/library/modular-buildings/building-windows-sills-round.glb · 92 tris · 1×0.63×1.05 · 8 KB
+- [Detail Ac A](https://models.codelove.in/models/modular-buildings-detail-ac-a/) — https://models.codelove.in/library/modular-buildings/detail-ac-a.glb · 60 tris · 0.24×0.11×0.24 · 7 KB
+- [Detail Ac B](https://models.codelove.in/models/modular-buildings-detail-ac-b/) — https://models.codelove.in/library/modular-buildings/detail-ac-b.glb · 84 tris · 0.31×0.23×0.13 · 8 KB
+- [Door Brown](https://models.codelove.in/models/modular-buildings-door-brown/) — https://models.codelove.in/library/modular-buildings/door-brown.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Door Brown Glass](https://models.codelove.in/models/modular-buildings-door-brown-glass/) — https://models.codelove.in/library/modular-buildings/door-brown-glass.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Door Brown Window](https://models.codelove.in/models/modular-buildings-door-brown-window/) — https://models.codelove.in/library/modular-buildings/door-brown-window.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Door White](https://models.codelove.in/models/modular-buildings-door-white/) — https://models.codelove.in/library/modular-buildings/door-white.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Door White Glass](https://models.codelove.in/models/modular-buildings-door-white-glass/) — https://models.codelove.in/library/modular-buildings/door-white-glass.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Door White Window](https://models.codelove.in/models/modular-buildings-door-white-window/) — https://models.codelove.in/library/modular-buildings/door-white-window.glb · 28 tris · 0.25×0.5×0.05 · 7 KB
+- [Roof Flat Awning A](https://models.codelove.in/models/modular-buildings-roof-flat-awning-a/) — https://models.codelove.in/library/modular-buildings/roof-flat-awning-a.glb · 28 tris · 1×0.21×1.11 · 7 KB
+- [Roof Flat Awning B](https://models.codelove.in/models/modular-buildings-roof-flat-awning-b/) — https://models.codelove.in/library/modular-buildings/roof-flat-awning-b.glb · 20 tris · 1×0.21×1.23 · 7 KB
+- [Roof Flat Awning C](https://models.codelove.in/models/modular-buildings-roof-flat-awning-c/) — https://models.codelove.in/library/modular-buildings/roof-flat-awning-c.glb · 56 tris · 1×0.21×1.23 · 8 KB
+- [Roof Flat Border Center](https://models.codelove.in/models/modular-buildings-roof-flat-border-center/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-center.glb · 28 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Center Corner](https://models.codelove.in/models/modular-buildings-roof-flat-border-center-corner/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-center-corner.glb · 36 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Corner](https://models.codelove.in/models/modular-buildings-roof-flat-border-corner/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-corner.glb · 24 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Corner Slanted](https://models.codelove.in/models/modular-buildings-roof-flat-border-corner-slanted/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-corner-slanted.glb · 32 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Corner Slanted Passage](https://models.codelove.in/models/modular-buildings-roof-flat-border-corner-slanted-passage/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-corner-slanted-passage.glb · 44 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border End](https://models.codelove.in/models/modular-buildings-roof-flat-border-end/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-end.glb · 28 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Side](https://models.codelove.in/models/modular-buildings-roof-flat-border-side/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-side.glb · 20 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Border Straight](https://models.codelove.in/models/modular-buildings-roof-flat-border-straight/) — https://models.codelove.in/library/modular-buildings/roof-flat-border-straight.glb · 28 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Center](https://models.codelove.in/models/modular-buildings-roof-flat-center/) — https://models.codelove.in/library/modular-buildings/roof-flat-center.glb · 12 tris · 1×0.11×1 · 7 KB
+- [Roof Flat Corner](https://models.codelove.in/models/modular-buildings-roof-flat-corner/) — https://models.codelove.in/library/modular-buildings/roof-flat-corner.glb · 16 tris · 1×0.11×1 · 7 KB
+- [Roof Flat Corner High](https://models.codelove.in/models/modular-buildings-roof-flat-corner-high/) — https://models.codelove.in/library/modular-buildings/roof-flat-corner-high.glb · 16 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Detail A](https://models.codelove.in/models/modular-buildings-roof-flat-detail-a/) — https://models.codelove.in/library/modular-buildings/roof-flat-detail-a.glb · 50 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Detail B](https://models.codelove.in/models/modular-buildings-roof-flat-detail-b/) — https://models.codelove.in/library/modular-buildings/roof-flat-detail-b.glb · 48 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Detail C](https://models.codelove.in/models/modular-buildings-roof-flat-detail-c/) — https://models.codelove.in/library/modular-buildings/roof-flat-detail-c.glb · 34 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Detail D](https://models.codelove.in/models/modular-buildings-roof-flat-detail-d/) — https://models.codelove.in/library/modular-buildings/roof-flat-detail-d.glb · 44 tris · 1×0.21×1 · 7 KB
+- [Roof Flat Top](https://models.codelove.in/models/modular-buildings-roof-flat-top/) — https://models.codelove.in/library/modular-buildings/roof-flat-top.glb · 28 tris · 1.1×0.21×1.1 · 7 KB
+- [Roof Gable](https://models.codelove.in/models/modular-buildings-roof-gable/) — https://models.codelove.in/library/modular-buildings/roof-gable.glb · 20 tris · 1.09×0.52×1 · 7 KB
+- [Roof Gable Corner](https://models.codelove.in/models/modular-buildings-roof-gable-corner/) — https://models.codelove.in/library/modular-buildings/roof-gable-corner.glb · 18 tris · 1.05×0.52×1.05 · 7 KB
+- [Roof Gable End](https://models.codelove.in/models/modular-buildings-roof-gable-end/) — https://models.codelove.in/library/modular-buildings/roof-gable-end.glb · 16 tris · 1.09×0.52×1 · 7 KB
+- [Roof Slanted](https://models.codelove.in/models/modular-buildings-roof-slanted/) — https://models.codelove.in/library/modular-buildings/roof-slanted.glb · 28 tris · 1×0.78×1.14 · 7 KB
+- [Roof Slanted Corner A](https://models.codelove.in/models/modular-buildings-roof-slanted-corner-a/) — https://models.codelove.in/library/modular-buildings/roof-slanted-corner-a.glb · 32 tris · 1.14×0.78×1.14 · 7 KB
+- [Roof Slanted Corner B](https://models.codelove.in/models/modular-buildings-roof-slanted-corner-b/) — https://models.codelove.in/library/modular-buildings/roof-slanted-corner-b.glb · 26 tris · 1.14×0.78×1.14 · 7 KB
+- [Roof Slanted Corner C](https://models.codelove.in/models/modular-buildings-roof-slanted-corner-c/) — https://models.codelove.in/library/modular-buildings/roof-slanted-corner-c.glb · 24 tris · 1.14×0.78×1.14 · 7 KB
+- [Roof Slanted Corner Inner](https://models.codelove.in/models/modular-buildings-roof-slanted-corner-inner/) — https://models.codelove.in/library/modular-buildings/roof-slanted-corner-inner.glb · 18 tris · 1×0.72×1 · 7 KB
+- [Roof Slanted Detail](https://models.codelove.in/models/modular-buildings-roof-slanted-detail/) — https://models.codelove.in/library/modular-buildings/roof-slanted-detail.glb · 42 tris · 1×0.78×1.14 · 7 KB
+- [Roof Slanted Flat](https://models.codelove.in/models/modular-buildings-roof-slanted-flat/) — https://models.codelove.in/library/modular-buildings/roof-slanted-flat.glb · 12 tris · 1×0.11×1 · 7 KB
+- [Roof Slanted Window](https://models.codelove.in/models/modular-buildings-roof-slanted-window/) — https://models.codelove.in/library/modular-buildings/roof-slanted-window.glb · 80 tris · 1×0.78×1.14 · 8 KB
+- [Window Brown](https://models.codelove.in/models/modular-buildings-window-brown/) — https://models.codelove.in/library/modular-buildings/window-brown.glb · 80 tris · 0.31×0.38×0.05 · 7 KB
+- [Window Brown Detailed](https://models.codelove.in/models/modular-buildings-window-brown-detailed/) — https://models.codelove.in/library/modular-buildings/window-brown-detailed.glb · 34 tris · 0.31×0.38×0.05 · 7 KB
+- [Window Brown Large](https://models.codelove.in/models/modular-buildings-window-brown-large/) — https://models.codelove.in/library/modular-buildings/window-brown-large.glb · 40 tris · 0.38×0.5×0.05 · 7 KB
+- [Window Brown Narrow](https://models.codelove.in/models/modular-buildings-window-brown-narrow/) — https://models.codelove.in/library/modular-buildings/window-brown-narrow.glb · 80 tris · 0.19×0.42×0.05 · 7 KB
+- [Window Brown Round Low](https://models.codelove.in/models/modular-buildings-window-brown-round-low/) — https://models.codelove.in/library/modular-buildings/window-brown-round-low.glb · 56 tris · 0.31×0.35×0.05 · 7 KB
+- [Window Brown Round Middle](https://models.codelove.in/models/modular-buildings-window-brown-round-middle/) — https://models.codelove.in/library/modular-buildings/window-brown-round-middle.glb · 24 tris · 0.31×0.63×0.05 · 7 KB
+- [Window Brown Round Narrow](https://models.codelove.in/models/modular-buildings-window-brown-round-narrow/) — https://models.codelove.in/library/modular-buildings/window-brown-round-narrow.glb · 56 tris · 0.19×0.42×0.05 · 7 KB
+- [Window Brown Round Top](https://models.codelove.in/models/modular-buildings-window-brown-round-top/) — https://models.codelove.in/library/modular-buildings/window-brown-round-top.glb · 52 tris · 0.31×0.47×0.05 · 7 KB
+- [Window Brown Round Wide](https://models.codelove.in/models/modular-buildings-window-brown-round-wide/) — https://models.codelove.in/library/modular-buildings/window-brown-round-wide.glb · 56 tris · 0.31×0.47×0.05 · 7 KB
+- [Window Brown Tall](https://models.codelove.in/models/modular-buildings-window-brown-tall/) — https://models.codelove.in/library/modular-buildings/window-brown-tall.glb · 80 tris · 0.31×0.5×0.05 · 7 KB
+- [Window Brown Wide](https://models.codelove.in/models/modular-buildings-window-brown-wide/) — https://models.codelove.in/library/modular-buildings/window-brown-wide.glb · 40 tris · 0.75×0.38×0.05 · 7 KB
+- [Window White](https://models.codelove.in/models/modular-buildings-window-white/) — https://models.codelove.in/library/modular-buildings/window-white.glb · 40 tris · 0.31×0.38×0.05 · 7 KB
+- [Window White Detailed](https://models.codelove.in/models/modular-buildings-window-white-detailed/) — https://models.codelove.in/library/modular-buildings/window-white-detailed.glb · 34 tris · 0.31×0.38×0.05 · 7 KB
+- [Window White Large](https://models.codelove.in/models/modular-buildings-window-white-large/) — https://models.codelove.in/library/modular-buildings/window-white-large.glb · 40 tris · 0.38×0.5×0.05 · 7 KB
+- [Window White Narrow](https://models.codelove.in/models/modular-buildings-window-white-narrow/) — https://models.codelove.in/library/modular-buildings/window-white-narrow.glb · 40 tris · 0.19×0.42×0.05 · 7 KB
+- [Window White Round Low](https://models.codelove.in/models/modular-buildings-window-white-round-low/) — https://models.codelove.in/library/modular-buildings/window-white-round-low.glb · 56 tris · 0.31×0.35×0.05 · 7 KB
+- [Window White Round Middle](https://models.codelove.in/models/modular-buildings-window-white-round-middle/) — https://models.codelove.in/library/modular-buildings/window-white-round-middle.glb · 24 tris · 0.31×0.63×0.05 · 7 KB
+- [Window White Round Narrow](https://models.codelove.in/models/modular-buildings-window-white-round-narrow/) — https://models.codelove.in/library/modular-buildings/window-white-round-narrow.glb · 56 tris · 0.19×0.42×0.05 · 7 KB
+- [Window White Round Top](https://models.codelove.in/models/modular-buildings-window-white-round-top/) — https://models.codelove.in/library/modular-buildings/window-white-round-top.glb · 52 tris · 0.31×0.47×0.05 · 7 KB
+- [Window White Round Wide](https://models.codelove.in/models/modular-buildings-window-white-round-wide/) — https://models.codelove.in/library/modular-buildings/window-white-round-wide.glb · 56 tris · 0.31×0.47×0.05 · 7 KB
+- [Window White Tall](https://models.codelove.in/models/modular-buildings-window-white-tall/) — https://models.codelove.in/library/modular-buildings/window-white-tall.glb · 40 tris · 0.31×0.5×0.05 · 7 KB
+- [Window White Wide](https://models.codelove.in/models/modular-buildings-window-white-wide/) — https://models.codelove.in/library/modular-buildings/window-white-wide.glb · 40 tris · 0.75×0.38×0.05 · 7 KB

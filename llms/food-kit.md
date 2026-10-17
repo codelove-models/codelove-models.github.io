@@ -1,0 +1,217 @@
+# Food Kit — 200 free 3D models (Food)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/food-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/food-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 2.3 MB.
+
+## Models
+
+- [Advocado Half](https://models.codelove.in/models/food-kit-advocado-half/) — https://models.codelove.in/library/food-kit/advocado-half.glb · 98 tris · 0.1×0.21×0.17 · 11 KB
+- [Apple](https://models.codelove.in/models/food-kit-apple/) — https://models.codelove.in/library/food-kit/apple.glb · 136 tris · 0.2×0.19×0.2 · 11 KB
+- [Apple Half](https://models.codelove.in/models/food-kit-apple-half/) — https://models.codelove.in/library/food-kit/apple-half.glb · 124 tris · 0.1×0.19×0.2 · 10 KB
+- [Avocado](https://models.codelove.in/models/food-kit-avocado/) — https://models.codelove.in/library/food-kit/avocado.glb · 44 tris · 0.15×0.21×0.17 · 9 KB
+- [Bacon](https://models.codelove.in/models/food-kit-bacon/) — https://models.codelove.in/library/food-kit/bacon.glb · 40 tris · 0.13×0.03×0.52 · 9 KB
+- [Bacon Raw](https://models.codelove.in/models/food-kit-bacon-raw/) — https://models.codelove.in/library/food-kit/bacon-raw.glb · 40 tris · 0.13×0.03×0.52 · 9 KB
+- [Bag](https://models.codelove.in/models/food-kit-bag/) — https://models.codelove.in/library/food-kit/bag.glb · 46 tris · 0.22×0.6×0.41 · 9 KB
+- [Bag Flat](https://models.codelove.in/models/food-kit-bag-flat/) — https://models.codelove.in/library/food-kit/bag-flat.glb · 114 tris · 0.65×0.19×0.47 · 10 KB
+- [Banana](https://models.codelove.in/models/food-kit-banana/) — https://models.codelove.in/library/food-kit/banana.glb · 104 tris · 0.14×0.2×0.63 · 11 KB
+- [Barrel](https://models.codelove.in/models/food-kit-barrel/) — https://models.codelove.in/library/food-kit/barrel.glb · 308 tris · 0.76×0.68×0.68 · 13 KB
+- [Beet](https://models.codelove.in/models/food-kit-beet/) — https://models.codelove.in/library/food-kit/beet.glb · 100 tris · 0.1×0.27×0.1 · 10 KB
+- [Bottle Ketchup](https://models.codelove.in/models/food-kit-bottle-ketchup/) — https://models.codelove.in/library/food-kit/bottle-ketchup.glb · 96 tris · 0.14×0.39×0.17 · 10 KB
+- [Bottle Musterd](https://models.codelove.in/models/food-kit-bottle-musterd/) — https://models.codelove.in/library/food-kit/bottle-musterd.glb · 96 tris · 0.14×0.39×0.17 · 10 KB
+- [Bottle Oil](https://models.codelove.in/models/food-kit-bottle-oil/) — https://models.codelove.in/library/food-kit/bottle-oil.glb · 96 tris · 0.14×0.62×0.14 · 10 KB
+- [Bowl](https://models.codelove.in/models/food-kit-bowl/) — https://models.codelove.in/library/food-kit/bowl.glb · 84 tris · 0.5×0.21×0.58 · 9 KB
+- [Bowl Broth](https://models.codelove.in/models/food-kit-bowl-broth/) — https://models.codelove.in/library/food-kit/bowl-broth.glb · 210 tris · 0.53×0.29×0.58 · 12 KB
+- [Bowl Cereal](https://models.codelove.in/models/food-kit-bowl-cereal/) — https://models.codelove.in/library/food-kit/bowl-cereal.glb · 120 tris · 0.5×0.42×0.64 · 10 KB
+- [Bowl Soup](https://models.codelove.in/models/food-kit-bowl-soup/) — https://models.codelove.in/library/food-kit/bowl-soup.glb · 132 tris · 0.5×0.21×0.58 · 10 KB
+- [Bread](https://models.codelove.in/models/food-kit-bread/) — https://models.codelove.in/library/food-kit/bread.glb · 116 tris · 0.44×0.04×0.37 · 9 KB
+- [Broccoli](https://models.codelove.in/models/food-kit-broccoli/) — https://models.codelove.in/library/food-kit/broccoli.glb · 220 tris · 0.38×0.42×0.38 · 13 KB
+- [Burger](https://models.codelove.in/models/food-kit-burger/) — https://models.codelove.in/library/food-kit/burger.glb · 294 tris · 0.4×0.29×0.4 · 21 KB
+- [Burger Cheese](https://models.codelove.in/models/food-kit-burger-cheese/) — https://models.codelove.in/library/food-kit/burger-cheese.glb · 226 tris · 0.38×0.22×0.38 · 17 KB
+- [Burger Cheese Double](https://models.codelove.in/models/food-kit-burger-cheese-double/) — https://models.codelove.in/library/food-kit/burger-cheese-double.glb · 236 tris · 0.38×0.32×0.38 · 24 KB
+- [Burger Double](https://models.codelove.in/models/food-kit-burger-double/) — https://models.codelove.in/library/food-kit/burger-double.glb · 312 tris · 0.4×0.36×0.4 · 29 KB
+- [Cabbage](https://models.codelove.in/models/food-kit-cabbage/) — https://models.codelove.in/library/food-kit/cabbage.glb · 140 tris · 0.38×0.31×0.4 · 11 KB
+- [Cake](https://models.codelove.in/models/food-kit-cake/) — https://models.codelove.in/library/food-kit/cake.glb · 750 tris · 0.64×0.27×0.64 · 33 KB
+- [Cake Birthday](https://models.codelove.in/models/food-kit-cake-birthday/) — https://models.codelove.in/library/food-kit/cake-birthday.glb · 1,146 tris · 0.64×0.36×0.64 · 37 KB
+- [Cake Slicer](https://models.codelove.in/models/food-kit-cake-slicer/) — https://models.codelove.in/library/food-kit/cake-slicer.glb · 36 tris · 0.72×0.07×0.19 · 9 KB
+- [Can](https://models.codelove.in/models/food-kit-can/) — https://models.codelove.in/library/food-kit/can.glb · 156 tris · 0.3×0.32×0.3 · 10 KB
+- [Can Open](https://models.codelove.in/models/food-kit-can-open/) — https://models.codelove.in/library/food-kit/can-open.glb · 216 tris · 0.3×0.41×0.3 · 12 KB
+- [Can Small](https://models.codelove.in/models/food-kit-can-small/) — https://models.codelove.in/library/food-kit/can-small.glb · 154 tris · 0.3×0.16×0.3 · 12 KB
+- [Candy Bar](https://models.codelove.in/models/food-kit-candy-bar/) — https://models.codelove.in/library/food-kit/candy-bar.glb · 72 tris · 0.29×0.07×0.07 · 9 KB
+- [Candy Bar Wrapper](https://models.codelove.in/models/food-kit-candy-bar-wrapper/) — https://models.codelove.in/library/food-kit/candy-bar-wrapper.glb · 48 tris · 0.29×0.08×0.12 · 9 KB
+- [Carrot](https://models.codelove.in/models/food-kit-carrot/) — https://models.codelove.in/library/food-kit/carrot.glb · 148 tris · 0.34×0.72×0.34 · 11 KB
+- [Carton](https://models.codelove.in/models/food-kit-carton/) — https://models.codelove.in/library/food-kit/carton.glb · 94 tris · 0.23×0.59×0.23 · 9 KB
+- [Carton Small](https://models.codelove.in/models/food-kit-carton-small/) — https://models.codelove.in/library/food-kit/carton-small.glb · 74 tris · 0.23×0.39×0.23 · 9 KB
+- [Cauliflower](https://models.codelove.in/models/food-kit-cauliflower/) — https://models.codelove.in/library/food-kit/cauliflower.glb · 152 tris · 0.38×0.31×0.4 · 12 KB
+- [Celery Stick](https://models.codelove.in/models/food-kit-celery-stick/) — https://models.codelove.in/library/food-kit/celery-stick.glb · 52 tris · 0.05×0.54×0.09 · 9 KB
+- [Cheese](https://models.codelove.in/models/food-kit-cheese/) — https://models.codelove.in/library/food-kit/cheese.glb · 576 tris · 0.68×0.22×0.68 · 34 KB
+- [Cheese Cut](https://models.codelove.in/models/food-kit-cheese-cut/) — https://models.codelove.in/library/food-kit/cheese-cut.glb · 160 tris · 0.38×0.02×0.26 · 10 KB
+- [Cheese Slicer](https://models.codelove.in/models/food-kit-cheese-slicer/) — https://models.codelove.in/library/food-kit/cheese-slicer.glb · 44 tris · 0.62×0.03×0.19 · 9 KB
+- [Cherries](https://models.codelove.in/models/food-kit-cherries/) — https://models.codelove.in/library/food-kit/cherries.glb · 134 tris · 0.09×0.17×0.16 · 11 KB
+- [Chinese](https://models.codelove.in/models/food-kit-chinese/) — https://models.codelove.in/library/food-kit/chinese.glb · 162 tris · 0.45×0.57×0.56 · 14 KB
+- [Chocolate](https://models.codelove.in/models/food-kit-chocolate/) — https://models.codelove.in/library/food-kit/chocolate.glb · 140 tris · 0.29×0.03×0.15 · 10 KB
+- [Chocolate Wrapper](https://models.codelove.in/models/food-kit-chocolate-wrapper/) — https://models.codelove.in/library/food-kit/chocolate-wrapper.glb · 118 tris · 0.29×0.07×0.2 · 10 KB
+- [Chopstic Decorative](https://models.codelove.in/models/food-kit-chopstic-decorative/) — https://models.codelove.in/library/food-kit/chopstic-decorative.glb · 36 tris · 0.02×0.02×0.45 · 9 KB
+- [Chopstick](https://models.codelove.in/models/food-kit-chopstick/) — https://models.codelove.in/library/food-kit/chopstick.glb · 12 tris · 0.02×0.02×0.45 · 8 KB
+- [Cocktail](https://models.codelove.in/models/food-kit-cocktail/) — https://models.codelove.in/library/food-kit/cocktail.glb · 144 tris · 0.26×0.51×0.36 · 13 KB
+- [Coconut](https://models.codelove.in/models/food-kit-coconut/) — https://models.codelove.in/library/food-kit/coconut.glb · 76 tris · 0.25×0.25×0.25 · 10 KB
+- [Coconut Half](https://models.codelove.in/models/food-kit-coconut-half/) — https://models.codelove.in/library/food-kit/coconut-half.glb · 92 tris · 0.25×0.12×0.25 · 9 KB
+- [Cookie](https://models.codelove.in/models/food-kit-cookie/) — https://models.codelove.in/library/food-kit/cookie.glb · 68 tris · 0.22×0.05×0.19 · 9 KB
+- [Cookie Chocolate](https://models.codelove.in/models/food-kit-cookie-chocolate/) — https://models.codelove.in/library/food-kit/cookie-chocolate.glb · 136 tris · 0.12×0.07×0.14 · 11 KB
+- [Cooking Fork](https://models.codelove.in/models/food-kit-cooking-fork/) — https://models.codelove.in/library/food-kit/cooking-fork.glb · 36 tris · 0.68×0.07×0.07 · 8 KB
+- [Cooking Knife](https://models.codelove.in/models/food-kit-cooking-knife/) — https://models.codelove.in/library/food-kit/cooking-knife.glb · 39 tris · 0.72×0.04×0.13 · 9 KB
+- [Cooking Knife Chopping](https://models.codelove.in/models/food-kit-cooking-knife-chopping/) — https://models.codelove.in/library/food-kit/cooking-knife-chopping.glb · 80 tris · 0.6×0.04×0.22 · 9 KB
+- [Cooking Spatula](https://models.codelove.in/models/food-kit-cooking-spatula/) — https://models.codelove.in/library/food-kit/cooking-spatula.glb · 72 tris · 0.68×0.07×0.19 · 9 KB
+- [Cooking Spoon](https://models.codelove.in/models/food-kit-cooking-spoon/) — https://models.codelove.in/library/food-kit/cooking-spoon.glb · 56 tris · 0.67×0.02×0.17 · 9 KB
+- [Corn](https://models.codelove.in/models/food-kit-corn/) — https://models.codelove.in/library/food-kit/corn.glb · 128 tris · 0.34×0.32×0.3 · 11 KB
+- [Corn Dog](https://models.codelove.in/models/food-kit-corn-dog/) — https://models.codelove.in/library/food-kit/corn-dog.glb · 64 tris · 0.6×0.09×0.11 · 11 KB
+- [Croissant](https://models.codelove.in/models/food-kit-croissant/) — https://models.codelove.in/library/food-kit/croissant.glb · 162 tris · 0.35×0.19×0.48 · 11 KB
+- [Cup](https://models.codelove.in/models/food-kit-cup/) — https://models.codelove.in/library/food-kit/cup.glb · 112 tris · 0.23×0.2×0.29 · 9 KB
+- [Cup Coffee](https://models.codelove.in/models/food-kit-cup-coffee/) — https://models.codelove.in/library/food-kit/cup-coffee.glb · 108 tris · 0.22×0.14×0.29 · 9 KB
+- [Cup Saucer](https://models.codelove.in/models/food-kit-cup-saucer/) — https://models.codelove.in/library/food-kit/cup-saucer.glb · 116 tris · 0.36×0.04×0.36 · 9 KB
+- [Cup Tea](https://models.codelove.in/models/food-kit-cup-tea/) — https://models.codelove.in/library/food-kit/cup-tea.glb · 144 tris · 0.24×0.2×0.29 · 10 KB
+- [Cupcake](https://models.codelove.in/models/food-kit-cupcake/) — https://models.codelove.in/library/food-kit/cupcake.glb · 204 tris · 0.35×0.42×0.31 · 15 KB
+- [Cutting Board](https://models.codelove.in/models/food-kit-cutting-board/) — https://models.codelove.in/library/food-kit/cutting-board.glb · 120 tris · 0.58×0.06×0.82 · 10 KB
+- [Cutting Board Japanese](https://models.codelove.in/models/food-kit-cutting-board-japanese/) — https://models.codelove.in/library/food-kit/cutting-board-japanese.glb · 104 tris · 0.49×0.08×0.84 · 9 KB
+- [Cutting Board Round](https://models.codelove.in/models/food-kit-cutting-board-round/) — https://models.codelove.in/library/food-kit/cutting-board-round.glb · 156 tris · 0.8×0.06×0.8 · 10 KB
+- [Dim Sum](https://models.codelove.in/models/food-kit-dim-sum/) — https://models.codelove.in/library/food-kit/dim-sum.glb · 56 tris · 0.16×0.12×0.19 · 9 KB
+- [Donut](https://models.codelove.in/models/food-kit-donut/) — https://models.codelove.in/library/food-kit/donut.glb · 108 tris · 0.24×0.09×0.28 · 11 KB
+- [Donut Chocolate](https://models.codelove.in/models/food-kit-donut-chocolate/) — https://models.codelove.in/library/food-kit/donut-chocolate.glb · 120 tris · 0.24×0.09×0.28 · 11 KB
+- [Donut Sprinkles](https://models.codelove.in/models/food-kit-donut-sprinkles/) — https://models.codelove.in/library/food-kit/donut-sprinkles.glb · 180 tris · 0.24×0.1×0.28 · 13 KB
+- [Egg](https://models.codelove.in/models/food-kit-egg/) — https://models.codelove.in/library/food-kit/egg.glb · 44 tris · 0.12×0.17×0.13 · 9 KB
+- [Egg Cooked](https://models.codelove.in/models/food-kit-egg-cooked/) — https://models.codelove.in/library/food-kit/egg-cooked.glb · 92 tris · 0.41×0.03×0.38 · 9 KB
+- [Egg Cup](https://models.codelove.in/models/food-kit-egg-cup/) — https://models.codelove.in/library/food-kit/egg-cup.glb · 84 tris · 0.16×0.15×0.18 · 9 KB
+- [Egg Half](https://models.codelove.in/models/food-kit-egg-half/) — https://models.codelove.in/library/food-kit/egg-half.glb · 80 tris · 0.12×0.11×0.13 · 9 KB
+- [Eggplant](https://models.codelove.in/models/food-kit-eggplant/) — https://models.codelove.in/library/food-kit/eggplant.glb · 124 tris · 0.2×0.41×0.22 · 11 KB
+- [Fish](https://models.codelove.in/models/food-kit-fish/) — https://models.codelove.in/library/food-kit/fish.glb · 233 tris · 0.2×0.32×0.62 · 16 KB
+- [Fish Bones](https://models.codelove.in/models/food-kit-fish-bones/) — https://models.codelove.in/library/food-kit/fish-bones.glb · 384 tris · 0.31×0.07×0.64 · 15 KB
+- [Frappe](https://models.codelove.in/models/food-kit-frappe/) — https://models.codelove.in/library/food-kit/frappe.glb · 320 tris · 0.25×0.5×0.25 · 12 KB
+- [Fries](https://models.codelove.in/models/food-kit-fries/) — https://models.codelove.in/library/food-kit/fries.glb · 564 tris · 0.18×0.4×0.27 · 21 KB
+- [Fries Empty](https://models.codelove.in/models/food-kit-fries-empty/) — https://models.codelove.in/library/food-kit/fries-empty.glb · 116 tris · 0.16×0.24×0.27 · 10 KB
+- [Frikandel Speciaal](https://models.codelove.in/models/food-kit-frikandel-speciaal/) — https://models.codelove.in/library/food-kit/frikandel-speciaal.glb · 308 tris · 0.64×0.11×0.17 · 15 KB
+- [Frying Pan](https://models.codelove.in/models/food-kit-frying-pan/) — https://models.codelove.in/library/food-kit/frying-pan.glb · 200 tris · 0.66×0.12×1.02 · 12 KB
+- [Frying Pan Lid](https://models.codelove.in/models/food-kit-frying-pan-lid/) — https://models.codelove.in/library/food-kit/frying-pan-lid.glb · 156 tris · 0.58×0.11×0.61 · 11 KB
+- [Ginger Bread](https://models.codelove.in/models/food-kit-ginger-bread/) — https://models.codelove.in/library/food-kit/ginger-bread.glb · 80 tris · 0.26×0.03×0.24 · 9 KB
+- [Ginger Bread Cutter](https://models.codelove.in/models/food-kit-ginger-bread-cutter/) — https://models.codelove.in/library/food-kit/ginger-bread-cutter.glb · 136 tris · 0.29×0.04×0.27 · 10 KB
+- [Glass](https://models.codelove.in/models/food-kit-glass/) — https://models.codelove.in/library/food-kit/glass.glb · 44 tris · 0.16×0.28×0.18 · 8 KB
+- [Glass Wine](https://models.codelove.in/models/food-kit-glass-wine/) — https://models.codelove.in/library/food-kit/glass-wine.glb · 232 tris · 0.23×0.5×0.2 · 13 KB
+- [Grapes](https://models.codelove.in/models/food-kit-grapes/) — https://models.codelove.in/library/food-kit/grapes.glb · 592 tris · 0.28×0.42×0.24 · 23 KB
+- [Honey](https://models.codelove.in/models/food-kit-honey/) — https://models.codelove.in/library/food-kit/honey.glb · 140 tris · 0.33×0.32×0.33 · 11 KB
+- [Hot Dog](https://models.codelove.in/models/food-kit-hot-dog/) — https://models.codelove.in/library/food-kit/hot-dog.glb · 272 tris · 0.59×0.15×0.2 · 17 KB
+- [Hot Dog Raw](https://models.codelove.in/models/food-kit-hot-dog-raw/) — https://models.codelove.in/library/food-kit/hot-dog-raw.glb · 92 tris · 0.59×0.1×0.11 · 10 KB
+- [Ice Cream](https://models.codelove.in/models/food-kit-ice-cream/) — https://models.codelove.in/library/food-kit/ice-cream.glb · 80 tris · 0.23×0.46×0.27 · 11 KB
+- [Ice Cream Cne](https://models.codelove.in/models/food-kit-ice-cream-cne/) — https://models.codelove.in/library/food-kit/ice-cream-cne.glb · 44 tris · 0.18×0.3×0.21 · 9 KB
+- [Ice Cream Cup](https://models.codelove.in/models/food-kit-ice-cream-cup/) — https://models.codelove.in/library/food-kit/ice-cream-cup.glb · 68 tris · 0.2×0.18×0.23 · 9 KB
+- [Ice Cream Scoop Chocolate](https://models.codelove.in/models/food-kit-ice-cream-scoop-chocolate/) — https://models.codelove.in/library/food-kit/ice-cream-scoop-chocolate.glb · 80 tris · 0.23×0.17×0.27 · 10 KB
+- [Ice Cream Scoop Mint](https://models.codelove.in/models/food-kit-ice-cream-scoop-mint/) — https://models.codelove.in/library/food-kit/ice-cream-scoop-mint.glb · 56 tris · 0.23×0.17×0.27 · 9 KB
+- [Knife Block](https://models.codelove.in/models/food-kit-knife-block/) — https://models.codelove.in/library/food-kit/knife-block.glb · 79 tris · 0.64×0.66×0.22 · 12 KB
+- [Leek](https://models.codelove.in/models/food-kit-leek/) — https://models.codelove.in/library/food-kit/leek.glb · 172 tris · 0.27×0.85×0.27 · 11 KB
+- [Lemon](https://models.codelove.in/models/food-kit-lemon/) — https://models.codelove.in/library/food-kit/lemon.glb · 104 tris · 0.17×0.22×0.2 · 11 KB
+- [Lemon Half](https://models.codelove.in/models/food-kit-lemon-half/) — https://models.codelove.in/library/food-kit/lemon-half.glb · 116 tris · 0.17×0.11×0.2 · 10 KB
+- [Loaf](https://models.codelove.in/models/food-kit-loaf/) — https://models.codelove.in/library/food-kit/loaf.glb · 116 tris · 0.58×0.44×0.37 · 9 KB
+- [Loaf Baguette](https://models.codelove.in/models/food-kit-loaf-baguette/) — https://models.codelove.in/library/food-kit/loaf-baguette.glb · 122 tris · 0.83×0.25×0.25 · 11 KB
+- [Loaf Round](https://models.codelove.in/models/food-kit-loaf-round/) — https://models.codelove.in/library/food-kit/loaf-round.glb · 116 tris · 0.77×0.29×0.51 · 10 KB
+- [Lollypop](https://models.codelove.in/models/food-kit-lollypop/) — https://models.codelove.in/library/food-kit/lollypop.glb · 108 tris · 0.04×0.38×0.19 · 9 KB
+- [Maki Roe](https://models.codelove.in/models/food-kit-maki-roe/) — https://models.codelove.in/library/food-kit/maki-roe.glb · 56 tris · 0.12×0.09×0.1 · 9 KB
+- [Maki Salmon](https://models.codelove.in/models/food-kit-maki-salmon/) — https://models.codelove.in/library/food-kit/maki-salmon.glb · 56 tris · 0.12×0.07×0.1 · 9 KB
+- [Maki Vegetable](https://models.codelove.in/models/food-kit-maki-vegetable/) — https://models.codelove.in/library/food-kit/maki-vegetable.glb · 56 tris · 0.12×0.07×0.1 · 9 KB
+- [Meat Cooked](https://models.codelove.in/models/food-kit-meat-cooked/) — https://models.codelove.in/library/food-kit/meat-cooked.glb · 116 tris · 0.48×0.06×0.57 · 10 KB
+- [Meat Patty](https://models.codelove.in/models/food-kit-meat-patty/) — https://models.codelove.in/library/food-kit/meat-patty.glb · 104 tris · 0.3×0.06×0.34 · 9 KB
+- [Meat Raw](https://models.codelove.in/models/food-kit-meat-raw/) — https://models.codelove.in/library/food-kit/meat-raw.glb · 110 tris · 0.48×0.06×0.57 · 10 KB
+- [Meat Ribs](https://models.codelove.in/models/food-kit-meat-ribs/) — https://models.codelove.in/library/food-kit/meat-ribs.glb · 164 tris · 0.54×0.06×0.38 · 11 KB
+- [Meat Sausage](https://models.codelove.in/models/food-kit-meat-sausage/) — https://models.codelove.in/library/food-kit/meat-sausage.glb · 320 tris · 0.15×0.07×0.39 · 20 KB
+- [Meat Tenderizer](https://models.codelove.in/models/food-kit-meat-tenderizer/) — https://models.codelove.in/library/food-kit/meat-tenderizer.glb · 322 tris · 0.54×0.12×0.28 · 14 KB
+- [Mincemeat Pie](https://models.codelove.in/models/food-kit-mincemeat-pie/) — https://models.codelove.in/library/food-kit/mincemeat-pie.glb · 164 tris · 0.53×0.17×0.61 · 10 KB
+- [Mortar](https://models.codelove.in/models/food-kit-mortar/) — https://models.codelove.in/library/food-kit/mortar.glb · 92 tris · 0.4×0.21×0.46 · 10 KB
+- [Mortar Pestle](https://models.codelove.in/models/food-kit-mortar-pestle/) — https://models.codelove.in/library/food-kit/mortar-pestle.glb · 56 tris · 0.11×0.34×0.13 · 9 KB
+- [Muffin](https://models.codelove.in/models/food-kit-muffin/) — https://models.codelove.in/library/food-kit/muffin.glb · 84 tris · 0.3×0.25×0.26 · 10 KB
+- [Mug](https://models.codelove.in/models/food-kit-mug/) — https://models.codelove.in/library/food-kit/mug.glb · 232 tris · 0.34×0.27×0.28 · 11 KB
+- [Mushroom](https://models.codelove.in/models/food-kit-mushroom/) — https://models.codelove.in/library/food-kit/mushroom.glb · 80 tris · 0.13×0.14×0.14 · 9 KB
+- [Mushroom Half](https://models.codelove.in/models/food-kit-mushroom-half/) — https://models.codelove.in/library/food-kit/mushroom-half.glb · 68 tris · 0.06×0.14×0.14 · 9 KB
+- [Mussel](https://models.codelove.in/models/food-kit-mussel/) — https://models.codelove.in/library/food-kit/mussel.glb · 38 tris · 0.09×0.04×0.15 · 9 KB
+- [Mussel Open](https://models.codelove.in/models/food-kit-mussel-open/) — https://models.codelove.in/library/food-kit/mussel-open.glb · 90 tris · 0.1×0.08×0.15 · 10 KB
+- [Onion](https://models.codelove.in/models/food-kit-onion/) — https://models.codelove.in/library/food-kit/onion.glb · 68 tris · 0.21×0.25×0.25 · 10 KB
+- [Onion Half](https://models.codelove.in/models/food-kit-onion-half/) — https://models.codelove.in/library/food-kit/onion-half.glb · 108 tris · 0.11×0.25×0.25 · 9 KB
+- [Orange](https://models.codelove.in/models/food-kit-orange/) — https://models.codelove.in/library/food-kit/orange.glb · 120 tris · 0.17×0.17×0.17 · 11 KB
+- [Pan](https://models.codelove.in/models/food-kit-pan/) — https://models.codelove.in/library/food-kit/pan.glb · 236 tris · 0.66×0.17×0.76 · 12 KB
+- [Pan Stew](https://models.codelove.in/models/food-kit-pan-stew/) — https://models.codelove.in/library/food-kit/pan-stew.glb · 344 tris · 0.66×0.17×0.76 · 13 KB
+- [Pancakes](https://models.codelove.in/models/food-kit-pancakes/) — https://models.codelove.in/library/food-kit/pancakes.glb · 512 tris · 0.44×0.12×0.5 · 19 KB
+- [Paprika](https://models.codelove.in/models/food-kit-paprika/) — https://models.codelove.in/library/food-kit/paprika.glb · 132 tris · 0.17×0.2×0.17 · 12 KB
+- [Paprika Slice](https://models.codelove.in/models/food-kit-paprika-slice/) — https://models.codelove.in/library/food-kit/paprika-slice.glb · 96 tris · 0.16×0.03×0.16 · 9 KB
+- [Peanut Butter](https://models.codelove.in/models/food-kit-peanut-butter/) — https://models.codelove.in/library/food-kit/peanut-butter.glb · 172 tris · 0.24×0.3×0.24 · 12 KB
+- [Pear](https://models.codelove.in/models/food-kit-pear/) — https://models.codelove.in/library/food-kit/pear.glb · 136 tris · 0.2×0.27×0.2 · 12 KB
+- [Pear Half](https://models.codelove.in/models/food-kit-pear-half/) — https://models.codelove.in/library/food-kit/pear-half.glb · 126 tris · 0.1×0.27×0.2 · 10 KB
+- [Pepper](https://models.codelove.in/models/food-kit-pepper/) — https://models.codelove.in/library/food-kit/pepper.glb · 100 tris · 0.1×0.08×0.32 · 11 KB
+- [Pepper Mill](https://models.codelove.in/models/food-kit-pepper-mill/) — https://models.codelove.in/library/food-kit/pepper-mill.glb · 252 tris · 0.16×0.55×0.16 · 14 KB
+- [Pie](https://models.codelove.in/models/food-kit-pie/) — https://models.codelove.in/library/food-kit/pie.glb · 292 tris · 0.95×0.15×0.95 · 12 KB
+- [Pineapple](https://models.codelove.in/models/food-kit-pineapple/) — https://models.codelove.in/library/food-kit/pineapple.glb · 196 tris · 0.24×0.47×0.24 · 12 KB
+- [Pizza](https://models.codelove.in/models/food-kit-pizza/) — https://models.codelove.in/library/food-kit/pizza.glb · 1,208 tris · 0.84×0.04×0.84 · 39 KB
+- [Pizza Box](https://models.codelove.in/models/food-kit-pizza-box/) — https://models.codelove.in/library/food-kit/pizza-box.glb · 84 tris · 0.94×0.88×0.95 · 10 KB
+- [Pizza Cutter](https://models.codelove.in/models/food-kit-pizza-cutter/) — https://models.codelove.in/library/food-kit/pizza-cutter.glb · 96 tris · 0.54×0.06×0.26 · 9 KB
+- [Plate](https://models.codelove.in/models/food-kit-plate/) — https://models.codelove.in/library/food-kit/plate.glb · 140 tris · 0.89×0.09×0.89 · 9 KB
+- [Plate Broken](https://models.codelove.in/models/food-kit-plate-broken/) — https://models.codelove.in/library/food-kit/plate-broken.glb · 336 tris · 0.89×0.09×0.89 · 24 KB
+- [Plate Deep](https://models.codelove.in/models/food-kit-plate-deep/) — https://models.codelove.in/library/food-kit/plate-deep.glb · 140 tris · 0.89×0.14×0.89 · 9 KB
+- [Plate Dinner](https://models.codelove.in/models/food-kit-plate-dinner/) — https://models.codelove.in/library/food-kit/plate-dinner.glb · 354 tris · 0.89×0.22×0.89 · 14 KB
+- [Plate Rectangle](https://models.codelove.in/models/food-kit-plate-rectangle/) — https://models.codelove.in/library/food-kit/plate-rectangle.glb · 68 tris · 0.86×0.13×0.72 · 9 KB
+- [Plate Sauerkraut](https://models.codelove.in/models/food-kit-plate-sauerkraut/) — https://models.codelove.in/library/food-kit/plate-sauerkraut.glb · 580 tris · 0.89×0.17×0.89 · 24 KB
+- [Popsicle](https://models.codelove.in/models/food-kit-popsicle/) — https://models.codelove.in/library/food-kit/popsicle.glb · 78 tris · 0.07×0.49×0.18 · 9 KB
+- [Popsicle Chocolate](https://models.codelove.in/models/food-kit-popsicle-chocolate/) — https://models.codelove.in/library/food-kit/popsicle-chocolate.glb · 132 tris · 0.1×0.49×0.2 · 10 KB
+- [Popsicle Stick](https://models.codelove.in/models/food-kit-popsicle-stick/) — https://models.codelove.in/library/food-kit/popsicle-stick.glb · 36 tris · 0.02×0.34×0.04 · 9 KB
+- [Pot](https://models.codelove.in/models/food-kit-pot/) — https://models.codelove.in/library/food-kit/pot.glb · 228 tris · 0.66×0.36×0.82 · 11 KB
+- [Pot Lid](https://models.codelove.in/models/food-kit-pot-lid/) — https://models.codelove.in/library/food-kit/pot-lid.glb · 132 tris · 0.66×0.12×0.63 · 10 KB
+- [Pot Stew](https://models.codelove.in/models/food-kit-pot-stew/) — https://models.codelove.in/library/food-kit/pot-stew.glb · 370 tris · 0.66×0.36×0.82 · 13 KB
+- [Pot Stew Lid](https://models.codelove.in/models/food-kit-pot-stew-lid/) — https://models.codelove.in/library/food-kit/pot-stew-lid.glb · 176 tris · 0.66×0.12×0.63 · 12 KB
+- [Pudding](https://models.codelove.in/models/food-kit-pudding/) — https://models.codelove.in/library/food-kit/pudding.glb · 56 tris · 0.25×0.2×0.29 · 9 KB
+- [Pumpkin](https://models.codelove.in/models/food-kit-pumpkin/) — https://models.codelove.in/library/food-kit/pumpkin.glb · 188 tris · 0.42×0.23×0.42 · 13 KB
+- [Pumpkin Basic](https://models.codelove.in/models/food-kit-pumpkin-basic/) — https://models.codelove.in/library/food-kit/pumpkin-basic.glb · 80 tris · 0.42×0.3×0.36 · 10 KB
+- [Radish](https://models.codelove.in/models/food-kit-radish/) — https://models.codelove.in/library/food-kit/radish.glb · 166 tris · 0.34×0.58×0.34 · 11 KB
+- [Rice Ball](https://models.codelove.in/models/food-kit-rice-ball/) — https://models.codelove.in/library/food-kit/rice-ball.glb · 104 tris · 0.08×0.13×0.12 · 9 KB
+- [Rolling Pin](https://models.codelove.in/models/food-kit-rolling-pin/) — https://models.codelove.in/library/food-kit/rolling-pin.glb · 140 tris · 0.81×0.14×0.16 · 11 KB
+- [Salad](https://models.codelove.in/models/food-kit-salad/) — https://models.codelove.in/library/food-kit/salad.glb · 170 tris · 0.5×0.27×0.58 · 11 KB
+- [Sandwich](https://models.codelove.in/models/food-kit-sandwich/) — https://models.codelove.in/library/food-kit/sandwich.glb · 120 tris · 0.43×0.17×0.43 · 15 KB
+- [Sausage](https://models.codelove.in/models/food-kit-sausage/) — https://models.codelove.in/library/food-kit/sausage.glb · 92 tris · 0.37×0.12×0.14 · 10 KB
+- [Sausage Half](https://models.codelove.in/models/food-kit-sausage-half/) — https://models.codelove.in/library/food-kit/sausage-half.glb · 100 tris · 0.18×0.12×0.14 · 9 KB
+- [Shaker Pepper](https://models.codelove.in/models/food-kit-shaker-pepper/) — https://models.codelove.in/library/food-kit/shaker-pepper.glb · 116 tris · 0.1×0.2×0.1 · 10 KB
+- [Shaker Salt](https://models.codelove.in/models/food-kit-shaker-salt/) — https://models.codelove.in/library/food-kit/shaker-salt.glb · 116 tris · 0.1×0.2×0.1 · 10 KB
+- [Skewer](https://models.codelove.in/models/food-kit-skewer/) — https://models.codelove.in/library/food-kit/skewer.glb · 116 tris · 0.6×0.09×0.11 · 15 KB
+- [Skewer Vegetables](https://models.codelove.in/models/food-kit-skewer-vegetables/) — https://models.codelove.in/library/food-kit/skewer-vegetables.glb · 156 tris · 0.6×0.11×0.11 · 17 KB
+- [Soda](https://models.codelove.in/models/food-kit-soda/) — https://models.codelove.in/library/food-kit/soda.glb · 188 tris · 0.25×0.43×0.25 · 10 KB
+- [Soda Bottle](https://models.codelove.in/models/food-kit-soda-bottle/) — https://models.codelove.in/library/food-kit/soda-bottle.glb · 100 tris · 0.18×0.58×0.16 · 10 KB
+- [Soda Can](https://models.codelove.in/models/food-kit-soda-can/) — https://models.codelove.in/library/food-kit/soda-can.glb · 164 tris · 0.23×0.35×0.23 · 11 KB
+- [Soda Can Crushed](https://models.codelove.in/models/food-kit-soda-can-crushed/) — https://models.codelove.in/library/food-kit/soda-can-crushed.glb · 212 tris · 0.25×0.18×0.25 · 12 KB
+- [Soda Glass](https://models.codelove.in/models/food-kit-soda-glass/) — https://models.codelove.in/library/food-kit/soda-glass.glb · 124 tris · 0.26×0.41×0.3 · 13 KB
+- [Soy](https://models.codelove.in/models/food-kit-soy/) — https://models.codelove.in/library/food-kit/soy.glb · 68 tris · 0.17×0.04×0.19 · 9 KB
+- [Steamer](https://models.codelove.in/models/food-kit-steamer/) — https://models.codelove.in/library/food-kit/steamer.glb · 208 tris · 0.64×0.6×0.64 · 19 KB
+- [Strawberry](https://models.codelove.in/models/food-kit-strawberry/) — https://models.codelove.in/library/food-kit/strawberry.glb · 156 tris · 0.12×0.18×0.12 · 12 KB
+- [Styrofoam](https://models.codelove.in/models/food-kit-styrofoam/) — https://models.codelove.in/library/food-kit/styrofoam.glb · 152 tris · 1.26×0.82×0.76 · 11 KB
+- [Styrofoam Dinner](https://models.codelove.in/models/food-kit-styrofoam-dinner/) — https://models.codelove.in/library/food-kit/styrofoam-dinner.glb · 240 tris · 1.26×0.82×0.76 · 18 KB
+- [Sub](https://models.codelove.in/models/food-kit-sub/) — https://models.codelove.in/library/food-kit/sub.glb · 422 tris · 0.28×0.22×0.68 · 35 KB
+- [Sundae](https://models.codelove.in/models/food-kit-sundae/) — https://models.codelove.in/library/food-kit/sundae.glb · 316 tris · 0.22×0.67×0.26 · 16 KB
+- [Sushi Egg](https://models.codelove.in/models/food-kit-sushi-egg/) — https://models.codelove.in/library/food-kit/sushi-egg.glb · 78 tris · 0.12×0.08×0.17 · 9 KB
+- [Sushi Salmon](https://models.codelove.in/models/food-kit-sushi-salmon/) — https://models.codelove.in/library/food-kit/sushi-salmon.glb · 96 tris · 0.11×0.09×0.2 · 9 KB
+- [Taco](https://models.codelove.in/models/food-kit-taco/) — https://models.codelove.in/library/food-kit/taco.glb · 174 tris · 0.43×0.26×0.11 · 11 KB
+- [Tajine](https://models.codelove.in/models/food-kit-tajine/) — https://models.codelove.in/library/food-kit/tajine.glb · 164 tris · 0.82×0.14×0.86 · 11 KB
+- [Tajine Lid](https://models.codelove.in/models/food-kit-tajine-lid/) — https://models.codelove.in/library/food-kit/tajine-lid.glb · 136 tris · 0.76×0.44×0.79 · 11 KB
+- [Tomato](https://models.codelove.in/models/food-kit-tomato/) — https://models.codelove.in/library/food-kit/tomato.glb · 132 tris · 0.17×0.14×0.17 · 11 KB
+- [Tomato Slice](https://models.codelove.in/models/food-kit-tomato-slice/) — https://models.codelove.in/library/food-kit/tomato-slice.glb · 140 tris · 0.18×0.03×0.18 · 10 KB
+- [Turkey](https://models.codelove.in/models/food-kit-turkey/) — https://models.codelove.in/library/food-kit/turkey.glb · 368 tris · 0.94×0.38×0.68 · 20 KB
+- [Utensil Fork](https://models.codelove.in/models/food-kit-utensil-fork/) — https://models.codelove.in/library/food-kit/utensil-fork.glb · 44 tris · 0.5×0.02×0.08 · 8 KB
+- [Utensil Knife](https://models.codelove.in/models/food-kit-utensil-knife/) — https://models.codelove.in/library/food-kit/utensil-knife.glb · 18 tris · 0.6×0.02×0.08 · 8 KB
+- [Utensil Spoon](https://models.codelove.in/models/food-kit-utensil-spoon/) — https://models.codelove.in/library/food-kit/utensil-spoon.glb · 46 tris · 0.48×0.03×0.12 · 9 KB
+- [Waffle](https://models.codelove.in/models/food-kit-waffle/) — https://models.codelove.in/library/food-kit/waffle.glb · 588 tris · 0.32×0.04×0.32 · 17 KB
+- [Watermelon](https://models.codelove.in/models/food-kit-watermelon/) — https://models.codelove.in/library/food-kit/watermelon.glb · 1,376 tris · 0.46×0.48×0.46 · 35 KB
+- [Whipped Cream](https://models.codelove.in/models/food-kit-whipped-cream/) — https://models.codelove.in/library/food-kit/whipped-cream.glb · 80 tris · 0.14×0.1×0.16 · 9 KB
+- [Whisk](https://models.codelove.in/models/food-kit-whisk/) — https://models.codelove.in/library/food-kit/whisk.glb · 150 tris · 0.72×0.16×0.16 · 9 KB
+- [Whole Ham](https://models.codelove.in/models/food-kit-whole-ham/) — https://models.codelove.in/library/food-kit/whole-ham.glb · 128 tris · 0.38×0.44×0.64 · 10 KB
+- [Wholer Ham](https://models.codelove.in/models/food-kit-wholer-ham/) — https://models.codelove.in/library/food-kit/wholer-ham.glb · 116 tris · 0.34×0.39×0.83 · 11 KB
+- [Wine Red](https://models.codelove.in/models/food-kit-wine-red/) — https://models.codelove.in/library/food-kit/wine-red.glb · 132 tris · 0.19×0.7×0.17 · 11 KB
+- [Wine White](https://models.codelove.in/models/food-kit-wine-white/) — https://models.codelove.in/library/food-kit/wine-white.glb · 124 tris · 0.2×0.66×0.18 · 11 KB

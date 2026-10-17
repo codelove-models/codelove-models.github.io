@@ -1,0 +1,120 @@
+# Train Kit — 103 free 3D models (Vehicles)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/train-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/train-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 2.7 MB.
+
+## Models
+
+- [Railroad Corner Large](https://models.codelove.in/models/train-kit-railroad-corner-large/) — https://models.codelove.in/library/train-kit/railroad-corner-large.glb · 568 tris · 4.49×0.1×4.49 · 21 KB
+- [Railroad Corner Large Ramp](https://models.codelove.in/models/train-kit-railroad-corner-large-ramp/) — https://models.codelove.in/library/train-kit/railroad-corner-large-ramp.glb · 568 tris · 4.49×1.1×4.49 · 21 KB
+- [Railroad Corner Small](https://models.codelove.in/models/train-kit-railroad-corner-small/) — https://models.codelove.in/library/train-kit/railroad-corner-small.glb · 376 tris · 2.49×0.1×2.49 · 17 KB
+- [Railroad Corner Small Ramp](https://models.codelove.in/models/train-kit-railroad-corner-small-ramp/) — https://models.codelove.in/library/train-kit/railroad-corner-small-ramp.glb · 376 tris · 2.49×1.11×2.49 · 18 KB
+- [Railroad Curve](https://models.codelove.in/models/train-kit-railroad-curve/) — https://models.codelove.in/library/train-kit/railroad-curve.glb · 452 tris · 2.98×0.1×4 · 18 KB
+- [Railroad Damaged Corner Large](https://models.codelove.in/models/train-kit-railroad-damaged-corner-large/) — https://models.codelove.in/library/train-kit/railroad-damaged-corner-large.glb · 568 tris · 4.49×0.1×4.48 · 22 KB
+- [Railroad Damaged Corner Large Ramp](https://models.codelove.in/models/train-kit-railroad-damaged-corner-large-ramp/) — https://models.codelove.in/library/train-kit/railroad-damaged-corner-large-ramp.glb · 568 tris · 4.48×1.1×4.49 · 22 KB
+- [Railroad Damaged Corner Small](https://models.codelove.in/models/train-kit-railroad-damaged-corner-small/) — https://models.codelove.in/library/train-kit/railroad-damaged-corner-small.glb · 376 tris · 2.49×0.1×2.5 · 18 KB
+- [Railroad Damaged Corner Small Ramp](https://models.codelove.in/models/train-kit-railroad-damaged-corner-small-ramp/) — https://models.codelove.in/library/train-kit/railroad-damaged-corner-small-ramp.glb · 376 tris · 2.49×1.11×2.49 · 18 KB
+- [Railroad Damaged Curve](https://models.codelove.in/models/train-kit-railroad-damaged-curve/) — https://models.codelove.in/library/train-kit/railroad-damaged-curve.glb · 452 tris · 2.97×0.1×4 · 19 KB
+- [Railroad Damaged Straight](https://models.codelove.in/models/train-kit-railroad-damaged-straight/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight.glb · 376 tris · 1.03×0.1×4 · 17 KB
+- [Railroad Damaged Straight Bend](https://models.codelove.in/models/train-kit-railroad-damaged-straight-bend/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-bend.glb · 376 tris · 1.03×2.01×2.01 · 18 KB
+- [Railroad Damaged Straight Bend Large](https://models.codelove.in/models/train-kit-railroad-damaged-straight-bend-large/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-bend-large.glb · 568 tris · 1.03×4×4 · 22 KB
+- [Railroad Damaged Straight Bump Down](https://models.codelove.in/models/train-kit-railroad-damaged-straight-bump-down/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-bump-down.glb · 416 tris · 1.03×0.61×4 · 19 KB
+- [Railroad Damaged Straight Bump Up](https://models.codelove.in/models/train-kit-railroad-damaged-straight-bump-up/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-bump-up.glb · 416 tris · 1.03×0.6×4 · 18 KB
+- [Railroad Damaged Straight Hill Beginning](https://models.codelove.in/models/train-kit-railroad-damaged-straight-hill-beginning/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-hill-beginning.glb · 416 tris · 1.03×1.07×4 · 19 KB
+- [Railroad Damaged Straight Hill Complete](https://models.codelove.in/models/train-kit-railroad-damaged-straight-hill-complete/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-hill-complete.glb · 416 tris · 1.02×1.1×4 · 18 KB
+- [Railroad Damaged Straight Hill Complete Half](https://models.codelove.in/models/train-kit-railroad-damaged-straight-hill-complete-half/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-hill-complete-half.glb · 416 tris · 1.03×0.6×4 · 18 KB
+- [Railroad Damaged Straight Hill End](https://models.codelove.in/models/train-kit-railroad-damaged-straight-hill-end/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-hill-end.glb · 416 tris · 1.03×1.1×4.07 · 18 KB
+- [Railroad Damaged Straight Skew Left](https://models.codelove.in/models/train-kit-railroad-damaged-straight-skew-left/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-skew-left.glb · 376 tris · 1.02×0.73×4 · 18 KB
+- [Railroad Damaged Straight Skew Left Side](https://models.codelove.in/models/train-kit-railroad-damaged-straight-skew-left-side/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-skew-left-side.glb · 376 tris · 1.02×1×4 · 18 KB
+- [Railroad Damaged Straight Skew Right](https://models.codelove.in/models/train-kit-railroad-damaged-straight-skew-right/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-skew-right.glb · 376 tris · 1.03×0.72×4 · 18 KB
+- [Railroad Damaged Straight Skew Right Side](https://models.codelove.in/models/train-kit-railroad-damaged-straight-skew-right-side/) — https://models.codelove.in/library/train-kit/railroad-damaged-straight-skew-right-side.glb · 376 tris · 1.01×1.02×4 · 18 KB
+- [Railroad Rail Corner Large](https://models.codelove.in/models/train-kit-railroad-rail-corner-large/) — https://models.codelove.in/library/train-kit/railroad-rail-corner-large.glb · 280 tris · 4.35×0.1×4.35 · 15 KB
+- [Railroad Rail Corner Large Ramp](https://models.codelove.in/models/train-kit-railroad-rail-corner-large-ramp/) — https://models.codelove.in/library/train-kit/railroad-rail-corner-large-ramp.glb · 280 tris · 4.35×1.1×4.35 · 15 KB
+- [Railroad Rail Corner Small](https://models.codelove.in/models/train-kit-railroad-rail-corner-small/) — https://models.codelove.in/library/train-kit/railroad-rail-corner-small.glb · 160 tris · 2.35×0.1×2.35 · 12 KB
+- [Railroad Rail Corner Small Ramp](https://models.codelove.in/models/train-kit-railroad-rail-corner-small-ramp/) — https://models.codelove.in/library/train-kit/railroad-rail-corner-small-ramp.glb · 160 tris · 2.35×1.1×2.35 · 13 KB
+- [Railroad Rail Curve](https://models.codelove.in/models/train-kit-railroad-rail-curve/) — https://models.codelove.in/library/train-kit/railroad-rail-curve.glb · 200 tris · 2.7×0.1×4 · 13 KB
+- [Railroad Rail Straight](https://models.codelove.in/models/train-kit-railroad-rail-straight/) — https://models.codelove.in/library/train-kit/railroad-rail-straight.glb · 160 tris · 0.7×0.1×4 · 12 KB
+- [Railroad Rail Straight Bend](https://models.codelove.in/models/train-kit-railroad-rail-straight-bend/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-bend.glb · 160 tris · 0.7×2×2 · 12 KB
+- [Railroad Rail Straight Bend Large](https://models.codelove.in/models/train-kit-railroad-rail-straight-bend-large/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-bend-large.glb · 280 tris · 0.7×4×4 · 15 KB
+- [Railroad Rail Straight Bump Down](https://models.codelove.in/models/train-kit-railroad-rail-straight-bump-down/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-bump-down.glb · 200 tris · 0.7×0.6×4 · 13 KB
+- [Railroad Rail Straight Bump Up](https://models.codelove.in/models/train-kit-railroad-rail-straight-bump-up/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-bump-up.glb · 200 tris · 0.7×0.6×4 · 13 KB
+- [Railroad Rail Straight Hill Beginning](https://models.codelove.in/models/train-kit-railroad-rail-straight-hill-beginning/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-hill-beginning.glb · 200 tris · 0.7×1.07×4 · 13 KB
+- [Railroad Rail Straight Hill Complete](https://models.codelove.in/models/train-kit-railroad-rail-straight-hill-complete/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-hill-complete.glb · 200 tris · 0.7×1.1×4 · 13 KB
+- [Railroad Rail Straight Hill Complete Half](https://models.codelove.in/models/train-kit-railroad-rail-straight-hill-complete-half/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-hill-complete-half.glb · 200 tris · 0.7×0.6×4 · 13 KB
+- [Railroad Rail Straight Hill End](https://models.codelove.in/models/train-kit-railroad-rail-straight-hill-end/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-hill-end.glb · 200 tris · 0.7×1.1×4.07 · 13 KB
+- [Railroad Rail Straight Skew Left](https://models.codelove.in/models/train-kit-railroad-rail-straight-skew-left/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-skew-left.glb · 160 tris · 0.71×0.57×4 · 12 KB
+- [Railroad Rail Straight Skew Left Side](https://models.codelove.in/models/train-kit-railroad-rail-straight-skew-left-side/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-skew-left-side.glb · 160 tris · 0.71×0.71×4 · 12 KB
+- [Railroad Rail Straight Skew Right](https://models.codelove.in/models/train-kit-railroad-rail-straight-skew-right/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-skew-right.glb · 160 tris · 0.71×0.57×4 · 12 KB
+- [Railroad Rail Straight Skew Right Side](https://models.codelove.in/models/train-kit-railroad-rail-straight-skew-right-side/) — https://models.codelove.in/library/train-kit/railroad-rail-straight-skew-right-side.glb · 160 tris · 0.71×0.71×4 · 12 KB
+- [Railroad Straight](https://models.codelove.in/models/train-kit-railroad-straight/) — https://models.codelove.in/library/train-kit/railroad-straight.glb · 376 tris · 1×0.1×4 · 15 KB
+- [Railroad Straight Bend](https://models.codelove.in/models/train-kit-railroad-straight-bend/) — https://models.codelove.in/library/train-kit/railroad-straight-bend.glb · 376 tris · 1×2×2 · 17 KB
+- [Railroad Straight Bend Large](https://models.codelove.in/models/train-kit-railroad-straight-bend-large/) — https://models.codelove.in/library/train-kit/railroad-straight-bend-large.glb · 568 tris · 1×4×4 · 21 KB
+- [Railroad Straight Bump Down](https://models.codelove.in/models/train-kit-railroad-straight-bump-down/) — https://models.codelove.in/library/train-kit/railroad-straight-bump-down.glb · 416 tris · 1×0.6×4 · 18 KB
+- [Railroad Straight Bump Up](https://models.codelove.in/models/train-kit-railroad-straight-bump-up/) — https://models.codelove.in/library/train-kit/railroad-straight-bump-up.glb · 416 tris · 1×0.6×4 · 18 KB
+- [Railroad Straight Hill Beginning](https://models.codelove.in/models/train-kit-railroad-straight-hill-beginning/) — https://models.codelove.in/library/train-kit/railroad-straight-hill-beginning.glb · 416 tris · 1×1.07×4 · 18 KB
+- [Railroad Straight Hill Complete](https://models.codelove.in/models/train-kit-railroad-straight-hill-complete/) — https://models.codelove.in/library/train-kit/railroad-straight-hill-complete.glb · 416 tris · 1×1.1×4 · 17 KB
+- [Railroad Straight Hill Complete Half](https://models.codelove.in/models/train-kit-railroad-straight-hill-complete-half/) — https://models.codelove.in/library/train-kit/railroad-straight-hill-complete-half.glb · 416 tris · 1×0.6×4 · 17 KB
+- [Railroad Straight Hill End](https://models.codelove.in/models/train-kit-railroad-straight-hill-end/) — https://models.codelove.in/library/train-kit/railroad-straight-hill-end.glb · 416 tris · 1×1.1×4.07 · 18 KB
+- [Railroad Straight Skew Left](https://models.codelove.in/models/train-kit-railroad-straight-skew-left/) — https://models.codelove.in/library/train-kit/railroad-straight-skew-left.glb · 376 tris · 1×0.71×4 · 16 KB
+- [Railroad Straight Skew Left Side](https://models.codelove.in/models/train-kit-railroad-straight-skew-left-side/) — https://models.codelove.in/library/train-kit/railroad-straight-skew-left-side.glb · 376 tris · 0.99×0.99×4 · 16 KB
+- [Railroad Straight Skew Right](https://models.codelove.in/models/train-kit-railroad-straight-skew-right/) — https://models.codelove.in/library/train-kit/railroad-straight-skew-right.glb · 376 tris · 1×0.71×4 · 16 KB
+- [Railroad Straight Skew Right Side](https://models.codelove.in/models/train-kit-railroad-straight-skew-right-side/) — https://models.codelove.in/library/train-kit/railroad-straight-skew-right-side.glb · 376 tris · 0.99×0.99×4 · 16 KB
+- [Spline Segment](https://models.codelove.in/models/train-kit-spline-segment/) — https://models.codelove.in/library/train-kit/spline-segment.glb · 36 tris · 1×0.07×0.25 · 10 KB
+- [Spline Track](https://models.codelove.in/models/train-kit-spline-track/) — https://models.codelove.in/library/train-kit/spline-track.glb · 40 tris · 0.7×0.1×1 · 10 KB
+- [Spline Track Damaged](https://models.codelove.in/models/train-kit-spline-track-damaged/) — https://models.codelove.in/library/train-kit/spline-track-damaged.glb · 40 tris · 0.7×0.1×1 · 10 KB
+- [Track](https://models.codelove.in/models/train-kit-track/) — https://models.codelove.in/library/train-kit/track.glb · 76 tris · 1×0.15×1 · 11 KB
+- [Track Detailed](https://models.codelove.in/models/train-kit-track-detailed/) — https://models.codelove.in/library/train-kit/track-detailed.glb · 124 tris · 1×0.15×1 · 11 KB
+- [Track Single](https://models.codelove.in/models/train-kit-track-single/) — https://models.codelove.in/library/train-kit/track-single.glb · 52 tris · 1×0.15×1 · 10 KB
+- [Track Single Detailed](https://models.codelove.in/models/train-kit-track-single-detailed/) — https://models.codelove.in/library/train-kit/track-single-detailed.glb · 68 tris · 1×0.15×1 · 10 KB
+- [Train Carriage Box](https://models.codelove.in/models/train-kit-train-carriage-box/) — https://models.codelove.in/library/train-kit/train-carriage-box.glb · 760 tris · 1.2×1.3×2.7 · 35 KB
+- [Train Carriage Coal](https://models.codelove.in/models/train-kit-train-carriage-coal/) — https://models.codelove.in/library/train-kit/train-carriage-coal.glb · 868 tris · 1.2×1.65×2.7 · 39 KB
+- [Train Carriage Container Blue](https://models.codelove.in/models/train-kit-train-carriage-container-blue/) — https://models.codelove.in/library/train-kit/train-carriage-container-blue.glb · 926 tris · 1×1.36×2.7 · 40 KB
+- [Train Carriage Container Green](https://models.codelove.in/models/train-kit-train-carriage-container-green/) — https://models.codelove.in/library/train-kit/train-carriage-container-green.glb · 926 tris · 1×1.36×2.7 · 40 KB
+- [Train Carriage Container Red](https://models.codelove.in/models/train-kit-train-carriage-container-red/) — https://models.codelove.in/library/train-kit/train-carriage-container-red.glb · 926 tris · 1×1.36×2.7 · 40 KB
+- [Train Carriage Dirt](https://models.codelove.in/models/train-kit-train-carriage-dirt/) — https://models.codelove.in/library/train-kit/train-carriage-dirt.glb · 868 tris · 1.2×1.65×2.7 · 39 KB
+- [Train Carriage Flatbed](https://models.codelove.in/models/train-kit-train-carriage-flatbed/) — https://models.codelove.in/library/train-kit/train-carriage-flatbed.glb · 754 tris · 1.1×1.16×2.7 · 36 KB
+- [Train Carriage Flatbed Wood](https://models.codelove.in/models/train-kit-train-carriage-flatbed-wood/) — https://models.codelove.in/library/train-kit/train-carriage-flatbed-wood.glb · 778 tris · 1.1×1.16×2.7 · 37 KB
+- [Train Carriage Lumber](https://models.codelove.in/models/train-kit-train-carriage-lumber/) — https://models.codelove.in/library/train-kit/train-carriage-lumber.glb · 854 tris · 1.1×1.16×2.7 · 39 KB
+- [Train Carriage Tank](https://models.codelove.in/models/train-kit-train-carriage-tank/) — https://models.codelove.in/library/train-kit/train-carriage-tank.glb · 830 tris · 1.39×1.75×2.7 · 37 KB
+- [Train Carriage Tank Large](https://models.codelove.in/models/train-kit-train-carriage-tank-large/) — https://models.codelove.in/library/train-kit/train-carriage-tank-large.glb · 830 tris · 1.39×1.75×2.7 · 38 KB
+- [Train Carriage Wood](https://models.codelove.in/models/train-kit-train-carriage-wood/) — https://models.codelove.in/library/train-kit/train-carriage-wood.glb · 820 tris · 1.2×1.57×2.7 · 38 KB
+- [Train Connector](https://models.codelove.in/models/train-kit-train-connector/) — https://models.codelove.in/library/train-kit/train-connector.glb · 40 tris · 0.9×0.9×0.2 · 10 KB
+- [Train Diesel A](https://models.codelove.in/models/train-kit-train-diesel-a/) — https://models.codelove.in/library/train-kit/train-diesel-a.glb · 1,426 tris · 1.2×1.6×2.4 · 47 KB
+- [Train Diesel B](https://models.codelove.in/models/train-kit-train-diesel-b/) — https://models.codelove.in/library/train-kit/train-diesel-b.glb · 928 tris · 1×1.48×2.4 · 39 KB
+- [Train Diesel Box A](https://models.codelove.in/models/train-kit-train-diesel-box-a/) — https://models.codelove.in/library/train-kit/train-diesel-box-a.glb · 1,410 tris · 1.35×1.68×2.62 · 47 KB
+- [Train Diesel Box B](https://models.codelove.in/models/train-kit-train-diesel-box-b/) — https://models.codelove.in/library/train-kit/train-diesel-box-b.glb · 912 tris · 1.3×1.65×2.6 · 38 KB
+- [Train Diesel Box C](https://models.codelove.in/models/train-kit-train-diesel-box-c/) — https://models.codelove.in/library/train-kit/train-diesel-box-c.glb · 1,188 tris · 1.35×1.65×2.6 · 43 KB
+- [Train Diesel C](https://models.codelove.in/models/train-kit-train-diesel-c/) — https://models.codelove.in/library/train-kit/train-diesel-c.glb · 947 tris · 1×1.46×2.4 · 39 KB
+- [Train Electric Bullet A](https://models.codelove.in/models/train-kit-train-electric-bullet-a/) — https://models.codelove.in/library/train-kit/train-electric-bullet-a.glb · 945 tris · 1.32×1.64×2.8 · 39 KB
+- [Train Electric Bullet B](https://models.codelove.in/models/train-kit-train-electric-bullet-b/) — https://models.codelove.in/library/train-kit/train-electric-bullet-b.glb · 1,078 tris · 1.3×1.64×2.6 · 41 KB
+- [Train Electric Bullet C](https://models.codelove.in/models/train-kit-train-electric-bullet-c/) — https://models.codelove.in/library/train-kit/train-electric-bullet-c.glb · 822 tris · 1.3×1.64×2.6 · 37 KB
+- [Train Electric City A](https://models.codelove.in/models/train-kit-train-electric-city-a/) — https://models.codelove.in/library/train-kit/train-electric-city-a.glb · 814 tris · 1.1×1.68×2.4 · 37 KB
+- [Train Electric City B](https://models.codelove.in/models/train-kit-train-electric-city-b/) — https://models.codelove.in/library/train-kit/train-electric-city-b.glb · 1,184 tris · 1.3×2.22×2.7 · 45 KB
+- [Train Electric City C](https://models.codelove.in/models/train-kit-train-electric-city-c/) — https://models.codelove.in/library/train-kit/train-electric-city-c.glb · 1,020 tris · 1.1×1.68×2.7 · 40 KB
+- [Train Electric Double A](https://models.codelove.in/models/train-kit-train-electric-double-a/) — https://models.codelove.in/library/train-kit/train-electric-double-a.glb · 1,129 tris · 1.28×1.92×2.5 · 44 KB
+- [Train Electric Double B](https://models.codelove.in/models/train-kit-train-electric-double-b/) — https://models.codelove.in/library/train-kit/train-electric-double-b.glb · 1,146 tris · 1.28×1.92×2.64 · 44 KB
+- [Train Electric Double C](https://models.codelove.in/models/train-kit-train-electric-double-c/) — https://models.codelove.in/library/train-kit/train-electric-double-c.glb · 946 tris · 1.28×1.92×2.64 · 40 KB
+- [Train Electric Square A](https://models.codelove.in/models/train-kit-train-electric-square-a/) — https://models.codelove.in/library/train-kit/train-electric-square-a.glb · 1,300 tris · 1.13×2.32×2.6 · 46 KB
+- [Train Electric Square B](https://models.codelove.in/models/train-kit-train-electric-square-b/) — https://models.codelove.in/library/train-kit/train-electric-square-b.glb · 1,102 tris · 1.3×1.78×2.6 · 42 KB
+- [Train Electric Square C](https://models.codelove.in/models/train-kit-train-electric-square-c/) — https://models.codelove.in/library/train-kit/train-electric-square-c.glb · 1,046 tris · 1.1×1.78×2.6 · 41 KB
+- [Train Electric Subway A](https://models.codelove.in/models/train-kit-train-electric-subway-a/) — https://models.codelove.in/library/train-kit/train-electric-subway-a.glb · 1,228 tris · 1.35×1.57×2.6 · 44 KB
+- [Train Electric Subway B](https://models.codelove.in/models/train-kit-train-electric-subway-b/) — https://models.codelove.in/library/train-kit/train-electric-subway-b.glb · 994 tris · 1.1×1.57×2.6 · 40 KB
+- [Train Electric Subway C](https://models.codelove.in/models/train-kit-train-electric-subway-c/) — https://models.codelove.in/library/train-kit/train-electric-subway-c.glb · 1,238 tris · 1.35×1.57×2.6 · 43 KB
+- [Train Locomotive A](https://models.codelove.in/models/train-kit-train-locomotive-a/) — https://models.codelove.in/library/train-kit/train-locomotive-a.glb · 1,666 tris · 1.43×1.66×2.6 · 48 KB
+- [Train Locomotive B](https://models.codelove.in/models/train-kit-train-locomotive-b/) — https://models.codelove.in/library/train-kit/train-locomotive-b.glb · 1,456 tris · 1.32×1.66×2.6 · 97 KB
+- [Train Locomotive C](https://models.codelove.in/models/train-kit-train-locomotive-c/) — https://models.codelove.in/library/train-kit/train-locomotive-c.glb · 1,700 tris · 1.43×1.66×2.8 · 49 KB
+- [Train Locomotive Passenger A](https://models.codelove.in/models/train-kit-train-locomotive-passenger-a/) — https://models.codelove.in/library/train-kit/train-locomotive-passenger-a.glb · 992 tris · 1.19×1.65×2.6 · 40 KB
+- [Train Locomotive Passenger B](https://models.codelove.in/models/train-kit-train-locomotive-passenger-b/) — https://models.codelove.in/library/train-kit/train-locomotive-passenger-b.glb · 1,100 tris · 1.25×1.65×2.6 · 42 KB
+- [Train Tram Classic](https://models.codelove.in/models/train-kit-train-tram-classic/) — https://models.codelove.in/library/train-kit/train-tram-classic.glb · 1,332 tris · 1.25×2.52×2.61 · 46 KB
+- [Train Tram Modern](https://models.codelove.in/models/train-kit-train-tram-modern/) — https://models.codelove.in/library/train-kit/train-tram-modern.glb · 1,182 tris · 1.13×2.3×2.69 · 45 KB
+- [Train Tram Round](https://models.codelove.in/models/train-kit-train-tram-round/) — https://models.codelove.in/library/train-kit/train-tram-round.glb · 1,628 tris · 1.25×2.5×2.6 · 56 KB

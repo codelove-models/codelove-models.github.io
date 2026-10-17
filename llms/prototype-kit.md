@@ -1,0 +1,167 @@
+# Prototype Kit — 145 free 3D models (Weapons 2, Props 143)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/prototype-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/prototype-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.4 MB.
+
+## Models
+
+### Weapons (2)
+
+- [Weapon Shield](https://models.codelove.in/models/prototype-kit-weapon-shield/) — https://models.codelove.in/library/prototype-kit/weapon-shield.glb · 76 tris · 0.4×0.12×0.4 · 8 KB
+- [Weapon Sword](https://models.codelove.in/models/prototype-kit-weapon-sword/) — https://models.codelove.in/library/prototype-kit/weapon-sword.glb · 48 tris · 0.5×0.1×0.3 · 8 KB
+
+### Props (143)
+
+- [Animal Bison](https://models.codelove.in/models/prototype-kit-animal-bison/) — https://models.codelove.in/library/prototype-kit/animal-bison.glb · 264 tris · 0.84×0.71×0.46 · 25 KB · 4 animations inside
+- [Animal Dog](https://models.codelove.in/models/prototype-kit-animal-dog/) — https://models.codelove.in/library/prototype-kit/animal-dog.glb · 292 tris · 0.67×0.55×0.26 · 31 KB · 4 animations inside
+- [Animal Horse](https://models.codelove.in/models/prototype-kit-animal-horse/) — https://models.codelove.in/library/prototype-kit/animal-horse.glb · 280 tris · 1.01×0.89×0.31 · 31 KB · 4 animations inside
+- [Button Floor Round](https://models.codelove.in/models/prototype-kit-button-floor-round/) — https://models.codelove.in/library/prototype-kit/button-floor-round.glb · 92 tris · 0.5×0.15×0.5 · 11 KB · 3 animations inside
+- [Button Floor Round Small](https://models.codelove.in/models/prototype-kit-button-floor-round-small/) — https://models.codelove.in/library/prototype-kit/button-floor-round-small.glb · 92 tris · 0.3×0.1×0.3 · 11 KB · 3 animations inside
+- [Button Floor Square](https://models.codelove.in/models/prototype-kit-button-floor-square/) — https://models.codelove.in/library/prototype-kit/button-floor-square.glb · 86 tris · 1×0.15×1 · 11 KB · 3 animations inside
+- [Button Floor Square Small](https://models.codelove.in/models/prototype-kit-button-floor-square-small/) — https://models.codelove.in/library/prototype-kit/button-floor-square-small.glb · 86 tris · 0.5×0.15×0.5 · 11 KB · 3 animations inside
+- [Coin](https://models.codelove.in/models/prototype-kit-coin/) — https://models.codelove.in/library/prototype-kit/coin.glb · 252 tris · 0.11×0.28×0.28 · 11 KB
+- [Column](https://models.codelove.in/models/prototype-kit-column/) — https://models.codelove.in/library/prototype-kit/column.glb · 12 tris · 0.2×1×0.2 · 7 KB
+- [Column Low](https://models.codelove.in/models/prototype-kit-column-low/) — https://models.codelove.in/library/prototype-kit/column-low.glb · 12 tris · 0.2×0.5×0.2 · 7 KB
+- [Column Rounded](https://models.codelove.in/models/prototype-kit-column-rounded/) — https://models.codelove.in/library/prototype-kit/column-rounded.glb · 12 tris · 0.2×1×0.2 · 7 KB
+- [Column Rounded Low](https://models.codelove.in/models/prototype-kit-column-rounded-low/) — https://models.codelove.in/library/prototype-kit/column-rounded-low.glb · 12 tris · 0.2×0.5×0.2 · 7 KB
+- [Column Triangle](https://models.codelove.in/models/prototype-kit-column-triangle/) — https://models.codelove.in/library/prototype-kit/column-triangle.glb · 8 tris · 0.2×1×0.2 · 7 KB
+- [Column Triangle Low](https://models.codelove.in/models/prototype-kit-column-triangle-low/) — https://models.codelove.in/library/prototype-kit/column-triangle-low.glb · 8 tris · 0.2×0.5×0.2 · 7 KB
+- [Crate](https://models.codelove.in/models/prototype-kit-crate/) — https://models.codelove.in/library/prototype-kit/crate.glb · 204 tris · 0.5×0.5×0.5 · 10 KB
+- [Crate Color](https://models.codelove.in/models/prototype-kit-crate-color/) — https://models.codelove.in/library/prototype-kit/crate-color.glb · 204 tris · 0.5×0.5×0.5 · 10 KB
+- [Door Garage](https://models.codelove.in/models/prototype-kit-door-garage/) — https://models.codelove.in/library/prototype-kit/door-garage.glb · 88 tris · 0.35×0.8×1.1 · 12 KB · 3 animations inside
+- [Door Rotate](https://models.codelove.in/models/prototype-kit-door-rotate/) — https://models.codelove.in/library/prototype-kit/door-rotate.glb · 68 tris · 0.3×0.8×0.6 · 13 KB · 3 animations inside
+- [Door Sliding](https://models.codelove.in/models/prototype-kit-door-sliding/) — https://models.codelove.in/library/prototype-kit/door-sliding.glb · 88 tris · 0.35×0.8×0.7 · 10 KB · 3 animations inside
+- [Door Sliding Double](https://models.codelove.in/models/prototype-kit-door-sliding-double/) — https://models.codelove.in/library/prototype-kit/door-sliding-double.glb · 176 tris · 0.35×0.8×0.9 · 14 KB · 3 animations inside
+- [Door Sliding Double Round](https://models.codelove.in/models/prototype-kit-door-sliding-double-round/) — https://models.codelove.in/library/prototype-kit/door-sliding-double-round.glb · 96 tris · 0.17×0.8×1.1 · 13 KB · 3 animations inside
+- [Door Sliding Double Wide](https://models.codelove.in/models/prototype-kit-door-sliding-double-wide/) — https://models.codelove.in/library/prototype-kit/door-sliding-double-wide.glb · 176 tris · 0.35×0.8×1.4 · 14 KB · 3 animations inside
+- [Figurine](https://models.codelove.in/models/prototype-kit-figurine/) — https://models.codelove.in/library/prototype-kit/figurine.glb · 148 tris · 0.5×0.7×0.2 · 50 KB · 27 animations inside
+- [Figurine Cube](https://models.codelove.in/models/prototype-kit-figurine-cube/) — https://models.codelove.in/library/prototype-kit/figurine-cube.glb · 168 tris · 0.5×0.6×0.3 · 50 KB · 27 animations inside
+- [Figurine Cube Detailed](https://models.codelove.in/models/prototype-kit-figurine-cube-detailed/) — https://models.codelove.in/library/prototype-kit/figurine-cube-detailed.glb · 254 tris · 0.5×0.57×0.3 · 52 KB · 27 animations inside
+- [Figurine Large](https://models.codelove.in/models/prototype-kit-figurine-large/) — https://models.codelove.in/library/prototype-kit/figurine-large.glb · 156 tris · 0.7×0.9×0.3 · 50 KB · 27 animations inside
+- [Flag](https://models.codelove.in/models/prototype-kit-flag/) — https://models.codelove.in/library/prototype-kit/flag.glb · 100 tris · 0.1×0.95×0.5 · 9 KB
+- [Floor Diagonal](https://models.codelove.in/models/prototype-kit-floor-diagonal/) — https://models.codelove.in/library/prototype-kit/floor-diagonal.glb · 4 tris · 1×0×1 · 7 KB
+- [Floor Small Diagonal](https://models.codelove.in/models/prototype-kit-floor-small-diagonal/) — https://models.codelove.in/library/prototype-kit/floor-small-diagonal.glb · 16 tris · 1×0×1 · 7 KB
+- [Floor Small Square](https://models.codelove.in/models/prototype-kit-floor-small-square/) — https://models.codelove.in/library/prototype-kit/floor-small-square.glb · 32 tris · 1×0×1 · 7 KB
+- [Floor Square](https://models.codelove.in/models/prototype-kit-floor-square/) — https://models.codelove.in/library/prototype-kit/floor-square.glb · 8 tris · 1×0×1 · 7 KB
+- [Floor Thick](https://models.codelove.in/models/prototype-kit-floor-thick/) — https://models.codelove.in/library/prototype-kit/floor-thick.glb · 12 tris · 1×0.2×1 · 7 KB
+- [Floor Thick Corner Diagonal](https://models.codelove.in/models/prototype-kit-floor-thick-corner-diagonal/) — https://models.codelove.in/library/prototype-kit/floor-thick-corner-diagonal.glb · 16 tris · 1×0.2×1 · 7 KB
+- [Floor Thick Corner Round](https://models.codelove.in/models/prototype-kit-floor-thick-corner-round/) — https://models.codelove.in/library/prototype-kit/floor-thick-corner-round.glb · 36 tris · 1×0.2×1 · 7 KB
+- [Floor Thick Corner Rounded](https://models.codelove.in/models/prototype-kit-floor-thick-corner-rounded/) — https://models.codelove.in/library/prototype-kit/floor-thick-corner-rounded.glb · 20 tris · 1×0.2×1 · 7 KB
+- [Hat Cap](https://models.codelove.in/models/prototype-kit-hat-cap/) — https://models.codelove.in/library/prototype-kit/hat-cap.glb · 32 tris · 0.34×0.15×0.22 · 7 KB
+- [Hat Hard](https://models.codelove.in/models/prototype-kit-hat-hard/) — https://models.codelove.in/library/prototype-kit/hat-hard.glb · 48 tris · 0.33×0.17×0.24 · 8 KB
+- [Indicator Doorway](https://models.codelove.in/models/prototype-kit-indicator-doorway/) — https://models.codelove.in/library/prototype-kit/indicator-doorway.glb · 13 tris · 0.6×0×0.6 · 7 KB
+- [Indicator Round A](https://models.codelove.in/models/prototype-kit-indicator-round-a/) — https://models.codelove.in/library/prototype-kit/indicator-round-a.glb · 32 tris · 1×0.2×1 · 9 KB · 1 animation inside
+- [Indicator Round B](https://models.codelove.in/models/prototype-kit-indicator-round-b/) — https://models.codelove.in/library/prototype-kit/indicator-round-b.glb · 24 tris · 1×0×1 · 8 KB · 1 animation inside
+- [Indicator Round C](https://models.codelove.in/models/prototype-kit-indicator-round-c/) — https://models.codelove.in/library/prototype-kit/indicator-round-c.glb · 28 tris · 1×0×1 · 8 KB · 1 animation inside
+- [Indicator Round D](https://models.codelove.in/models/prototype-kit-indicator-round-d/) — https://models.codelove.in/library/prototype-kit/indicator-round-d.glb · 64 tris · 1×0.2×1 · 9 KB · 1 animation inside
+- [Indicator Round E](https://models.codelove.in/models/prototype-kit-indicator-round-e/) — https://models.codelove.in/library/prototype-kit/indicator-round-e.glb · 64 tris · 1×0.3×1 · 9 KB · 1 animation inside
+- [Indicator Round F](https://models.codelove.in/models/prototype-kit-indicator-round-f/) — https://models.codelove.in/library/prototype-kit/indicator-round-f.glb · 96 tris · 1×0.1×1 · 9 KB · 1 animation inside
+- [Indicator Special Area](https://models.codelove.in/models/prototype-kit-indicator-special-area/) — https://models.codelove.in/library/prototype-kit/indicator-special-area.glb · 18 tris · 1×0×1 · 7 KB
+- [Indicator Special Arrow](https://models.codelove.in/models/prototype-kit-indicator-special-arrow/) — https://models.codelove.in/library/prototype-kit/indicator-special-arrow.glb · 15 tris · 1×0×1 · 7 KB
+- [Indicator Special Cross](https://models.codelove.in/models/prototype-kit-indicator-special-cross/) — https://models.codelove.in/library/prototype-kit/indicator-special-cross.glb · 22 tris · 1×0×1 · 7 KB
+- [Indicator Special Lines](https://models.codelove.in/models/prototype-kit-indicator-special-lines/) — https://models.codelove.in/library/prototype-kit/indicator-special-lines.glb · 16 tris · 1×0×1 · 7 KB
+- [Indicator Square A](https://models.codelove.in/models/prototype-kit-indicator-square-a/) — https://models.codelove.in/library/prototype-kit/indicator-square-a.glb · 8 tris · 1×0×1 · 7 KB
+- [Indicator Square B](https://models.codelove.in/models/prototype-kit-indicator-square-b/) — https://models.codelove.in/library/prototype-kit/indicator-square-b.glb · 24 tris · 1×0×1 · 7 KB
+- [Indicator Square C](https://models.codelove.in/models/prototype-kit-indicator-square-c/) — https://models.codelove.in/library/prototype-kit/indicator-square-c.glb · 16 tris · 1×0×1 · 7 KB
+- [Indicator Square D](https://models.codelove.in/models/prototype-kit-indicator-square-d/) — https://models.codelove.in/library/prototype-kit/indicator-square-d.glb · 16 tris · 1×0.2×1 · 7 KB
+- [Indicator Square E](https://models.codelove.in/models/prototype-kit-indicator-square-e/) — https://models.codelove.in/library/prototype-kit/indicator-square-e.glb · 12 tris · 1×0×1 · 7 KB
+- [Indicator Square F](https://models.codelove.in/models/prototype-kit-indicator-square-f/) — https://models.codelove.in/library/prototype-kit/indicator-square-f.glb · 48 tris · 1×0.2×1 · 8 KB
+- [Ladder](https://models.codelove.in/models/prototype-kit-ladder/) — https://models.codelove.in/library/prototype-kit/ladder.glb · 224 tris · 0.15×1×0.55 · 11 KB
+- [Ladder Color](https://models.codelove.in/models/prototype-kit-ladder-color/) — https://models.codelove.in/library/prototype-kit/ladder-color.glb · 224 tris · 0.15×1×0.55 · 11 KB
+- [Ladder Top](https://models.codelove.in/models/prototype-kit-ladder-top/) — https://models.codelove.in/library/prototype-kit/ladder-top.glb · 256 tris · 0.4×0.3×0.5 · 13 KB
+- [Lever Double](https://models.codelove.in/models/prototype-kit-lever-double/) — https://models.codelove.in/library/prototype-kit/lever-double.glb · 98 tris · 0.5×0.38×0.5 · 12 KB · 3 animations inside
+- [Lever Single](https://models.codelove.in/models/prototype-kit-lever-single/) — https://models.codelove.in/library/prototype-kit/lever-single.glb · 80 tris · 0.5×0.45×0.3 · 12 KB · 3 animations inside
+- [Number 0](https://models.codelove.in/models/prototype-kit-number-0/) — https://models.codelove.in/library/prototype-kit/number-0.glb · 64 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 1](https://models.codelove.in/models/prototype-kit-number-1/) — https://models.codelove.in/library/prototype-kit/number-1.glb · 44 tris · 0.2×0.5×0.2 · 7 KB
+- [Number 2](https://models.codelove.in/models/prototype-kit-number-2/) — https://models.codelove.in/library/prototype-kit/number-2.glb · 68 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 3](https://models.codelove.in/models/prototype-kit-number-3/) — https://models.codelove.in/library/prototype-kit/number-3.glb · 60 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 4](https://models.codelove.in/models/prototype-kit-number-4/) — https://models.codelove.in/library/prototype-kit/number-4.glb · 36 tris · 0.2×0.5×0.3 · 7 KB
+- [Number 5](https://models.codelove.in/models/prototype-kit-number-5/) — https://models.codelove.in/library/prototype-kit/number-5.glb · 60 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 6](https://models.codelove.in/models/prototype-kit-number-6/) — https://models.codelove.in/library/prototype-kit/number-6.glb · 80 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 7](https://models.codelove.in/models/prototype-kit-number-7/) — https://models.codelove.in/library/prototype-kit/number-7.glb · 40 tris · 0.2×0.5×0.3 · 7 KB
+- [Number 8](https://models.codelove.in/models/prototype-kit-number-8/) — https://models.codelove.in/library/prototype-kit/number-8.glb · 84 tris · 0.2×0.5×0.3 · 8 KB
+- [Number 9](https://models.codelove.in/models/prototype-kit-number-9/) — https://models.codelove.in/library/prototype-kit/number-9.glb · 68 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 0](https://models.codelove.in/models/prototype-kit-number-double-0/) — https://models.codelove.in/library/prototype-kit/number-double-0.glb · 96 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 1](https://models.codelove.in/models/prototype-kit-number-double-1/) — https://models.codelove.in/library/prototype-kit/number-double-1.glb · 68 tris · 0.2×0.5×0.2 · 8 KB
+- [Number Double 2](https://models.codelove.in/models/prototype-kit-number-double-2/) — https://models.codelove.in/library/prototype-kit/number-double-2.glb · 104 tris · 0.2×0.5×0.3 · 9 KB
+- [Number Double 3](https://models.codelove.in/models/prototype-kit-number-double-3/) — https://models.codelove.in/library/prototype-kit/number-double-3.glb · 92 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 4](https://models.codelove.in/models/prototype-kit-number-double-4/) — https://models.codelove.in/library/prototype-kit/number-double-4.glb · 56 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 5](https://models.codelove.in/models/prototype-kit-number-double-5/) — https://models.codelove.in/library/prototype-kit/number-double-5.glb · 92 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 6](https://models.codelove.in/models/prototype-kit-number-double-6/) — https://models.codelove.in/library/prototype-kit/number-double-6.glb · 120 tris · 0.2×0.5×0.3 · 9 KB
+- [Number Double 7](https://models.codelove.in/models/prototype-kit-number-double-7/) — https://models.codelove.in/library/prototype-kit/number-double-7.glb · 62 tris · 0.2×0.5×0.3 · 8 KB
+- [Number Double 8](https://models.codelove.in/models/prototype-kit-number-double-8/) — https://models.codelove.in/library/prototype-kit/number-double-8.glb · 124 tris · 0.2×0.5×0.3 · 9 KB
+- [Number Double 9](https://models.codelove.in/models/prototype-kit-number-double-9/) — https://models.codelove.in/library/prototype-kit/number-double-9.glb · 102 tris · 0.2×0.5×0.3 · 9 KB
+- [Pipe](https://models.codelove.in/models/prototype-kit-pipe/) — https://models.codelove.in/library/prototype-kit/pipe.glb · 20 tris · 0.2×1×0.17 · 7 KB
+- [Pipe Corner](https://models.codelove.in/models/prototype-kit-pipe-corner/) — https://models.codelove.in/library/prototype-kit/pipe-corner.glb · 48 tris · 0.2×0.5×0.5 · 8 KB
+- [Pipe Half](https://models.codelove.in/models/prototype-kit-pipe-half/) — https://models.codelove.in/library/prototype-kit/pipe-half.glb · 20 tris · 0.2×0.5×0.17 · 7 KB
+- [Pipe Half Section](https://models.codelove.in/models/prototype-kit-pipe-half-section/) — https://models.codelove.in/library/prototype-kit/pipe-half-section.glb · 40 tris · 0.3×0.5×0.26 · 8 KB
+- [Pipe Section](https://models.codelove.in/models/prototype-kit-pipe-section/) — https://models.codelove.in/library/prototype-kit/pipe-section.glb · 40 tris · 0.3×1×0.26 · 7 KB
+- [Pipe Split](https://models.codelove.in/models/prototype-kit-pipe-split/) — https://models.codelove.in/library/prototype-kit/pipe-split.glb · 76 tris · 0.2×0.5×0.83 · 9 KB
+- [Shape Cube](https://models.codelove.in/models/prototype-kit-shape-cube/) — https://models.codelove.in/library/prototype-kit/shape-cube.glb · 12 tris · 1×1×1 · 7 KB
+- [Shape Cube Half](https://models.codelove.in/models/prototype-kit-shape-cube-half/) — https://models.codelove.in/library/prototype-kit/shape-cube-half.glb · 12 tris · 1×0.5×1 · 7 KB
+- [Shape Cube Rounded](https://models.codelove.in/models/prototype-kit-shape-cube-rounded/) — https://models.codelove.in/library/prototype-kit/shape-cube-rounded.glb · 204 tris · 1×1×1 · 13 KB
+- [Shape Cylinder](https://models.codelove.in/models/prototype-kit-shape-cylinder/) — https://models.codelove.in/library/prototype-kit/shape-cylinder.glb · 44 tris · 1×1×1 · 7 KB
+- [Shape Cylinder Detailed](https://models.codelove.in/models/prototype-kit-shape-cylinder-detailed/) — https://models.codelove.in/library/prototype-kit/shape-cylinder-detailed.glb · 92 tris · 1×1×1 · 8 KB
+- [Shape Cylinder Half](https://models.codelove.in/models/prototype-kit-shape-cylinder-half/) — https://models.codelove.in/library/prototype-kit/shape-cylinder-half.glb · 24 tris · 0.5×1×1 · 7 KB
+- [Shape Cylinder Half Detailed](https://models.codelove.in/models/prototype-kit-shape-cylinder-half-detailed/) — https://models.codelove.in/library/prototype-kit/shape-cylinder-half-detailed.glb · 48 tris · 0.5×1×1 · 8 KB
+- [Shape Hexagon](https://models.codelove.in/models/prototype-kit-shape-hexagon/) — https://models.codelove.in/library/prototype-kit/shape-hexagon.glb · 20 tris · 0.87×1×1 · 7 KB
+- [Shape Hexagon Half](https://models.codelove.in/models/prototype-kit-shape-hexagon-half/) — https://models.codelove.in/library/prototype-kit/shape-hexagon-half.glb · 12 tris · 0.43×1×1 · 7 KB
+- [Shape Hollow Cylinder](https://models.codelove.in/models/prototype-kit-shape-hollow-cylinder/) — https://models.codelove.in/library/prototype-kit/shape-hollow-cylinder.glb · 96 tris · 1×1×1 · 8 KB
+- [Shape Hollow Cylinder Detailed](https://models.codelove.in/models/prototype-kit-shape-hollow-cylinder-detailed/) — https://models.codelove.in/library/prototype-kit/shape-hollow-cylinder-detailed.glb · 192 tris · 1×1×1 · 9 KB
+- [Shape Hollow Cylinder Half](https://models.codelove.in/models/prototype-kit-shape-hollow-cylinder-half/) — https://models.codelove.in/library/prototype-kit/shape-hollow-cylinder-half.glb · 52 tris · 0.5×1×1 · 8 KB
+- [Shape Hollow Cylinder Half Detailed](https://models.codelove.in/models/prototype-kit-shape-hollow-cylinder-half-detailed/) — https://models.codelove.in/library/prototype-kit/shape-hollow-cylinder-half-detailed.glb · 100 tris · 0.5×1×1 · 8 KB
+- [Shape Hollow Hexagon](https://models.codelove.in/models/prototype-kit-shape-hollow-hexagon/) — https://models.codelove.in/library/prototype-kit/shape-hollow-hexagon.glb · 54 tris · 0.87×1×1 · 7 KB
+- [Shape Hollow Hexagon Half](https://models.codelove.in/models/prototype-kit-shape-hollow-hexagon-half/) — https://models.codelove.in/library/prototype-kit/shape-hollow-hexagon-half.glb · 28 tris · 0.43×1×1 · 7 KB
+- [Shape Slope](https://models.codelove.in/models/prototype-kit-shape-slope/) — https://models.codelove.in/library/prototype-kit/shape-slope.glb · 8 tris · 1×1×1 · 7 KB
+- [Shape Triangular Prism](https://models.codelove.in/models/prototype-kit-shape-triangular-prism/) — https://models.codelove.in/library/prototype-kit/shape-triangular-prism.glb · 8 tris · 1×1×1 · 7 KB
+- [Shape Triangular Prism Low](https://models.codelove.in/models/prototype-kit-shape-triangular-prism-low/) — https://models.codelove.in/library/prototype-kit/shape-triangular-prism-low.glb · 8 tris · 1×0.5×1 · 7 KB
+- [Stairs](https://models.codelove.in/models/prototype-kit-stairs/) — https://models.codelove.in/library/prototype-kit/stairs.glb · 36 tris · 1×1×1 · 7 KB
+- [Stairs Diagonal](https://models.codelove.in/models/prototype-kit-stairs-diagonal/) — https://models.codelove.in/library/prototype-kit/stairs-diagonal.glb · 40 tris · 1×1×1 · 7 KB
+- [Stairs Diagonal Narrow](https://models.codelove.in/models/prototype-kit-stairs-diagonal-narrow/) — https://models.codelove.in/library/prototype-kit/stairs-diagonal-narrow.glb · 40 tris · 1×1×0.5 · 7 KB
+- [Stairs Diagonal Small](https://models.codelove.in/models/prototype-kit-stairs-diagonal-small/) — https://models.codelove.in/library/prototype-kit/stairs-diagonal-small.glb · 72 tris · 1×1×1 · 8 KB
+- [Stairs Diagonal Small Narrow](https://models.codelove.in/models/prototype-kit-stairs-diagonal-small-narrow/) — https://models.codelove.in/library/prototype-kit/stairs-diagonal-small-narrow.glb · 72 tris · 1×1×0.5 · 8 KB
+- [Stairs Narrow](https://models.codelove.in/models/prototype-kit-stairs-narrow/) — https://models.codelove.in/library/prototype-kit/stairs-narrow.glb · 36 tris · 1×1×0.5 · 7 KB
+- [Stairs Small](https://models.codelove.in/models/prototype-kit-stairs-small/) — https://models.codelove.in/library/prototype-kit/stairs-small.glb · 68 tris · 1×1×1 · 8 KB
+- [Stairs Small Narrow](https://models.codelove.in/models/prototype-kit-stairs-small-narrow/) — https://models.codelove.in/library/prototype-kit/stairs-small-narrow.glb · 68 tris · 1×1×0.5 · 8 KB
+- [Target A Round](https://models.codelove.in/models/prototype-kit-target-a-round/) — https://models.codelove.in/library/prototype-kit/target-a-round.glb · 76 tris · 0.12×0.5×0.5 · 8 KB
+- [Target A Square](https://models.codelove.in/models/prototype-kit-target-a-square/) — https://models.codelove.in/library/prototype-kit/target-a-square.glb · 76 tris · 0.12×0.5×0.5 · 8 KB
+- [Target B Round](https://models.codelove.in/models/prototype-kit-target-b-round/) — https://models.codelove.in/library/prototype-kit/target-b-round.glb · 92 tris · 0.12×0.5×0.5 · 8 KB
+- [Target B Square](https://models.codelove.in/models/prototype-kit-target-b-square/) — https://models.codelove.in/library/prototype-kit/target-b-square.glb · 76 tris · 0.12×0.5×0.5 · 8 KB
+- [Vehicle](https://models.codelove.in/models/prototype-kit-vehicle/) — https://models.codelove.in/library/prototype-kit/vehicle.glb · 860 tris · 1.42×0.78×0.99 · 30 KB
+- [Vehicle Convertible](https://models.codelove.in/models/prototype-kit-vehicle-convertible/) — https://models.codelove.in/library/prototype-kit/vehicle-convertible.glb · 846 tris · 1.42×0.68×0.91 · 28 KB
+- [Wall](https://models.codelove.in/models/prototype-kit-wall/) — https://models.codelove.in/library/prototype-kit/wall.glb · 12 tris · 0.2×1×1 · 7 KB
+- [Wall Corner](https://models.codelove.in/models/prototype-kit-wall-corner/) — https://models.codelove.in/library/prototype-kit/wall-corner.glb · 20 tris · 1×1×1 · 7 KB
+- [Wall Corner Low](https://models.codelove.in/models/prototype-kit-wall-corner-low/) — https://models.codelove.in/library/prototype-kit/wall-corner-low.glb · 20 tris · 1×0.5×1 · 7 KB
+- [Wall Corner Rounded](https://models.codelove.in/models/prototype-kit-wall-corner-rounded/) — https://models.codelove.in/library/prototype-kit/wall-corner-rounded.glb · 28 tris · 1×1×1 · 7 KB
+- [Wall Corner Rounded Low](https://models.codelove.in/models/prototype-kit-wall-corner-rounded-low/) — https://models.codelove.in/library/prototype-kit/wall-corner-rounded-low.glb · 28 tris · 1×0.5×1 · 7 KB
+- [Wall Diagonal](https://models.codelove.in/models/prototype-kit-wall-diagonal/) — https://models.codelove.in/library/prototype-kit/wall-diagonal.glb · 28 tris · 1×1×1 · 7 KB
+- [Wall Diagonal Low](https://models.codelove.in/models/prototype-kit-wall-diagonal-low/) — https://models.codelove.in/library/prototype-kit/wall-diagonal-low.glb · 28 tris · 1×0.5×1 · 7 KB
+- [Wall Doorway](https://models.codelove.in/models/prototype-kit-wall-doorway/) — https://models.codelove.in/library/prototype-kit/wall-doorway.glb · 152 tris · 0.3×1×1 · 9 KB
+- [Wall Doorway Garage](https://models.codelove.in/models/prototype-kit-wall-doorway-garage/) — https://models.codelove.in/library/prototype-kit/wall-doorway-garage.glb · 152 tris · 0.3×1×1.5 · 9 KB
+- [Wall Doorway Round](https://models.codelove.in/models/prototype-kit-wall-doorway-round/) — https://models.codelove.in/library/prototype-kit/wall-doorway-round.glb · 88 tris · 0.25×1×2 · 8 KB
+- [Wall Doorway Sliding](https://models.codelove.in/models/prototype-kit-wall-doorway-sliding/) — https://models.codelove.in/library/prototype-kit/wall-doorway-sliding.glb · 152 tris · 0.3×1×1.5 · 9 KB
+- [Wall Doorway Wide](https://models.codelove.in/models/prototype-kit-wall-doorway-wide/) — https://models.codelove.in/library/prototype-kit/wall-doorway-wide.glb · 152 tris · 0.3×1×1.5 · 9 KB
+- [Wall Doorway Wide Sliding](https://models.codelove.in/models/prototype-kit-wall-doorway-wide-sliding/) — https://models.codelove.in/library/prototype-kit/wall-doorway-wide-sliding.glb · 152 tris · 0.3×1×3 · 9 KB
+- [Wall Low](https://models.codelove.in/models/prototype-kit-wall-low/) — https://models.codelove.in/library/prototype-kit/wall-low.glb · 12 tris · 0.2×0.5×1 · 7 KB
+- [Wall Round](https://models.codelove.in/models/prototype-kit-wall-round/) — https://models.codelove.in/library/prototype-kit/wall-round.glb · 68 tris · 1×1×1 · 8 KB
+- [Wall Round Low](https://models.codelove.in/models/prototype-kit-wall-round-low/) — https://models.codelove.in/library/prototype-kit/wall-round-low.glb · 68 tris · 1×0.5×1 · 8 KB
+- [Wall Window Barred Large](https://models.codelove.in/models/prototype-kit-wall-window-barred-large/) — https://models.codelove.in/library/prototype-kit/wall-window-barred-large.glb · 104 tris · 0.3×1×1 · 8 KB
+- [Wall Window Barred Medium](https://models.codelove.in/models/prototype-kit-wall-window-barred-medium/) — https://models.codelove.in/library/prototype-kit/wall-window-barred-medium.glb · 104 tris · 0.3×1×1 · 8 KB
+- [Wall Window Barred Small](https://models.codelove.in/models/prototype-kit-wall-window-barred-small/) — https://models.codelove.in/library/prototype-kit/wall-window-barred-small.glb · 104 tris · 0.3×1×1 · 8 KB
+- [Wall Window Cutout Large](https://models.codelove.in/models/prototype-kit-wall-window-cutout-large/) — https://models.codelove.in/library/prototype-kit/wall-window-cutout-large.glb · 32 tris · 0.2×1×1 · 7 KB
+- [Wall Window Cutout Medium](https://models.codelove.in/models/prototype-kit-wall-window-cutout-medium/) — https://models.codelove.in/library/prototype-kit/wall-window-cutout-medium.glb · 32 tris · 0.2×1×1 · 7 KB
+- [Wall Window Cutout Small](https://models.codelove.in/models/prototype-kit-wall-window-cutout-small/) — https://models.codelove.in/library/prototype-kit/wall-window-cutout-small.glb · 32 tris · 0.2×1×1 · 7 KB
+- [Wall Window Large](https://models.codelove.in/models/prototype-kit-wall-window-large/) — https://models.codelove.in/library/prototype-kit/wall-window-large.glb · 96 tris · 0.3×1×1 · 8 KB
+- [Wall Window Medium](https://models.codelove.in/models/prototype-kit-wall-window-medium/) — https://models.codelove.in/library/prototype-kit/wall-window-medium.glb · 96 tris · 0.3×1×1 · 8 KB
+- [Wall Window Small](https://models.codelove.in/models/prototype-kit-wall-window-small/) — https://models.codelove.in/library/prototype-kit/wall-window-small.glb · 96 tris · 0.3×1×1 · 8 KB
+- [Wheelchair](https://models.codelove.in/models/prototype-kit-wheelchair/) — https://models.codelove.in/library/prototype-kit/wheelchair.glb · 296 tris · 0.49×0.5×0.45 · 14 KB

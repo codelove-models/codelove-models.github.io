@@ -1,0 +1,112 @@
+# City Kit Roads — 95 free 3D models (Buildings)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/city-kit-roads/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/city-kit-roads.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 871 KB.
+
+## Models
+
+- [Bridge Pillar](https://models.codelove.in/models/city-kit-roads-bridge-pillar/) — https://models.codelove.in/library/city-kit-roads/bridge-pillar.glb · 38 tris · 0.1×0.5×0.1 · 7 KB
+- [Bridge Pillar Wide](https://models.codelove.in/models/city-kit-roads-bridge-pillar-wide/) — https://models.codelove.in/library/city-kit-roads/bridge-pillar-wide.glb · 38 tris · 0.14×0.5×0.14 · 7 KB
+- [Construction Barrier](https://models.codelove.in/models/city-kit-roads-construction-barrier/) — https://models.codelove.in/library/city-kit-roads/construction-barrier.glb · 60 tris · 0.14×0.13×0.23 · 8 KB
+- [Construction Cone](https://models.codelove.in/models/city-kit-roads-construction-cone/) — https://models.codelove.in/library/city-kit-roads/construction-cone.glb · 66 tris · 0.07×0.09×0.07 · 8 KB
+- [Construction Fence](https://models.codelove.in/models/city-kit-roads-construction-fence/) — https://models.codelove.in/library/city-kit-roads/construction-fence.glb · 136 tris · 0.07×0.18×0.38 · 10 KB
+- [Construction Light](https://models.codelove.in/models/city-kit-roads-construction-light/) — https://models.codelove.in/library/city-kit-roads/construction-light.glb · 144 tris · 0.07×0.23×0.07 · 10 KB
+- [Dumpster](https://models.codelove.in/models/city-kit-roads-dumpster/) — https://models.codelove.in/library/city-kit-roads/dumpster.glb · 234 tris · 0.28×0.21×0.37 · 14 KB
+- [Electricity Pole](https://models.codelove.in/models/city-kit-roads-electricity-pole/) — https://models.codelove.in/library/city-kit-roads/electricity-pole.glb · 416 tris · 0.58×0.53×0.21 · 17 KB
+- [Electricity Pole Single](https://models.codelove.in/models/city-kit-roads-electricity-pole-single/) — https://models.codelove.in/library/city-kit-roads/electricity-pole-single.glb · 176 tris · 0.08×0.53×0.21 · 11 KB
+- [Electricity Pole Wide](https://models.codelove.in/models/city-kit-roads-electricity-pole-wide/) — https://models.codelove.in/library/city-kit-roads/electricity-pole-wide.glb · 544 tris · 1.08×0.53×0.21 · 20 KB
+- [Electricity Side](https://models.codelove.in/models/city-kit-roads-electricity-side/) — https://models.codelove.in/library/city-kit-roads/electricity-side.glb · 416 tris · 0.56×0.53×0.43 · 17 KB
+- [Electricity Side Single](https://models.codelove.in/models/city-kit-roads-electricity-side-single/) — https://models.codelove.in/library/city-kit-roads/electricity-side-single.glb · 176 tris · 0.06×0.53×0.43 · 11 KB
+- [Electricity Side Wide](https://models.codelove.in/models/city-kit-roads-electricity-side-wide/) — https://models.codelove.in/library/city-kit-roads/electricity-side-wide.glb · 544 tris · 1.06×0.53×0.43 · 19 KB
+- [Electricity Wires](https://models.codelove.in/models/city-kit-roads-electricity-wires/) — https://models.codelove.in/library/city-kit-roads/electricity-wires.glb · 72 tris · 0.51×0.07×0.18 · 8 KB
+- [Electricity Wires Wide](https://models.codelove.in/models/city-kit-roads-electricity-wires-wide/) — https://models.codelove.in/library/city-kit-roads/electricity-wires-wide.glb · 200 tris · 1.01×0.1×0.18 · 12 KB
+- [Light Curved](https://models.codelove.in/models/city-kit-roads-light-curved/) — https://models.codelove.in/library/city-kit-roads/light-curved.glb · 92 tris · 0.05×0.68×0.23 · 8 KB
+- [Light Curved Cross](https://models.codelove.in/models/city-kit-roads-light-curved-cross/) — https://models.codelove.in/library/city-kit-roads/light-curved-cross.glb · 270 tris · 0.4×0.68×0.4 · 11 KB
+- [Light Curved Double](https://models.codelove.in/models/city-kit-roads-light-curved-double/) — https://models.codelove.in/library/city-kit-roads/light-curved-double.glb · 152 tris · 0.05×0.68×0.4 · 9 KB
+- [Light Square](https://models.codelove.in/models/city-kit-roads-light-square/) — https://models.codelove.in/library/city-kit-roads/light-square.glb · 60 tris · 0.05×0.6×0.24 · 8 KB
+- [Light Square Cross](https://models.codelove.in/models/city-kit-roads-light-square-cross/) — https://models.codelove.in/library/city-kit-roads/light-square-cross.glb · 134 tris · 0.42×0.6×0.42 · 9 KB
+- [Light Square Double](https://models.codelove.in/models/city-kit-roads-light-square-double/) — https://models.codelove.in/library/city-kit-roads/light-square-double.glb · 88 tris · 0.05×0.6×0.42 · 8 KB
+- [Road Bend](https://models.codelove.in/models/city-kit-roads-road-bend/) — https://models.codelove.in/library/city-kit-roads/road-bend.glb · 260 tris · 1×0.02×1 · 9 KB
+- [Road Bend Barrier](https://models.codelove.in/models/city-kit-roads-road-bend-barrier/) — https://models.codelove.in/library/city-kit-roads/road-bend-barrier.glb · 128 tris · 1×0.08×1 · 8 KB
+- [Road Bend Sidewalk](https://models.codelove.in/models/city-kit-roads-road-bend-sidewalk/) — https://models.codelove.in/library/city-kit-roads/road-bend-sidewalk.glb · 220 tris · 1×0.02×1 · 9 KB
+- [Road Bend Square](https://models.codelove.in/models/city-kit-roads-road-bend-square/) — https://models.codelove.in/library/city-kit-roads/road-bend-square.glb · 60 tris · 1×0.02×1 · 7 KB
+- [Road Bend Square Barrier](https://models.codelove.in/models/city-kit-roads-road-bend-square-barrier/) — https://models.codelove.in/library/city-kit-roads/road-bend-square-barrier.glb · 48 tris · 1×0.08×1 · 7 KB
+- [Road Bridge](https://models.codelove.in/models/city-kit-roads-road-bridge/) — https://models.codelove.in/library/city-kit-roads/road-bridge.glb · 240 tris · 1×0.52×1 · 11 KB
+- [Road Crossing](https://models.codelove.in/models/city-kit-roads-road-crossing/) — https://models.codelove.in/library/city-kit-roads/road-crossing.glb · 104 tris · 1×0.02×1 · 7 KB
+- [Road Crossroad](https://models.codelove.in/models/city-kit-roads-road-crossroad/) — https://models.codelove.in/library/city-kit-roads/road-crossroad.glb · 116 tris · 1×0.02×1 · 8 KB
+- [Road Crossroad Barrier](https://models.codelove.in/models/city-kit-roads-road-crossroad-barrier/) — https://models.codelove.in/library/city-kit-roads/road-crossroad-barrier.glb · 112 tris · 1×0.08×1 · 8 KB
+- [Road Crossroad Line](https://models.codelove.in/models/city-kit-roads-road-crossroad-line/) — https://models.codelove.in/library/city-kit-roads/road-crossroad-line.glb · 108 tris · 1×0.02×1 · 8 KB
+- [Road Crossroad Path](https://models.codelove.in/models/city-kit-roads-road-crossroad-path/) — https://models.codelove.in/library/city-kit-roads/road-crossroad-path.glb · 276 tris · 1×0.02×1 · 8 KB
+- [Road Curve](https://models.codelove.in/models/city-kit-roads-road-curve/) — https://models.codelove.in/library/city-kit-roads/road-curve.glb · 308 tris · 2×0.02×2 · 10 KB
+- [Road Curve Barrier](https://models.codelove.in/models/city-kit-roads-road-curve-barrier/) — https://models.codelove.in/library/city-kit-roads/road-curve-barrier.glb · 200 tris · 2×0.08×2 · 9 KB
+- [Road Curve Intersection](https://models.codelove.in/models/city-kit-roads-road-curve-intersection/) — https://models.codelove.in/library/city-kit-roads/road-curve-intersection.glb · 298 tris · 2×0.02×2 · 10 KB
+- [Road Curve Intersection Barrier](https://models.codelove.in/models/city-kit-roads-road-curve-intersection-barrier/) — https://models.codelove.in/library/city-kit-roads/road-curve-intersection-barrier.glb · 166 tris · 2×0.08×2 · 9 KB
+- [Road Curve Pavement](https://models.codelove.in/models/city-kit-roads-road-curve-pavement/) — https://models.codelove.in/library/city-kit-roads/road-curve-pavement.glb · 220 tris · 2×0.02×2 · 9 KB
+- [Road Driveway Double](https://models.codelove.in/models/city-kit-roads-road-driveway-double/) — https://models.codelove.in/library/city-kit-roads/road-driveway-double.glb · 72 tris · 1×0.02×1 · 7 KB
+- [Road Driveway Double Barrier](https://models.codelove.in/models/city-kit-roads-road-driveway-double-barrier/) — https://models.codelove.in/library/city-kit-roads/road-driveway-double-barrier.glb · 72 tris · 1×0.08×1 · 8 KB
+- [Road Driveway Single](https://models.codelove.in/models/city-kit-roads-road-driveway-single/) — https://models.codelove.in/library/city-kit-roads/road-driveway-single.glb · 60 tris · 1×0.02×1 · 7 KB
+- [Road Driveway Single Barrier](https://models.codelove.in/models/city-kit-roads-road-driveway-single-barrier/) — https://models.codelove.in/library/city-kit-roads/road-driveway-single-barrier.glb · 48 tris · 1×0.08×1 · 7 KB
+- [Road End](https://models.codelove.in/models/city-kit-roads-road-end/) — https://models.codelove.in/library/city-kit-roads/road-end.glb · 42 tris · 1×0.02×1 · 7 KB
+- [Road End Barrier](https://models.codelove.in/models/city-kit-roads-road-end-barrier/) — https://models.codelove.in/library/city-kit-roads/road-end-barrier.glb · 28 tris · 1×0.08×1 · 7 KB
+- [Road End Round](https://models.codelove.in/models/city-kit-roads-road-end-round/) — https://models.codelove.in/library/city-kit-roads/road-end-round.glb · 218 tris · 1×0.02×1 · 9 KB
+- [Road End Round Barrier](https://models.codelove.in/models/city-kit-roads-road-end-round-barrier/) — https://models.codelove.in/library/city-kit-roads/road-end-round-barrier.glb · 160 tris · 1×0.08×1 · 9 KB
+- [Road Intersection](https://models.codelove.in/models/city-kit-roads-road-intersection/) — https://models.codelove.in/library/city-kit-roads/road-intersection.glb · 84 tris · 1×0.02×1 · 7 KB
+- [Road Intersection Barrier](https://models.codelove.in/models/city-kit-roads-road-intersection-barrier/) — https://models.codelove.in/library/city-kit-roads/road-intersection-barrier.glb · 68 tris · 1×0.08×1 · 7 KB
+- [Road Intersection Line](https://models.codelove.in/models/city-kit-roads-road-intersection-line/) — https://models.codelove.in/library/city-kit-roads/road-intersection-line.glb · 76 tris · 1×0.02×1 · 7 KB
+- [Road Intersection Path](https://models.codelove.in/models/city-kit-roads-road-intersection-path/) — https://models.codelove.in/library/city-kit-roads/road-intersection-path.glb · 204 tris · 1×0.02×1 · 8 KB
+- [Road Roundabout](https://models.codelove.in/models/city-kit-roads-road-roundabout/) — https://models.codelove.in/library/city-kit-roads/road-roundabout.glb · 1,636 tris · 3×0.02×3 · 20 KB
+- [Road Roundabout Barrier](https://models.codelove.in/models/city-kit-roads-road-roundabout-barrier/) — https://models.codelove.in/library/city-kit-roads/road-roundabout-barrier.glb · 754 tris · 3×0.08×3 · 16 KB
+- [Road Side](https://models.codelove.in/models/city-kit-roads-road-side/) — https://models.codelove.in/library/city-kit-roads/road-side.glb · 44 tris · 1×0.02×1.31 · 7 KB
+- [Road Side Barrier](https://models.codelove.in/models/city-kit-roads-road-side-barrier/) — https://models.codelove.in/library/city-kit-roads/road-side-barrier.glb · 24 tris · 1.31×0.08×1 · 7 KB
+- [Road Side Entry](https://models.codelove.in/models/city-kit-roads-road-side-entry/) — https://models.codelove.in/library/city-kit-roads/road-side-entry.glb · 306 tris · 1×0.02×1.31 · 10 KB
+- [Road Side Entry Barrier](https://models.codelove.in/models/city-kit-roads-road-side-entry-barrier/) — https://models.codelove.in/library/city-kit-roads/road-side-entry-barrier.glb · 232 tris · 1.31×0.08×1 · 10 KB
+- [Road Side Exit](https://models.codelove.in/models/city-kit-roads-road-side-exit/) — https://models.codelove.in/library/city-kit-roads/road-side-exit.glb · 306 tris · 1×0.02×1.31 · 10 KB
+- [Road Side Exit Barrier](https://models.codelove.in/models/city-kit-roads-road-side-exit-barrier/) — https://models.codelove.in/library/city-kit-roads/road-side-exit-barrier.glb · 232 tris · 1.31×0.08×1 · 10 KB
+- [Road Sign Empty](https://models.codelove.in/models/city-kit-roads-road-sign-empty/) — https://models.codelove.in/library/city-kit-roads/road-sign-empty.glb · 42 tris · 0.05×0.47×0.05 · 7 KB
+- [Road Sign Empty Hanging](https://models.codelove.in/models/city-kit-roads-road-sign-empty-hanging/) — https://models.codelove.in/library/city-kit-roads/road-sign-empty-hanging.glb · 112 tris · 0.09×0.47×0.29 · 9 KB
+- [Road Sign Object Stop](https://models.codelove.in/models/city-kit-roads-road-sign-object-stop/) — https://models.codelove.in/library/city-kit-roads/road-sign-object-stop.glb · 62 tris · 0.08×0.13×0.13 · 8 KB
+- [Road Sign Object Street](https://models.codelove.in/models/city-kit-roads-road-sign-object-street/) — https://models.codelove.in/library/city-kit-roads/road-sign-object-street.glb · 56 tris · 0.04×0.06×0.19 · 7 KB
+- [Road Sign Object Warning](https://models.codelove.in/models/city-kit-roads-road-sign-object-warning/) — https://models.codelove.in/library/city-kit-roads/road-sign-object-warning.glb · 62 tris · 0.08×0.13×0.13 · 8 KB
+- [Road Sign Stop](https://models.codelove.in/models/city-kit-roads-road-sign-stop/) — https://models.codelove.in/library/city-kit-roads/road-sign-stop.glb · 104 tris · 0.08×0.49×0.14 · 8 KB
+- [Road Sign Street](https://models.codelove.in/models/city-kit-roads-road-sign-street/) — https://models.codelove.in/library/city-kit-roads/road-sign-street.glb · 154 tris · 0.2×0.47×0.2 · 9 KB
+- [Road Sign Warning](https://models.codelove.in/models/city-kit-roads-road-sign-warning/) — https://models.codelove.in/library/city-kit-roads/road-sign-warning.glb · 104 tris · 0.08×0.5×0.15 · 9 KB
+- [Road Slant](https://models.codelove.in/models/city-kit-roads-road-slant/) — https://models.codelove.in/library/city-kit-roads/road-slant.glb · 44 tris · 1×0.27×1 · 7 KB
+- [Road Slant Barrier](https://models.codelove.in/models/city-kit-roads-road-slant-barrier/) — https://models.codelove.in/library/city-kit-roads/road-slant-barrier.glb · 24 tris · 1×0.33×1 · 7 KB
+- [Road Slant Curve](https://models.codelove.in/models/city-kit-roads-road-slant-curve/) — https://models.codelove.in/library/city-kit-roads/road-slant-curve.glb · 544 tris · 2×0.52×1 · 14 KB
+- [Road Slant Curve Barrier](https://models.codelove.in/models/city-kit-roads-road-slant-curve-barrier/) — https://models.codelove.in/library/city-kit-roads/road-slant-curve-barrier.glb · 420 tris · 2×0.58×1 · 13 KB
+- [Road Slant Flat](https://models.codelove.in/models/city-kit-roads-road-slant-flat/) — https://models.codelove.in/library/city-kit-roads/road-slant-flat.glb · 44 tris · 1×0.27×1 · 7 KB
+- [Road Slant Flat Curve](https://models.codelove.in/models/city-kit-roads-road-slant-flat-curve/) — https://models.codelove.in/library/city-kit-roads/road-slant-flat-curve.glb · 648 tris · 2×0.52×1 · 16 KB
+- [Road Slant Flat High](https://models.codelove.in/models/city-kit-roads-road-slant-flat-high/) — https://models.codelove.in/library/city-kit-roads/road-slant-flat-high.glb · 44 tris · 1×0.52×1 · 7 KB
+- [Road Slant High](https://models.codelove.in/models/city-kit-roads-road-slant-high/) — https://models.codelove.in/library/city-kit-roads/road-slant-high.glb · 44 tris · 1×0.52×1 · 7 KB
+- [Road Slant High Barrier](https://models.codelove.in/models/city-kit-roads-road-slant-high-barrier/) — https://models.codelove.in/library/city-kit-roads/road-slant-high-barrier.glb · 24 tris · 1×0.58×1 · 7 KB
+- [Road Split](https://models.codelove.in/models/city-kit-roads-road-split/) — https://models.codelove.in/library/city-kit-roads/road-split.glb · 862 tris · 1×0.02×2 · 14 KB
+- [Road Split Barrier](https://models.codelove.in/models/city-kit-roads-road-split-barrier/) — https://models.codelove.in/library/city-kit-roads/road-split-barrier.glb · 512 tris · 1×0.08×2 · 13 KB
+- [Road Square](https://models.codelove.in/models/city-kit-roads-road-square/) — https://models.codelove.in/library/city-kit-roads/road-square.glb · 36 tris · 1×0.02×1 · 7 KB
+- [Road Square Barrier](https://models.codelove.in/models/city-kit-roads-road-square-barrier/) — https://models.codelove.in/library/city-kit-roads/road-square-barrier.glb · 32 tris · 1×0.08×1 · 7 KB
+- [Road Straight](https://models.codelove.in/models/city-kit-roads-road-straight/) — https://models.codelove.in/library/city-kit-roads/road-straight.glb · 44 tris · 1×0.02×1 · 7 KB
+- [Road Straight Barrier](https://models.codelove.in/models/city-kit-roads-road-straight-barrier/) — https://models.codelove.in/library/city-kit-roads/road-straight-barrier.glb · 24 tris · 1×0.08×1 · 7 KB
+- [Road Straight Barrier End](https://models.codelove.in/models/city-kit-roads-road-straight-barrier-end/) — https://models.codelove.in/library/city-kit-roads/road-straight-barrier-end.glb · 16 tris · 1×0.08×1 · 7 KB
+- [Road Straight Barrier Half](https://models.codelove.in/models/city-kit-roads-road-straight-barrier-half/) — https://models.codelove.in/library/city-kit-roads/road-straight-barrier-half.glb · 24 tris · 1×0.08×0.5 · 7 KB
+- [Road Straight Half](https://models.codelove.in/models/city-kit-roads-road-straight-half/) — https://models.codelove.in/library/city-kit-roads/road-straight-half.glb · 44 tris · 0.5×0.02×1 · 7 KB
+- [Sign Highway](https://models.codelove.in/models/city-kit-roads-sign-highway/) — https://models.codelove.in/library/city-kit-roads/sign-highway.glb · 180 tris · 0.13×0.71×1 · 10 KB
+- [Sign Highway Detailed](https://models.codelove.in/models/city-kit-roads-sign-highway-detailed/) — https://models.codelove.in/library/city-kit-roads/sign-highway-detailed.glb · 256 tris · 0.13×0.82×1 · 11 KB
+- [Sign Highway Wide](https://models.codelove.in/models/city-kit-roads-sign-highway-wide/) — https://models.codelove.in/library/city-kit-roads/sign-highway-wide.glb · 144 tris · 0.13×0.71×1 · 9 KB
+- [Tile High](https://models.codelove.in/models/city-kit-roads-tile-high/) — https://models.codelove.in/library/city-kit-roads/tile-high.glb · 12 tris · 1×0.25×1 · 6 KB
+- [Tile Low](https://models.codelove.in/models/city-kit-roads-tile-low/) — https://models.codelove.in/library/city-kit-roads/tile-low.glb · 12 tris · 1×0.02×1 · 6 KB
+- [Tile Slant](https://models.codelove.in/models/city-kit-roads-tile-slant/) — https://models.codelove.in/library/city-kit-roads/tile-slant.glb · 12 tris · 1×0.27×1 · 6 KB
+- [Tile Slant High](https://models.codelove.in/models/city-kit-roads-tile-slant-high/) — https://models.codelove.in/library/city-kit-roads/tile-slant-high.glb · 12 tris · 1×0.52×1 · 6 KB
+- [Traffic Light](https://models.codelove.in/models/city-kit-roads-traffic-light/) — https://models.codelove.in/library/city-kit-roads/traffic-light.glb · 212 tris · 0.12×0.52×0.09 · 10 KB
+- [Traffic Light Hanging](https://models.codelove.in/models/city-kit-roads-traffic-light-hanging/) — https://models.codelove.in/library/city-kit-roads/traffic-light-hanging.glb · 230 tris · 0.12×0.51×0.29 · 11 KB
+- [Traffic Light Object Hanging](https://models.codelove.in/models/city-kit-roads-traffic-light-object-hanging/) — https://models.codelove.in/library/city-kit-roads/traffic-light-object-hanging.glb · 114 tris · 0.1×0.14×0.06 · 8 KB
+- [Traffic Light Object Horizontal](https://models.codelove.in/models/city-kit-roads-traffic-light-object-horizontal/) — https://models.codelove.in/library/city-kit-roads/traffic-light-object-horizontal.glb · 118 tris · 0.1×0.06×0.14 · 8 KB
+- [Traffic Light Object Vertical](https://models.codelove.in/models/city-kit-roads-traffic-light-object-vertical/) — https://models.codelove.in/library/city-kit-roads/traffic-light-object-vertical.glb · 132 tris · 0.1×0.14×0.06 · 9 KB

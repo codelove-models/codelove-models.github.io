@@ -1,0 +1,114 @@
+# Space Station Kit — 97 free 3D models (Space)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/space-station-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/space-station-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 825 KB.
+
+## Models
+
+- [Balcony Floor](https://models.codelove.in/models/space-station-kit-balcony-floor/) — https://models.codelove.in/library/space-station-kit/balcony-floor.glb · 44 tris · 1×0.15×0.7 · 7 KB
+- [Balcony Floor Center](https://models.codelove.in/models/space-station-kit-balcony-floor-center/) — https://models.codelove.in/library/space-station-kit/balcony-floor-center.glb · 20 tris · 1×0.15×0.7 · 7 KB
+- [Balcony Floor Corner](https://models.codelove.in/models/space-station-kit-balcony-floor-corner/) — https://models.codelove.in/library/space-station-kit/balcony-floor-corner.glb · 32 tris · 0.7×0.15×0.7 · 7 KB
+- [Balcony Rail](https://models.codelove.in/models/space-station-kit-balcony-rail/) — https://models.codelove.in/library/space-station-kit/balcony-rail.glb · 214 tris · 1×0.4×0.7 · 11 KB
+- [Balcony Rail Center](https://models.codelove.in/models/space-station-kit-balcony-rail-center/) — https://models.codelove.in/library/space-station-kit/balcony-rail-center.glb · 44 tris · 1×0.4×0.2 · 7 KB
+- [Balcony Rail Corner](https://models.codelove.in/models/space-station-kit-balcony-rail-corner/) — https://models.codelove.in/library/space-station-kit/balcony-rail-corner.glb · 124 tris · 0.7×0.4×0.7 · 9 KB
+- [Bed Double](https://models.codelove.in/models/space-station-kit-bed-double/) — https://models.codelove.in/library/space-station-kit/bed-double.glb · 68 tris · 1×0.35×1 · 8 KB
+- [Bed Double Cover](https://models.codelove.in/models/space-station-kit-bed-double-cover/) — https://models.codelove.in/library/space-station-kit/bed-double-cover.glb · 44 tris · 1.1×0.15×0.5 · 7 KB
+- [Bed Single](https://models.codelove.in/models/space-station-kit-bed-single/) — https://models.codelove.in/library/space-station-kit/bed-single.glb · 56 tris · 0.5×0.35×1 · 7 KB
+- [Bed Single Cover](https://models.codelove.in/models/space-station-kit-bed-single-cover/) — https://models.codelove.in/library/space-station-kit/bed-single-cover.glb · 44 tris · 0.6×0.15×0.5 · 7 KB
+- [Chair](https://models.codelove.in/models/space-station-kit-chair/) — https://models.codelove.in/library/space-station-kit/chair.glb · 62 tris · 0.3×0.55×0.35 · 7 KB
+- [Chair Armrest](https://models.codelove.in/models/space-station-kit-chair-armrest/) — https://models.codelove.in/library/space-station-kit/chair-armrest.glb · 98 tris · 0.5×0.55×0.35 · 8 KB
+- [Chair Armrest Headrest](https://models.codelove.in/models/space-station-kit-chair-armrest-headrest/) — https://models.codelove.in/library/space-station-kit/chair-armrest-headrest.glb · 142 tris · 0.5×0.7×0.35 · 9 KB
+- [Chair Cushion](https://models.codelove.in/models/space-station-kit-chair-cushion/) — https://models.codelove.in/library/space-station-kit/chair-cushion.glb · 74 tris · 0.3×0.55×0.35 · 8 KB
+- [Chair Cushion Headrest](https://models.codelove.in/models/space-station-kit-chair-cushion-headrest/) — https://models.codelove.in/library/space-station-kit/chair-cushion-headrest.glb · 118 tris · 0.3×0.7×0.35 · 9 KB
+- [Chair Headrest](https://models.codelove.in/models/space-station-kit-chair-headrest/) — https://models.codelove.in/library/space-station-kit/chair-headrest.glb · 106 tris · 0.3×0.7×0.35 · 8 KB
+- [Computer](https://models.codelove.in/models/space-station-kit-computer/) — https://models.codelove.in/library/space-station-kit/computer.glb · 140 tris · 0.4×0.66×0.44 · 9 KB
+- [Computer Screen](https://models.codelove.in/models/space-station-kit-computer-screen/) — https://models.codelove.in/library/space-station-kit/computer-screen.glb · 198 tris · 0.8×0.66×0.44 · 10 KB
+- [Computer System](https://models.codelove.in/models/space-station-kit-computer-system/) — https://models.codelove.in/library/space-station-kit/computer-system.glb · 176 tris · 0.9×0.6×0.69 · 10 KB
+- [Computer Wide](https://models.codelove.in/models/space-station-kit-computer-wide/) — https://models.codelove.in/library/space-station-kit/computer-wide.glb · 174 tris · 0.8×0.5×0.53 · 10 KB
+- [Container](https://models.codelove.in/models/space-station-kit-container/) — https://models.codelove.in/library/space-station-kit/container.glb · 88 tris · 0.57×0.6×0.57 · 8 KB
+- [Container Flat](https://models.codelove.in/models/space-station-kit-container-flat/) — https://models.codelove.in/library/space-station-kit/container-flat.glb · 116 tris · 0.66×0.6×1.09 · 9 KB
+- [Container Flat Open](https://models.codelove.in/models/space-station-kit-container-flat-open/) — https://models.codelove.in/library/space-station-kit/container-flat-open.glb · 132 tris · 0.66×0.6×0.99 · 9 KB
+- [Container Tall](https://models.codelove.in/models/space-station-kit-container-tall/) — https://models.codelove.in/library/space-station-kit/container-tall.glb · 116 tris · 0.6×0.9×0.6 · 10 KB
+- [Container Wide](https://models.codelove.in/models/space-station-kit-container-wide/) — https://models.codelove.in/library/space-station-kit/container-wide.glb · 116 tris · 0.6×0.7×0.6 · 9 KB
+- [Display Wall](https://models.codelove.in/models/space-station-kit-display-wall/) — https://models.codelove.in/library/space-station-kit/display-wall.glb · 86 tris · 0.4×0.46×0.38 · 8 KB
+- [Display Wall Wide](https://models.codelove.in/models/space-station-kit-display-wall-wide/) — https://models.codelove.in/library/space-station-kit/display-wall-wide.glb · 96 tris · 0.6×0.46×0.38 · 8 KB
+- [Door Double](https://models.codelove.in/models/space-station-kit-door-double/) — https://models.codelove.in/library/space-station-kit/door-double.glb · 52 tris · 0.6×0.7×0.1 · 7 KB
+- [Door Double Closed](https://models.codelove.in/models/space-station-kit-door-double-closed/) — https://models.codelove.in/library/space-station-kit/door-double-closed.glb · 52 tris · 0.6×0.7×0.1 · 9 KB
+- [Door Double Half](https://models.codelove.in/models/space-station-kit-door-double-half/) — https://models.codelove.in/library/space-station-kit/door-double-half.glb · 40 tris · 0.6×0.7×0.1 · 7 KB
+- [Door Single](https://models.codelove.in/models/space-station-kit-door-single/) — https://models.codelove.in/library/space-station-kit/door-single.glb · 52 tris · 0.4×0.7×0.1 · 7 KB
+- [Door Single Closed](https://models.codelove.in/models/space-station-kit-door-single-closed/) — https://models.codelove.in/library/space-station-kit/door-single-closed.glb · 52 tris · 0.4×0.7×0.1 · 9 KB
+- [Door Single Half](https://models.codelove.in/models/space-station-kit-door-single-half/) — https://models.codelove.in/library/space-station-kit/door-single-half.glb · 40 tris · 0.4×0.7×0.1 · 7 KB
+- [Floor](https://models.codelove.in/models/space-station-kit-floor/) — https://models.codelove.in/library/space-station-kit/floor.glb · 12 tris · 1×0.3×1 · 6 KB
+- [Floor Corner](https://models.codelove.in/models/space-station-kit-floor-corner/) — https://models.codelove.in/library/space-station-kit/floor-corner.glb · 16 tris · 1×0.3×1 · 7 KB
+- [Floor Detail](https://models.codelove.in/models/space-station-kit-floor-detail/) — https://models.codelove.in/library/space-station-kit/floor-detail.glb · 44 tris · 1×0.33×1 · 7 KB
+- [Floor Panel](https://models.codelove.in/models/space-station-kit-floor-panel/) — https://models.codelove.in/library/space-station-kit/floor-panel.glb · 92 tris · 1×0.3×1 · 8 KB
+- [Floor Panel Corner](https://models.codelove.in/models/space-station-kit-floor-panel-corner/) — https://models.codelove.in/library/space-station-kit/floor-panel-corner.glb · 52 tris · 1×0.3×1 · 7 KB
+- [Floor Panel End](https://models.codelove.in/models/space-station-kit-floor-panel-end/) — https://models.codelove.in/library/space-station-kit/floor-panel-end.glb · 60 tris · 1×0.3×1 · 7 KB
+- [Floor Panel Straight](https://models.codelove.in/models/space-station-kit-floor-panel-straight/) — https://models.codelove.in/library/space-station-kit/floor-panel-straight.glb · 60 tris · 1×0.3×1 · 7 KB
+- [Pipe](https://models.codelove.in/models/space-station-kit-pipe/) — https://models.codelove.in/library/space-station-kit/pipe.glb · 20 tris · 0.25×0.5×0.28 · 7 KB
+- [Pipe Bend](https://models.codelove.in/models/space-station-kit-pipe-bend/) — https://models.codelove.in/library/space-station-kit/pipe-bend.glb · 48 tris · 0.5×0.5×0.28 · 8 KB
+- [Pipe Bend Diagonal](https://models.codelove.in/models/space-station-kit-pipe-bend-diagonal/) — https://models.codelove.in/library/space-station-kit/pipe-bend-diagonal.glb · 40 tris · 0.43×0.61×0.28 · 7 KB
+- [Pipe End](https://models.codelove.in/models/space-station-kit-pipe-end/) — https://models.codelove.in/library/space-station-kit/pipe-end.glb · 36 tris · 0.35×0.5×0.4 · 7 KB
+- [Pipe End Colored](https://models.codelove.in/models/space-station-kit-pipe-end-colored/) — https://models.codelove.in/library/space-station-kit/pipe-end-colored.glb · 36 tris · 0.35×0.5×0.4 · 7 KB
+- [Pipe Ring](https://models.codelove.in/models/space-station-kit-pipe-ring/) — https://models.codelove.in/library/space-station-kit/pipe-ring.glb · 40 tris · 0.35×0.5×0.4 · 7 KB
+- [Pipe Ring Colored](https://models.codelove.in/models/space-station-kit-pipe-ring-colored/) — https://models.codelove.in/library/space-station-kit/pipe-ring-colored.glb · 40 tris · 0.35×0.5×0.4 · 7 KB
+- [Rail](https://models.codelove.in/models/space-station-kit-rail/) — https://models.codelove.in/library/space-station-kit/rail.glb · 96 tris · 1×0.4×0.1 · 8 KB
+- [Rail Narrow](https://models.codelove.in/models/space-station-kit-rail-narrow/) — https://models.codelove.in/library/space-station-kit/rail-narrow.glb · 96 tris · 0.5×0.4×0.1 · 8 KB
+- [Rocks](https://models.codelove.in/models/space-station-kit-rocks/) — https://models.codelove.in/library/space-station-kit/rocks.glb · 80 tris · 1.11×0.35×1.02 · 8 KB
+- [Skip](https://models.codelove.in/models/space-station-kit-skip/) — https://models.codelove.in/library/space-station-kit/skip.glb · 88 tris · 0.7×0.5×1.2 · 8 KB
+- [Skip Rocks](https://models.codelove.in/models/space-station-kit-skip-rocks/) — https://models.codelove.in/library/space-station-kit/skip-rocks.glb · 138 tris · 0.7×0.7×1.2 · 9 KB
+- [Stairs](https://models.codelove.in/models/space-station-kit-stairs/) — https://models.codelove.in/library/space-station-kit/stairs.glb · 52 tris · 1×0.3×1 · 7 KB
+- [Stairs Corner](https://models.codelove.in/models/space-station-kit-stairs-corner/) — https://models.codelove.in/library/space-station-kit/stairs-corner.glb · 96 tris · 1×0.3×1 · 7 KB
+- [Stairs Corner Inner](https://models.codelove.in/models/space-station-kit-stairs-corner-inner/) — https://models.codelove.in/library/space-station-kit/stairs-corner-inner.glb · 72 tris · 1×0.3×1 · 7 KB
+- [Stairs Handrail](https://models.codelove.in/models/space-station-kit-stairs-handrail/) — https://models.codelove.in/library/space-station-kit/stairs-handrail.glb · 72 tris · 1×0.56×1 · 8 KB
+- [Stairs Handrail Single](https://models.codelove.in/models/space-station-kit-stairs-handrail-single/) — https://models.codelove.in/library/space-station-kit/stairs-handrail-single.glb · 36 tris · 0.1×0.56×1 · 7 KB
+- [Stairs Ramp](https://models.codelove.in/models/space-station-kit-stairs-ramp/) — https://models.codelove.in/library/space-station-kit/stairs-ramp.glb · 60 tris · 1×0.3×1 · 7 KB
+- [Stairs Small Center](https://models.codelove.in/models/space-station-kit-stairs-small-center/) — https://models.codelove.in/library/space-station-kit/stairs-small-center.glb · 28 tris · 1×0.3×0.3 · 7 KB
+- [Stairs Small Corner](https://models.codelove.in/models/space-station-kit-stairs-small-corner/) — https://models.codelove.in/library/space-station-kit/stairs-small-corner.glb · 52 tris · 0.3×0.3×0.3 · 7 KB
+- [Stairs Small Corner Inner](https://models.codelove.in/models/space-station-kit-stairs-small-corner-inner/) — https://models.codelove.in/library/space-station-kit/stairs-small-corner-inner.glb · 36 tris · 0.3×0.3×0.3 · 7 KB
+- [Stairs Small Edge](https://models.codelove.in/models/space-station-kit-stairs-small-edge/) — https://models.codelove.in/library/space-station-kit/stairs-small-edge.glb · 38 tris · 1×0.4×0.4 · 7 KB
+- [Stairs Small Edge Handrail](https://models.codelove.in/models/space-station-kit-stairs-small-edge-handrail/) — https://models.codelove.in/library/space-station-kit/stairs-small-edge-handrail.glb · 82 tris · 1×0.7×0.4 · 8 KB
+- [Stairs Small Edges](https://models.codelove.in/models/space-station-kit-stairs-small-edges/) — https://models.codelove.in/library/space-station-kit/stairs-small-edges.glb · 48 tris · 1×0.4×0.4 · 7 KB
+- [Stairs Small Edges Handrail](https://models.codelove.in/models/space-station-kit-stairs-small-edges-handrail/) — https://models.codelove.in/library/space-station-kit/stairs-small-edges-handrail.glb · 136 tris · 1×0.7×0.4 · 9 KB
+- [Structure](https://models.codelove.in/models/space-station-kit-structure/) — https://models.codelove.in/library/space-station-kit/structure.glb · 136 tris · 1×1×1 · 20 KB
+- [Structure Barrier](https://models.codelove.in/models/space-station-kit-structure-barrier/) — https://models.codelove.in/library/space-station-kit/structure-barrier.glb · 248 tris · 1.1×1×1.1 · 29 KB
+- [Structure Barrier High](https://models.codelove.in/models/space-station-kit-structure-barrier-high/) — https://models.codelove.in/library/space-station-kit/structure-barrier-high.glb · 164 tris · 1.1×1×1.1 · 22 KB
+- [Structure Panel](https://models.codelove.in/models/space-station-kit-structure-panel/) — https://models.codelove.in/library/space-station-kit/structure-panel.glb · 124 tris · 0.85×0.13×0.85 · 9 KB
+- [Table](https://models.codelove.in/models/space-station-kit-table/) — https://models.codelove.in/library/space-station-kit/table.glb · 104 tris · 1.1×0.4×0.6 · 8 KB
+- [Table Display](https://models.codelove.in/models/space-station-kit-table-display/) — https://models.codelove.in/library/space-station-kit/table-display.glb · 240 tris · 1.24×0.6×0.82 · 12 KB
+- [Table Display Planet](https://models.codelove.in/models/space-station-kit-table-display-planet/) — https://models.codelove.in/library/space-station-kit/table-display-planet.glb · 140 tris · 0.5×0.4×0.5 · 12 KB
+- [Table Display Small](https://models.codelove.in/models/space-station-kit-table-display-small/) — https://models.codelove.in/library/space-station-kit/table-display-small.glb · 272 tris · 0.84×0.6×0.82 · 15 KB
+- [Table Inset](https://models.codelove.in/models/space-station-kit-table-inset/) — https://models.codelove.in/library/space-station-kit/table-inset.glb · 122 tris · 1.24×0.4×0.74 · 9 KB
+- [Table Inset Small](https://models.codelove.in/models/space-station-kit-table-inset-small/) — https://models.codelove.in/library/space-station-kit/table-inset-small.glb · 122 tris · 0.84×0.4×0.74 · 9 KB
+- [Table Large](https://models.codelove.in/models/space-station-kit-table-large/) — https://models.codelove.in/library/space-station-kit/table-large.glb · 104 tris · 1.4×0.4×0.9 · 8 KB
+- [Wall](https://models.codelove.in/models/space-station-kit-wall/) — https://models.codelove.in/library/space-station-kit/wall.glb · 44 tris · 1×1×0.3 · 7 KB
+- [Wall Banner](https://models.codelove.in/models/space-station-kit-wall-banner/) — https://models.codelove.in/library/space-station-kit/wall-banner.glb · 52 tris · 1×1×0.3 · 7 KB
+- [Wall Corner](https://models.codelove.in/models/space-station-kit-wall-corner/) — https://models.codelove.in/library/space-station-kit/wall-corner.glb · 92 tris · 0.8×1×0.8 · 8 KB
+- [Wall Corner Banner](https://models.codelove.in/models/space-station-kit-wall-corner-banner/) — https://models.codelove.in/library/space-station-kit/wall-corner-banner.glb · 108 tris · 0.8×1×0.8 · 8 KB
+- [Wall Corner Round](https://models.codelove.in/models/space-station-kit-wall-corner-round/) — https://models.codelove.in/library/space-station-kit/wall-corner-round.glb · 164 tris · 0.8×1×0.8 · 10 KB
+- [Wall Corner Round Banner](https://models.codelove.in/models/space-station-kit-wall-corner-round-banner/) — https://models.codelove.in/library/space-station-kit/wall-corner-round-banner.glb · 192 tris · 0.8×1×0.8 · 10 KB
+- [Wall Detail](https://models.codelove.in/models/space-station-kit-wall-detail/) — https://models.codelove.in/library/space-station-kit/wall-detail.glb · 100 tris · 0.4×0.7×0.17 · 12 KB
+- [Wall Door](https://models.codelove.in/models/space-station-kit-wall-door/) — https://models.codelove.in/library/space-station-kit/wall-door.glb · 98 tris · 1×1×0.3 · 8 KB
+- [Wall Door Banner](https://models.codelove.in/models/space-station-kit-wall-door-banner/) — https://models.codelove.in/library/space-station-kit/wall-door-banner.glb · 110 tris · 1×1×0.3 · 8 KB
+- [Wall Door Center](https://models.codelove.in/models/space-station-kit-wall-door-center/) — https://models.codelove.in/library/space-station-kit/wall-door-center.glb · 20 tris · 1×0.3×0.3 · 7 KB
+- [Wall Door Edge](https://models.codelove.in/models/space-station-kit-wall-door-edge/) — https://models.codelove.in/library/space-station-kit/wall-door-edge.glb · 62 tris · 1×1×0.3 · 7 KB
+- [Wall Door Edge Banner](https://models.codelove.in/models/space-station-kit-wall-door-edge-banner/) — https://models.codelove.in/library/space-station-kit/wall-door-edge-banner.glb · 68 tris · 1×1×0.3 · 7 KB
+- [Wall Door Wide](https://models.codelove.in/models/space-station-kit-wall-door-wide/) — https://models.codelove.in/library/space-station-kit/wall-door-wide.glb · 98 tris · 1×1×0.3 · 8 KB
+- [Wall Door Wide Banner](https://models.codelove.in/models/space-station-kit-wall-door-wide-banner/) — https://models.codelove.in/library/space-station-kit/wall-door-wide-banner.glb · 110 tris · 1×1×0.3 · 8 KB
+- [Wall Pillar](https://models.codelove.in/models/space-station-kit-wall-pillar/) — https://models.codelove.in/library/space-station-kit/wall-pillar.glb · 88 tris · 1×1×0.5 · 8 KB
+- [Wall Pillar Banner](https://models.codelove.in/models/space-station-kit-wall-pillar-banner/) — https://models.codelove.in/library/space-station-kit/wall-pillar-banner.glb · 156 tris · 1×1×0.5 · 9 KB
+- [Wall Switch](https://models.codelove.in/models/space-station-kit-wall-switch/) — https://models.codelove.in/library/space-station-kit/wall-switch.glb · 18 tris · 0.1×0.2×0.03 · 7 KB
+- [Wall Window](https://models.codelove.in/models/space-station-kit-wall-window/) — https://models.codelove.in/library/space-station-kit/wall-window.glb · 104 tris · 1×1×0.3 · 8 KB
+- [Wall Window Banner](https://models.codelove.in/models/space-station-kit-wall-window-banner/) — https://models.codelove.in/library/space-station-kit/wall-window-banner.glb · 112 tris · 1×1×0.3 · 8 KB
+- [Wall Window Frame](https://models.codelove.in/models/space-station-kit-wall-window-frame/) — https://models.codelove.in/library/space-station-kit/wall-window-frame.glb · 36 tris · 0.6×0.4×0.1 · 7 KB
+- [Wall Window Shutters](https://models.codelove.in/models/space-station-kit-wall-window-shutters/) — https://models.codelove.in/library/space-station-kit/wall-window-shutters.glb · 44 tris · 0.6×0.4×0.1 · 7 KB

@@ -1,0 +1,225 @@
+# Dungeon Remastered — 203 free 3D models (Weapons 3, Props 200)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/dungeon-remastered/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/dungeon-remastered.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 4.9 MB.
+
+## Models
+
+### Weapons (3)
+
+- [Sword Shield](https://models.codelove.in/models/dungeon-remastered-sword-shield-gltf/) — https://models.codelove.in/library/dungeon-remastered/sword-shield-gltf.glb · 542 tris · 2.23×1.67×0.34 · 28 KB
+- [Sword Shield Broken](https://models.codelove.in/models/dungeon-remastered-sword-shield-broken-gltf/) — https://models.codelove.in/library/dungeon-remastered/sword-shield-broken-gltf.glb · 396 tris · 1.43×1.96×0.34 · 24 KB
+- [Sword Shield Gold](https://models.codelove.in/models/dungeon-remastered-sword-shield-gold-gltf/) — https://models.codelove.in/library/dungeon-remastered/sword-shield-gold-gltf.glb · 542 tris · 2.23×1.67×0.34 · 28 KB
+
+### Props (200)
+
+- [Banner Blue](https://models.codelove.in/models/dungeon-remastered-banner-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-blue-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Brown](https://models.codelove.in/models/dungeon-remastered-banner-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-brown-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Green](https://models.codelove.in/models/dungeon-remastered-banner-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-green-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A Blue](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-blue-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A Brown](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-brown-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A Green](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-green-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A Red](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-red-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A White](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-white-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern A Yellow](https://models.codelove.in/models/dungeon-remastered-banner-pattern-a-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-a-yellow-gltf.glb · 110 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B Blue](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-blue-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B Brown](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-brown-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B Green](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-green-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B Red](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-red-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B White](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-white-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern B Yellow](https://models.codelove.in/models/dungeon-remastered-banner-pattern-b-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-b-yellow-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C Blue](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-blue-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C Brown](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-brown-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C Green](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-green-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C Red](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-red-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C White](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-white-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Pattern C Yellow](https://models.codelove.in/models/dungeon-remastered-banner-pattern-c-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-pattern-c-yellow-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Red](https://models.codelove.in/models/dungeon-remastered-banner-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-red-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Shield Blue](https://models.codelove.in/models/dungeon-remastered-banner-shield-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-blue-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Shield Brown](https://models.codelove.in/models/dungeon-remastered-banner-shield-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-brown-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Shield Green](https://models.codelove.in/models/dungeon-remastered-banner-shield-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-green-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Shield Red](https://models.codelove.in/models/dungeon-remastered-banner-shield-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-red-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Shield White](https://models.codelove.in/models/dungeon-remastered-banner-shield-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-white-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Shield Yellow](https://models.codelove.in/models/dungeon-remastered-banner-shield-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-shield-yellow-gltf.glb · 639 tris · 2.23×3.2×0.37 · 30 KB
+- [Banner Thin Blue](https://models.codelove.in/models/dungeon-remastered-banner-thin-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-blue-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Thin Brown](https://models.codelove.in/models/dungeon-remastered-banner-thin-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-brown-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Thin Green](https://models.codelove.in/models/dungeon-remastered-banner-thin-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-green-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Thin Red](https://models.codelove.in/models/dungeon-remastered-banner-thin-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-red-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Thin White](https://models.codelove.in/models/dungeon-remastered-banner-thin-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-white-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Thin Yellow](https://models.codelove.in/models/dungeon-remastered-banner-thin-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-thin-yellow-gltf.glb · 83 tris · 1.1×3.17×0.36 · 17 KB
+- [Banner Triple Blue](https://models.codelove.in/models/dungeon-remastered-banner-triple-blue-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-blue-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner Triple Brown](https://models.codelove.in/models/dungeon-remastered-banner-triple-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-brown-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner Triple Green](https://models.codelove.in/models/dungeon-remastered-banner-triple-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-green-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner Triple Red](https://models.codelove.in/models/dungeon-remastered-banner-triple-red-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-red-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner Triple White](https://models.codelove.in/models/dungeon-remastered-banner-triple-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-white-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner Triple Yellow](https://models.codelove.in/models/dungeon-remastered-banner-triple-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-triple-yellow-gltf.glb · 263 tris · 3.7×3.2×0.36 · 21 KB
+- [Banner White](https://models.codelove.in/models/dungeon-remastered-banner-white-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-white-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Banner Yellow](https://models.codelove.in/models/dungeon-remastered-banner-yellow-gltf/) — https://models.codelove.in/library/dungeon-remastered/banner-yellow-gltf.glb · 97 tris · 1.5×3.2×0.31 · 17 KB
+- [Barrel Large](https://models.codelove.in/models/dungeon-remastered-barrel-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrel-large-gltf.glb · 561 tris · 1.8×2×1.8 · 24 KB
+- [Barrel Large Decorated](https://models.codelove.in/models/dungeon-remastered-barrel-large-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrel-large-decorated-gltf.glb · 1,047 tris · 1.94×2.56×1.85 · 36 KB
+- [Barrel Small](https://models.codelove.in/models/dungeon-remastered-barrel-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrel-small-gltf.glb · 207 tris · 1×1.02×1 · 20 KB
+- [Barrel Small Stack](https://models.codelove.in/models/dungeon-remastered-barrel-small-stack-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrel-small-stack-gltf.glb · 1,149 tris · 1.85×1.77×1 · 43 KB
+- [Barrier](https://models.codelove.in/models/dungeon-remastered-barrier-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrier-gltf.glb · 90 tris · 4×1.1×0.5 · 16 KB
+- [Barrier Colum Half](https://models.codelove.in/models/dungeon-remastered-barrier-colum-half-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrier-colum-half-gltf.glb · 86 tris · 2.35×1.4×0.7 · 16 KB
+- [Barrier Column](https://models.codelove.in/models/dungeon-remastered-barrier-column-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrier-column-gltf.glb · 110 tris · 4×1.4×0.7 · 17 KB
+- [Barrier Corner](https://models.codelove.in/models/dungeon-remastered-barrier-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrier-corner-gltf.glb · 128 tris · 2.4×1.4×2.4 · 18 KB
+- [Barrier Half](https://models.codelove.in/models/dungeon-remastered-barrier-half-gltf/) — https://models.codelove.in/library/dungeon-remastered/barrier-half-gltf.glb · 42 tris · 2×1.1×0.5 · 15 KB
+- [Bed Decorated](https://models.codelove.in/models/dungeon-remastered-bed-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/bed-decorated-gltf.glb · 1,410 tris · 2.61×1.7×3.06 · 44 KB
+- [Bed Floor](https://models.codelove.in/models/dungeon-remastered-bed-floor-gltf/) — https://models.codelove.in/library/dungeon-remastered/bed-floor-gltf.glb · 232 tris · 1.5×0.56×3 · 18 KB
+- [Bed Frame](https://models.codelove.in/models/dungeon-remastered-bed-frame-gltf/) — https://models.codelove.in/library/dungeon-remastered/bed-frame-gltf.glb · 304 tris · 1.5×1.06×3 · 19 KB
+- [Bottle A Brown](https://models.codelove.in/models/dungeon-remastered-bottle-a-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-a-brown-gltf.glb · 144 tris · 0.37×0.89×0.37 · 18 KB
+- [Bottle A Green](https://models.codelove.in/models/dungeon-remastered-bottle-a-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-a-green-gltf.glb · 144 tris · 0.37×0.89×0.37 · 19 KB
+- [Bottle A Labeled Brown](https://models.codelove.in/models/dungeon-remastered-bottle-a-labeled-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-a-labeled-brown-gltf.glb · 144 tris · 0.37×0.89×0.37 · 19 KB
+- [Bottle A Labeled Green](https://models.codelove.in/models/dungeon-remastered-bottle-a-labeled-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-a-labeled-green-gltf.glb · 144 tris · 0.37×0.89×0.37 · 19 KB
+- [Bottle B Brown](https://models.codelove.in/models/dungeon-remastered-bottle-b-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-b-brown-gltf.glb · 144 tris · 0.55×0.89×0.55 · 18 KB
+- [Bottle B Green](https://models.codelove.in/models/dungeon-remastered-bottle-b-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-b-green-gltf.glb · 144 tris · 0.55×0.89×0.55 · 19 KB
+- [Bottle C Brown](https://models.codelove.in/models/dungeon-remastered-bottle-c-brown-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-c-brown-gltf.glb · 144 tris · 0.74×0.91×0.74 · 18 KB
+- [Bottle C Green](https://models.codelove.in/models/dungeon-remastered-bottle-c-green-gltf/) — https://models.codelove.in/library/dungeon-remastered/bottle-c-green-gltf.glb · 144 tris · 0.74×0.91×0.74 · 19 KB
+- [Box Large](https://models.codelove.in/models/dungeon-remastered-box-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/box-large-gltf.glb · 188 tris · 1.5×1.5×1.5 · 19 KB
+- [Box Small](https://models.codelove.in/models/dungeon-remastered-box-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/box-small-gltf.glb · 188 tris · 1×1×1 · 19 KB
+- [Box Small Decorated](https://models.codelove.in/models/dungeon-remastered-box-small-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/box-small-decorated-gltf.glb · 928 tris · 1.49×1.48×1.49 · 36 KB
+- [Box Stacked](https://models.codelove.in/models/dungeon-remastered-box-stacked-gltf/) — https://models.codelove.in/library/dungeon-remastered/box-stacked-gltf.glb · 2,173 tris · 3.48×3.31×3.63 · 63 KB
+- [Candle](https://models.codelove.in/models/dungeon-remastered-candle-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-gltf.glb · 66 tris · 0.33×0.87×0.33 · 16 KB
+- [Candle Lit](https://models.codelove.in/models/dungeon-remastered-candle-lit-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-lit-gltf.glb · 120 tris · 0.33×1.05×0.33 · 17 KB
+- [Candle Melted](https://models.codelove.in/models/dungeon-remastered-candle-melted-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-melted-gltf.glb · 66 tris · 0.33×0.7×0.33 · 16 KB
+- [Candle Thin](https://models.codelove.in/models/dungeon-remastered-candle-thin-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-thin-gltf.glb · 66 tris · 0.19×0.87×0.19 · 16 KB
+- [Candle Thin Lit](https://models.codelove.in/models/dungeon-remastered-candle-thin-lit-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-thin-lit-gltf.glb · 120 tris · 0.19×1.05×0.19 · 17 KB
+- [Candle Triple](https://models.codelove.in/models/dungeon-remastered-candle-triple-gltf/) — https://models.codelove.in/library/dungeon-remastered/candle-triple-gltf.glb · 198 tris · 0.5×0.87×0.39 · 19 KB
+- [Chair](https://models.codelove.in/models/dungeon-remastered-chair-gltf/) — https://models.codelove.in/library/dungeon-remastered/chair-gltf.glb · 294 tris · 0.75×1.23×0.75 · 22 KB
+- [Chest](https://models.codelove.in/models/dungeon-remastered-chest/) — https://models.codelove.in/library/dungeon-remastered/chest.glb · 728 tris · 1.7×1.3×1.45 · 32 KB
+- [Chest Gold](https://models.codelove.in/models/dungeon-remastered-chest-gold/) — https://models.codelove.in/library/dungeon-remastered/chest-gold.glb · 1,568 tris · 1.7×1.3×1.45 · 49 KB
+- [Coin](https://models.codelove.in/models/dungeon-remastered-coin-gltf/) — https://models.codelove.in/library/dungeon-remastered/coin-gltf.glb · 80 tris · 0.36×0.13×0.36 · 16 KB
+- [Coin Stack Large](https://models.codelove.in/models/dungeon-remastered-coin-stack-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/coin-stack-large-gltf.glb · 1,776 tris · 1.44×1.16×1.66 · 50 KB
+- [Coin Stack Medium](https://models.codelove.in/models/dungeon-remastered-coin-stack-medium-gltf/) — https://models.codelove.in/library/dungeon-remastered/coin-stack-medium-gltf.glb · 968 tris · 0.99×0.64×1.03 · 34 KB
+- [Coin Stack Small](https://models.codelove.in/models/dungeon-remastered-coin-stack-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/coin-stack-small-gltf.glb · 416 tris · 0.96×0.48×0.9 · 23 KB
+- [Column](https://models.codelove.in/models/dungeon-remastered-column-gltf/) — https://models.codelove.in/library/dungeon-remastered/column-gltf.glb · 44 tris · 0.7×1.4×0.7 · 16 KB
+- [Crates Stacked](https://models.codelove.in/models/dungeon-remastered-crates-stacked-gltf/) — https://models.codelove.in/library/dungeon-remastered/crates-stacked-gltf.glb · 1,331 tris · 2.09×2.14×2.25 · 47 KB
+- [Floor Dirt Large](https://models.codelove.in/models/dungeon-remastered-floor-dirt-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-large-gltf.glb · 104 tris · 4×0.21×4 · 18 KB
+- [Floor Dirt Large Rocky](https://models.codelove.in/models/dungeon-remastered-floor-dirt-large-rocky-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-large-rocky-gltf.glb · 187 tris · 4×0.39×4 · 20 KB
+- [Floor Dirt Small A](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-a-gltf.glb · 45 tris · 2×0.19×2 · 16 KB
+- [Floor Dirt Small B](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-b-gltf.glb · 36 tris · 2×0.19×2 · 15 KB
+- [Floor Dirt Small C](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-c-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-c-gltf.glb · 33 tris · 2×0.21×2 · 15 KB
+- [Floor Dirt Small Corner](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-corner-gltf.glb · 56 tris · 2×0.15×2 · 16 KB
+- [Floor Dirt Small D](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-d-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-d-gltf.glb · 20 tris · 2×0.14×2 · 15 KB
+- [Floor Dirt Small Weeds](https://models.codelove.in/models/dungeon-remastered-floor-dirt-small-weeds-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-dirt-small-weeds-gltf.glb · 416 tris · 2×0.29×2 · 25 KB
+- [Floor Foundation Allsides](https://models.codelove.in/models/dungeon-remastered-floor-foundation-allsides-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-allsides-gltf.glb · 360 tris · 2.2×2×2.2 · 24 KB
+- [Floor Foundation Corner](https://models.codelove.in/models/dungeon-remastered-floor-foundation-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-corner-gltf.glb · 202 tris · 2.1×2×2.1 · 20 KB
+- [Floor Foundation Diagonal Corner](https://models.codelove.in/models/dungeon-remastered-floor-foundation-diagonal-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-diagonal-corner-gltf.glb · 111 tris · 2.1×2×2.1 · 17 KB
+- [Floor Foundation Front](https://models.codelove.in/models/dungeon-remastered-floor-foundation-front-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-front-gltf.glb · 123 tris · 2×2×2.1 · 17 KB
+- [Floor Foundation Front And Back](https://models.codelove.in/models/dungeon-remastered-floor-foundation-front-and-back-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-front-and-back-gltf.glb · 202 tris · 2×2×2.2 · 20 KB
+- [Floor Foundation Front And Sides](https://models.codelove.in/models/dungeon-remastered-floor-foundation-front-and-sides-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-foundation-front-and-sides-gltf.glb · 281 tris · 2.2×2×2.1 · 22 KB
+- [Floor Tile Big Grate](https://models.codelove.in/models/dungeon-remastered-floor-tile-big-grate-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-big-grate-gltf.glb · 292 tris · 4×1.05×4 · 21 KB
+- [Floor Tile Big Grate Open](https://models.codelove.in/models/dungeon-remastered-floor-tile-big-grate-open-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-big-grate-open-gltf.glb · 284 tris · 4×1.05×4 · 21 KB
+- [Floor Tile Big Spikes](https://models.codelove.in/models/dungeon-remastered-floor-tile-big-spikes/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-big-spikes.glb · 638 tris · 4×2.1×4 · 31 KB
+- [Floor Tile Extralarge Grates](https://models.codelove.in/models/dungeon-remastered-floor-tile-extralarge-grates-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-extralarge-grates-gltf.glb · 772 tris · 8×1.13×8 · 31 KB
+- [Floor Tile Extralarge Grates Open](https://models.codelove.in/models/dungeon-remastered-floor-tile-extralarge-grates-open-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-extralarge-grates-open-gltf.glb · 764 tris · 8×1.13×8 · 31 KB
+- [Floor Tile Grate](https://models.codelove.in/models/dungeon-remastered-floor-tile-grate-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-grate-gltf.glb · 142 tris · 4×1.03×2 · 17 KB
+- [Floor Tile Grate Open](https://models.codelove.in/models/dungeon-remastered-floor-tile-grate-open-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-grate-open-gltf.glb · 140 tris · 4×1.03×2 · 17 KB
+- [Floor Tile Large](https://models.codelove.in/models/dungeon-remastered-floor-tile-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-large-gltf.glb · 188 tris · 4×0.15×4 · 18 KB
+- [Floor Tile Large Rocks](https://models.codelove.in/models/dungeon-remastered-floor-tile-large-rocks-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-large-rocks-gltf.glb · 338 tris · 4×0.64×4 · 23 KB
+- [Floor Tile Small](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-gltf.glb · 66 tris · 2×0.15×2 · 16 KB
+- [Floor Tile Small Broken A](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-broken-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-broken-a-gltf.glb · 94 tris · 2×0.15×2 · 16 KB
+- [Floor Tile Small Broken B](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-broken-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-broken-b-gltf.glb · 76 tris · 2×0.15×2 · 16 KB
+- [Floor Tile Small Corner](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-corner-gltf.glb · 31 tris · 2×0.15×2 · 15 KB
+- [Floor Tile Small Decorated](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-decorated-gltf.glb · 390 tris · 2×0.77×2 · 24 KB
+- [Floor Tile Small Weeds A](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-weeds-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-weeds-a-gltf.glb · 589 tris · 2×0.29×2 · 25 KB
+- [Floor Tile Small Weeds B](https://models.codelove.in/models/dungeon-remastered-floor-tile-small-weeds-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-tile-small-weeds-b-gltf.glb · 447 tris · 2×0.29×2 · 25 KB
+- [Floor Wood Large](https://models.codelove.in/models/dungeon-remastered-floor-wood-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-wood-large-gltf.glb · 272 tris · 4×0.15×4 · 20 KB
+- [Floor Wood Large Dark](https://models.codelove.in/models/dungeon-remastered-floor-wood-large-dark-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-wood-large-dark-gltf.glb · 272 tris · 4×0.15×4 · 20 KB
+- [Floor Wood Small](https://models.codelove.in/models/dungeon-remastered-floor-wood-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-wood-small-gltf.glb · 78 tris · 2×0.15×2 · 16 KB
+- [Floor Wood Small Dark](https://models.codelove.in/models/dungeon-remastered-floor-wood-small-dark-gltf/) — https://models.codelove.in/library/dungeon-remastered/floor-wood-small-dark-gltf.glb · 78 tris · 2×0.15×2 · 16 KB
+- [Keg](https://models.codelove.in/models/dungeon-remastered-keg-gltf/) — https://models.codelove.in/library/dungeon-remastered/keg-gltf.glb · 807 tris · 1.8×2.05×2 · 30 KB
+- [Keg Decorated](https://models.codelove.in/models/dungeon-remastered-keg-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/keg-decorated-gltf.glb · 2,058 tris · 3.52×2.05×2 · 60 KB
+- [Key](https://models.codelove.in/models/dungeon-remastered-key-gltf/) — https://models.codelove.in/library/dungeon-remastered/key-gltf.glb · 160 tris · 0.9×0.4×0.14 · 18 KB
+- [Keyring](https://models.codelove.in/models/dungeon-remastered-keyring-gltf/) — https://models.codelove.in/library/dungeon-remastered/keyring-gltf.glb · 728 tris · 1.03×0.26×1.21 · 28 KB
+- [Keyring Hanging](https://models.codelove.in/models/dungeon-remastered-keyring-hanging-gltf/) — https://models.codelove.in/library/dungeon-remastered/keyring-hanging-gltf.glb · 728 tris · 0.68×1.22×0.38 · 28 KB
+- [Pillar](https://models.codelove.in/models/dungeon-remastered-pillar-gltf/) — https://models.codelove.in/library/dungeon-remastered/pillar-gltf.glb · 136 tris · 1.5×4×1.5 · 17 KB
+- [Pillar Decorated](https://models.codelove.in/models/dungeon-remastered-pillar-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/pillar-decorated-gltf.glb · 761 tris · 2.23×4×1.71 · 32 KB
+- [Plate](https://models.codelove.in/models/dungeon-remastered-plate-gltf/) — https://models.codelove.in/library/dungeon-remastered/plate-gltf.glb · 120 tris · 0.97×0.13×0.97 · 17 KB
+- [Plate Food A](https://models.codelove.in/models/dungeon-remastered-plate-food-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/plate-food-a-gltf.glb · 547 tris · 1.02×0.79×0.97 · 24 KB
+- [Plate Food B](https://models.codelove.in/models/dungeon-remastered-plate-food-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/plate-food-b-gltf.glb · 306 tris · 0.97×0.24×0.97 · 21 KB
+- [Plate Small](https://models.codelove.in/models/dungeon-remastered-plate-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/plate-small-gltf.glb · 120 tris · 0.48×0.13×0.48 · 17 KB
+- [Plate Stack](https://models.codelove.in/models/dungeon-remastered-plate-stack-gltf/) — https://models.codelove.in/library/dungeon-remastered/plate-stack-gltf.glb · 360 tris · 1×0.56×1 · 22 KB
+- [Rubble Half](https://models.codelove.in/models/dungeon-remastered-rubble-half-gltf/) — https://models.codelove.in/library/dungeon-remastered/rubble-half-gltf.glb · 390 tris · 4×3.5×3 · 23 KB
+- [Rubble Large](https://models.codelove.in/models/dungeon-remastered-rubble-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/rubble-large-gltf.glb · 788 tris · 8.13×3.5×3.18 · 31 KB
+- [Shelf Large](https://models.codelove.in/models/dungeon-remastered-shelf-large-gltf/) — https://models.codelove.in/library/dungeon-remastered/shelf-large-gltf.glb · 76 tris · 2×0.45×0.5 · 16 KB
+- [Shelf Small](https://models.codelove.in/models/dungeon-remastered-shelf-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/shelf-small-gltf.glb · 60 tris · 1×0.4×0.5 · 16 KB
+- [Shelf Small Candles](https://models.codelove.in/models/dungeon-remastered-shelf-small-candles-gltf/) — https://models.codelove.in/library/dungeon-remastered/shelf-small-candles-gltf.glb · 231 tris · 1×0.99×0.5 · 20 KB
+- [Shelves](https://models.codelove.in/models/dungeon-remastered-shelves-gltf/) — https://models.codelove.in/library/dungeon-remastered/shelves-gltf.glb · 152 tris · 2×1.95×0.5 · 18 KB
+- [Stairs](https://models.codelove.in/models/dungeon-remastered-stairs-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-gltf.glb · 358 tris · 5×5.1×4 · 24 KB
+- [Stairs Narrow](https://models.codelove.in/models/dungeon-remastered-stairs-narrow-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-narrow-gltf.glb · 358 tris · 4×5.1×4 · 24 KB
+- [Stairs Wall Left](https://models.codelove.in/models/dungeon-remastered-stairs-wall-left-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-wall-left-gltf.glb · 574 tris · 4×5.1×5 · 30 KB
+- [Stairs Wall Right](https://models.codelove.in/models/dungeon-remastered-stairs-wall-right-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-wall-right-gltf.glb · 574 tris · 4×5.1×5 · 30 KB
+- [Stairs Walled](https://models.codelove.in/models/dungeon-remastered-stairs-walled-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-walled-gltf.glb · 790 tris · 5×4×4 · 35 KB
+- [Stairs Wide](https://models.codelove.in/models/dungeon-remastered-stairs-wide-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-wide-gltf.glb · 358 tris · 7×5.1×4 · 24 KB
+- [Stairs Wood](https://models.codelove.in/models/dungeon-remastered-stairs-wood-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-wood-gltf.glb · 296 tris · 3.3×4.05×6 · 19 KB
+- [Stairs Wood Decorated](https://models.codelove.in/models/dungeon-remastered-stairs-wood-decorated-gltf/) — https://models.codelove.in/library/dungeon-remastered/stairs-wood-decorated-gltf.glb · 2,537 tris · 3.3×4.05×6 · 68 KB
+- [Stool](https://models.codelove.in/models/dungeon-remastered-stool-gltf/) — https://models.codelove.in/library/dungeon-remastered/stool-gltf.glb · 172 tris · 0.75×0.5×0.75 · 19 KB
+- [Table Long](https://models.codelove.in/models/dungeon-remastered-table-long-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-gltf.glb · 280 tris · 2×1×4 · 21 KB
+- [Table Long Broken](https://models.codelove.in/models/dungeon-remastered-table-long-broken-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-broken-gltf.glb · 550 tris · 2.41×1.27×4.41 · 29 KB
+- [Table Long Decorated A](https://models.codelove.in/models/dungeon-remastered-table-long-decorated-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-decorated-a-gltf.glb · 1,961 tris · 2.06×1.89×4 · 53 KB
+- [Table Long Decorated C](https://models.codelove.in/models/dungeon-remastered-table-long-decorated-c-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-decorated-c-gltf.glb · 3,499 tris · 2×2.77×4.03 · 93 KB
+- [Table Long Tablecloth](https://models.codelove.in/models/dungeon-remastered-table-long-tablecloth-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-tablecloth-gltf.glb · 354 tris · 2×1×4 · 22 KB
+- [Table Long Tablecloth Decorated A](https://models.codelove.in/models/dungeon-remastered-table-long-tablecloth-decorated-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-long-tablecloth-decorated-a-gltf.glb · 2,035 tris · 2.06×1.89×4 · 54 KB
+- [Table Medium](https://models.codelove.in/models/dungeon-remastered-table-medium-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-medium-gltf.glb · 256 tris · 2×1×2 · 20 KB
+- [Table Medium Broken](https://models.codelove.in/models/dungeon-remastered-table-medium-broken-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-medium-broken-gltf.glb · 247 tris · 2.28×0.97×2.43 · 22 KB
+- [Table Medium Decorated A](https://models.codelove.in/models/dungeon-remastered-table-medium-decorated-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-medium-decorated-a-gltf.glb · 1,186 tris · 2×1.89×2 · 39 KB
+- [Table Medium Tablecloth](https://models.codelove.in/models/dungeon-remastered-table-medium-tablecloth-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-medium-tablecloth-gltf.glb · 270 tris · 2×1×2 · 21 KB
+- [Table Medium Tablecloth Decorated B](https://models.codelove.in/models/dungeon-remastered-table-medium-tablecloth-decorated-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-medium-tablecloth-decorated-b-gltf.glb · 1,200 tris · 2×1.89×2 · 39 KB
+- [Table Small](https://models.codelove.in/models/dungeon-remastered-table-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-small-gltf.glb · 192 tris · 1×1×1 · 19 KB
+- [Table Small Decorated A](https://models.codelove.in/models/dungeon-remastered-table-small-decorated-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-small-decorated-a-gltf.glb · 986 tris · 1.04×1.62×1.21 · 33 KB
+- [Table Small Decorated B](https://models.codelove.in/models/dungeon-remastered-table-small-decorated-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/table-small-decorated-b-gltf.glb · 1,576 tris · 1.01×2.16×1 · 49 KB
+- [Torch](https://models.codelove.in/models/dungeon-remastered-torch-gltf/) — https://models.codelove.in/library/dungeon-remastered/torch-gltf.glb · 216 tris · 0.55×1.04×0.55 · 20 KB
+- [Torch Lit](https://models.codelove.in/models/dungeon-remastered-torch-lit-gltf/) — https://models.codelove.in/library/dungeon-remastered/torch-lit-gltf.glb · 270 tris · 0.55×1.13×0.55 · 20 KB
+- [Torch Mounted](https://models.codelove.in/models/dungeon-remastered-torch-mounted-gltf/) — https://models.codelove.in/library/dungeon-remastered/torch-mounted-gltf.glb · 278 tris · 0.55×1.06×0.62 · 21 KB
+- [Trunk Large A](https://models.codelove.in/models/dungeon-remastered-trunk-large-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-large-a-gltf.glb · 204 tris · 1.5×1×1.3 · 19 KB
+- [Trunk Large B](https://models.codelove.in/models/dungeon-remastered-trunk-large-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-large-b-gltf.glb · 204 tris · 1.5×1×1.3 · 19 KB
+- [Trunk Large C](https://models.codelove.in/models/dungeon-remastered-trunk-large-c-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-large-c-gltf.glb · 204 tris · 1.5×1×1.3 · 19 KB
+- [Trunk Medium A](https://models.codelove.in/models/dungeon-remastered-trunk-medium-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-medium-a-gltf.glb · 148 tris · 0.95×0.73×0.88 · 18 KB
+- [Trunk Medium B](https://models.codelove.in/models/dungeon-remastered-trunk-medium-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-medium-b-gltf.glb · 148 tris · 0.95×0.73×0.88 · 18 KB
+- [Trunk Medium C](https://models.codelove.in/models/dungeon-remastered-trunk-medium-c-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-medium-c-gltf.glb · 148 tris · 0.95×0.73×0.88 · 18 KB
+- [Trunk Small A](https://models.codelove.in/models/dungeon-remastered-trunk-small-a-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-small-a-gltf.glb · 204 tris · 0.68×0.48×0.58 · 19 KB
+- [Trunk Small B](https://models.codelove.in/models/dungeon-remastered-trunk-small-b-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-small-b-gltf.glb · 204 tris · 0.68×0.48×0.58 · 19 KB
+- [Trunk Small C](https://models.codelove.in/models/dungeon-remastered-trunk-small-c-gltf/) — https://models.codelove.in/library/dungeon-remastered/trunk-small-c-gltf.glb · 204 tris · 0.68×0.48×0.58 · 19 KB
+- [Wall](https://models.codelove.in/models/dungeon-remastered-wall-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-gltf.glb · 494 tris · 4×4×1 · 28 KB
+- [Wall Arched](https://models.codelove.in/models/dungeon-remastered-wall-arched-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-arched-gltf.glb · 724 tris · 4×4×1 · 35 KB
+- [Wall Archedwindow Gated](https://models.codelove.in/models/dungeon-remastered-wall-archedwindow-gated-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-archedwindow-gated-gltf.glb · 732 tris · 4×4×1 · 31 KB
+- [Wall Archedwindow Gated Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-archedwindow-gated-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-archedwindow-gated-scaffold-gltf.glb · 674 tris · 4×4×1 · 30 KB
+- [Wall Archedwindow Open](https://models.codelove.in/models/dungeon-remastered-wall-archedwindow-open-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-archedwindow-open-gltf.glb · 635 tris · 4×4×1 · 29 KB
+- [Wall Broken](https://models.codelove.in/models/dungeon-remastered-wall-broken-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-broken-gltf.glb · 784 tris · 4×4×1 · 34 KB
+- [Wall Corner](https://models.codelove.in/models/dungeon-remastered-wall-corner-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-corner-gltf.glb · 443 tris · 2.5×4×2.5 · 27 KB
+- [Wall Corner Gated](https://models.codelove.in/models/dungeon-remastered-wall-corner-gated-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-corner-gated-gltf.glb · 557 tris · 2.5×4×2.5 · 26 KB
+- [Wall Corner Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-corner-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-corner-scaffold-gltf.glb · 515 tris · 2.5×4×2.5 · 29 KB
+- [Wall Corner Small](https://models.codelove.in/models/dungeon-remastered-wall-corner-small-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-corner-small-gltf.glb · 223 tris · 1.5×4×1.5 · 21 KB
+- [Wall Cracked](https://models.codelove.in/models/dungeon-remastered-wall-cracked-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-cracked-gltf.glb · 2,010 tris · 4×4×1.26 · 63 KB
+- [Wall Crossing](https://models.codelove.in/models/dungeon-remastered-wall-crossing-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-crossing-gltf.glb · 698 tris · 4×4×4 · 33 KB
+- [Wall Doorway](https://models.codelove.in/models/dungeon-remastered-wall-doorway/) — https://models.codelove.in/library/dungeon-remastered/wall-doorway.glb · 1,068 tris · 4×4×1 · 37 KB
+- [Wall Doorway Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-doorway-scaffold/) — https://models.codelove.in/library/dungeon-remastered/wall-doorway-scaffold.glb · 1,150 tris · 4×4×1 · 39 KB
+- [Wall Doorway Sides](https://models.codelove.in/models/dungeon-remastered-wall-doorway-sides-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-doorway-sides-gltf.glb · 1,160 tris · 5×4×4 · 45 KB
+- [Wall Doorway Tsplit](https://models.codelove.in/models/dungeon-remastered-wall-doorway-tsplit-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-doorway-tsplit-gltf.glb · 1,096 tris · 8×4×2.5 · 42 KB
+- [Wall Endcap](https://models.codelove.in/models/dungeon-remastered-wall-endcap-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-endcap-gltf.glb · 222 tris · 1.07×4×1 · 21 KB
+- [Wall Gated](https://models.codelove.in/models/dungeon-remastered-wall-gated-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-gated-gltf.glb · 449 tris · 4×4×1 · 23 KB
+- [Wall Half](https://models.codelove.in/models/dungeon-remastered-wall-half-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-half-gltf.glb · 272 tris · 2×4×1 · 22 KB
+- [Wall Half Endcap](https://models.codelove.in/models/dungeon-remastered-wall-half-endcap-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-half-endcap-gltf.glb · 268 tris · 2×4×1 · 22 KB
+- [Wall Half Endcap Sloped](https://models.codelove.in/models/dungeon-remastered-wall-half-endcap-sloped-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-half-endcap-sloped-gltf.glb · 230 tris · 2×4×1 · 21 KB
+- [Wall Open Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-open-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-open-scaffold-gltf.glb · 196 tris · 4×4×1 · 19 KB
+- [Wall Pillar](https://models.codelove.in/models/dungeon-remastered-wall-pillar-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-pillar-gltf.glb · 540 tris · 4×4×1.5 · 29 KB
+- [Wall Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-scaffold-gltf.glb · 584 tris · 4×4×1 · 31 KB
+- [Wall Shelves](https://models.codelove.in/models/dungeon-remastered-wall-shelves-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-shelves-gltf.glb · 1,582 tris · 4×4×1.37 · 53 KB
+- [Wall Sloped](https://models.codelove.in/models/dungeon-remastered-wall-sloped-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-sloped-gltf.glb · 257 tris · 4×4×1 · 22 KB
+- [Wall Tsplit](https://models.codelove.in/models/dungeon-remastered-wall-tsplit-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-tsplit-gltf.glb · 596 tris · 4×4×2.5 · 31 KB
+- [Wall Tsplit Sloped](https://models.codelove.in/models/dungeon-remastered-wall-tsplit-sloped-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-tsplit-sloped-gltf.glb · 555 tris · 4×4×2.5 · 30 KB
+- [Wall Window Closed](https://models.codelove.in/models/dungeon-remastered-wall-window-closed-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-window-closed-gltf.glb · 664 tris · 4×4×1 · 31 KB
+- [Wall Window Closed Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-window-closed-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-window-closed-scaffold-gltf.glb · 736 tris · 4×4×1 · 33 KB
+- [Wall Window Open](https://models.codelove.in/models/dungeon-remastered-wall-window-open-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-window-open-gltf.glb · 604 tris · 4×4×1 · 29 KB
+- [Wall Window Open Scaffold](https://models.codelove.in/models/dungeon-remastered-wall-window-open-scaffold-gltf/) — https://models.codelove.in/library/dungeon-remastered/wall-window-open-scaffold-gltf.glb · 676 tris · 4×4×1 · 31 KB

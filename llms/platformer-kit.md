@@ -1,0 +1,175 @@
+# Platformer Kit — 153 free 3D models (Trees 6, Props 147)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/platformer-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/platformer-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.8 MB.
+
+## Models
+
+### Trees (6)
+
+- [Tree](https://models.codelove.in/models/platformer-kit-tree/) — https://models.codelove.in/library/platformer-kit/tree.glb · 408 tris · 1.09×1.93×1.11 · 18 KB
+- [Tree Pine](https://models.codelove.in/models/platformer-kit-tree-pine/) — https://models.codelove.in/library/platformer-kit/tree-pine.glb · 204 tris · 0.95×2×0.95 · 12 KB
+- [Tree Pine Small](https://models.codelove.in/models/platformer-kit-tree-pine-small/) — https://models.codelove.in/library/platformer-kit/tree-pine-small.glb · 204 tris · 0.66×1.4×0.66 · 12 KB
+- [Tree Pine Snow](https://models.codelove.in/models/platformer-kit-tree-pine-snow/) — https://models.codelove.in/library/platformer-kit/tree-pine-snow.glb · 204 tris · 0.95×2×0.95 · 12 KB
+- [Tree Pine Snow Small](https://models.codelove.in/models/platformer-kit-tree-pine-snow-small/) — https://models.codelove.in/library/platformer-kit/tree-pine-snow-small.glb · 204 tris · 0.66×1.4×0.66 · 12 KB
+- [Tree Snow](https://models.codelove.in/models/platformer-kit-tree-snow/) — https://models.codelove.in/library/platformer-kit/tree-snow.glb · 408 tris · 1.09×1.93×1.11 · 18 KB
+
+### Props (147)
+
+- [Arrow](https://models.codelove.in/models/platformer-kit-arrow/) — https://models.codelove.in/library/platformer-kit/arrow.glb · 64 tris · 0.46×0.6×0.14 · 8 KB
+- [Arrows](https://models.codelove.in/models/platformer-kit-arrows/) — https://models.codelove.in/library/platformer-kit/arrows.glb · 88 tris · 0.5×0.9×0.14 · 9 KB
+- [Barrel](https://models.codelove.in/models/platformer-kit-barrel/) — https://models.codelove.in/library/platformer-kit/barrel.glb · 148 tris · 0.52×0.48×0.52 · 10 KB
+- [Block Grass](https://models.codelove.in/models/platformer-kit-block-grass/) — https://models.codelove.in/library/platformer-kit/block-grass.glb · 92 tris · 1.08×1×1.08 · 9 KB
+- [Block Grass Corner](https://models.codelove.in/models/platformer-kit-block-grass-corner/) — https://models.codelove.in/library/platformer-kit/block-grass-corner.glb · 84 tris · 1.05×1×1.05 · 9 KB
+- [Block Grass Corner Low](https://models.codelove.in/models/platformer-kit-block-grass-corner-low/) — https://models.codelove.in/library/platformer-kit/block-grass-corner-low.glb · 84 tris · 1.05×0.5×1.05 · 9 KB
+- [Block Grass Corner Overhang](https://models.codelove.in/models/platformer-kit-block-grass-corner-overhang/) — https://models.codelove.in/library/platformer-kit/block-grass-corner-overhang.glb · 110 tris · 1.05×1×1.05 · 9 KB
+- [Block Grass Corner Overhang Low](https://models.codelove.in/models/platformer-kit-block-grass-corner-overhang-low/) — https://models.codelove.in/library/platformer-kit/block-grass-corner-overhang-low.glb · 110 tris · 1.05×0.5×1.05 · 10 KB
+- [Block Grass Curve](https://models.codelove.in/models/platformer-kit-block-grass-curve/) — https://models.codelove.in/library/platformer-kit/block-grass-curve.glb · 204 tris · 2×1×1 · 11 KB
+- [Block Grass Curve Half](https://models.codelove.in/models/platformer-kit-block-grass-curve-half/) — https://models.codelove.in/library/platformer-kit/block-grass-curve-half.glb · 112 tris · 1×1×1 · 9 KB
+- [Block Grass Curve Low](https://models.codelove.in/models/platformer-kit-block-grass-curve-low/) — https://models.codelove.in/library/platformer-kit/block-grass-curve-low.glb · 156 tris · 2×0.5×1 · 10 KB
+- [Block Grass Edge](https://models.codelove.in/models/platformer-kit-block-grass-edge/) — https://models.codelove.in/library/platformer-kit/block-grass-edge.glb · 112 tris · 1.08×1×1.08 · 10 KB
+- [Block Grass Hexagon](https://models.codelove.in/models/platformer-kit-block-grass-hexagon/) — https://models.codelove.in/library/platformer-kit/block-grass-hexagon.glb · 44 tris · 1.1×1×1.27 · 8 KB
+- [Block Grass Large](https://models.codelove.in/models/platformer-kit-block-grass-large/) — https://models.codelove.in/library/platformer-kit/block-grass-large.glb · 92 tris · 2.08×1×2.08 · 9 KB
+- [Block Grass Large Slope](https://models.codelove.in/models/platformer-kit-block-grass-large-slope/) — https://models.codelove.in/library/platformer-kit/block-grass-large-slope.glb · 102 tris · 2.08×0.76×2.01 · 9 KB
+- [Block Grass Large Slope Narrow](https://models.codelove.in/models/platformer-kit-block-grass-large-slope-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-large-slope-narrow.glb · 102 tris · 1.08×0.76×2.01 · 9 KB
+- [Block Grass Large Slope Steep](https://models.codelove.in/models/platformer-kit-block-grass-large-slope-steep/) — https://models.codelove.in/library/platformer-kit/block-grass-large-slope-steep.glb · 102 tris · 2.08×1.22×1.86 · 9 KB
+- [Block Grass Large Slope Steep Narrow](https://models.codelove.in/models/platformer-kit-block-grass-large-slope-steep-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-large-slope-steep-narrow.glb · 102 tris · 1.08×1.22×1.86 · 9 KB
+- [Block Grass Large Tall](https://models.codelove.in/models/platformer-kit-block-grass-large-tall/) — https://models.codelove.in/library/platformer-kit/block-grass-large-tall.glb · 92 tris · 2.08×2×2.08 · 9 KB
+- [Block Grass Long](https://models.codelove.in/models/platformer-kit-block-grass-long/) — https://models.codelove.in/library/platformer-kit/block-grass-long.glb · 92 tris · 2.08×1×1.08 · 9 KB
+- [Block Grass Low](https://models.codelove.in/models/platformer-kit-block-grass-low/) — https://models.codelove.in/library/platformer-kit/block-grass-low.glb · 92 tris · 1.08×0.5×1.08 · 9 KB
+- [Block Grass Low Hexagon](https://models.codelove.in/models/platformer-kit-block-grass-low-hexagon/) — https://models.codelove.in/library/platformer-kit/block-grass-low-hexagon.glb · 44 tris · 1.1×0.5×1.27 · 8 KB
+- [Block Grass Low Large](https://models.codelove.in/models/platformer-kit-block-grass-low-large/) — https://models.codelove.in/library/platformer-kit/block-grass-low-large.glb · 92 tris · 2.08×0.5×2.08 · 9 KB
+- [Block Grass Low Long](https://models.codelove.in/models/platformer-kit-block-grass-low-long/) — https://models.codelove.in/library/platformer-kit/block-grass-low-long.glb · 92 tris · 2.08×0.5×1.08 · 9 KB
+- [Block Grass Low Narrow](https://models.codelove.in/models/platformer-kit-block-grass-low-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-low-narrow.glb · 92 tris · 0.78×0.5×0.78 · 9 KB
+- [Block Grass Narrow](https://models.codelove.in/models/platformer-kit-block-grass-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-narrow.glb · 92 tris · 0.78×1×0.78 · 9 KB
+- [Block Grass Overhang Corner](https://models.codelove.in/models/platformer-kit-block-grass-overhang-corner/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-corner.glb · 120 tris · 1.08×1×1.08 · 10 KB
+- [Block Grass Overhang Edge](https://models.codelove.in/models/platformer-kit-block-grass-overhang-edge/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-edge.glb · 140 tris · 1.08×1×1.08 · 10 KB
+- [Block Grass Overhang Hexagon](https://models.codelove.in/models/platformer-kit-block-grass-overhang-hexagon/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-hexagon.glb · 62 tris · 1.1×1×1.27 · 8 KB
+- [Block Grass Overhang Large](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large.glb · 144 tris · 2.08×1×2.08 · 10 KB
+- [Block Grass Overhang Large Slope](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large-slope/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large-slope.glb · 154 tris · 2.08×0.91×2.08 · 10 KB
+- [Block Grass Overhang Large Slope Narrow](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large-slope-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large-slope-narrow.glb · 142 tris · 1.08×0.91×2.08 · 10 KB
+- [Block Grass Overhang Large Slope Steep](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large-slope-steep/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large-slope-steep.glb · 154 tris · 2.08×1.37×1.97 · 10 KB
+- [Block Grass Overhang Large Slope Steep Narrow](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large-slope-steep-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large-slope-steep-narrow.glb · 142 tris · 1.08×1.37×1.97 · 10 KB
+- [Block Grass Overhang Large Tall](https://models.codelove.in/models/platformer-kit-block-grass-overhang-large-tall/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-large-tall.glb · 144 tris · 2.08×2×2.08 · 10 KB
+- [Block Grass Overhang Long](https://models.codelove.in/models/platformer-kit-block-grass-overhang-long/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-long.glb · 132 tris · 2.08×1×1.08 · 10 KB
+- [Block Grass Overhang Low](https://models.codelove.in/models/platformer-kit-block-grass-overhang-low/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-low.glb · 120 tris · 1.08×0.5×1.08 · 10 KB
+- [Block Grass Overhang Low Hexagon](https://models.codelove.in/models/platformer-kit-block-grass-overhang-low-hexagon/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-low-hexagon.glb · 62 tris · 1.1×0.5×1.27 · 8 KB
+- [Block Grass Overhang Low Large](https://models.codelove.in/models/platformer-kit-block-grass-overhang-low-large/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-low-large.glb · 144 tris · 2.08×0.5×2.08 · 10 KB
+- [Block Grass Overhang Low Long](https://models.codelove.in/models/platformer-kit-block-grass-overhang-low-long/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-low-long.glb · 132 tris · 2.08×0.5×1.08 · 10 KB
+- [Block Grass Overhang Low Narrow](https://models.codelove.in/models/platformer-kit-block-grass-overhang-low-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-low-narrow.glb · 120 tris · 0.78×0.5×0.78 · 10 KB
+- [Block Grass Overhang Narrow](https://models.codelove.in/models/platformer-kit-block-grass-overhang-narrow/) — https://models.codelove.in/library/platformer-kit/block-grass-overhang-narrow.glb · 120 tris · 0.78×1×0.78 · 10 KB
+- [Block Moving](https://models.codelove.in/models/platformer-kit-block-moving/) — https://models.codelove.in/library/platformer-kit/block-moving.glb · 136 tris · 1×0.3×1 · 9 KB
+- [Block Moving Blue](https://models.codelove.in/models/platformer-kit-block-moving-blue/) — https://models.codelove.in/library/platformer-kit/block-moving-blue.glb · 256 tris · 1×0.5×1 · 11 KB
+- [Block Moving Large](https://models.codelove.in/models/platformer-kit-block-moving-large/) — https://models.codelove.in/library/platformer-kit/block-moving-large.glb · 136 tris · 1×0.5×1 · 9 KB
+- [Block Snow](https://models.codelove.in/models/platformer-kit-block-snow/) — https://models.codelove.in/library/platformer-kit/block-snow.glb · 92 tris · 1.08×1×1.08 · 9 KB
+- [Block Snow Corner](https://models.codelove.in/models/platformer-kit-block-snow-corner/) — https://models.codelove.in/library/platformer-kit/block-snow-corner.glb · 84 tris · 1.05×1×1.05 · 9 KB
+- [Block Snow Corner Low](https://models.codelove.in/models/platformer-kit-block-snow-corner-low/) — https://models.codelove.in/library/platformer-kit/block-snow-corner-low.glb · 84 tris · 1.05×0.5×1.05 · 9 KB
+- [Block Snow Corner Overhang](https://models.codelove.in/models/platformer-kit-block-snow-corner-overhang/) — https://models.codelove.in/library/platformer-kit/block-snow-corner-overhang.glb · 104 tris · 1.05×1×1.05 · 9 KB
+- [Block Snow Corner Overhang Low](https://models.codelove.in/models/platformer-kit-block-snow-corner-overhang-low/) — https://models.codelove.in/library/platformer-kit/block-snow-corner-overhang-low.glb · 104 tris · 1.05×0.5×1.05 · 9 KB
+- [Block Snow Curve](https://models.codelove.in/models/platformer-kit-block-snow-curve/) — https://models.codelove.in/library/platformer-kit/block-snow-curve.glb · 204 tris · 2×1×1 · 11 KB
+- [Block Snow Curve Half](https://models.codelove.in/models/platformer-kit-block-snow-curve-half/) — https://models.codelove.in/library/platformer-kit/block-snow-curve-half.glb · 112 tris · 1×1×1 · 9 KB
+- [Block Snow Curve Low](https://models.codelove.in/models/platformer-kit-block-snow-curve-low/) — https://models.codelove.in/library/platformer-kit/block-snow-curve-low.glb · 156 tris · 2×0.5×1 · 10 KB
+- [Block Snow Edge](https://models.codelove.in/models/platformer-kit-block-snow-edge/) — https://models.codelove.in/library/platformer-kit/block-snow-edge.glb · 112 tris · 1.08×1×1.08 · 10 KB
+- [Block Snow Hexagon](https://models.codelove.in/models/platformer-kit-block-snow-hexagon/) — https://models.codelove.in/library/platformer-kit/block-snow-hexagon.glb · 44 tris · 1.1×1×1.27 · 8 KB
+- [Block Snow Large](https://models.codelove.in/models/platformer-kit-block-snow-large/) — https://models.codelove.in/library/platformer-kit/block-snow-large.glb · 92 tris · 2.08×1×2.08 · 9 KB
+- [Block Snow Large Slope](https://models.codelove.in/models/platformer-kit-block-snow-large-slope/) — https://models.codelove.in/library/platformer-kit/block-snow-large-slope.glb · 102 tris · 2.08×0.76×2.01 · 9 KB
+- [Block Snow Large Slope Narrow](https://models.codelove.in/models/platformer-kit-block-snow-large-slope-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-large-slope-narrow.glb · 102 tris · 1.08×0.76×2.01 · 9 KB
+- [Block Snow Large Slope Steep](https://models.codelove.in/models/platformer-kit-block-snow-large-slope-steep/) — https://models.codelove.in/library/platformer-kit/block-snow-large-slope-steep.glb · 102 tris · 2.08×1.22×1.86 · 9 KB
+- [Block Snow Large Slope Steep Narrow](https://models.codelove.in/models/platformer-kit-block-snow-large-slope-steep-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-large-slope-steep-narrow.glb · 102 tris · 1.08×1.22×1.86 · 9 KB
+- [Block Snow Large Tall](https://models.codelove.in/models/platformer-kit-block-snow-large-tall/) — https://models.codelove.in/library/platformer-kit/block-snow-large-tall.glb · 92 tris · 2.08×2×2.08 · 9 KB
+- [Block Snow Long](https://models.codelove.in/models/platformer-kit-block-snow-long/) — https://models.codelove.in/library/platformer-kit/block-snow-long.glb · 92 tris · 2.08×1×1.08 · 9 KB
+- [Block Snow Low](https://models.codelove.in/models/platformer-kit-block-snow-low/) — https://models.codelove.in/library/platformer-kit/block-snow-low.glb · 92 tris · 1.08×0.5×1.08 · 9 KB
+- [Block Snow Low Hexagon](https://models.codelove.in/models/platformer-kit-block-snow-low-hexagon/) — https://models.codelove.in/library/platformer-kit/block-snow-low-hexagon.glb · 44 tris · 1.1×0.5×1.27 · 8 KB
+- [Block Snow Low Large](https://models.codelove.in/models/platformer-kit-block-snow-low-large/) — https://models.codelove.in/library/platformer-kit/block-snow-low-large.glb · 92 tris · 2.08×0.5×2.08 · 9 KB
+- [Block Snow Low Long](https://models.codelove.in/models/platformer-kit-block-snow-low-long/) — https://models.codelove.in/library/platformer-kit/block-snow-low-long.glb · 92 tris · 2.08×0.5×1.08 · 9 KB
+- [Block Snow Low Narrow](https://models.codelove.in/models/platformer-kit-block-snow-low-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-low-narrow.glb · 92 tris · 0.78×0.5×0.78 · 9 KB
+- [Block Snow Narrow](https://models.codelove.in/models/platformer-kit-block-snow-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-narrow.glb · 92 tris · 0.78×1×0.78 · 9 KB
+- [Block Snow Overhang Corner](https://models.codelove.in/models/platformer-kit-block-snow-overhang-corner/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-corner.glb · 112 tris · 1.08×1×1.08 · 9 KB
+- [Block Snow Overhang Edge](https://models.codelove.in/models/platformer-kit-block-snow-overhang-edge/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-edge.glb · 132 tris · 1.08×1×1.08 · 10 KB
+- [Block Snow Overhang Hexagon](https://models.codelove.in/models/platformer-kit-block-snow-overhang-hexagon/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-hexagon.glb · 64 tris · 1.1×1×1.27 · 8 KB
+- [Block Snow Overhang Large](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large.glb · 152 tris · 2.08×1×2.08 · 10 KB
+- [Block Snow Overhang Large Slope](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large-slope/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large-slope.glb · 162 tris · 2.08×0.91×2.08 · 10 KB
+- [Block Snow Overhang Large Slope Narrow](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large-slope-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large-slope-narrow.glb · 132 tris · 1.08×0.78×2.01 · 10 KB
+- [Block Snow Overhang Large Slope Steep](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large-slope-steep/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large-slope-steep.glb · 162 tris · 2.08×1.37×1.97 · 10 KB
+- [Block Snow Overhang Large Slope Steep Narrow](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large-slope-steep-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large-slope-steep-narrow.glb · 132 tris · 1.08×1.22×1.86 · 10 KB
+- [Block Snow Overhang Large Tall](https://models.codelove.in/models/platformer-kit-block-snow-overhang-large-tall/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-large-tall.glb · 152 tris · 2.08×2×2.08 · 10 KB
+- [Block Snow Overhang Long](https://models.codelove.in/models/platformer-kit-block-snow-overhang-long/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-long.glb · 122 tris · 2.08×1×1.08 · 10 KB
+- [Block Snow Overhang Low](https://models.codelove.in/models/platformer-kit-block-snow-overhang-low/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-low.glb · 112 tris · 1.08×0.5×1.08 · 9 KB
+- [Block Snow Overhang Low Hexagon](https://models.codelove.in/models/platformer-kit-block-snow-overhang-low-hexagon/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-low-hexagon.glb · 64 tris · 1.1×0.5×1.27 · 8 KB
+- [Block Snow Overhang Low Large](https://models.codelove.in/models/platformer-kit-block-snow-overhang-low-large/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-low-large.glb · 152 tris · 2.08×0.5×2.08 · 10 KB
+- [Block Snow Overhang Low Long](https://models.codelove.in/models/platformer-kit-block-snow-overhang-low-long/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-low-long.glb · 122 tris · 2.08×0.5×1.08 · 10 KB
+- [Block Snow Overhang Low Narrow](https://models.codelove.in/models/platformer-kit-block-snow-overhang-low-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-low-narrow.glb · 104 tris · 0.78×0.5×0.78 · 9 KB
+- [Block Snow Overhang Narrow](https://models.codelove.in/models/platformer-kit-block-snow-overhang-narrow/) — https://models.codelove.in/library/platformer-kit/block-snow-overhang-narrow.glb · 104 tris · 0.78×1×0.78 · 9 KB
+- [Bomb](https://models.codelove.in/models/platformer-kit-bomb/) — https://models.codelove.in/library/platformer-kit/bomb.glb · 148 tris · 0.49×0.54×0.49 · 11 KB
+- [Brick](https://models.codelove.in/models/platformer-kit-brick/) — https://models.codelove.in/library/platformer-kit/brick.glb · 188 tris · 0.5×0.5×0.5 · 12 KB
+- [Button Round](https://models.codelove.in/models/platformer-kit-button-round/) — https://models.codelove.in/library/platformer-kit/button-round.glb · 92 tris · 0.58×0.18×0.5 · 13 KB · 3 animations inside
+- [Button Square](https://models.codelove.in/models/platformer-kit-button-square/) — https://models.codelove.in/library/platformer-kit/button-square.glb · 84 tris · 0.6×0.2×0.6 · 13 KB · 3 animations inside
+- [Character Oobi](https://models.codelove.in/models/platformer-kit-character-oobi/) — https://models.codelove.in/library/platformer-kit/character-oobi.glb · 1,096 tris · 0.87×0.91×0.6 · 68 KB · rigged · 25 animations inside
+- [Character Oodi](https://models.codelove.in/models/platformer-kit-character-oodi/) — https://models.codelove.in/library/platformer-kit/character-oodi.glb · 938 tris · 0.87×0.91×0.61 · 62 KB · rigged · 25 animations inside
+- [Character Ooli](https://models.codelove.in/models/platformer-kit-character-ooli/) — https://models.codelove.in/library/platformer-kit/character-ooli.glb · 918 tris · 0.87×0.91×0.6 · 63 KB · rigged · 25 animations inside
+- [Character Oopi](https://models.codelove.in/models/platformer-kit-character-oopi/) — https://models.codelove.in/library/platformer-kit/character-oopi.glb · 938 tris · 0.87×0.91×0.6 · 64 KB · rigged · 25 animations inside
+- [Character Oozi](https://models.codelove.in/models/platformer-kit-character-oozi/) — https://models.codelove.in/library/platformer-kit/character-oozi.glb · 938 tris · 0.87×0.91×0.61 · 65 KB · rigged · 25 animations inside
+- [Chest](https://models.codelove.in/models/platformer-kit-chest/) — https://models.codelove.in/library/platformer-kit/chest.glb · 232 tris · 0.5×0.45×0.5 · 16 KB · 3 animations inside
+- [Coin Bronze](https://models.codelove.in/models/platformer-kit-coin-bronze/) — https://models.codelove.in/library/platformer-kit/coin-bronze.glb · 124 tris · 0.4×0.4×0.17 · 9 KB
+- [Coin Gold](https://models.codelove.in/models/platformer-kit-coin-gold/) — https://models.codelove.in/library/platformer-kit/coin-gold.glb · 124 tris · 0.4×0.4×0.17 · 9 KB
+- [Coin Silver](https://models.codelove.in/models/platformer-kit-coin-silver/) — https://models.codelove.in/library/platformer-kit/coin-silver.glb · 124 tris · 0.4×0.4×0.17 · 9 KB
+- [Conveyor Belt](https://models.codelove.in/models/platformer-kit-conveyor-belt/) — https://models.codelove.in/library/platformer-kit/conveyor-belt.glb · 364 tris · 1×0.35×1 · 15 KB
+- [Crate](https://models.codelove.in/models/platformer-kit-crate/) — https://models.codelove.in/library/platformer-kit/crate.glb · 156 tris · 0.5×0.5×0.5 · 9 KB
+- [Crate Item](https://models.codelove.in/models/platformer-kit-crate-item/) — https://models.codelove.in/library/platformer-kit/crate-item.glb · 140 tris · 0.5×0.5×0.5 · 10 KB
+- [Crate Item Strong](https://models.codelove.in/models/platformer-kit-crate-item-strong/) — https://models.codelove.in/library/platformer-kit/crate-item-strong.glb · 380 tris · 0.6×0.6×0.6 · 14 KB
+- [Crate Strong](https://models.codelove.in/models/platformer-kit-crate-strong/) — https://models.codelove.in/library/platformer-kit/crate-strong.glb · 428 tris · 0.6×0.6×0.6 · 15 KB
+- [Door Large Open](https://models.codelove.in/models/platformer-kit-door-large-open/) — https://models.codelove.in/library/platformer-kit/door-large-open.glb · 176 tris · 1×1×0.3 · 10 KB
+- [Door Open](https://models.codelove.in/models/platformer-kit-door-open/) — https://models.codelove.in/library/platformer-kit/door-open.glb · 68 tris · 0.6×1×0.2 · 8 KB
+- [Door Rotate](https://models.codelove.in/models/platformer-kit-door-rotate/) — https://models.codelove.in/library/platformer-kit/door-rotate.glb · 401 tris · 0.6×1×0.2 · 18 KB · 3 animations inside
+- [Door Rotate Large](https://models.codelove.in/models/platformer-kit-door-rotate-large/) — https://models.codelove.in/library/platformer-kit/door-rotate-large.glb · 380 tris · 1×1×0.3 · 19 KB · 3 animations inside
+- [Fence Broken](https://models.codelove.in/models/platformer-kit-fence-broken/) — https://models.codelove.in/library/platformer-kit/fence-broken.glb · 216 tris · 1.03×0.4×0.14 · 10 KB
+- [Fence Corner](https://models.codelove.in/models/platformer-kit-fence-corner/) — https://models.codelove.in/library/platformer-kit/fence-corner.glb · 92 tris · 0.99×0.4×0.99 · 9 KB
+- [Fence Corner Curved](https://models.codelove.in/models/platformer-kit-fence-corner-curved/) — https://models.codelove.in/library/platformer-kit/fence-corner-curved.glb · 160 tris · 0.99×0.4×0.99 · 10 KB
+- [Fence Low Broken](https://models.codelove.in/models/platformer-kit-fence-low-broken/) — https://models.codelove.in/library/platformer-kit/fence-low-broken.glb · 100 tris · 1×0.3×0.2 · 9 KB
+- [Fence Low Corner](https://models.codelove.in/models/platformer-kit-fence-low-corner/) — https://models.codelove.in/library/platformer-kit/fence-low-corner.glb · 116 tris · 1×0.3×1 · 9 KB
+- [Fence Low Corner Curved](https://models.codelove.in/models/platformer-kit-fence-low-corner-curved/) — https://models.codelove.in/library/platformer-kit/fence-low-corner-curved.glb · 216 tris · 1×0.3×1 · 12 KB
+- [Fence Low Straight](https://models.codelove.in/models/platformer-kit-fence-low-straight/) — https://models.codelove.in/library/platformer-kit/fence-low-straight.glb · 72 tris · 1×0.3×0.2 · 8 KB
+- [Fence Rope](https://models.codelove.in/models/platformer-kit-fence-rope/) — https://models.codelove.in/library/platformer-kit/fence-rope.glb · 180 tris · 0.95×0.3×0.21 · 11 KB
+- [Fence Straight](https://models.codelove.in/models/platformer-kit-fence-straight/) — https://models.codelove.in/library/platformer-kit/fence-straight.glb · 48 tris · 1×0.4×0.14 · 8 KB
+- [Flag](https://models.codelove.in/models/platformer-kit-flag/) — https://models.codelove.in/library/platformer-kit/flag.glb · 110 tris · 0.42×0.9×0.11 · 9 KB
+- [Flowers](https://models.codelove.in/models/platformer-kit-flowers/) — https://models.codelove.in/library/platformer-kit/flowers.glb · 264 tris · 0.78×0.14×0.79 · 13 KB
+- [Flowers Tall](https://models.codelove.in/models/platformer-kit-flowers-tall/) — https://models.codelove.in/library/platformer-kit/flowers-tall.glb · 398 tris · 0.55×0.46×0.62 · 17 KB
+- [Grass](https://models.codelove.in/models/platformer-kit-grass/) — https://models.codelove.in/library/platformer-kit/grass.glb · 72 tris · 0.52×0.31×0.54 · 9 KB
+- [Heart](https://models.codelove.in/models/platformer-kit-heart/) — https://models.codelove.in/library/platformer-kit/heart.glb · 44 tris · 0.41×0.38×0.12 · 8 KB
+- [Hedge](https://models.codelove.in/models/platformer-kit-hedge/) — https://models.codelove.in/library/platformer-kit/hedge.glb · 72 tris · 1×0.4×0.3 · 9 KB
+- [Hedge Corner](https://models.codelove.in/models/platformer-kit-hedge-corner/) — https://models.codelove.in/library/platformer-kit/hedge-corner.glb · 104 tris · 1×0.4×1 · 10 KB
+- [Jewel](https://models.codelove.in/models/platformer-kit-jewel/) — https://models.codelove.in/library/platformer-kit/jewel.glb · 12 tris · 0.33×0.37×0.29 · 7 KB
+- [Key](https://models.codelove.in/models/platformer-kit-key/) — https://models.codelove.in/library/platformer-kit/key.glb · 148 tris · 0.38×0.22×0.07 · 10 KB
+- [Ladder](https://models.codelove.in/models/platformer-kit-ladder/) — https://models.codelove.in/library/platformer-kit/ladder.glb · 56 tris · 0.5×1×0.1 · 8 KB
+- [Ladder Broken](https://models.codelove.in/models/platformer-kit-ladder-broken/) — https://models.codelove.in/library/platformer-kit/ladder-broken.glb · 92 tris · 0.5×1×0.1 · 9 KB
+- [Ladder Long](https://models.codelove.in/models/platformer-kit-ladder-long/) — https://models.codelove.in/library/platformer-kit/ladder-long.glb · 88 tris · 0.5×2×0.1 · 9 KB
+- [Lever](https://models.codelove.in/models/platformer-kit-lever/) — https://models.codelove.in/library/platformer-kit/lever.glb · 134 tris · 0.6×0.64×0.45 · 14 KB · 3 animations inside
+- [Lock](https://models.codelove.in/models/platformer-kit-lock/) — https://models.codelove.in/library/platformer-kit/lock.glb · 100 tris · 0.34×0.4×0.18 · 9 KB
+- [Mushrooms](https://models.codelove.in/models/platformer-kit-mushrooms/) — https://models.codelove.in/library/platformer-kit/mushrooms.glb · 126 tris · 0.52×0.29×0.51 · 10 KB
+- [Pipe](https://models.codelove.in/models/platformer-kit-pipe/) — https://models.codelove.in/library/platformer-kit/pipe.glb · 216 tris · 1×0.56×1 · 11 KB
+- [Plant](https://models.codelove.in/models/platformer-kit-plant/) — https://models.codelove.in/library/platformer-kit/plant.glb · 108 tris · 0.51×0.17×0.44 · 10 KB
+- [Platform](https://models.codelove.in/models/platformer-kit-platform/) — https://models.codelove.in/library/platformer-kit/platform.glb · 84 tris · 1×0.2×1 · 8 KB
+- [Platform Fortified](https://models.codelove.in/models/platformer-kit-platform-fortified/) — https://models.codelove.in/library/platformer-kit/platform-fortified.glb · 108 tris · 1×0.2×1 · 9 KB
+- [Platform Overhang](https://models.codelove.in/models/platformer-kit-platform-overhang/) — https://models.codelove.in/library/platformer-kit/platform-overhang.glb · 68 tris · 1×0.43×0.46 · 8 KB
+- [Platform Ramp](https://models.codelove.in/models/platformer-kit-platform-ramp/) — https://models.codelove.in/library/platformer-kit/platform-ramp.glb · 84 tris · 1×0.57×1.03 · 9 KB
+- [Poles](https://models.codelove.in/models/platformer-kit-poles/) — https://models.codelove.in/library/platformer-kit/poles.glb · 268 tris · 1.1×1×0.35 · 12 KB
+- [Rocks](https://models.codelove.in/models/platformer-kit-rocks/) — https://models.codelove.in/library/platformer-kit/rocks.glb · 100 tris · 0.65×0.4×0.66 · 9 KB
+- [Saw](https://models.codelove.in/models/platformer-kit-saw/) — https://models.codelove.in/library/platformer-kit/saw.glb · 128 tris · 0.79×0.79×0.3 · 10 KB
+- [Sign](https://models.codelove.in/models/platformer-kit-sign/) — https://models.codelove.in/library/platformer-kit/sign.glb · 76 tris · 0.48×0.6×0.13 · 8 KB
+- [Spike Block](https://models.codelove.in/models/platformer-kit-spike-block/) — https://models.codelove.in/library/platformer-kit/spike-block.glb · 116 tris · 0.9×0.9×0.9 · 10 KB
+- [Spike Block Wide](https://models.codelove.in/models/platformer-kit-spike-block-wide/) — https://models.codelove.in/library/platformer-kit/spike-block-wide.glb · 220 tris · 2.4×0.9×0.9 · 13 KB
+- [Spring](https://models.codelove.in/models/platformer-kit-spring/) — https://models.codelove.in/library/platformer-kit/spring.glb · 356 tris · 0.75×0.47×0.75 · 19 KB
+- [Star](https://models.codelove.in/models/platformer-kit-star/) — https://models.codelove.in/library/platformer-kit/star.glb · 30 tris · 0.36×0.36×0.24 · 8 KB
+- [Stones](https://models.codelove.in/models/platformer-kit-stones/) — https://models.codelove.in/library/platformer-kit/stones.glb · 120 tris · 0.71×0.05×0.79 · 10 KB
+- [Trap Spikes](https://models.codelove.in/models/platformer-kit-trap-spikes/) — https://models.codelove.in/library/platformer-kit/trap-spikes.glb · 168 tris · 0.64×0.26×0.64 · 14 KB · 3 animations inside
+- [Trap Spikes Large](https://models.codelove.in/models/platformer-kit-trap-spikes-large/) — https://models.codelove.in/library/platformer-kit/trap-spikes-large.glb · 282 tris · 0.77×0.26×0.77 · 15 KB · 3 animations inside

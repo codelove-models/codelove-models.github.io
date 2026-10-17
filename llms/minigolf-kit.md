@@ -1,0 +1,143 @@
+# Minigolf Kit — 126 free 3D models (Props)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/minigolf-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/minigolf-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.2 MB.
+
+## Models
+
+- [Ball Blue](https://models.codelove.in/models/minigolf-kit-ball-blue/) — https://models.codelove.in/library/minigolf-kit/ball-blue.glb · 572 tris · 0.07×0.07×0.07 · 22 KB
+- [Ball Green](https://models.codelove.in/models/minigolf-kit-ball-green/) — https://models.codelove.in/library/minigolf-kit/ball-green.glb · 572 tris · 0.07×0.07×0.07 · 22 KB
+- [Ball Red](https://models.codelove.in/models/minigolf-kit-ball-red/) — https://models.codelove.in/library/minigolf-kit/ball-red.glb · 572 tris · 0.07×0.07×0.07 · 22 KB
+- [Block](https://models.codelove.in/models/minigolf-kit-block/) — https://models.codelove.in/library/minigolf-kit/block.glb · 12 tris · 1×0.15×1 · 7 KB
+- [Block Borders](https://models.codelove.in/models/minigolf-kit-block-borders/) — https://models.codelove.in/library/minigolf-kit/block-borders.glb · 28 tris · 1×0.15×0.5 · 7 KB
+- [Bump](https://models.codelove.in/models/minigolf-kit-bump/) — https://models.codelove.in/library/minigolf-kit/bump.glb · 130 tris · 1×0.1×1 · 9 KB
+- [Bump Down](https://models.codelove.in/models/minigolf-kit-bump-down/) — https://models.codelove.in/library/minigolf-kit/bump-down.glb · 108 tris · 1×0.06×1 · 9 KB
+- [Bump Down Walls](https://models.codelove.in/models/minigolf-kit-bump-down-walls/) — https://models.codelove.in/library/minigolf-kit/bump-down-walls.glb · 124 tris · 1×0.15×1 · 9 KB
+- [Bump Walls](https://models.codelove.in/models/minigolf-kit-bump-walls/) — https://models.codelove.in/library/minigolf-kit/bump-walls.glb · 146 tris · 1×0.15×1 · 9 KB
+- [Castle](https://models.codelove.in/models/minigolf-kit-castle/) — https://models.codelove.in/library/minigolf-kit/castle.glb · 180 tris · 1×0.65×1 · 10 KB
+- [Club Blue](https://models.codelove.in/models/minigolf-kit-club-blue/) — https://models.codelove.in/library/minigolf-kit/club-blue.glb · 112 tris · 0.07×1.05×0.21 · 9 KB
+- [Club Green](https://models.codelove.in/models/minigolf-kit-club-green/) — https://models.codelove.in/library/minigolf-kit/club-green.glb · 112 tris · 0.07×1.05×0.21 · 9 KB
+- [Club Red](https://models.codelove.in/models/minigolf-kit-club-red/) — https://models.codelove.in/library/minigolf-kit/club-red.glb · 112 tris · 0.07×1.05×0.21 · 9 KB
+- [Corner](https://models.codelove.in/models/minigolf-kit-corner/) — https://models.codelove.in/library/minigolf-kit/corner.glb · 24 tris · 1×0.15×1 · 7 KB
+- [Crest](https://models.codelove.in/models/minigolf-kit-crest/) — https://models.codelove.in/library/minigolf-kit/crest.glb · 44 tris · 1×0.15×1 · 7 KB
+- [End](https://models.codelove.in/models/minigolf-kit-end/) — https://models.codelove.in/library/minigolf-kit/end.glb · 28 tris · 1×0.15×1 · 7 KB
+- [Flag Blue](https://models.codelove.in/models/minigolf-kit-flag-blue/) — https://models.codelove.in/library/minigolf-kit/flag-blue.glb · 86 tris · 0.4×1.02×0.08 · 8 KB
+- [Flag Green](https://models.codelove.in/models/minigolf-kit-flag-green/) — https://models.codelove.in/library/minigolf-kit/flag-green.glb · 86 tris · 0.4×1.02×0.08 · 8 KB
+- [Flag Large Blue](https://models.codelove.in/models/minigolf-kit-flag-large-blue/) — https://models.codelove.in/library/minigolf-kit/flag-large-blue.glb · 86 tris · 0.3×1.02×0.08 · 8 KB
+- [Flag Large Green](https://models.codelove.in/models/minigolf-kit-flag-large-green/) — https://models.codelove.in/library/minigolf-kit/flag-large-green.glb · 86 tris · 0.3×1.02×0.08 · 8 KB
+- [Flag Large Red](https://models.codelove.in/models/minigolf-kit-flag-large-red/) — https://models.codelove.in/library/minigolf-kit/flag-large-red.glb · 86 tris · 0.3×1.02×0.08 · 8 KB
+- [Flag Red](https://models.codelove.in/models/minigolf-kit-flag-red/) — https://models.codelove.in/library/minigolf-kit/flag-red.glb · 86 tris · 0.4×1.02×0.08 · 8 KB
+- [Gap](https://models.codelove.in/models/minigolf-kit-gap/) — https://models.codelove.in/library/minigolf-kit/gap.glb · 64 tris · 1×0.15×1 · 8 KB
+- [Hill Corner](https://models.codelove.in/models/minigolf-kit-hill-corner/) — https://models.codelove.in/library/minigolf-kit/hill-corner.glb · 30 tris · 1×0.28×1 · 7 KB
+- [Hill Round](https://models.codelove.in/models/minigolf-kit-hill-round/) — https://models.codelove.in/library/minigolf-kit/hill-round.glb · 164 tris · 1×0.23×1 · 10 KB
+- [Hill Square](https://models.codelove.in/models/minigolf-kit-hill-square/) — https://models.codelove.in/library/minigolf-kit/hill-square.glb · 34 tris · 1×0.15×1 · 7 KB
+- [Hole Open](https://models.codelove.in/models/minigolf-kit-hole-open/) — https://models.codelove.in/library/minigolf-kit/hole-open.glb · 44 tris · 1×0.06×1 · 7 KB
+- [Hole Round](https://models.codelove.in/models/minigolf-kit-hole-round/) — https://models.codelove.in/library/minigolf-kit/hole-round.glb · 148 tris · 1×0.15×1 · 9 KB
+- [Hole Square](https://models.codelove.in/models/minigolf-kit-hole-square/) — https://models.codelove.in/library/minigolf-kit/hole-square.glb · 60 tris · 1×0.15×1 · 8 KB
+- [Inner Corner](https://models.codelove.in/models/minigolf-kit-inner-corner/) — https://models.codelove.in/library/minigolf-kit/inner-corner.glb · 24 tris · 1×0.15×1 · 7 KB
+- [Narrow Block](https://models.codelove.in/models/minigolf-kit-narrow-block/) — https://models.codelove.in/library/minigolf-kit/narrow-block.glb · 64 tris · 1×0.15×1 · 8 KB
+- [Narrow Round](https://models.codelove.in/models/minigolf-kit-narrow-round/) — https://models.codelove.in/library/minigolf-kit/narrow-round.glb · 92 tris · 1×0.15×1 · 8 KB
+- [Narrow Square](https://models.codelove.in/models/minigolf-kit-narrow-square/) — https://models.codelove.in/library/minigolf-kit/narrow-square.glb · 40 tris · 1×0.15×1 · 7 KB
+- [Obstacle Block](https://models.codelove.in/models/minigolf-kit-obstacle-block/) — https://models.codelove.in/library/minigolf-kit/obstacle-block.glb · 50 tris · 1×0.15×1 · 8 KB
+- [Obstacle Diamond](https://models.codelove.in/models/minigolf-kit-obstacle-diamond/) — https://models.codelove.in/library/minigolf-kit/obstacle-diamond.glb · 34 tris · 1×0.15×1 · 7 KB
+- [Obstacle Triangle](https://models.codelove.in/models/minigolf-kit-obstacle-triangle/) — https://models.codelove.in/library/minigolf-kit/obstacle-triangle.glb · 44 tris · 1×0.15×1 · 8 KB
+- [Open](https://models.codelove.in/models/minigolf-kit-open/) — https://models.codelove.in/library/minigolf-kit/open.glb · 12 tris · 1×0.06×1 · 7 KB
+- [Ramp](https://models.codelove.in/models/minigolf-kit-ramp/) — https://models.codelove.in/library/minigolf-kit/ramp.glb · 368 tris · 1×0.65×1 · 12 KB
+- [Ramp High](https://models.codelove.in/models/minigolf-kit-ramp-high/) — https://models.codelove.in/library/minigolf-kit/ramp-high.glb · 28 tris · 1×0.65×1 · 7 KB
+- [Ramp Large](https://models.codelove.in/models/minigolf-kit-ramp-large/) — https://models.codelove.in/library/minigolf-kit/ramp-large.glb · 368 tris · 1×0.65×2 · 12 KB
+- [Ramp Large Side](https://models.codelove.in/models/minigolf-kit-ramp-large-side/) — https://models.codelove.in/library/minigolf-kit/ramp-large-side.glb · 276 tris · 1×0.65×2 · 10 KB
+- [Ramp Low](https://models.codelove.in/models/minigolf-kit-ramp-low/) — https://models.codelove.in/library/minigolf-kit/ramp-low.glb · 28 tris · 1×0.25×1 · 7 KB
+- [Ramp Medium](https://models.codelove.in/models/minigolf-kit-ramp-medium/) — https://models.codelove.in/library/minigolf-kit/ramp-medium.glb · 28 tris · 1×0.4×1 · 7 KB
+- [Ramp Sharp](https://models.codelove.in/models/minigolf-kit-ramp-sharp/) — https://models.codelove.in/library/minigolf-kit/ramp-sharp.glb · 32 tris · 1×0.15×1 · 7 KB
+- [Ramp Side](https://models.codelove.in/models/minigolf-kit-ramp-side/) — https://models.codelove.in/library/minigolf-kit/ramp-side.glb · 276 tris · 1×0.65×1 · 11 KB
+- [Ramp Square](https://models.codelove.in/models/minigolf-kit-ramp-square/) — https://models.codelove.in/library/minigolf-kit/ramp-square.glb · 36 tris · 1×0.15×1 · 7 KB
+- [Round Corner A](https://models.codelove.in/models/minigolf-kit-round-corner-a/) — https://models.codelove.in/library/minigolf-kit/round-corner-a.glb · 116 tris · 1×0.15×1 · 9 KB
+- [Round Corner B](https://models.codelove.in/models/minigolf-kit-round-corner-b/) — https://models.codelove.in/library/minigolf-kit/round-corner-b.glb · 64 tris · 1×0.15×1 · 8 KB
+- [Round Corner C](https://models.codelove.in/models/minigolf-kit-round-corner-c/) — https://models.codelove.in/library/minigolf-kit/round-corner-c.glb · 104 tris · 1×0.15×1 · 8 KB
+- [Round Large Corner](https://models.codelove.in/models/minigolf-kit-round-large-corner/) — https://models.codelove.in/library/minigolf-kit/round-large-corner.glb · 204 tris · 2×0.15×2 · 10 KB
+- [Round Large Corner Open](https://models.codelove.in/models/minigolf-kit-round-large-corner-open/) — https://models.codelove.in/library/minigolf-kit/round-large-corner-open.glb · 104 tris · 2×0.15×2 · 8 KB
+- [Side](https://models.codelove.in/models/minigolf-kit-side/) — https://models.codelove.in/library/minigolf-kit/side.glb · 20 tris · 1×0.15×1 · 7 KB
+- [Skew Corner](https://models.codelove.in/models/minigolf-kit-skew-corner/) — https://models.codelove.in/library/minigolf-kit/skew-corner.glb · 124 tris · 1×0.15×1 · 9 KB
+- [Skew Large Corner](https://models.codelove.in/models/minigolf-kit-skew-large-corner/) — https://models.codelove.in/library/minigolf-kit/skew-large-corner.glb · 220 tris · 2×0.15×2 · 10 KB
+- [Skew Large Corner Open](https://models.codelove.in/models/minigolf-kit-skew-large-corner-open/) — https://models.codelove.in/library/minigolf-kit/skew-large-corner-open.glb · 112 tris · 2×0.15×2 · 9 KB
+- [Spline Concave](https://models.codelove.in/models/minigolf-kit-spline-concave/) — https://models.codelove.in/library/minigolf-kit/spline-concave.glb · 60 tris · 1×0.15×1 · 8 KB
+- [Spline Concave Cap Back](https://models.codelove.in/models/minigolf-kit-spline-concave-cap-back/) — https://models.codelove.in/library/minigolf-kit/spline-concave-cap-back.glb · 13 tris · 1×0.15×0 · 7 KB
+- [Spline Concave Cap Front](https://models.codelove.in/models/minigolf-kit-spline-concave-cap-front/) — https://models.codelove.in/library/minigolf-kit/spline-concave-cap-front.glb · 13 tris · 1×0.15×0 · 7 KB
+- [Spline Concave Corner Large](https://models.codelove.in/models/minigolf-kit-spline-concave-corner-large/) — https://models.codelove.in/library/minigolf-kit/spline-concave-corner-large.glb · 446 tris · 4.5×0.15×4.5 · 16 KB
+- [Spline Concave Corner Large Ramp](https://models.codelove.in/models/minigolf-kit-spline-concave-corner-large-ramp/) — https://models.codelove.in/library/minigolf-kit/spline-concave-corner-large-ramp.glb · 446 tris · 4.5×1.15×4.5 · 16 KB
+- [Spline Concave Corner Small](https://models.codelove.in/models/minigolf-kit-spline-concave-corner-small/) — https://models.codelove.in/library/minigolf-kit/spline-concave-corner-small.glb · 266 tris · 2.5×0.15×2.5 · 12 KB
+- [Spline Concave Corner Small Ramp](https://models.codelove.in/models/minigolf-kit-spline-concave-corner-small-ramp/) — https://models.codelove.in/library/minigolf-kit/spline-concave-corner-small-ramp.glb · 266 tris · 2.5×1.15×2.5 · 13 KB
+- [Spline Concave Curve](https://models.codelove.in/models/minigolf-kit-spline-concave-curve/) — https://models.codelove.in/library/minigolf-kit/spline-concave-curve.glb · 326 tris · 3×0.15×4 · 13 KB
+- [Spline Concave Looping](https://models.codelove.in/models/minigolf-kit-spline-concave-looping/) — https://models.codelove.in/library/minigolf-kit/spline-concave-looping.glb · 806 tris · 2×4×3.98 · 25 KB
+- [Spline Concave Straight](https://models.codelove.in/models/minigolf-kit-spline-concave-straight/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight.glb · 326 tris · 1×0.15×4 · 12 KB
+- [Spline Concave Straight Bend](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-bend/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-bend.glb · 266 tris · 1×2×2 · 12 KB
+- [Spline Concave Straight Bend Large](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-bend-large/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-bend-large.glb · 446 tris · 1×4×4 · 16 KB
+- [Spline Concave Straight Bump Down](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-bump-down/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-bump-down.glb · 326 tris · 1×0.65×4 · 13 KB
+- [Spline Concave Straight Bump Up](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-bump-up/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-bump-up.glb · 326 tris · 1×0.65×4 · 13 KB
+- [Spline Concave Straight Hill Beginning](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-hill-beginning/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-hill-beginning.glb · 326 tris · 1×1.1×4 · 13 KB
+- [Spline Concave Straight Hill Complete](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-hill-complete/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-hill-complete.glb · 326 tris · 1×1.15×4 · 13 KB
+- [Spline Concave Straight Hill Complete Half](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-hill-complete-half/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-hill-complete-half.glb · 326 tris · 1×0.65×4 · 13 KB
+- [Spline Concave Straight Hill End](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-hill-end/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-hill-end.glb · 326 tris · 1×1.15×4.1 · 13 KB
+- [Spline Concave Straight Skew Left](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-skew-left/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-skew-left.glb · 326 tris · 1.02×0.81×4 · 13 KB
+- [Spline Concave Straight Skew Left Side](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-skew-left-side/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-skew-left-side.glb · 326 tris · 1.02×1.02×4 · 13 KB
+- [Spline Concave Straight Skew Right](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-skew-right/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-skew-right.glb · 326 tris · 1.02×0.81×4 · 13 KB
+- [Spline Concave Straight Skew Right Side](https://models.codelove.in/models/minigolf-kit-spline-concave-straight-skew-right-side/) — https://models.codelove.in/library/minigolf-kit/spline-concave-straight-skew-right-side.glb · 326 tris · 1.02×1.02×4 · 13 KB
+- [Spline Default](https://models.codelove.in/models/minigolf-kit-spline-default/) — https://models.codelove.in/library/minigolf-kit/spline-default.glb · 32 tris · 1×0.15×1 · 7 KB
+- [Spline Default Cap Back](https://models.codelove.in/models/minigolf-kit-spline-default-cap-back/) — https://models.codelove.in/library/minigolf-kit/spline-default-cap-back.glb · 6 tris · 1×0.15×0 · 7 KB
+- [Spline Default Cap Front](https://models.codelove.in/models/minigolf-kit-spline-default-cap-front/) — https://models.codelove.in/library/minigolf-kit/spline-default-cap-front.glb · 6 tris · 1×0.15×0 · 7 KB
+- [Spline Default Corner Large](https://models.codelove.in/models/minigolf-kit-spline-default-corner-large/) — https://models.codelove.in/library/minigolf-kit/spline-default-corner-large.glb · 236 tris · 4.5×0.15×4.5 · 11 KB
+- [Spline Default Corner Large Ramp](https://models.codelove.in/models/minigolf-kit-spline-default-corner-large-ramp/) — https://models.codelove.in/library/minigolf-kit/spline-default-corner-large-ramp.glb · 236 tris · 4.5×1.15×4.5 · 11 KB
+- [Spline Default Corner Small](https://models.codelove.in/models/minigolf-kit-spline-default-corner-small/) — https://models.codelove.in/library/minigolf-kit/spline-default-corner-small.glb · 140 tris · 2.5×0.15×2.5 · 9 KB
+- [Spline Default Corner Small Ramp](https://models.codelove.in/models/minigolf-kit-spline-default-corner-small-ramp/) — https://models.codelove.in/library/minigolf-kit/spline-default-corner-small-ramp.glb · 140 tris · 2.5×1.15×2.5 · 10 KB
+- [Spline Default Curve](https://models.codelove.in/models/minigolf-kit-spline-default-curve/) — https://models.codelove.in/library/minigolf-kit/spline-default-curve.glb · 172 tris · 3×0.15×4 · 10 KB
+- [Spline Default Looping](https://models.codelove.in/models/minigolf-kit-spline-default-looping/) — https://models.codelove.in/library/minigolf-kit/spline-default-looping.glb · 428 tris · 2×4×3.98 · 15 KB
+- [Spline Default Straight](https://models.codelove.in/models/minigolf-kit-spline-default-straight/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight.glb · 172 tris · 1×0.15×4 · 9 KB
+- [Spline Default Straight Bend](https://models.codelove.in/models/minigolf-kit-spline-default-straight-bend/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-bend.glb · 140 tris · 1×2×2 · 9 KB
+- [Spline Default Straight Bend Large](https://models.codelove.in/models/minigolf-kit-spline-default-straight-bend-large/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-bend-large.glb · 236 tris · 1×4×4 · 11 KB
+- [Spline Default Straight Bump Down](https://models.codelove.in/models/minigolf-kit-spline-default-straight-bump-down/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-bump-down.glb · 172 tris · 1×0.65×4 · 10 KB
+- [Spline Default Straight Bump Up](https://models.codelove.in/models/minigolf-kit-spline-default-straight-bump-up/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-bump-up.glb · 172 tris · 1×0.65×4 · 10 KB
+- [Spline Default Straight Hill Beginning](https://models.codelove.in/models/minigolf-kit-spline-default-straight-hill-beginning/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-hill-beginning.glb · 172 tris · 1×1.1×4 · 10 KB
+- [Spline Default Straight Hill Complete](https://models.codelove.in/models/minigolf-kit-spline-default-straight-hill-complete/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-hill-complete.glb · 172 tris · 1×1.15×4 · 10 KB
+- [Spline Default Straight Hill Complete Half](https://models.codelove.in/models/minigolf-kit-spline-default-straight-hill-complete-half/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-hill-complete-half.glb · 172 tris · 1×0.65×4 · 10 KB
+- [Spline Default Straight Hill End](https://models.codelove.in/models/minigolf-kit-spline-default-straight-hill-end/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-hill-end.glb · 172 tris · 1×1.15×4.1 · 10 KB
+- [Spline Default Straight Skew Left](https://models.codelove.in/models/minigolf-kit-spline-default-straight-skew-left/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-skew-left.glb · 172 tris · 1.02×0.81×4 · 10 KB
+- [Spline Default Straight Skew Left Side](https://models.codelove.in/models/minigolf-kit-spline-default-straight-skew-left-side/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-skew-left-side.glb · 172 tris · 1.02×1.02×4 · 10 KB
+- [Spline Default Straight Skew Right](https://models.codelove.in/models/minigolf-kit-spline-default-straight-skew-right/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-skew-right.glb · 172 tris · 1.02×0.81×4 · 10 KB
+- [Spline Default Straight Skew Right Side](https://models.codelove.in/models/minigolf-kit-spline-default-straight-skew-right-side/) — https://models.codelove.in/library/minigolf-kit/spline-default-straight-skew-right-side.glb · 172 tris · 1.02×1.02×4 · 10 KB
+- [Split](https://models.codelove.in/models/minigolf-kit-split/) — https://models.codelove.in/library/minigolf-kit/split.glb · 50 tris · 1×0.15×1 · 7 KB
+- [Split Start](https://models.codelove.in/models/minigolf-kit-split-start/) — https://models.codelove.in/library/minigolf-kit/split-start.glb · 52 tris · 1×0.15×1 · 8 KB
+- [Split T](https://models.codelove.in/models/minigolf-kit-split-t/) — https://models.codelove.in/library/minigolf-kit/split-t.glb · 40 tris · 1×0.15×1 · 7 KB
+- [Split Walls To Open](https://models.codelove.in/models/minigolf-kit-split-walls-to-open/) — https://models.codelove.in/library/minigolf-kit/split-walls-to-open.glb · 50 tris · 1×0.15×1 · 8 KB
+- [Square Corner A](https://models.codelove.in/models/minigolf-kit-square-corner-a/) — https://models.codelove.in/library/minigolf-kit/square-corner-a.glb · 82 tris · 1×0.15×1 · 8 KB
+- [Start](https://models.codelove.in/models/minigolf-kit-start/) — https://models.codelove.in/library/minigolf-kit/start.glb · 40 tris · 1×0.15×1 · 7 KB
+- [Straight](https://models.codelove.in/models/minigolf-kit-straight/) — https://models.codelove.in/library/minigolf-kit/straight.glb · 28 tris · 1×0.15×1 · 7 KB
+- [Structure Gate](https://models.codelove.in/models/minigolf-kit-structure-gate/) — https://models.codelove.in/library/minigolf-kit/structure-gate.glb · 44 tris · 0.8×0.23×0.8 · 7 KB
+- [Structure Gate Building](https://models.codelove.in/models/minigolf-kit-structure-gate-building/) — https://models.codelove.in/library/minigolf-kit/structure-gate-building.glb · 152 tris · 0.92×0.59×0.31 · 10 KB
+- [Structure Gate Wide](https://models.codelove.in/models/minigolf-kit-structure-gate-wide/) — https://models.codelove.in/library/minigolf-kit/structure-gate-wide.glb · 36 tris · 0.8×0.23×0.8 · 7 KB
+- [Structure Gates](https://models.codelove.in/models/minigolf-kit-structure-gates/) — https://models.codelove.in/library/minigolf-kit/structure-gates.glb · 78 tris · 0.8×0.23×0.8 · 8 KB
+- [Structure Windmill](https://models.codelove.in/models/minigolf-kit-structure-windmill/) — https://models.codelove.in/library/minigolf-kit/structure-windmill.glb · 258 tris · 1.2×1.5×0.94 · 13 KB
+- [Support](https://models.codelove.in/models/minigolf-kit-support/) — https://models.codelove.in/library/minigolf-kit/support.glb · 28 tris · 0.4×1×0.4 · 7 KB
+- [Support Bottom](https://models.codelove.in/models/minigolf-kit-support-bottom/) — https://models.codelove.in/library/minigolf-kit/support-bottom.glb · 60 tris · 0.5×1×0.5 · 8 KB
+- [Support Low](https://models.codelove.in/models/minigolf-kit-support-low/) — https://models.codelove.in/library/minigolf-kit/support-low.glb · 28 tris · 0.4×0.5×0.4 · 7 KB
+- [Support Low Bottom](https://models.codelove.in/models/minigolf-kit-support-low-bottom/) — https://models.codelove.in/library/minigolf-kit/support-low-bottom.glb · 60 tris · 0.5×0.5×0.5 · 8 KB
+- [Supports](https://models.codelove.in/models/minigolf-kit-supports/) — https://models.codelove.in/library/minigolf-kit/supports.glb · 224 tris · 0.95×1×0.95 · 10 KB
+- [Supports Bottom](https://models.codelove.in/models/minigolf-kit-supports-bottom/) — https://models.codelove.in/library/minigolf-kit/supports-bottom.glb · 240 tris · 1×1×1 · 12 KB
+- [Supports Low](https://models.codelove.in/models/minigolf-kit-supports-low/) — https://models.codelove.in/library/minigolf-kit/supports-low.glb · 224 tris · 0.95×0.5×0.95 · 10 KB
+- [Supports Low Bottom](https://models.codelove.in/models/minigolf-kit-supports-low-bottom/) — https://models.codelove.in/library/minigolf-kit/supports-low-bottom.glb · 240 tris · 1×0.5×1 · 12 KB
+- [Tunnel Double](https://models.codelove.in/models/minigolf-kit-tunnel-double/) — https://models.codelove.in/library/minigolf-kit/tunnel-double.glb · 106 tris · 1×0.3×1 · 8 KB
+- [Tunnel Narrow](https://models.codelove.in/models/minigolf-kit-tunnel-narrow/) — https://models.codelove.in/library/minigolf-kit/tunnel-narrow.glb · 72 tris · 1×0.3×1 · 8 KB
+- [Tunnel Wide](https://models.codelove.in/models/minigolf-kit-tunnel-wide/) — https://models.codelove.in/library/minigolf-kit/tunnel-wide.glb · 64 tris · 1×0.3×1 · 8 KB
+- [Wall Left](https://models.codelove.in/models/minigolf-kit-wall-left/) — https://models.codelove.in/library/minigolf-kit/wall-left.glb · 34 tris · 1×0.15×1 · 7 KB
+- [Wall Right](https://models.codelove.in/models/minigolf-kit-wall-right/) — https://models.codelove.in/library/minigolf-kit/wall-right.glb · 34 tris · 1×0.15×1 · 7 KB
+- [Walls To Open](https://models.codelove.in/models/minigolf-kit-walls-to-open/) — https://models.codelove.in/library/minigolf-kit/walls-to-open.glb · 32 tris · 1×0.15×1 · 7 KB
+- [Windmill](https://models.codelove.in/models/minigolf-kit-windmill/) — https://models.codelove.in/library/minigolf-kit/windmill.glb · 282 tris · 1.2×1.56×1 · 13 KB

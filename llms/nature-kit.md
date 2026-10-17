@@ -1,0 +1,351 @@
+# Nature Kit — 329 free 3D models (Nature 268, Trees 61)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/nature-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/nature-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.6 MB.
+
+## Models
+
+### Nature (268)
+
+- [Bed](https://models.codelove.in/models/nature-kit-bed/) — https://models.codelove.in/library/nature-kit/bed.glb · 268 tris · 0.34×0.27×0.75 · 8 KB
+- [Bed Floor](https://models.codelove.in/models/nature-kit-bed-floor/) — https://models.codelove.in/library/nature-kit/bed-floor.glb · 124 tris · 0.32×0.09×0.75 · 6 KB
+- [Bridge Center Stone](https://models.codelove.in/models/nature-kit-bridge-center-stone/) — https://models.codelove.in/library/nature-kit/bridge-center-stone.glb · 52 tris · 1×0.3×1 · 4 KB
+- [Bridge Center Stone Round](https://models.codelove.in/models/nature-kit-bridge-center-stone-round/) — https://models.codelove.in/library/nature-kit/bridge-center-stone-round.glb · 52 tris · 1×0.2×1 · 4 KB
+- [Bridge Center Wood](https://models.codelove.in/models/nature-kit-bridge-center-wood/) — https://models.codelove.in/library/nature-kit/bridge-center-wood.glb · 52 tris · 1×0.3×1 · 5 KB
+- [Bridge Center Wood Round](https://models.codelove.in/models/nature-kit-bridge-center-wood-round/) — https://models.codelove.in/library/nature-kit/bridge-center-wood-round.glb · 60 tris · 1×0.2×1 · 6 KB
+- [Bridge Side Stone](https://models.codelove.in/models/nature-kit-bridge-side-stone/) — https://models.codelove.in/library/nature-kit/bridge-side-stone.glb · 152 tris · 1.02×0.4×1.04 · 5 KB
+- [Bridge Side Stone Round](https://models.codelove.in/models/nature-kit-bridge-side-stone-round/) — https://models.codelove.in/library/nature-kit/bridge-side-stone-round.glb · 198 tris · 1.02×0.45×1.04 · 6 KB
+- [Bridge Side Wood](https://models.codelove.in/models/nature-kit-bridge-side-wood/) — https://models.codelove.in/library/nature-kit/bridge-side-wood.glb · 136 tris · 1.02×0.4×1.04 · 6 KB
+- [Bridge Side Wood Round](https://models.codelove.in/models/nature-kit-bridge-side-wood-round/) — https://models.codelove.in/library/nature-kit/bridge-side-wood-round.glb · 190 tris · 1.02×0.45×1.04 · 8 KB
+- [Bridge Stone](https://models.codelove.in/models/nature-kit-bridge-stone/) — https://models.codelove.in/library/nature-kit/bridge-stone.glb · 252 tris · 1.04×0.4×1.04 · 6 KB
+- [Bridge Stone Narrow](https://models.codelove.in/models/nature-kit-bridge-stone-narrow/) — https://models.codelove.in/library/nature-kit/bridge-stone-narrow.glb · 252 tris · 1.04×0.35×0.84 · 6 KB
+- [Bridge Stone Round](https://models.codelove.in/models/nature-kit-bridge-stone-round/) — https://models.codelove.in/library/nature-kit/bridge-stone-round.glb · 360 tris · 1.04×0.45×1.04 · 7 KB
+- [Bridge Stone Round Narrow](https://models.codelove.in/models/nature-kit-bridge-stone-round-narrow/) — https://models.codelove.in/library/nature-kit/bridge-stone-round-narrow.glb · 360 tris · 1.04×0.4×0.84 · 7 KB
+- [Bridge Wood](https://models.codelove.in/models/nature-kit-bridge-wood/) — https://models.codelove.in/library/nature-kit/bridge-wood.glb · 220 tris · 1.04×0.4×1.04 · 7 KB
+- [Bridge Wood Narrow](https://models.codelove.in/models/nature-kit-bridge-wood-narrow/) — https://models.codelove.in/library/nature-kit/bridge-wood-narrow.glb · 220 tris · 1.04×0.35×0.84 · 7 KB
+- [Bridge Wood Round](https://models.codelove.in/models/nature-kit-bridge-wood-round/) — https://models.codelove.in/library/nature-kit/bridge-wood-round.glb · 336 tris · 1.04×0.45×1.04 · 9 KB
+- [Bridge Wood Round Narrow](https://models.codelove.in/models/nature-kit-bridge-wood-round-narrow/) — https://models.codelove.in/library/nature-kit/bridge-wood-round-narrow.glb · 336 tris · 1.04×0.4×0.84 · 9 KB
+- [Cactus Short](https://models.codelove.in/models/nature-kit-cactus-short/) — https://models.codelove.in/library/nature-kit/cactus-short.glb · 116 tris · 0.34×0.53×0.3 · 4 KB
+- [Cactus Tall](https://models.codelove.in/models/nature-kit-cactus-tall/) — https://models.codelove.in/library/nature-kit/cactus-tall.glb · 122 tris · 0.4×0.75×0.34 · 4 KB
+- [Campfire Bricks](https://models.codelove.in/models/nature-kit-campfire-bricks/) — https://models.codelove.in/library/nature-kit/campfire-bricks.glb · 120 tris · 0.47×0.07×0.47 · 4 KB
+- [Campfire Logs](https://models.codelove.in/models/nature-kit-campfire-logs/) — https://models.codelove.in/library/nature-kit/campfire-logs.glb · 112 tris · 0.29×0.06×0.29 · 5 KB
+- [Campfire Planks](https://models.codelove.in/models/nature-kit-campfire-planks/) — https://models.codelove.in/library/nature-kit/campfire-planks.glb · 108 tris · 0.35×0.04×0.35 · 4 KB
+- [Campfire Stones](https://models.codelove.in/models/nature-kit-campfire-stones/) — https://models.codelove.in/library/nature-kit/campfire-stones.glb · 264 tris · 0.54×0.08×0.52 · 6 KB
+- [Canoe](https://models.codelove.in/models/nature-kit-canoe/) — https://models.codelove.in/library/nature-kit/canoe.glb · 200 tris · 0.3×0.18×1.15 · 7 KB
+- [Canoe Paddle](https://models.codelove.in/models/nature-kit-canoe-paddle/) — https://models.codelove.in/library/nature-kit/canoe-paddle.glb · 32 tris · 0.08×0.04×0.59 · 3 KB
+- [Cliff Block Cave Rock](https://models.codelove.in/models/nature-kit-cliff-block-cave-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-cave-rock.glb · 56 tris · 1×1×1 · 4 KB
+- [Cliff Block Cave Stone](https://models.codelove.in/models/nature-kit-cliff-block-cave-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-cave-stone.glb · 56 tris · 1×1×1 · 4 KB
+- [Cliff Block Diagonal Rock](https://models.codelove.in/models/nature-kit-cliff-block-diagonal-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-diagonal-rock.glb · 8 tris · 1×1×1 · 4 KB
+- [Cliff Block Diagonal Stone](https://models.codelove.in/models/nature-kit-cliff-block-diagonal-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-diagonal-stone.glb · 8 tris · 1×1×1 · 4 KB
+- [Cliff Block Half Rock](https://models.codelove.in/models/nature-kit-cliff-block-half-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-half-rock.glb · 12 tris · 1×0.5×1 · 3 KB
+- [Cliff Block Half Stone](https://models.codelove.in/models/nature-kit-cliff-block-half-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-half-stone.glb · 12 tris · 1×0.5×1 · 4 KB
+- [Cliff Block Quarter Rock](https://models.codelove.in/models/nature-kit-cliff-block-quarter-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-quarter-rock.glb · 12 tris · 1×0.25×1 · 4 KB
+- [Cliff Block Quarter Stone](https://models.codelove.in/models/nature-kit-cliff-block-quarter-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-quarter-stone.glb · 12 tris · 1×0.25×1 · 4 KB
+- [Cliff Block Rock](https://models.codelove.in/models/nature-kit-cliff-block-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-rock.glb · 12 tris · 1×1×1 · 3 KB
+- [Cliff Block Slope Half Walls Rock](https://models.codelove.in/models/nature-kit-cliff-block-slope-half-walls-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-half-walls-rock.glb · 106 tris · 1×0.5×1 · 5 KB
+- [Cliff Block Slope Half Walls Stone](https://models.codelove.in/models/nature-kit-cliff-block-slope-half-walls-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-half-walls-stone.glb · 106 tris · 1×0.5×1 · 5 KB
+- [Cliff Block Slope Rock](https://models.codelove.in/models/nature-kit-cliff-block-slope-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-rock.glb · 70 tris · 1.2×1×1 · 5 KB
+- [Cliff Block Slope Stone](https://models.codelove.in/models/nature-kit-cliff-block-slope-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-stone.glb · 70 tris · 1.2×1×1 · 5 KB
+- [Cliff Block Slope Walls Rock](https://models.codelove.in/models/nature-kit-cliff-block-slope-walls-rock/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-walls-rock.glb · 106 tris · 1×1×1 · 5 KB
+- [Cliff Block Slope Walls Stone](https://models.codelove.in/models/nature-kit-cliff-block-slope-walls-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-slope-walls-stone.glb · 106 tris · 1×1×1 · 5 KB
+- [Cliff Block Stone](https://models.codelove.in/models/nature-kit-cliff-block-stone/) — https://models.codelove.in/library/nature-kit/cliff-block-stone.glb · 12 tris · 1×1×1 · 3 KB
+- [Cliff Cave Rock](https://models.codelove.in/models/nature-kit-cliff-cave-rock/) — https://models.codelove.in/library/nature-kit/cliff-cave-rock.glb · 64 tris · 1×1×0.17 · 3 KB
+- [Cliff Cave Stone](https://models.codelove.in/models/nature-kit-cliff-cave-stone/) — https://models.codelove.in/library/nature-kit/cliff-cave-stone.glb · 64 tris · 1×1×0.17 · 3 KB
+- [Cliff Corner Inner Large Rock](https://models.codelove.in/models/nature-kit-cliff-corner-inner-large-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-large-rock.glb · 44 tris · 1×1×1 · 3 KB
+- [Cliff Corner Inner Large Stone](https://models.codelove.in/models/nature-kit-cliff-corner-inner-large-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-large-stone.glb · 44 tris · 1×1×1 · 3 KB
+- [Cliff Corner Inner Rock](https://models.codelove.in/models/nature-kit-cliff-corner-inner-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-rock.glb · 56 tris · 1×1×1 · 3 KB
+- [Cliff Corner Inner Stone](https://models.codelove.in/models/nature-kit-cliff-corner-inner-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-stone.glb · 112 tris · 1×1×1 · 4 KB
+- [Cliff Corner Inner Top Rock](https://models.codelove.in/models/nature-kit-cliff-corner-inner-top-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-top-rock.glb · 89 tris · 1×1×1 · 4 KB
+- [Cliff Corner Inner Top Stone](https://models.codelove.in/models/nature-kit-cliff-corner-inner-top-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-inner-top-stone.glb · 89 tris · 1×1×1 · 4 KB
+- [Cliff Corner Large Rock](https://models.codelove.in/models/nature-kit-cliff-corner-large-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-large-rock.glb · 12 tris · 0.42×1×0.42 · 3 KB
+- [Cliff Corner Large Stone](https://models.codelove.in/models/nature-kit-cliff-corner-large-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-large-stone.glb · 24 tris · 0.42×1×0.42 · 3 KB
+- [Cliff Corner Rock](https://models.codelove.in/models/nature-kit-cliff-corner-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-rock.glb · 12 tris · 0.17×1×0.17 · 3 KB
+- [Cliff Corner Stone](https://models.codelove.in/models/nature-kit-cliff-corner-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-stone.glb · 12 tris · 0.17×1×0.17 · 3 KB
+- [Cliff Corner Top Rock](https://models.codelove.in/models/nature-kit-cliff-corner-top-rock/) — https://models.codelove.in/library/nature-kit/cliff-corner-top-rock.glb · 16 tris · 0.27×1×0.27 · 4 KB
+- [Cliff Corner Top Stone](https://models.codelove.in/models/nature-kit-cliff-corner-top-stone/) — https://models.codelove.in/library/nature-kit/cliff-corner-top-stone.glb · 16 tris · 0.27×1×0.27 · 4 KB
+- [Cliff Diagonal Rock](https://models.codelove.in/models/nature-kit-cliff-diagonal-rock/) — https://models.codelove.in/library/nature-kit/cliff-diagonal-rock.glb · 44 tris · 1.17×1×1.17 · 3 KB
+- [Cliff Diagonal Stone](https://models.codelove.in/models/nature-kit-cliff-diagonal-stone/) — https://models.codelove.in/library/nature-kit/cliff-diagonal-stone.glb · 44 tris · 1.17×1×1.17 · 3 KB
+- [Cliff Half Corner Inner Rock](https://models.codelove.in/models/nature-kit-cliff-half-corner-inner-rock/) — https://models.codelove.in/library/nature-kit/cliff-half-corner-inner-rock.glb · 89 tris · 1×0.5×1 · 6 KB
+- [Cliff Half Corner Inner Stone](https://models.codelove.in/models/nature-kit-cliff-half-corner-inner-stone/) — https://models.codelove.in/library/nature-kit/cliff-half-corner-inner-stone.glb · 89 tris · 1×0.5×1 · 6 KB
+- [Cliff Half Corner Rock](https://models.codelove.in/models/nature-kit-cliff-half-corner-rock/) — https://models.codelove.in/library/nature-kit/cliff-half-corner-rock.glb · 16 tris · 0.42×0.5×0.42 · 4 KB
+- [Cliff Half Corner Stone](https://models.codelove.in/models/nature-kit-cliff-half-corner-stone/) — https://models.codelove.in/library/nature-kit/cliff-half-corner-stone.glb · 16 tris · 0.42×0.5×0.42 · 4 KB
+- [Cliff Half Rock](https://models.codelove.in/models/nature-kit-cliff-half-rock/) — https://models.codelove.in/library/nature-kit/cliff-half-rock.glb · 53 tris · 1×0.5×0.42 · 4 KB
+- [Cliff Half Stone](https://models.codelove.in/models/nature-kit-cliff-half-stone/) — https://models.codelove.in/library/nature-kit/cliff-half-stone.glb · 53 tris · 1×0.5×0.42 · 4 KB
+- [Cliff Large Rock](https://models.codelove.in/models/nature-kit-cliff-large-rock/) — https://models.codelove.in/library/nature-kit/cliff-large-rock.glb · 32 tris · 1×1×0.42 · 3 KB
+- [Cliff Large Stone](https://models.codelove.in/models/nature-kit-cliff-large-stone/) — https://models.codelove.in/library/nature-kit/cliff-large-stone.glb · 32 tris · 1×1×0.42 · 3 KB
+- [Cliff Rock](https://models.codelove.in/models/nature-kit-cliff-rock/) — https://models.codelove.in/library/nature-kit/cliff-rock.glb · 32 tris · 1×1×0.17 · 3 KB
+- [Cliff Steps Corner Inner Rock](https://models.codelove.in/models/nature-kit-cliff-steps-corner-inner-rock/) — https://models.codelove.in/library/nature-kit/cliff-steps-corner-inner-rock.glb · 213 tris · 1×1×1 · 6 KB
+- [Cliff Steps Corner Inner Stone](https://models.codelove.in/models/nature-kit-cliff-steps-corner-inner-stone/) — https://models.codelove.in/library/nature-kit/cliff-steps-corner-inner-stone.glb · 213 tris · 1×1×1 · 6 KB
+- [Cliff Steps Corner Rock](https://models.codelove.in/models/nature-kit-cliff-steps-corner-rock/) — https://models.codelove.in/library/nature-kit/cliff-steps-corner-rock.glb · 245 tris · 1.05×1×1.05 · 7 KB
+- [Cliff Steps Corner Stone](https://models.codelove.in/models/nature-kit-cliff-steps-corner-stone/) — https://models.codelove.in/library/nature-kit/cliff-steps-corner-stone.glb · 245 tris · 1.05×1×1.05 · 7 KB
+- [Cliff Steps Rock](https://models.codelove.in/models/nature-kit-cliff-steps-rock/) — https://models.codelove.in/library/nature-kit/cliff-steps-rock.glb · 219 tris · 1×1×1.05 · 6 KB
+- [Cliff Steps Stone](https://models.codelove.in/models/nature-kit-cliff-steps-stone/) — https://models.codelove.in/library/nature-kit/cliff-steps-stone.glb · 219 tris · 1×1×1.05 · 6 KB
+- [Cliff Stone](https://models.codelove.in/models/nature-kit-cliff-stone/) — https://models.codelove.in/library/nature-kit/cliff-stone.glb · 32 tris · 1×1×0.17 · 3 KB
+- [Cliff Top Diagonal Rock](https://models.codelove.in/models/nature-kit-cliff-top-diagonal-rock/) — https://models.codelove.in/library/nature-kit/cliff-top-diagonal-rock.glb · 66 tris · 1.27×1×1.27 · 4 KB
+- [Cliff Top Diagonal Stone](https://models.codelove.in/models/nature-kit-cliff-top-diagonal-stone/) — https://models.codelove.in/library/nature-kit/cliff-top-diagonal-stone.glb · 132 tris · 1.27×1×1.27 · 5 KB
+- [Cliff Top Rock](https://models.codelove.in/models/nature-kit-cliff-top-rock/) — https://models.codelove.in/library/nature-kit/cliff-top-rock.glb · 53 tris · 1×1×0.27 · 4 KB
+- [Cliff Top Stone](https://models.codelove.in/models/nature-kit-cliff-top-stone/) — https://models.codelove.in/library/nature-kit/cliff-top-stone.glb · 53 tris · 1×1×0.27 · 4 KB
+- [Cliff Waterfall Rock](https://models.codelove.in/models/nature-kit-cliff-waterfall-rock/) — https://models.codelove.in/library/nature-kit/cliff-waterfall-rock.glb · 34 tris · 1×1×0.17 · 5 KB
+- [Cliff Waterfall Stone](https://models.codelove.in/models/nature-kit-cliff-waterfall-stone/) — https://models.codelove.in/library/nature-kit/cliff-waterfall-stone.glb · 68 tris · 1×1×0.17 · 4 KB
+- [Cliff Waterfall Top Rock](https://models.codelove.in/models/nature-kit-cliff-waterfall-top-rock/) — https://models.codelove.in/library/nature-kit/cliff-waterfall-top-rock.glb · 60 tris · 1×1×0.27 · 7 KB
+- [Cliff Waterfall Top Stone](https://models.codelove.in/models/nature-kit-cliff-waterfall-top-stone/) — https://models.codelove.in/library/nature-kit/cliff-waterfall-top-stone.glb · 60 tris · 1×1×0.27 · 8 KB
+- [Crop Carrot](https://models.codelove.in/models/nature-kit-crop-carrot/) — https://models.codelove.in/library/nature-kit/crop-carrot.glb · 148 tris · 0.34×0.62×0.34 · 6 KB
+- [Crop Melon](https://models.codelove.in/models/nature-kit-crop-melon/) — https://models.codelove.in/library/nature-kit/crop-melon.glb · 236 tris · 0.42×0.35×0.36 · 7 KB
+- [Crop Pumpkin](https://models.codelove.in/models/nature-kit-crop-pumpkin/) — https://models.codelove.in/library/nature-kit/crop-pumpkin.glb · 120 tris · 0.44×0.33×0.45 · 6 KB
+- [Crop Turnip](https://models.codelove.in/models/nature-kit-crop-turnip/) — https://models.codelove.in/library/nature-kit/crop-turnip.glb · 168 tris · 0.34×0.66×0.34 · 6 KB
+- [Crops Bamboo Stage A](https://models.codelove.in/models/nature-kit-crops-bamboo-stage-a/) — https://models.codelove.in/library/nature-kit/crops-bamboo-stage-a.glb · 276 tris · 0.34×0.55×0.31 · 7 KB
+- [Crops Bamboo Stage B](https://models.codelove.in/models/nature-kit-crops-bamboo-stage-b/) — https://models.codelove.in/library/nature-kit/crops-bamboo-stage-b.glb · 564 tris · 0.34×0.89×0.31 · 11 KB
+- [Crops Corn Stage A](https://models.codelove.in/models/nature-kit-crops-corn-stage-a/) — https://models.codelove.in/library/nature-kit/crops-corn-stage-a.glb · 100 tris · 0.3×0.5×0.3 · 4 KB
+- [Crops Corn Stage B](https://models.codelove.in/models/nature-kit-crops-corn-stage-b/) — https://models.codelove.in/library/nature-kit/crops-corn-stage-b.glb · 116 tris · 0.3×1×0.3 · 4 KB
+- [Crops Corn Stage C](https://models.codelove.in/models/nature-kit-crops-corn-stage-c/) — https://models.codelove.in/library/nature-kit/crops-corn-stage-c.glb · 148 tris · 0.3×1.25×0.3 · 5 KB
+- [Crops Corn Stage D](https://models.codelove.in/models/nature-kit-crops-corn-stage-d/) — https://models.codelove.in/library/nature-kit/crops-corn-stage-d.glb · 186 tris · 0.44×1.25×0.44 · 8 KB
+- [Crops Dirt Double Row](https://models.codelove.in/models/nature-kit-crops-dirt-double-row/) — https://models.codelove.in/library/nature-kit/crops-dirt-double-row.glb · 88 tris · 1×0.05×0.94 · 4 KB
+- [Crops Dirt Double Row Corner](https://models.codelove.in/models/nature-kit-crops-dirt-double-row-corner/) — https://models.codelove.in/library/nature-kit/crops-dirt-double-row-corner.glb · 50 tris · 0.94×0.05×0.94 · 4 KB
+- [Crops Dirt Double Row End](https://models.codelove.in/models/nature-kit-crops-dirt-double-row-end/) — https://models.codelove.in/library/nature-kit/crops-dirt-double-row-end.glb · 64 tris · 0.6×0.05×0.94 · 4 KB
+- [Crops Dirt Row](https://models.codelove.in/models/nature-kit-crops-dirt-row/) — https://models.codelove.in/library/nature-kit/crops-dirt-row.glb · 44 tris · 1×0.05×0.62 · 4 KB
+- [Crops Dirt Row Corner](https://models.codelove.in/models/nature-kit-crops-dirt-row-corner/) — https://models.codelove.in/library/nature-kit/crops-dirt-row-corner.glb · 19 tris · 0.78×0.05×0.78 · 4 KB
+- [Crops Dirt Row End](https://models.codelove.in/models/nature-kit-crops-dirt-row-end/) — https://models.codelove.in/library/nature-kit/crops-dirt-row-end.glb · 32 tris · 0.6×0.05×0.62 · 4 KB
+- [Crops Dirt Single](https://models.codelove.in/models/nature-kit-crops-dirt-single/) — https://models.codelove.in/library/nature-kit/crops-dirt-single.glb · 32 tris · 0.4×0.1×0.35 · 4 KB
+- [Crops Leafs Stage A](https://models.codelove.in/models/nature-kit-crops-leafs-stage-a/) — https://models.codelove.in/library/nature-kit/crops-leafs-stage-a.glb · 76 tris · 0.39×0.43×0.39 · 4 KB
+- [Crops Leafs Stage B](https://models.codelove.in/models/nature-kit-crops-leafs-stage-b/) — https://models.codelove.in/library/nature-kit/crops-leafs-stage-b.glb · 84 tris · 0.39×0.68×0.39 · 4 KB
+- [Crops Wheat Stage A](https://models.codelove.in/models/nature-kit-crops-wheat-stage-a/) — https://models.codelove.in/library/nature-kit/crops-wheat-stage-a.glb · 720 tris · 0.54×0.34×0.45 · 15 KB
+- [Crops Wheat Stage B](https://models.codelove.in/models/nature-kit-crops-wheat-stage-b/) — https://models.codelove.in/library/nature-kit/crops-wheat-stage-b.glb · 360 tris · 0.54×0.54×0.45 · 10 KB
+- [Fence Bend](https://models.codelove.in/models/nature-kit-fence-bend/) — https://models.codelove.in/library/nature-kit/fence-bend.glb · 240 tris · 1×0.34×1 · 6 KB
+- [Fence Bend Center](https://models.codelove.in/models/nature-kit-fence-bend-center/) — https://models.codelove.in/library/nature-kit/fence-bend-center.glb · 298 tris · 1×0.34×1 · 8 KB
+- [Fence Corner](https://models.codelove.in/models/nature-kit-fence-corner/) — https://models.codelove.in/library/nature-kit/fence-corner.glb · 116 tris · 1×0.34×1 · 5 KB
+- [Fence Gate](https://models.codelove.in/models/nature-kit-fence-gate/) — https://models.codelove.in/library/nature-kit/fence-gate.glb · 524 tris · 1×0.34×0.07 · 11 KB
+- [Fence Planks](https://models.codelove.in/models/nature-kit-fence-planks/) — https://models.codelove.in/library/nature-kit/fence-planks.glb · 96 tris · 1×0.34×0.1 · 3 KB
+- [Fence Planks Double](https://models.codelove.in/models/nature-kit-fence-planks-double/) — https://models.codelove.in/library/nature-kit/fence-planks-double.glb · 152 tris · 1×0.34×0.06 · 4 KB
+- [Fence Simple](https://models.codelove.in/models/nature-kit-fence-simple/) — https://models.codelove.in/library/nature-kit/fence-simple.glb · 64 tris · 1×0.34×0.07 · 4 KB
+- [Fence Simple Center](https://models.codelove.in/models/nature-kit-fence-simple-center/) — https://models.codelove.in/library/nature-kit/fence-simple-center.glb · 116 tris · 1×0.34×0.07 · 5 KB
+- [Fence Simple Diagonal](https://models.codelove.in/models/nature-kit-fence-simple-diagonal/) — https://models.codelove.in/library/nature-kit/fence-simple-diagonal.glb · 80 tris · 1×0.34×1 · 4 KB
+- [Fence Simple Diagonal Center](https://models.codelove.in/models/nature-kit-fence-simple-diagonal-center/) — https://models.codelove.in/library/nature-kit/fence-simple-diagonal-center.glb · 148 tris · 1×0.34×1 · 6 KB
+- [Fence Simple High](https://models.codelove.in/models/nature-kit-fence-simple-high/) — https://models.codelove.in/library/nature-kit/fence-simple-high.glb · 44 tris · 1.04×0.34×0.11 · 3 KB
+- [Fence Simple Low](https://models.codelove.in/models/nature-kit-fence-simple-low/) — https://models.codelove.in/library/nature-kit/fence-simple-low.glb · 44 tris · 1.04×0.2×0.11 · 3 KB
+- [Flower Purple A](https://models.codelove.in/models/nature-kit-flower-purple-a/) — https://models.codelove.in/library/nature-kit/flower-purple-a.glb · 76 tris · 0.16×0.24×0.18 · 5 KB
+- [Flower Purple B](https://models.codelove.in/models/nature-kit-flower-purple-b/) — https://models.codelove.in/library/nature-kit/flower-purple-b.glb · 98 tris · 0.21×0.21×0.24 · 5 KB
+- [Flower Purple C](https://models.codelove.in/models/nature-kit-flower-purple-c/) — https://models.codelove.in/library/nature-kit/flower-purple-c.glb · 78 tris · 0.18×0.18×0.18 · 6 KB
+- [Flower Red A](https://models.codelove.in/models/nature-kit-flower-red-a/) — https://models.codelove.in/library/nature-kit/flower-red-a.glb · 76 tris · 0.16×0.29×0.18 · 5 KB
+- [Flower Red B](https://models.codelove.in/models/nature-kit-flower-red-b/) — https://models.codelove.in/library/nature-kit/flower-red-b.glb · 98 tris · 0.21×0.26×0.24 · 5 KB
+- [Flower Red C](https://models.codelove.in/models/nature-kit-flower-red-c/) — https://models.codelove.in/library/nature-kit/flower-red-c.glb · 78 tris · 0.18×0.23×0.18 · 6 KB
+- [Flower Yellow A](https://models.codelove.in/models/nature-kit-flower-yellow-a/) — https://models.codelove.in/library/nature-kit/flower-yellow-a.glb · 76 tris · 0.16×0.19×0.18 · 5 KB
+- [Flower Yellow B](https://models.codelove.in/models/nature-kit-flower-yellow-b/) — https://models.codelove.in/library/nature-kit/flower-yellow-b.glb · 154 tris · 0.21×0.16×0.24 · 5 KB
+- [Flower Yellow C](https://models.codelove.in/models/nature-kit-flower-yellow-c/) — https://models.codelove.in/library/nature-kit/flower-yellow-c.glb · 78 tris · 0.18×0.13×0.18 · 6 KB
+- [Grass](https://models.codelove.in/models/nature-kit-grass/) — https://models.codelove.in/library/nature-kit/grass.glb · 132 tris · 0.38×0.25×0.39 · 5 KB
+- [Grass Large](https://models.codelove.in/models/nature-kit-grass-large/) — https://models.codelove.in/library/nature-kit/grass-large.glb · 224 tris · 0.41×0.25×0.41 · 6 KB
+- [Grass Leafs](https://models.codelove.in/models/nature-kit-grass-leafs/) — https://models.codelove.in/library/nature-kit/grass-leafs.glb · 36 tris · 0.23×0.14×0.26 · 3 KB
+- [Grass Leafs Large](https://models.codelove.in/models/nature-kit-grass-leafs-large/) — https://models.codelove.in/library/nature-kit/grass-leafs-large.glb · 144 tris · 0.48×0.14×0.49 · 6 KB
+- [Ground Grass](https://models.codelove.in/models/nature-kit-ground-grass/) — https://models.codelove.in/library/nature-kit/ground-grass.glb · 2 tris · 1×0×1 · 2 KB
+- [Ground Path Bend](https://models.codelove.in/models/nature-kit-ground-path-bend/) — https://models.codelove.in/library/nature-kit/ground-path-bend.glb · 32 tris · 1×0.05×1 · 5 KB
+- [Ground Path Bend Bank](https://models.codelove.in/models/nature-kit-ground-path-bend-bank/) — https://models.codelove.in/library/nature-kit/ground-path-bend-bank.glb · 38 tris · 1×0.05×1 · 5 KB
+- [Ground Path Corner](https://models.codelove.in/models/nature-kit-ground-path-corner/) — https://models.codelove.in/library/nature-kit/ground-path-corner.glb · 22 tris · 1×0.05×1 · 5 KB
+- [Ground Path Corner Small](https://models.codelove.in/models/nature-kit-ground-path-corner-small/) — https://models.codelove.in/library/nature-kit/ground-path-corner-small.glb · 24 tris · 1×0.05×1 · 5 KB
+- [Ground Path Cross](https://models.codelove.in/models/nature-kit-ground-path-cross/) — https://models.codelove.in/library/nature-kit/ground-path-cross.glb · 74 tris · 1×0.05×1 · 5 KB
+- [Ground Path End](https://models.codelove.in/models/nature-kit-ground-path-end/) — https://models.codelove.in/library/nature-kit/ground-path-end.glb · 52 tris · 1×0.05×1 · 5 KB
+- [Ground Path End Closed](https://models.codelove.in/models/nature-kit-ground-path-end-closed/) — https://models.codelove.in/library/nature-kit/ground-path-end-closed.glb · 68 tris · 1×0.05×1 · 5 KB
+- [Ground Path Open](https://models.codelove.in/models/nature-kit-ground-path-open/) — https://models.codelove.in/library/nature-kit/ground-path-open.glb · 8 tris · 1×0×1 · 2 KB
+- [Ground Path Rocks](https://models.codelove.in/models/nature-kit-ground-path-rocks/) — https://models.codelove.in/library/nature-kit/ground-path-rocks.glb · 102 tris · 1×0.05×1 · 5 KB
+- [Ground Path Side](https://models.codelove.in/models/nature-kit-ground-path-side/) — https://models.codelove.in/library/nature-kit/ground-path-side.glb · 34 tris · 1×0.05×1 · 5 KB
+- [Ground Path Side Open](https://models.codelove.in/models/nature-kit-ground-path-side-open/) — https://models.codelove.in/library/nature-kit/ground-path-side-open.glb · 40 tris · 1×0.05×1 · 5 KB
+- [Ground Path Split](https://models.codelove.in/models/nature-kit-ground-path-split/) — https://models.codelove.in/library/nature-kit/ground-path-split.glb · 68 tris · 1×0.05×1 · 5 KB
+- [Ground Path Straight](https://models.codelove.in/models/nature-kit-ground-path-straight/) — https://models.codelove.in/library/nature-kit/ground-path-straight.glb · 62 tris · 1×0.05×1 · 5 KB
+- [Ground Path Tile](https://models.codelove.in/models/nature-kit-ground-path-tile/) — https://models.codelove.in/library/nature-kit/ground-path-tile.glb · 86 tris · 1×0.05×1 · 5 KB
+- [Ground River Bend](https://models.codelove.in/models/nature-kit-ground-river-bend/) — https://models.codelove.in/library/nature-kit/ground-river-bend.glb · 54 tris · 1×0.05×1 · 6 KB
+- [Ground River Bend Bank](https://models.codelove.in/models/nature-kit-ground-river-bend-bank/) — https://models.codelove.in/library/nature-kit/ground-river-bend-bank.glb · 54 tris · 1×0.05×1 · 6 KB
+- [Ground River Corner](https://models.codelove.in/models/nature-kit-ground-river-corner/) — https://models.codelove.in/library/nature-kit/ground-river-corner.glb · 40 tris · 1×0.05×1 · 5 KB
+- [Ground River Corner Small](https://models.codelove.in/models/nature-kit-ground-river-corner-small/) — https://models.codelove.in/library/nature-kit/ground-river-corner-small.glb · 26 tris · 1×0.05×1 · 6 KB
+- [Ground River Cross](https://models.codelove.in/models/nature-kit-ground-river-cross/) — https://models.codelove.in/library/nature-kit/ground-river-cross.glb · 82 tris · 1×0.05×1 · 6 KB
+- [Ground River End](https://models.codelove.in/models/nature-kit-ground-river-end/) — https://models.codelove.in/library/nature-kit/ground-river-end.glb · 52 tris · 1×0.05×1 · 6 KB
+- [Ground River End Closed](https://models.codelove.in/models/nature-kit-ground-river-end-closed/) — https://models.codelove.in/library/nature-kit/ground-river-end-closed.glb · 84 tris · 1×0.05×1 · 6 KB
+- [Ground River Open](https://models.codelove.in/models/nature-kit-ground-river-open/) — https://models.codelove.in/library/nature-kit/ground-river-open.glb · 8 tris · 1×0×1 · 2 KB
+- [Ground River Rocks](https://models.codelove.in/models/nature-kit-ground-river-rocks/) — https://models.codelove.in/library/nature-kit/ground-river-rocks.glb · 102 tris · 1×0.05×1 · 7 KB
+- [Ground River Side](https://models.codelove.in/models/nature-kit-ground-river-side/) — https://models.codelove.in/library/nature-kit/ground-river-side.glb · 34 tris · 1×0.05×1 · 6 KB
+- [Ground River Side Open](https://models.codelove.in/models/nature-kit-ground-river-side-open/) — https://models.codelove.in/library/nature-kit/ground-river-side-open.glb · 44 tris · 1×0.05×1 · 6 KB
+- [Ground River Split](https://models.codelove.in/models/nature-kit-ground-river-split/) — https://models.codelove.in/library/nature-kit/ground-river-split.glb · 72 tris · 1×0.05×1 · 6 KB
+- [Ground River Straight](https://models.codelove.in/models/nature-kit-ground-river-straight/) — https://models.codelove.in/library/nature-kit/ground-river-straight.glb · 62 tris · 1×0.05×1 · 6 KB
+- [Ground River Tile](https://models.codelove.in/models/nature-kit-ground-river-tile/) — https://models.codelove.in/library/nature-kit/ground-river-tile.glb · 128 tris · 1×0.05×1 · 7 KB
+- [Hanging Moss](https://models.codelove.in/models/nature-kit-hanging-moss/) — https://models.codelove.in/library/nature-kit/hanging-moss.glb · 52 tris · 0.16×0.48×0.04 · 3 KB
+- [Lily Large](https://models.codelove.in/models/nature-kit-lily-large/) — https://models.codelove.in/library/nature-kit/lily-large.glb · 86 tris · 0.27×0.1×0.31 · 6 KB
+- [Lily Small](https://models.codelove.in/models/nature-kit-lily-small/) — https://models.codelove.in/library/nature-kit/lily-small.glb · 52 tris · 0.19×0.04×0.22 · 4 KB
+- [Log](https://models.codelove.in/models/nature-kit-log/) — https://models.codelove.in/library/nature-kit/log.glb · 200 tris · 0.23×0.17×0.71 · 6 KB
+- [Log Large](https://models.codelove.in/models/nature-kit-log-large/) — https://models.codelove.in/library/nature-kit/log-large.glb · 96 tris · 1×0.42×0.55 · 5 KB
+- [Log Stack](https://models.codelove.in/models/nature-kit-log-stack/) — https://models.codelove.in/library/nature-kit/log-stack.glb · 184 tris · 0.42×0.35×0.71 · 6 KB
+- [Log Stack Large](https://models.codelove.in/models/nature-kit-log-stack-large/) — https://models.codelove.in/library/nature-kit/log-stack-large.glb · 310 tris · 0.63×0.35×0.71 · 8 KB
+- [Mushroom Red](https://models.codelove.in/models/nature-kit-mushroom-red/) — https://models.codelove.in/library/nature-kit/mushroom-red.glb · 48 tris · 0.17×0.2×0.2 · 4 KB
+- [Mushroom Red Group](https://models.codelove.in/models/nature-kit-mushroom-red-group/) — https://models.codelove.in/library/nature-kit/mushroom-red-group.glb · 144 tris · 0.27×0.25×0.25 · 6 KB
+- [Mushroom Red Tall](https://models.codelove.in/models/nature-kit-mushroom-red-tall/) — https://models.codelove.in/library/nature-kit/mushroom-red-tall.glb · 48 tris · 0.12×0.25×0.14 · 4 KB
+- [Mushroom Tan](https://models.codelove.in/models/nature-kit-mushroom-tan/) — https://models.codelove.in/library/nature-kit/mushroom-tan.glb · 48 tris · 0.19×0.15×0.22 · 4 KB
+- [Mushroom Tan Group](https://models.codelove.in/models/nature-kit-mushroom-tan-group/) — https://models.codelove.in/library/nature-kit/mushroom-tan-group.glb · 144 tris · 0.27×0.25×0.25 · 6 KB
+- [Mushroom Tan Tall](https://models.codelove.in/models/nature-kit-mushroom-tan-tall/) — https://models.codelove.in/library/nature-kit/mushroom-tan-tall.glb · 48 tris · 0.12×0.25×0.14 · 4 KB
+- [Path Stone](https://models.codelove.in/models/nature-kit-path-stone/) — https://models.codelove.in/library/nature-kit/path-stone.glb · 136 tris · 1×0.05×0.58 · 6 KB
+- [Path Stone Circle](https://models.codelove.in/models/nature-kit-path-stone-circle/) — https://models.codelove.in/library/nature-kit/path-stone-circle.glb · 164 tris · 0.93×0.05×0.88 · 6 KB
+- [Path Stone Corner](https://models.codelove.in/models/nature-kit-path-stone-corner/) — https://models.codelove.in/library/nature-kit/path-stone-corner.glb · 112 tris · 0.74×0.05×0.78 · 6 KB
+- [Path Stone End](https://models.codelove.in/models/nature-kit-path-stone-end/) — https://models.codelove.in/library/nature-kit/path-stone-end.glb · 92 tris · 0.62×0.05×0.57 · 6 KB
+- [Path Wood](https://models.codelove.in/models/nature-kit-path-wood/) — https://models.codelove.in/library/nature-kit/path-wood.glb · 60 tris · 1×0.05×0.51 · 4 KB
+- [Path Wood Corner](https://models.codelove.in/models/nature-kit-path-wood-corner/) — https://models.codelove.in/library/nature-kit/path-wood-corner.glb · 60 tris · 0.75×0.05×0.75 · 4 KB
+- [Path Wood End](https://models.codelove.in/models/nature-kit-path-wood-end/) — https://models.codelove.in/library/nature-kit/path-wood-end.glb · 36 tris · 0.61×0.05×0.51 · 5 KB
+- [Plant Bush](https://models.codelove.in/models/nature-kit-plant-bush/) — https://models.codelove.in/library/nature-kit/plant-bush.glb · 32 tris · 0.4×0.24×0.4 · 3 KB
+- [Plant Bush Detailed](https://models.codelove.in/models/nature-kit-plant-bush-detailed/) — https://models.codelove.in/library/nature-kit/plant-bush-detailed.glb · 104 tris · 0.6×0.36×0.6 · 4 KB
+- [Plant Bush Large](https://models.codelove.in/models/nature-kit-plant-bush-large/) — https://models.codelove.in/library/nature-kit/plant-bush-large.glb · 60 tris · 0.37×0.24×0.34 · 4 KB
+- [Plant Bush Large Triangle](https://models.codelove.in/models/nature-kit-plant-bush-large-triangle/) — https://models.codelove.in/library/nature-kit/plant-bush-large-triangle.glb · 39 tris · 0.41×0.17×0.47 · 3 KB
+- [Plant Bush Small](https://models.codelove.in/models/nature-kit-plant-bush-small/) — https://models.codelove.in/library/nature-kit/plant-bush-small.glb · 16 tris · 0.38×0.21×0.34 · 3 KB
+- [Plant Bush Triangle](https://models.codelove.in/models/nature-kit-plant-bush-triangle/) — https://models.codelove.in/library/nature-kit/plant-bush-triangle.glb · 30 tris · 0.36×0.3×0.41 · 3 KB
+- [Plant Flat Short](https://models.codelove.in/models/nature-kit-plant-flat-short/) — https://models.codelove.in/library/nature-kit/plant-flat-short.glb · 44 tris · 0.28×0.23×0.28 · 3 KB
+- [Plant Flat Tall](https://models.codelove.in/models/nature-kit-plant-flat-tall/) — https://models.codelove.in/library/nature-kit/plant-flat-tall.glb · 32 tris · 0.27×0.28×0.27 · 3 KB
+- [Platform Beach](https://models.codelove.in/models/nature-kit-platform-beach/) — https://models.codelove.in/library/nature-kit/platform-beach.glb · 192 tris · 0.89×0.08×0.72 · 5 KB
+- [Platform Grass](https://models.codelove.in/models/nature-kit-platform-grass/) — https://models.codelove.in/library/nature-kit/platform-grass.glb · 186 tris · 0.89×0.08×0.72 · 6 KB
+- [Platform Stone](https://models.codelove.in/models/nature-kit-platform-stone/) — https://models.codelove.in/library/nature-kit/platform-stone.glb · 192 tris · 0.89×0.08×0.72 · 6 KB
+- [Pot Large](https://models.codelove.in/models/nature-kit-pot-large/) — https://models.codelove.in/library/nature-kit/pot-large.glb · 68 tris · 0.56×0.2×0.49 · 4 KB
+- [Pot Small](https://models.codelove.in/models/nature-kit-pot-small/) — https://models.codelove.in/library/nature-kit/pot-small.glb · 72 tris · 0.32×0.27×0.28 · 5 KB
+- [Rock Large A](https://models.codelove.in/models/nature-kit-rock-large-a/) — https://models.codelove.in/library/nature-kit/rock-large-a.glb · 80 tris · 0.79×0.26×1.01 · 5 KB
+- [Rock Large B](https://models.codelove.in/models/nature-kit-rock-large-b/) — https://models.codelove.in/library/nature-kit/rock-large-b.glb · 85 tris · 0.77×0.43×1.01 · 6 KB
+- [Rock Large C](https://models.codelove.in/models/nature-kit-rock-large-c/) — https://models.codelove.in/library/nature-kit/rock-large-c.glb · 72 tris · 1.06×0.32×1.02 · 5 KB
+- [Rock Large D](https://models.codelove.in/models/nature-kit-rock-large-d/) — https://models.codelove.in/library/nature-kit/rock-large-d.glb · 80 tris · 1.07×0.57×1.03 · 6 KB
+- [Rock Large E](https://models.codelove.in/models/nature-kit-rock-large-e/) — https://models.codelove.in/library/nature-kit/rock-large-e.glb · 64 tris · 1.09×0.29×0.92 · 4 KB
+- [Rock Large F](https://models.codelove.in/models/nature-kit-rock-large-f/) — https://models.codelove.in/library/nature-kit/rock-large-f.glb · 73 tris · 1.09×0.48×0.9 · 6 KB
+- [Rock Small A](https://models.codelove.in/models/nature-kit-rock-small-a/) — https://models.codelove.in/library/nature-kit/rock-small-a.glb · 16 tris · 0.36×0.19×0.36 · 4 KB
+- [Rock Small B](https://models.codelove.in/models/nature-kit-rock-small-b/) — https://models.codelove.in/library/nature-kit/rock-small-b.glb · 24 tris · 0.36×0.18×0.36 · 4 KB
+- [Rock Small C](https://models.codelove.in/models/nature-kit-rock-small-c/) — https://models.codelove.in/library/nature-kit/rock-small-c.glb · 16 tris · 0.36×0.12×0.36 · 4 KB
+- [Rock Small D](https://models.codelove.in/models/nature-kit-rock-small-d/) — https://models.codelove.in/library/nature-kit/rock-small-d.glb · 32 tris · 0.43×0.23×0.37 · 4 KB
+- [Rock Small E](https://models.codelove.in/models/nature-kit-rock-small-e/) — https://models.codelove.in/library/nature-kit/rock-small-e.glb · 64 tris · 0.36×0.26×0.31 · 4 KB
+- [Rock Small F](https://models.codelove.in/models/nature-kit-rock-small-f/) — https://models.codelove.in/library/nature-kit/rock-small-f.glb · 60 tris · 0.35×0.24×0.31 · 4 KB
+- [Rock Small Flat A](https://models.codelove.in/models/nature-kit-rock-small-flat-a/) — https://models.codelove.in/library/nature-kit/rock-small-flat-a.glb · 20 tris · 0.5×0.07×0.43 · 4 KB
+- [Rock Small Flat B](https://models.codelove.in/models/nature-kit-rock-small-flat-b/) — https://models.codelove.in/library/nature-kit/rock-small-flat-b.glb · 16 tris · 0.43×0.07×0.4 · 4 KB
+- [Rock Small Flat C](https://models.codelove.in/models/nature-kit-rock-small-flat-c/) — https://models.codelove.in/library/nature-kit/rock-small-flat-c.glb · 40 tris · 0.47×0.07×0.36 · 4 KB
+- [Rock Small G](https://models.codelove.in/models/nature-kit-rock-small-g/) — https://models.codelove.in/library/nature-kit/rock-small-g.glb · 32 tris · 0.59×0.24×0.69 · 4 KB
+- [Rock Small H](https://models.codelove.in/models/nature-kit-rock-small-h/) — https://models.codelove.in/library/nature-kit/rock-small-h.glb · 60 tris · 0.46×0.41×0.46 · 4 KB
+- [Rock Small I](https://models.codelove.in/models/nature-kit-rock-small-i/) — https://models.codelove.in/library/nature-kit/rock-small-i.glb · 44 tris · 0.36×0.28×0.41 · 4 KB
+- [Rock Small Top A](https://models.codelove.in/models/nature-kit-rock-small-top-a/) — https://models.codelove.in/library/nature-kit/rock-small-top-a.glb · 52 tris · 0.49×0.22×0.49 · 4 KB
+- [Rock Small Top B](https://models.codelove.in/models/nature-kit-rock-small-top-b/) — https://models.codelove.in/library/nature-kit/rock-small-top-b.glb · 76 tris · 0.62×0.28×0.65 · 4 KB
+- [Rock Tall A](https://models.codelove.in/models/nature-kit-rock-tall-a/) — https://models.codelove.in/library/nature-kit/rock-tall-a.glb · 136 tris · 0.98×1×0.68 · 6 KB
+- [Rock Tall B](https://models.codelove.in/models/nature-kit-rock-tall-b/) — https://models.codelove.in/library/nature-kit/rock-tall-b.glb · 172 tris · 0.77×0.88×0.77 · 7 KB
+- [Rock Tall C](https://models.codelove.in/models/nature-kit-rock-tall-c/) — https://models.codelove.in/library/nature-kit/rock-tall-c.glb · 37 tris · 0.46×0.78×0.44 · 5 KB
+- [Rock Tall D](https://models.codelove.in/models/nature-kit-rock-tall-d/) — https://models.codelove.in/library/nature-kit/rock-tall-d.glb · 38 tris · 0.44×0.77×0.46 · 5 KB
+- [Rock Tall E](https://models.codelove.in/models/nature-kit-rock-tall-e/) — https://models.codelove.in/library/nature-kit/rock-tall-e.glb · 38 tris · 0.46×0.44×0.53 · 5 KB
+- [Rock Tall F](https://models.codelove.in/models/nature-kit-rock-tall-f/) — https://models.codelove.in/library/nature-kit/rock-tall-f.glb · 46 tris · 0.44×0.57×0.51 · 5 KB
+- [Rock Tall G](https://models.codelove.in/models/nature-kit-rock-tall-g/) — https://models.codelove.in/library/nature-kit/rock-tall-g.glb · 62 tris · 0.42×0.78×0.49 · 5 KB
+- [Rock Tall H](https://models.codelove.in/models/nature-kit-rock-tall-h/) — https://models.codelove.in/library/nature-kit/rock-tall-h.glb · 78 tris · 0.57×0.71×0.66 · 6 KB
+- [Rock Tall I](https://models.codelove.in/models/nature-kit-rock-tall-i/) — https://models.codelove.in/library/nature-kit/rock-tall-i.glb · 44 tris · 0.46×0.81×0.46 · 5 KB
+- [Rock Tall J](https://models.codelove.in/models/nature-kit-rock-tall-j/) — https://models.codelove.in/library/nature-kit/rock-tall-j.glb · 42 tris · 0.49×0.62×0.54 · 5 KB
+- [Sign](https://models.codelove.in/models/nature-kit-sign/) — https://models.codelove.in/library/nature-kit/sign.glb · 44 tris · 0.3×0.41×0.07 · 5 KB
+- [Statue Block](https://models.codelove.in/models/nature-kit-statue-block/) — https://models.codelove.in/library/nature-kit/statue-block.glb · 140 tris · 0.4×0.4×0.4 · 5 KB
+- [Statue Column](https://models.codelove.in/models/nature-kit-statue-column/) — https://models.codelove.in/library/nature-kit/statue-column.glb · 122 tris · 0.3×1×0.3 · 6 KB
+- [Statue Column Damaged](https://models.codelove.in/models/nature-kit-statue-column-damaged/) — https://models.codelove.in/library/nature-kit/statue-column-damaged.glb · 108 tris · 0.3×0.7×0.3 · 5 KB
+- [Statue Head](https://models.codelove.in/models/nature-kit-statue-head/) — https://models.codelove.in/library/nature-kit/statue-head.glb · 196 tris · 0.73×1×0.55 · 7 KB
+- [Statue Obelisk](https://models.codelove.in/models/nature-kit-statue-obelisk/) — https://models.codelove.in/library/nature-kit/statue-obelisk.glb · 38 tris · 0.31×0.88×0.31 · 4 KB
+- [Statue Ring](https://models.codelove.in/models/nature-kit-statue-ring/) — https://models.codelove.in/library/nature-kit/statue-ring.glb · 76 tris · 0.6×0.8×0.4 · 4 KB
+- [Stone Large A](https://models.codelove.in/models/nature-kit-stone-large-a/) — https://models.codelove.in/library/nature-kit/stone-large-a.glb · 80 tris · 0.79×0.26×1.01 · 4 KB
+- [Stone Large B](https://models.codelove.in/models/nature-kit-stone-large-b/) — https://models.codelove.in/library/nature-kit/stone-large-b.glb · 85 tris · 0.77×0.43×1.01 · 5 KB
+- [Stone Large C](https://models.codelove.in/models/nature-kit-stone-large-c/) — https://models.codelove.in/library/nature-kit/stone-large-c.glb · 72 tris · 1.06×0.32×1.02 · 4 KB
+- [Stone Large D](https://models.codelove.in/models/nature-kit-stone-large-d/) — https://models.codelove.in/library/nature-kit/stone-large-d.glb · 80 tris · 1.07×0.57×1.03 · 5 KB
+- [Stone Large E](https://models.codelove.in/models/nature-kit-stone-large-e/) — https://models.codelove.in/library/nature-kit/stone-large-e.glb · 64 tris · 1.09×0.29×0.92 · 4 KB
+- [Stone Large F](https://models.codelove.in/models/nature-kit-stone-large-f/) — https://models.codelove.in/library/nature-kit/stone-large-f.glb · 73 tris · 1.09×0.48×0.9 · 5 KB
+- [Stone Small A](https://models.codelove.in/models/nature-kit-stone-small-a/) — https://models.codelove.in/library/nature-kit/stone-small-a.glb · 16 tris · 0.36×0.19×0.36 · 3 KB
+- [Stone Small B](https://models.codelove.in/models/nature-kit-stone-small-b/) — https://models.codelove.in/library/nature-kit/stone-small-b.glb · 24 tris · 0.36×0.18×0.36 · 3 KB
+- [Stone Small C](https://models.codelove.in/models/nature-kit-stone-small-c/) — https://models.codelove.in/library/nature-kit/stone-small-c.glb · 16 tris · 0.36×0.12×0.36 · 3 KB
+- [Stone Small D](https://models.codelove.in/models/nature-kit-stone-small-d/) — https://models.codelove.in/library/nature-kit/stone-small-d.glb · 32 tris · 0.43×0.23×0.37 · 3 KB
+- [Stone Small E](https://models.codelove.in/models/nature-kit-stone-small-e/) — https://models.codelove.in/library/nature-kit/stone-small-e.glb · 64 tris · 0.36×0.26×0.31 · 3 KB
+- [Stone Small F](https://models.codelove.in/models/nature-kit-stone-small-f/) — https://models.codelove.in/library/nature-kit/stone-small-f.glb · 60 tris · 0.35×0.24×0.31 · 3 KB
+- [Stone Small Flat A](https://models.codelove.in/models/nature-kit-stone-small-flat-a/) — https://models.codelove.in/library/nature-kit/stone-small-flat-a.glb · 20 tris · 0.5×0.07×0.43 · 3 KB
+- [Stone Small Flat B](https://models.codelove.in/models/nature-kit-stone-small-flat-b/) — https://models.codelove.in/library/nature-kit/stone-small-flat-b.glb · 16 tris · 0.43×0.07×0.4 · 3 KB
+- [Stone Small Flat C](https://models.codelove.in/models/nature-kit-stone-small-flat-c/) — https://models.codelove.in/library/nature-kit/stone-small-flat-c.glb · 40 tris · 0.47×0.07×0.36 · 3 KB
+- [Stone Small G](https://models.codelove.in/models/nature-kit-stone-small-g/) — https://models.codelove.in/library/nature-kit/stone-small-g.glb · 32 tris · 0.59×0.24×0.69 · 3 KB
+- [Stone Small H](https://models.codelove.in/models/nature-kit-stone-small-h/) — https://models.codelove.in/library/nature-kit/stone-small-h.glb · 60 tris · 0.46×0.41×0.46 · 3 KB
+- [Stone Small I](https://models.codelove.in/models/nature-kit-stone-small-i/) — https://models.codelove.in/library/nature-kit/stone-small-i.glb · 44 tris · 0.36×0.28×0.41 · 3 KB
+- [Stone Small Top A](https://models.codelove.in/models/nature-kit-stone-small-top-a/) — https://models.codelove.in/library/nature-kit/stone-small-top-a.glb · 52 tris · 0.49×0.22×0.49 · 3 KB
+- [Stone Small Top B](https://models.codelove.in/models/nature-kit-stone-small-top-b/) — https://models.codelove.in/library/nature-kit/stone-small-top-b.glb · 76 tris · 0.62×0.28×0.65 · 3 KB
+- [Stone Tall A](https://models.codelove.in/models/nature-kit-stone-tall-a/) — https://models.codelove.in/library/nature-kit/stone-tall-a.glb · 136 tris · 0.98×1×0.68 · 6 KB
+- [Stone Tall B](https://models.codelove.in/models/nature-kit-stone-tall-b/) — https://models.codelove.in/library/nature-kit/stone-tall-b.glb · 172 tris · 0.77×0.88×0.77 · 6 KB
+- [Stone Tall C](https://models.codelove.in/models/nature-kit-stone-tall-c/) — https://models.codelove.in/library/nature-kit/stone-tall-c.glb · 37 tris · 0.46×0.78×0.44 · 4 KB
+- [Stone Tall D](https://models.codelove.in/models/nature-kit-stone-tall-d/) — https://models.codelove.in/library/nature-kit/stone-tall-d.glb · 38 tris · 0.44×0.77×0.46 · 4 KB
+- [Stone Tall E](https://models.codelove.in/models/nature-kit-stone-tall-e/) — https://models.codelove.in/library/nature-kit/stone-tall-e.glb · 38 tris · 0.46×0.44×0.53 · 4 KB
+- [Stone Tall F](https://models.codelove.in/models/nature-kit-stone-tall-f/) — https://models.codelove.in/library/nature-kit/stone-tall-f.glb · 46 tris · 0.44×0.57×0.51 · 4 KB
+- [Stone Tall G](https://models.codelove.in/models/nature-kit-stone-tall-g/) — https://models.codelove.in/library/nature-kit/stone-tall-g.glb · 62 tris · 0.42×0.78×0.49 · 4 KB
+- [Stone Tall H](https://models.codelove.in/models/nature-kit-stone-tall-h/) — https://models.codelove.in/library/nature-kit/stone-tall-h.glb · 78 tris · 0.57×0.71×0.66 · 5 KB
+- [Stone Tall I](https://models.codelove.in/models/nature-kit-stone-tall-i/) — https://models.codelove.in/library/nature-kit/stone-tall-i.glb · 44 tris · 0.46×0.81×0.46 · 4 KB
+- [Stone Tall J](https://models.codelove.in/models/nature-kit-stone-tall-j/) — https://models.codelove.in/library/nature-kit/stone-tall-j.glb · 42 tris · 0.49×0.62×0.54 · 4 KB
+- [Stump Old](https://models.codelove.in/models/nature-kit-stump-old/) — https://models.codelove.in/library/nature-kit/stump-old.glb · 120 tris · 0.36×0.27×0.37 · 4 KB
+- [Stump Old Tall](https://models.codelove.in/models/nature-kit-stump-old-tall/) — https://models.codelove.in/library/nature-kit/stump-old-tall.glb · 120 tris · 0.36×0.67×0.37 · 4 KB
+- [Stump Round](https://models.codelove.in/models/nature-kit-stump-round/) — https://models.codelove.in/library/nature-kit/stump-round.glb · 56 tris · 0.32×0.21×0.37 · 4 KB
+- [Stump Round Detailed](https://models.codelove.in/models/nature-kit-stump-round-detailed/) — https://models.codelove.in/library/nature-kit/stump-round-detailed.glb · 96 tris · 0.36×0.21×0.37 · 5 KB
+- [Stump Square](https://models.codelove.in/models/nature-kit-stump-square/) — https://models.codelove.in/library/nature-kit/stump-square.glb · 44 tris · 0.36×0.3×0.3 · 4 KB
+- [Stump Square Detailed](https://models.codelove.in/models/nature-kit-stump-square-detailed/) — https://models.codelove.in/library/nature-kit/stump-square-detailed.glb · 84 tris · 0.44×0.2×0.44 · 5 KB
+- [Stump Square Detailed Wide](https://models.codelove.in/models/nature-kit-stump-square-detailed-wide/) — https://models.codelove.in/library/nature-kit/stump-square-detailed-wide.glb · 84 tris · 0.64×0.2×0.64 · 5 KB
+- [Tent Detailed Closed](https://models.codelove.in/models/nature-kit-tent-detailed-closed/) — https://models.codelove.in/library/nature-kit/tent-detailed-closed.glb · 228 tris · 0.88×0.56×0.64 · 7 KB
+- [Tent Detailed Open](https://models.codelove.in/models/nature-kit-tent-detailed-open/) — https://models.codelove.in/library/nature-kit/tent-detailed-open.glb · 232 tris · 0.88×0.56×0.67 · 6 KB
+- [Tent Small Closed](https://models.codelove.in/models/nature-kit-tent-small-closed/) — https://models.codelove.in/library/nature-kit/tent-small-closed.glb · 220 tris · 0.55×0.56×0.64 · 7 KB
+- [Tent Small Open](https://models.codelove.in/models/nature-kit-tent-small-open/) — https://models.codelove.in/library/nature-kit/tent-small-open.glb · 224 tris · 0.55×0.56×0.67 · 7 KB
+
+### Trees (61)
+
+- [Tree Blocks](https://models.codelove.in/models/nature-kit-tree-blocks/) — https://models.codelove.in/library/nature-kit/tree-blocks.glb · 132 tris · 0.6×1.19×0.6 · 5 KB
+- [Tree Blocks Dark](https://models.codelove.in/models/nature-kit-tree-blocks-dark/) — https://models.codelove.in/library/nature-kit/tree-blocks-dark.glb · 132 tris · 0.6×1.19×0.6 · 5 KB
+- [Tree Blocks Fall](https://models.codelove.in/models/nature-kit-tree-blocks-fall/) — https://models.codelove.in/library/nature-kit/tree-blocks-fall.glb · 264 tris · 0.6×1.19×0.6 · 6 KB
+- [Tree Cone](https://models.codelove.in/models/nature-kit-tree-cone/) — https://models.codelove.in/library/nature-kit/tree-cone.glb · 132 tris · 0.53×1.43×0.53 · 5 KB
+- [Tree Cone Dark](https://models.codelove.in/models/nature-kit-tree-cone-dark/) — https://models.codelove.in/library/nature-kit/tree-cone-dark.glb · 264 tris · 0.53×1.43×0.53 · 8 KB
+- [Tree Cone Fall](https://models.codelove.in/models/nature-kit-tree-cone-fall/) — https://models.codelove.in/library/nature-kit/tree-cone-fall.glb · 132 tris · 0.53×1.43×0.53 · 5 KB
+- [Tree Default](https://models.codelove.in/models/nature-kit-tree-default/) — https://models.codelove.in/library/nature-kit/tree-default.glb · 114 tris · 0.76×1.71×0.65 · 5 KB
+- [Tree Default Dark](https://models.codelove.in/models/nature-kit-tree-default-dark/) — https://models.codelove.in/library/nature-kit/tree-default-dark.glb · 114 tris · 0.76×1.71×0.65 · 5 KB
+- [Tree Default Fall](https://models.codelove.in/models/nature-kit-tree-default-fall/) — https://models.codelove.in/library/nature-kit/tree-default-fall.glb · 228 tris · 0.76×1.71×0.65 · 7 KB
+- [Tree Detailed](https://models.codelove.in/models/nature-kit-tree-detailed/) — https://models.codelove.in/library/nature-kit/tree-detailed.glb · 402 tris · 0.85×1.33×0.76 · 11 KB
+- [Tree Detailed Dark](https://models.codelove.in/models/nature-kit-tree-detailed-dark/) — https://models.codelove.in/library/nature-kit/tree-detailed-dark.glb · 402 tris · 0.85×1.33×0.76 · 11 KB
+- [Tree Detailed Fall](https://models.codelove.in/models/nature-kit-tree-detailed-fall/) — https://models.codelove.in/library/nature-kit/tree-detailed-fall.glb · 402 tris · 0.85×1.33×0.76 · 11 KB
+- [Tree Fat](https://models.codelove.in/models/nature-kit-tree-fat/) — https://models.codelove.in/library/nature-kit/tree-fat.glb · 50 tris · 0.76×1.15×0.65 · 4 KB
+- [Tree Fat Darkh](https://models.codelove.in/models/nature-kit-tree-fat-darkh/) — https://models.codelove.in/library/nature-kit/tree-fat-darkh.glb · 50 tris · 0.76×1.15×0.65 · 4 KB
+- [Tree Fat Fall](https://models.codelove.in/models/nature-kit-tree-fat-fall/) — https://models.codelove.in/library/nature-kit/tree-fat-fall.glb · 50 tris · 0.76×1.15×0.65 · 4 KB
+- [Tree Oak](https://models.codelove.in/models/nature-kit-tree-oak/) — https://models.codelove.in/library/nature-kit/tree-oak.glb · 196 tris · 0.64×1.23×0.74 · 6 KB
+- [Tree Oak Dark](https://models.codelove.in/models/nature-kit-tree-oak-dark/) — https://models.codelove.in/library/nature-kit/tree-oak-dark.glb · 196 tris · 0.64×1.23×0.74 · 6 KB
+- [Tree Oak Fall](https://models.codelove.in/models/nature-kit-tree-oak-fall/) — https://models.codelove.in/library/nature-kit/tree-oak-fall.glb · 196 tris · 0.64×1.23×0.74 · 6 KB
+- [Tree Palm](https://models.codelove.in/models/nature-kit-tree-palm/) — https://models.codelove.in/library/nature-kit/tree-palm.glb · 186 tris · 0.94×1.51×1.01 · 6 KB
+- [Tree Palm Bend](https://models.codelove.in/models/nature-kit-tree-palm-bend/) — https://models.codelove.in/library/nature-kit/tree-palm-bend.glb · 200 tris · 0.94×1.38×1.01 · 6 KB
+- [Tree Palm Detailed Short](https://models.codelove.in/models/nature-kit-tree-palm-detailed-short/) — https://models.codelove.in/library/nature-kit/tree-palm-detailed-short.glb · 336 tris · 1.03×1.12×1.03 · 9 KB
+- [Tree Palm Detailed Tall](https://models.codelove.in/models/nature-kit-tree-palm-detailed-tall/) — https://models.codelove.in/library/nature-kit/tree-palm-detailed-tall.glb · 336 tris · 1.03×1.42×1.03 · 9 KB
+- [Tree Palm Short](https://models.codelove.in/models/nature-kit-tree-palm-short/) — https://models.codelove.in/library/nature-kit/tree-palm-short.glb · 190 tris · 1.03×1.06×1.03 · 7 KB
+- [Tree Palm Tall](https://models.codelove.in/models/nature-kit-tree-palm-tall/) — https://models.codelove.in/library/nature-kit/tree-palm-tall.glb · 190 tris · 1.03×1.36×1.03 · 7 KB
+- [Tree Pine Default A](https://models.codelove.in/models/nature-kit-tree-pine-default-a/) — https://models.codelove.in/library/nature-kit/tree-pine-default-a.glb · 230 tris · 0.53×1.55×0.53 · 7 KB
+- [Tree Pine Default B](https://models.codelove.in/models/nature-kit-tree-pine-default-b/) — https://models.codelove.in/library/nature-kit/tree-pine-default-b.glb · 246 tris · 0.53×1.55×0.53 · 8 KB
+- [Tree Pine Ground A](https://models.codelove.in/models/nature-kit-tree-pine-ground-a/) — https://models.codelove.in/library/nature-kit/tree-pine-ground-a.glb · 82 tris · 0.48×0.91×0.56 · 4 KB
+- [Tree Pine Ground B](https://models.codelove.in/models/nature-kit-tree-pine-ground-b/) — https://models.codelove.in/library/nature-kit/tree-pine-ground-b.glb · 82 tris · 0.48×1.04×0.56 · 4 KB
+- [Tree Pine Round A](https://models.codelove.in/models/nature-kit-tree-pine-round-a/) — https://models.codelove.in/library/nature-kit/tree-pine-round-a.glb · 204 tris · 0.62×1.37×0.71 · 6 KB
+- [Tree Pine Round B](https://models.codelove.in/models/nature-kit-tree-pine-round-b/) — https://models.codelove.in/library/nature-kit/tree-pine-round-b.glb · 262 tris · 0.53×1.2×0.61 · 8 KB
+- [Tree Pine Round C](https://models.codelove.in/models/nature-kit-tree-pine-round-c/) — https://models.codelove.in/library/nature-kit/tree-pine-round-c.glb · 206 tris · 0.48×1.25×0.56 · 6 KB
+- [Tree Pine Round D](https://models.codelove.in/models/nature-kit-tree-pine-round-d/) — https://models.codelove.in/library/nature-kit/tree-pine-round-d.glb · 170 tris · 0.48×1.08×0.56 · 6 KB
+- [Tree Pine Round E](https://models.codelove.in/models/nature-kit-tree-pine-round-e/) — https://models.codelove.in/library/nature-kit/tree-pine-round-e.glb · 198 tris · 0.53×1.25×0.53 · 7 KB
+- [Tree Pine Round F](https://models.codelove.in/models/nature-kit-tree-pine-round-f/) — https://models.codelove.in/library/nature-kit/tree-pine-round-f.glb · 214 tris · 0.53×1.25×0.53 · 7 KB
+- [Tree Pine Small A](https://models.codelove.in/models/nature-kit-tree-pine-small-a/) — https://models.codelove.in/library/nature-kit/tree-pine-small-a.glb · 164 tris · 0.5×0.97×0.5 · 6 KB
+- [Tree Pine Small B](https://models.codelove.in/models/nature-kit-tree-pine-small-b/) — https://models.codelove.in/library/nature-kit/tree-pine-small-b.glb · 86 tris · 0.39×1.01×0.39 · 5 KB
+- [Tree Pine Small C](https://models.codelove.in/models/nature-kit-tree-pine-small-c/) — https://models.codelove.in/library/nature-kit/tree-pine-small-c.glb · 54 tris · 0.39×1.12×0.39 · 4 KB
+- [Tree Pine Small D](https://models.codelove.in/models/nature-kit-tree-pine-small-d/) — https://models.codelove.in/library/nature-kit/tree-pine-small-d.glb · 54 tris · 0.36×0.96×0.36 · 4 KB
+- [Tree Pine Tall A](https://models.codelove.in/models/nature-kit-tree-pine-tall-a/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-a.glb · 78 tris · 0.39×1.53×0.39 · 5 KB
+- [Tree Pine Tall A Detailed](https://models.codelove.in/models/nature-kit-tree-pine-tall-a-detailed/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-a-detailed.glb · 134 tris · 0.39×1.53×0.39 · 5 KB
+- [Tree Pine Tall B](https://models.codelove.in/models/nature-kit-tree-pine-tall-b/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-b.glb · 78 tris · 0.39×1.94×0.39 · 5 KB
+- [Tree Pine Tall B Detailed](https://models.codelove.in/models/nature-kit-tree-pine-tall-b-detailed/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-b-detailed.glb · 166 tris · 0.39×1.94×0.39 · 6 KB
+- [Tree Pine Tall C](https://models.codelove.in/models/nature-kit-tree-pine-tall-c/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-c.glb · 98 tris · 0.48×1.67×0.56 · 5 KB
+- [Tree Pine Tall C Detailed](https://models.codelove.in/models/nature-kit-tree-pine-tall-c-detailed/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-c-detailed.glb · 154 tris · 0.48×1.67×0.56 · 6 KB
+- [Tree Pine Tall D](https://models.codelove.in/models/nature-kit-tree-pine-tall-d/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-d.glb · 98 tris · 0.48×2.08×0.56 · 5 KB
+- [Tree Pine Tall D Detailed](https://models.codelove.in/models/nature-kit-tree-pine-tall-d-detailed/) — https://models.codelove.in/library/nature-kit/tree-pine-tall-d-detailed.glb · 170 tris · 0.48×2.08×0.56 · 6 KB
+- [Tree Plateau](https://models.codelove.in/models/nature-kit-tree-plateau/) — https://models.codelove.in/library/nature-kit/tree-plateau.glb · 215 tris · 0.61×1.25×0.66 · 7 KB
+- [Tree Plateau Dark](https://models.codelove.in/models/nature-kit-tree-plateau-dark/) — https://models.codelove.in/library/nature-kit/tree-plateau-dark.glb · 215 tris · 0.61×1.25×0.66 · 7 KB
+- [Tree Plateau Fall](https://models.codelove.in/models/nature-kit-tree-plateau-fall/) — https://models.codelove.in/library/nature-kit/tree-plateau-fall.glb · 215 tris · 0.61×1.25×0.66 · 7 KB
+- [Tree Simple](https://models.codelove.in/models/nature-kit-tree-simple/) — https://models.codelove.in/library/nature-kit/tree-simple.glb · 62 tris · 0.35×1.52×0.41 · 4 KB
+- [Tree Simple Dark](https://models.codelove.in/models/nature-kit-tree-simple-dark/) — https://models.codelove.in/library/nature-kit/tree-simple-dark.glb · 62 tris · 0.35×1.52×0.41 · 4 KB
+- [Tree Simple Fall](https://models.codelove.in/models/nature-kit-tree-simple-fall/) — https://models.codelove.in/library/nature-kit/tree-simple-fall.glb · 62 tris · 0.35×1.52×0.41 · 4 KB
+- [Tree Small](https://models.codelove.in/models/nature-kit-tree-small/) — https://models.codelove.in/library/nature-kit/tree-small.glb · 62 tris · 0.35×1.11×0.41 · 5 KB
+- [Tree Small Dark](https://models.codelove.in/models/nature-kit-tree-small-dark/) — https://models.codelove.in/library/nature-kit/tree-small-dark.glb · 124 tris · 0.35×1.11×0.41 · 6 KB
+- [Tree Small Fall](https://models.codelove.in/models/nature-kit-tree-small-fall/) — https://models.codelove.in/library/nature-kit/tree-small-fall.glb · 62 tris · 0.35×1.11×0.41 · 5 KB
+- [Tree Tall](https://models.codelove.in/models/nature-kit-tree-tall/) — https://models.codelove.in/library/nature-kit/tree-tall.glb · 72 tris · 0.4×1.69×0.46 · 5 KB
+- [Tree Tall Dark](https://models.codelove.in/models/nature-kit-tree-tall-dark/) — https://models.codelove.in/library/nature-kit/tree-tall-dark.glb · 72 tris · 0.4×1.69×0.46 · 5 KB
+- [Tree Tall Fall](https://models.codelove.in/models/nature-kit-tree-tall-fall/) — https://models.codelove.in/library/nature-kit/tree-tall-fall.glb · 144 tris · 0.4×1.69×0.46 · 6 KB
+- [Tree Thin](https://models.codelove.in/models/nature-kit-tree-thin/) — https://models.codelove.in/library/nature-kit/tree-thin.glb · 228 tris · 0.68×1.49×0.62 · 7 KB
+- [Tree Thin Dark](https://models.codelove.in/models/nature-kit-tree-thin-dark/) — https://models.codelove.in/library/nature-kit/tree-thin-dark.glb · 456 tris · 0.68×1.49×0.62 · 10 KB
+- [Tree Thin Fall](https://models.codelove.in/models/nature-kit-tree-thin-fall/) — https://models.codelove.in/library/nature-kit/tree-thin-fall.glb · 228 tris · 0.68×1.49×0.62 · 7 KB

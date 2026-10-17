@@ -1,0 +1,202 @@
+# Satellites & Probes — 180 free 3D models (Space 179, Weapons 1)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: Public domain — No attribution required; don't use insignia or logos shown on the model to imply endorsement.
+
+- Collection page: https://models.codelove.in/models/collection/satellites/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/satellites.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 134.5 MB.
+
+## Models
+
+### Space (179)
+
+- [70-meter Dish](https://models.codelove.in/models/70-meter-dish/) — https://models.codelove.in/library/satellites/70-meter-dish.glb · 14,852 tris · 91.6×85.5×91.3 · 626 KB
+- [Active Cavity Irradiance Monitor Satellite (AcrimSAT) (A)](https://models.codelove.in/models/active-cavity-irradiance-monitor-satellite-acrim-sat-a/) — https://models.codelove.in/library/satellites/active-cavity-irradiance-monitor-satellite-acrim-sat-a.glb · 11,551 tris · 1.8×0.73×1.8 · 289 KB
+- [Active Cavity Irradiance Monitor Satellite (AcrimSAT) (B)](https://models.codelove.in/models/active-cavity-irradiance-monitor-satellite-acrim-sat-b/) — https://models.codelove.in/library/satellites/active-cavity-irradiance-monitor-satellite-acrim-sat-b.glb · 11,771 tris · 11051.3×4223×10351.6 · 403 KB
+- [Advanced Composition Explorer](https://models.codelove.in/models/advanced-composition-explorer/) — https://models.codelove.in/library/satellites/advanced-composition-explorer.glb · 25,778 tris · 921.5×278×1345.3 · 366 KB
+- [Advanced Technology Large-Aperture Space Telescope (ATLAST)](https://models.codelove.in/models/advanced-technology-large-aperture-space-telescope-atlast/) — https://models.codelove.in/library/satellites/advanced-technology-large-aperture-space-telescope-atlast.glb · 118,817 tris · 27.2×19.5×19.5 · 793 KB
+- [Aeronomy of Ice in the Mesosphere](https://models.codelove.in/models/aeronomy-of-ice-in-the-mesosphere/) — https://models.codelove.in/library/satellites/aeronomy-of-ice-in-the-mesosphere.glb · 102,366 tris · 41.4×17.2×18.5 · 662 KB
+- [Agena Target Vehicle](https://models.codelove.in/models/agena-target-vehicle/) — https://models.codelove.in/library/satellites/agena-target-vehicle.glb · 31,290 tris · 5.23×12.6×27.3 · 295 KB · 51 animations inside
+- [Aqua (A)](https://models.codelove.in/models/aqua-a/) — https://models.codelove.in/library/satellites/aqua-a.glb · 115,142 tris · 124.1×229.6×434.2 · 3.3 MB
+- [Aqua (B)](https://models.codelove.in/models/aqua-b/) — https://models.codelove.in/library/satellites/aqua-b.glb · 49,401 tris · 9.4×17.8×5.08 · 535 KB
+- [Aqua (C)](https://models.codelove.in/models/aqua-c/) — https://models.codelove.in/library/satellites/aqua-c.glb · 114,369 tris · 9.43×17.8×4.9 · 1.9 MB
+- [Aquarius (A)](https://models.codelove.in/models/aquarius-a/) — https://models.codelove.in/library/satellites/aquarius-a.glb · 117,771 tris · 7.86×4.54×10.7 · 1.6 MB
+- [Aquarius (B)](https://models.codelove.in/models/aquarius-b/) — https://models.codelove.in/library/satellites/aquarius-b.glb · 10,362 tris · 2.53×4.27×2.53 · 424 KB
+- [Aquarius (B) (2)](https://models.codelove.in/models/aquarius-b-2/) — https://models.codelove.in/library/satellites/aquarius-b-2.glb · 10,362 tris · 3.49×5.38×4.97 · 415 KB
+- [Ares 1 (A)](https://models.codelove.in/models/ares-1-a/) — https://models.codelove.in/library/satellites/ares-1-a.glb · 3,872 tris · 0.7×10×9.77 · 175 KB
+- [Ares 1 (B)](https://models.codelove.in/models/ares-1-b/) — https://models.codelove.in/library/satellites/ares-1-b.glb · 4,664 tris · 0.7×10×9.77 · 128 KB
+- [Argo](https://models.codelove.in/models/argo/) — https://models.codelove.in/library/satellites/argo.glb · 9,221 tris · 4.3×26.6×4.3 · 71 KB
+- [Atlas 6 (Friendship 7)](https://models.codelove.in/models/atlas-6-friendship-7/) — https://models.codelove.in/library/satellites/atlas-6-friendship-7.glb · 119,448 tris · 5.99×9.23×5.99 · 1.0 MB · 218 animations inside
+- [Atlas 7 (Aurora 7)](https://models.codelove.in/models/atlas-7-aurora-7/) — https://models.codelove.in/library/satellites/atlas-7-aurora-7.glb · 119,459 tris · 5.99×9.23×5.99 · 1.0 MB · 218 animations inside
+- [Atlas 9 (Faith 7)](https://models.codelove.in/models/atlas-9-faith-7/) — https://models.codelove.in/library/satellites/atlas-9-faith-7.glb · 119,459 tris · 5.99×9.23×5.99 · 1.0 MB · 218 animations inside
+- [Atmosphere-Space Transition Region Explorer (ASTRE)](https://models.codelove.in/models/atmosphere-space-transition-region-explorer-astre/) — https://models.codelove.in/library/satellites/atmosphere-space-transition-region-explorer-astre.glb · 66,705 tris · 110×78.3×80 · 1.1 MB
+- [Aura (A)](https://models.codelove.in/models/aura-a/) — https://models.codelove.in/library/satellites/aura-a.glb · 6,135 tris · 8.98×19×50.8 · 249 KB
+- [Aura (B)](https://models.codelove.in/models/aura-b/) — https://models.codelove.in/library/satellites/aura-b.glb · 86,821 tris · 8.73×18.7×3.44 · 1.0 MB
+- [Aura (C)](https://models.codelove.in/models/aura-c/) — https://models.codelove.in/library/satellites/aura-c.glb · 119,729 tris · 8.7×18.7×3.43 · 787 KB
+- [Aura (D)](https://models.codelove.in/models/aura-d/) — https://models.codelove.in/library/satellites/aura-d.glb · 118,551 tris · 8.72×18.6×3.44 · 1.8 MB
+- [Ben Franklin](https://models.codelove.in/models/ben-franklin/) — https://models.codelove.in/library/satellites/ben-franklin.glb · 149,226 tris · 17.8×9.25×6.82 · 2.0 MB
+- [BP Tauri](https://models.codelove.in/models/bp-tauri/) — https://models.codelove.in/library/satellites/bp-tauri.glb · 324,781 tris · 9.46×7.74×9.9 · 7.1 MB
+- [Cassini Assembly](https://models.codelove.in/models/cassini-assembly/) — https://models.codelove.in/library/satellites/cassini-assembly.glb · 163,857 tris · 705.3×515.6×457.6 · 1.0 MB · 14 animations inside
+- [Cassini-Huygens (A)](https://models.codelove.in/models/cassini-huygens-a/) — https://models.codelove.in/library/satellites/cassini-huygens-a.glb · 684 tris · 1×2.62×2.62 · 129 KB
+- [Cassini-Huygens (A) (2)](https://models.codelove.in/models/cassini-huygens-a-2/) — https://models.codelove.in/library/satellites/cassini-huygens-a-2.glb · 25,064 tris · 18×11.7×13.1 · 457 KB
+- [Cassini-Huygens (A) (3)](https://models.codelove.in/models/cassini-huygens-a-3/) — https://models.codelove.in/library/satellites/cassini-huygens-a-3.glb · 25,736 tris · 18×11.7×13.1 · 469 KB
+- [Cassini-Huygens (B)](https://models.codelove.in/models/cassini-huygens-b/) — https://models.codelove.in/library/satellites/cassini-huygens-b.glb · 9,199 tris · 67.5×51.7×59.7 · 449 KB
+- [Chandra X-ray Observatory](https://models.codelove.in/models/chandra-x-ray-observatory/) — https://models.codelove.in/library/satellites/chandra-x-ray-observatory.glb · 30,132 tris · 13.8×5.14×19.5 · 369 KB
+- [Clementine](https://models.codelove.in/models/clementine/) — https://models.codelove.in/library/satellites/clementine.glb · 9,212 tris · 4.13×2.18×1.6 · 406 KB
+- [CloudSat (A)](https://models.codelove.in/models/cloud-sat-a/) — https://models.codelove.in/library/satellites/cloud-sat-a.glb · 73,915 tris · 62.3×76.6×172.1 · 519 KB
+- [CloudSat (B)](https://models.codelove.in/models/cloud-sat-b/) — https://models.codelove.in/library/satellites/cloud-sat-b.glb · 59,924 tris · 11.5×14.3×32.2 · 964 KB
+- [CloudSat (C)](https://models.codelove.in/models/cloud-sat-c/) — https://models.codelove.in/library/satellites/cloud-sat-c.glb · 11,204 tris · 2.41×3.2×5.53 · 309 KB
+- [Cluster](https://models.codelove.in/models/cluster/) — https://models.codelove.in/library/satellites/cluster.glb · 12,380 tris · 7.86×14.5×31 · 226 KB
+- [Cluster II](https://models.codelove.in/models/cluster-ii/) — https://models.codelove.in/library/satellites/cluster-ii.glb · 9,042 tris · 88×4.33×88 · 163 KB
+- [Communication and Navigation Outage Forecast System (CNOFS)](https://models.codelove.in/models/communication-and-navigation-outage-forecast-system-cnofs/) — https://models.codelove.in/library/satellites/communication-and-navigation-outage-forecast-system-cnofs.glb · 189,140 tris · 95.8×147.7×96.8 · 1.1 MB
+- [Constellation-X](https://models.codelove.in/models/constellation-x/) — https://models.codelove.in/library/satellites/constellation-x.glb · 23,509 tris · 500.2×81.8×163.3 · 431 KB
+- [Cosmic Origins Spectrograph](https://models.codelove.in/models/cosmic-origins-spectrograph/) — https://models.codelove.in/library/satellites/cosmic-origins-spectrograph.glb · 264 tris · 67.7×67.9×158.8 · 58 KB
+- [Crab Nebula](https://models.codelove.in/models/crab-nebula/) — https://models.codelove.in/library/satellites/crab-nebula.glb · 119,998 tris · 170.6×190.2×177.9 · 797 KB
+- [Crawler](https://models.codelove.in/models/crawler/) — https://models.codelove.in/library/satellites/crawler.glb · 159,037 tris · 8.77×1.7×7.2 · 1.6 MB
+- [Crew Lock Bag](https://models.codelove.in/models/crew-lock-bag/) — https://models.codelove.in/library/satellites/crew-lock-bag.glb · 514 tris · 14.1×15.5×5.41 · 62 KB
+- [CubeSat - 1 RU Generic](https://models.codelove.in/models/cube-sat-1-ru-generic/) — https://models.codelove.in/library/satellites/cube-sat-1-ru-generic.glb · 23,570 tris · 5.19×2.6×2.2 · 268 KB
+- [CubeSat - 2 RU Generic](https://models.codelove.in/models/cube-sat-2-ru-generic/) — https://models.codelove.in/library/satellites/cube-sat-2-ru-generic.glb · 36,896 tris · 5.39×5×2.21 · 411 KB
+- [CubeSat - ICECube](https://models.codelove.in/models/cube-sat-icecube/) — https://models.codelove.in/library/satellites/cube-sat-icecube.glb · 58,118 tris · 2.34×8.29×2.12 · 680 KB
+- [CubeSat - MiRaTa](https://models.codelove.in/models/cube-sat-mi-ra-ta/) — https://models.codelove.in/library/satellites/cube-sat-mi-ra-ta.glb · 85,978 tris · 2.46×8.4×2.09 · 987 KB
+- [Cyclone Global Navigation Satellite System (CYGNSS)](https://models.codelove.in/models/cyclone-global-navigation-satellite-system-cygnss/) — https://models.codelove.in/library/satellites/cyclone-global-navigation-satellite-system-cygnss.glb · 7,338 tris · 1.59×0.51×0.24 · 163 KB
+- [Cygnus Loop Supernova](https://models.codelove.in/models/cygnus-loop-supernova/) — https://models.codelove.in/library/satellites/cygnus-loop-supernova.glb · 269,754 tris · 25.8×14×25.6 · 6.0 MB
+- [Dawn](https://models.codelove.in/models/dawn/) — https://models.codelove.in/library/satellites/dawn.glb · 32,096 tris · 19.7×2.2×2.21 · 348 KB
+- [Deep Impact (EPOXI)](https://models.codelove.in/models/deep-impact-epoxi/) — https://models.codelove.in/library/satellites/deep-impact-epoxi.glb · 7,059 tris · 1.25×1.25×0.85 · 199 KB
+- [Deep Impact (EPOXI) (2)](https://models.codelove.in/models/deep-impact-epoxi-2/) — https://models.codelove.in/library/satellites/deep-impact-epoxi-2.glb · 20,572 tris · 2.88×1.99×3.91 · 545 KB
+- [Deep Impact (EPOXI) (3)](https://models.codelove.in/models/deep-impact-epoxi-3/) — https://models.codelove.in/library/satellites/deep-impact-epoxi-3.glb · 27,631 tris · 2.88×1.99×3.91 · 623 KB
+- [Deep Space 1](https://models.codelove.in/models/deep-space-1/) — https://models.codelove.in/library/satellites/deep-space-1.glb · 13,800 tris · 11.8×2.22×1.96 · 208 KB
+- [Deep Space Climate Observatory (DSCOVR) (Triana)](https://models.codelove.in/models/deep-space-climate-observatory-dscovr-triana/) — https://models.codelove.in/library/satellites/deep-space-climate-observatory-dscovr-triana.glb · 8,786 tris · 266.4×96.4×102.5 · 176 KB
+- [Deep Space Network 34-meter](https://models.codelove.in/models/deep-space-network-34-meter/) — https://models.codelove.in/library/satellites/deep-space-network-34-meter.glb · 31,842 tris · 34×36.8×34 · 1007 KB
+- [Deep Space Network 70-meter](https://models.codelove.in/models/deep-space-network-70-meter/) — https://models.codelove.in/library/satellites/deep-space-network-70-meter.glb · 33,136 tris · 70.1×72.9×70.1 · 681 KB
+- [Deformation, Ecosystem Structure, and Dynamics of Ice (DESDynI)](https://models.codelove.in/models/deformation-ecosystem-structure-and-dynamics-of-ice-desdyn-i/) — https://models.codelove.in/library/satellites/deformation-ecosystem-structure-and-dynamics-of-ice-desdyn-i.glb · 67,580 tris · 4.79×10.2×21.3 · 867 KB
+- [Extravehicular Mobility Unit](https://models.codelove.in/models/extravehicular-mobility-unit/) — https://models.codelove.in/library/satellites/extravehicular-mobility-unit.glb · 120,151 tris · 1.14×2×1.41 · 866 KB
+- [Far Ultraviolet Spectroscopic Explorer](https://models.codelove.in/models/far-ultraviolet-spectroscopic-explorer/) — https://models.codelove.in/library/satellites/far-ultraviolet-spectroscopic-explorer.glb · 22,449 tris · 0.4×1.01×1.19 · 375 KB
+- [Fermi Gamma-ray Large Area Space Telescope](https://models.codelove.in/models/fermi-gamma-ray-large-area-space-telescope/) — https://models.codelove.in/library/satellites/fermi-gamma-ray-large-area-space-telescope.glb · 159,958 tris · 8.55×12.1×62.3 · 2.1 MB
+- [Firefly](https://models.codelove.in/models/firefly/) — https://models.codelove.in/library/satellites/firefly.glb · 25,202 tris · 13.9×13.9×17.7 · 590 KB
+- [Flight System Support](https://models.codelove.in/models/flight-system-support/) — https://models.codelove.in/library/satellites/flight-system-support.glb · 1,316 tris · 171.9×182.2×87.7 · 95 KB
+- [G292.0+1.8 Supernova Remnant](https://models.codelove.in/models/g292-0-1-8-supernova-remnant/) — https://models.codelove.in/library/satellites/g292-0-1-8-supernova-remnant.glb · 120,000 tris · 14.1×15.7×15.1 · 2.5 MB
+- [Galileo](https://models.codelove.in/models/galileo/) — https://models.codelove.in/library/satellites/galileo.glb · 13,414 tris · 194×232.1×146.7 · 434 KB
+- [Gamma Ray Observatory](https://models.codelove.in/models/gamma-ray-observatory/) — https://models.codelove.in/library/satellites/gamma-ray-observatory.glb · 4,244 tris · 1.51×1.21×3.17 · 95 KB
+- [Gantry](https://models.codelove.in/models/gantry/) — https://models.codelove.in/library/satellites/gantry.glb · 119,821 tris · 20.3×18.2×14 · 1.1 MB
+- [GeoTailSAT](https://models.codelove.in/models/geo-tail-sat/) — https://models.codelove.in/library/satellites/geo-tail-sat.glb · 9,416 tris · 5490.9×10510.7×1194.3 · 170 KB
+- [Global Hawk](https://models.codelove.in/models/global-hawk/) — https://models.codelove.in/library/satellites/global-hawk.glb · 37,120 tris · 417.5×74.6×205.2 · 298 KB
+- [Global Precipitation Measurement](https://models.codelove.in/models/global-precipitation-measurement/) — https://models.codelove.in/library/satellites/global-precipitation-measurement.glb · 234,825 tris · 189.6×268.4×431.9 · 2.3 MB
+- [Gravity Recovery and Climate Experiment (GRACE) (A)](https://models.codelove.in/models/gravity-recovery-and-climate-experiment-grace-a/) — https://models.codelove.in/library/satellites/gravity-recovery-and-climate-experiment-grace-a.glb · 3,459 tris · 1.89×3.29×1.29 · 31 KB
+- [Gravity Recovery and Climate Experiment (GRACE) (B)](https://models.codelove.in/models/gravity-recovery-and-climate-experiment-grace-b/) — https://models.codelove.in/library/satellites/gravity-recovery-and-climate-experiment-grace-b.glb · 3,961 tris · 4.81×3.2×7.87 · 204 KB
+- [Habitat Demonstration Unit](https://models.codelove.in/models/habitat-demonstration-unit/) — https://models.codelove.in/library/satellites/habitat-demonstration-unit.glb · 2,264 tris · 380.2×217.4×165.9 · 73 KB
+- [Habitat Demonstration Unit (2)](https://models.codelove.in/models/habitat-demonstration-unit-2/) — https://models.codelove.in/library/satellites/habitat-demonstration-unit-2.glb · 4,320 tris · 656.4×226.4×458.5 · 138 KB
+- [Headquarters Building](https://models.codelove.in/models/headquarters-building/) — https://models.codelove.in/library/satellites/headquarters-building.glb · 4,060 tris · 7.78×9.09×4.25 · 86 KB
+- [HESSI-RHESSI](https://models.codelove.in/models/hessi-rhessi/) — https://models.codelove.in/library/satellites/hessi-rhessi.glb · 23,384 tris · 747.3×747.1×296.2 · 384 KB
+- [High Energy Transient Explorer](https://models.codelove.in/models/high-energy-transient-explorer/) — https://models.codelove.in/library/satellites/high-energy-transient-explorer.glb · 4,452 tris · 1.07×1.02×1.56 · 103 KB
+- [Hinode (Solar-B)](https://models.codelove.in/models/hinode-solar-b/) — https://models.codelove.in/library/satellites/hinode-solar-b.glb · 118,114 tris · 229.6×52.5×48 · 638 KB
+- [Hubble Space Telescope (A)](https://models.codelove.in/models/hubble-space-telescope-a/) — https://models.codelove.in/library/satellites/hubble-space-telescope-a.glb · 7,672 tris · 458.3×525.5×501.3 · 418 KB
+- [Hubble Space Telescope (B)](https://models.codelove.in/models/hubble-space-telescope-b/) — https://models.codelove.in/library/satellites/hubble-space-telescope-b.glb · 239,340 tris · 6.35×6.32×4.68 · 3.2 MB
+- [Ice, Clouds, and Land Elevation Satellite (ICESat) (A)](https://models.codelove.in/models/ice-clouds-and-land-elevation-satellite-icesat-a/) — https://models.codelove.in/library/satellites/ice-clouds-and-land-elevation-satellite-icesat-a.glb · 976 tris · 35.6×10.4×11.6 · 126 KB
+- [Ice, Clouds, and Land Elevation Satellite (ICESat) (B)](https://models.codelove.in/models/ice-clouds-and-land-elevation-satellite-icesat-b/) — https://models.codelove.in/library/satellites/ice-clouds-and-land-elevation-satellite-icesat-b.glb · 28,436 tris · 0.81×0.6×1.76 · 332 KB
+- [Ice, Clouds, and Land Elevation Satellite-2 (ICESat-2) (A)](https://models.codelove.in/models/ice-clouds-and-land-elevation-satellite-2-icesat-2-a/) — https://models.codelove.in/library/satellites/ice-clouds-and-land-elevation-satellite-2-icesat-2-a.glb · 167,987 tris · 3.74×2.38×7.56 · 1.7 MB
+- [Ice, Clouds, and Land Elevation Satellite-2 (ICESat-2) (B)](https://models.codelove.in/models/ice-clouds-and-land-elevation-satellite-2-icesat-2-b/) — https://models.codelove.in/library/satellites/ice-clouds-and-land-elevation-satellite-2-icesat-2-b.glb · 23,662 tris · 3.63×2.31×7.34 · 392 KB
+- [Ice, Clouds, and Land Elevation Satellite-2 (ICESat-2) (C)](https://models.codelove.in/models/ice-clouds-and-land-elevation-satellite-2-icesat-2-c/) — https://models.codelove.in/library/satellites/ice-clouds-and-land-elevation-satellite-2-icesat-2-c.glb · 642,901 tris · 3.8×2.48×10.1 · 7.9 MB
+- [International X-ray Observatory](https://models.codelove.in/models/international-x-ray-observatory/) — https://models.codelove.in/library/satellites/international-x-ray-observatory.glb · 124,372 tris · 28.8×53.6×11.1 · 1.5 MB
+- [Interstellar Boundary Explorer (IBEX)](https://models.codelove.in/models/interstellar-boundary-explorer-ibex/) — https://models.codelove.in/library/satellites/interstellar-boundary-explorer-ibex.glb · 8,976 tris · 1.18×0.98×1.12 · 307 KB
+- [Ionospheric Connection Explorer (ICON)](https://models.codelove.in/models/ionospheric-connection-explorer-icon/) — https://models.codelove.in/library/satellites/ionospheric-connection-explorer-icon.glb · 257,259 tris · 87.8×177.8×322.5 · 2.8 MB
+- [James Webb Space Telescope (A)](https://models.codelove.in/models/james-webb-space-telescope-a/) — https://models.codelove.in/library/satellites/james-webb-space-telescope-a.glb · 159,108 tris · 27.4×12×14.8 · 3.3 MB
+- [James Webb Space Telescope (B)](https://models.codelove.in/models/james-webb-space-telescope-b/) — https://models.codelove.in/library/satellites/james-webb-space-telescope-b.glb · 99,239 tris · 12.9×11.3×21 · 1.7 MB
+- [Jason 1](https://models.codelove.in/models/jason-1/) — https://models.codelove.in/library/satellites/jason-1.glb · 83,229 tris · 151.7×252.6×634.1 · 561 KB
+- [Jason Continuity of Service (Sentinel-6)](https://models.codelove.in/models/jason-continuity-of-service-sentinel-6/) — https://models.codelove.in/library/satellites/jason-continuity-of-service-sentinel-6.glb · 22,866 tris · 5.13×2.32×4.37 · 629 KB
+- [Juno (A)](https://models.codelove.in/models/juno-a/) — https://models.codelove.in/library/satellites/juno-a.glb · 17,124 tris · 17.7×4.26×18.5 · 1.1 MB
+- [Juno (B)](https://models.codelove.in/models/juno-b/) — https://models.codelove.in/library/satellites/juno-b.glb · 29,856 tris · 23.3×8.73×22.9 · 483 KB
+- [Kepler (A)](https://models.codelove.in/models/kepler-a/) — https://models.codelove.in/library/satellites/kepler-a.glb · 9,042 tris · 2.65×5.01×2.66 · 385 KB
+- [Kepler (B)](https://models.codelove.in/models/kepler-b/) — https://models.codelove.in/library/satellites/kepler-b.glb · 392 tris · 0.03×0.08×0.03 · 12 KB
+- [Landsat 1, 2, and 3](https://models.codelove.in/models/landsat-1-2-and-3/) — https://models.codelove.in/library/satellites/landsat-1-2-and-3.glb · 26,738 tris · 2.02×4.58×3.81 · 709 KB
+- [Landsat 4 and 5](https://models.codelove.in/models/landsat-4-and-5/) — https://models.codelove.in/library/satellites/landsat-4-and-5.glb · 30,561 tris · 1.59×1.79×3.17 · 984 KB
+- [Landsat 7](https://models.codelove.in/models/landsat-7/) — https://models.codelove.in/library/satellites/landsat-7.glb · 40,592 tris · 1.26×0.7×0.41 · 290 KB
+- [Landsat 8](https://models.codelove.in/models/landsat-8/) — https://models.codelove.in/library/satellites/landsat-8.glb · 85,364 tris · 4.97×10×12.3 · 1.3 MB
+- [Laser Interferometer Space Antenna (LISA) (2006)](https://models.codelove.in/models/laser-interferometer-space-antenna-lisa-2006/) — https://models.codelove.in/library/satellites/laser-interferometer-space-antenna-lisa-2006.glb · 34,062 tris · 2.59×0.65×2.49 · 539 KB
+- [Lunar Atmosphere and Dust Environment Explorer (LADEE)](https://models.codelove.in/models/lunar-atmosphere-and-dust-environment-explorer-ladee/) — https://models.codelove.in/library/satellites/lunar-atmosphere-and-dust-environment-explorer-ladee.glb · 49,544 tris · 37.2×63.9×36.2 · 463 KB
+- [Lunar Laser Communications Demonstration (LLCD)](https://models.codelove.in/models/lunar-laser-communications-demonstration-llcd/) — https://models.codelove.in/library/satellites/lunar-laser-communications-demonstration-llcd.glb · 142,871 tris · 268.3×61.3×80.4 · 1.2 MB
+- [Magellan](https://models.codelove.in/models/magellan/) — https://models.codelove.in/library/satellites/magellan.glb · 7,364 tris · 8.9×4.53×3.7 · 372 KB
+- [Magnetospheric Multiscale (MMS) (A)](https://models.codelove.in/models/magnetospheric-multiscale-mms-a/) — https://models.codelove.in/library/satellites/magnetospheric-multiscale-mms-a.glb · 110,723 tris · 8.53×8.53×5 · 726 KB
+- [Magnetospheric Multiscale (MMS) (B)](https://models.codelove.in/models/magnetospheric-multiscale-mms-b/) — https://models.codelove.in/library/satellites/magnetospheric-multiscale-mms-b.glb · 127,015 tris · 14.5×8.51×14.5 · 1.4 MB
+- [Mir](https://models.codelove.in/models/mir/) — https://models.codelove.in/library/satellites/mir.glb · 5,836 tris · 1037×1686.3×1395.1 · 41 KB · 1 animation inside
+- [Nancy Grace Roman Space Telescope (A)](https://models.codelove.in/models/nancy-grace-roman-space-telescope-a/) — https://models.codelove.in/library/satellites/nancy-grace-roman-space-telescope-a.glb · 238,956 tris · 344.3×130.5×207 · 2.6 MB
+- [Nancy Grace Roman Space Telescope (B)](https://models.codelove.in/models/nancy-grace-roman-space-telescope-b/) — https://models.codelove.in/library/satellites/nancy-grace-roman-space-telescope-b.glb · 37,680 tris · 411.9×131.2×364.1 · 634 KB
+- [NEAR Shoemaker](https://models.codelove.in/models/near-shoemaker/) — https://models.codelove.in/library/satellites/near-shoemaker.glb · 9,312 tris · 5.29×2.87×5.29 · 146 KB
+- [Orbital Replacement Unit](https://models.codelove.in/models/orbital-replacement-unit/) — https://models.codelove.in/library/satellites/orbital-replacement-unit.glb · 2,776 tris · 173.5×141.4×151 · 137 KB
+- [Orbiting Carbon Observatory (OCO) 2](https://models.codelove.in/models/orbiting-carbon-observatory-oco-2/) — https://models.codelove.in/library/satellites/orbiting-carbon-observatory-oco-2.glb · 41,004 tris · 7.63×15.4×39.9 · 640 KB
+- [Origins, Spectral Interpretation, Resource Identification, and Security - Regolith Explorer (OSIRIS-REx)](https://models.codelove.in/models/origins-spectral-interpretation-resource-identification-and-security-regolith-explorer-osiris-rex/) — https://models.codelove.in/library/satellites/origins-spectral-interpretation-resource-identification-and-security-regolith-explorer-osiris-rex.glb · 175,014 tris · 13.7×12×34.7 · 1.3 MB
+- [Parker Solar Probe](https://models.codelove.in/models/parker-solar-probe/) — https://models.codelove.in/library/satellites/parker-solar-probe.glb · 39,257 tris · 5.75×5.26×6.61 · 504 KB
+- [Pioneer 10](https://models.codelove.in/models/pioneer-10/) — https://models.codelove.in/library/satellites/pioneer-10.glb · 8,189 tris · 4.52×8.25×2.54 · 258 KB
+- [Polar](https://models.codelove.in/models/polar/) — https://models.codelove.in/library/satellites/polar.glb · 10,328 tris · 18.8×26.9×14.7 · 206 KB
+- [Polar Operational Environmental Satellite (POES)](https://models.codelove.in/models/polar-operational-environmental-satellite-poes/) — https://models.codelove.in/library/satellites/polar-operational-environmental-satellite-poes.glb · 121,239 tris · 398×268.8×408.3 · 2.0 MB
+- [Quick Scatterometer (QuikSCAT)](https://models.codelove.in/models/quick-scatterometer-quik-scat/) — https://models.codelove.in/library/satellites/quick-scatterometer-quik-scat.glb · 67,793 tris · 7.51×5.07×2.89 · 514 KB
+- [Radar Satellite-1 (RADARSAT-1)](https://models.codelove.in/models/radar-satellite-1-radarsat-1/) — https://models.codelove.in/library/satellites/radar-satellite-1-radarsat-1.glb · 6,028 tris · 160.2×28.1×43.2 · 129 KB
+- [Radome](https://models.codelove.in/models/radome/) — https://models.codelove.in/library/satellites/radome.glb · 272 tris · 19.7×22×19.6 · 45 KB · 1 animation inside
+- [Ratchet](https://models.codelove.in/models/ratchet/) — https://models.codelove.in/library/satellites/ratchet.glb · 5,646 tris · 20×21.2×102 · 56 KB · 1 animation inside
+- [Redstone 3 (Freedom 7)](https://models.codelove.in/models/redstone-3-freedom-7/) — https://models.codelove.in/library/satellites/redstone-3-freedom-7.glb · 119,476 tris · 5.93×9.23×5.93 · 1.0 MB · 219 animations inside
+- [Regolith Advanced Surface Systems Operations Robot (RASSOR)](https://models.codelove.in/models/regolith-advanced-surface-systems-operations-robot-rassor/) — https://models.codelove.in/library/satellites/regolith-advanced-surface-systems-operations-robot-rassor.glb · 144,651 tris · 0.85×0.94×1.66 · 1.3 MB
+- [Robonaut 2](https://models.codelove.in/models/robonaut-2/) — https://models.codelove.in/library/satellites/robonaut-2.glb · 123,387 tris · 2.34×2.61×0.68 · 1.1 MB
+- [Rosetta](https://models.codelove.in/models/rosetta/) — https://models.codelove.in/library/satellites/rosetta.glb · 17,432 tris · 32×6.92×4.55 · 490 KB
+- [Satellite for Scientific Applications (SAC-C)](https://models.codelove.in/models/satellite-for-scientific-applications-sac-c/) — https://models.codelove.in/library/satellites/satellite-for-scientific-applications-sac-c.glb · 14,931 tris · 60.2×45.9×23.5 · 132 KB
+- [Satellite Kit](https://models.codelove.in/models/satellite-kit/) — https://models.codelove.in/library/satellites/satellite-kit.glb · 320 tris · 0.02×0.06×0.02 · 5 KB
+- [Satellite Kit (2)](https://models.codelove.in/models/satellite-kit-2/) — https://models.codelove.in/library/satellites/satellite-kit-2.glb · 1,032 tris · 0.01×0.03×0.06 · 9 KB
+- [Satellite Kit (3)](https://models.codelove.in/models/satellite-kit-3/) — https://models.codelove.in/library/satellites/satellite-kit-3.glb · 656 tris · 0.02×0.06×0.03 · 8 KB
+- [Satellite Kit (4)](https://models.codelove.in/models/satellite-kit-4/) — https://models.codelove.in/library/satellites/satellite-kit-4.glb · 268 tris · 0.05×0.15×0.04 · 9 KB
+- [Satellite Kit (5)](https://models.codelove.in/models/satellite-kit-5/) — https://models.codelove.in/library/satellites/satellite-kit-5.glb · 444 tris · 0.06×0.04×0.04 · 15 KB
+- [Satellite Kit (6)](https://models.codelove.in/models/satellite-kit-6/) — https://models.codelove.in/library/satellites/satellite-kit-6.glb · 788 tris · 0.09×0.06×0.04 · 12 KB
+- [Satellite Kit (7)](https://models.codelove.in/models/satellite-kit-7/) — https://models.codelove.in/library/satellites/satellite-kit-7.glb · 108 tris · 0.09×0×0.1 · 7 KB
+- [Satellite Kit (8)](https://models.codelove.in/models/satellite-kit-8/) — https://models.codelove.in/library/satellites/satellite-kit-8.glb · 268 tris · 0.26×0×0.03 · 12 KB
+- [Satellite Kit (9)](https://models.codelove.in/models/satellite-kit-9/) — https://models.codelove.in/library/satellites/satellite-kit-9.glb · 268 tris · 0.26×0×0.26 · 13 KB
+- [SeaStar](https://models.codelove.in/models/sea-star/) — https://models.codelove.in/library/satellites/sea-star.glb · 1,839 tris · 195×83.7×218.8 · 37 KB
+- [Skylab](https://models.codelove.in/models/skylab/) — https://models.codelove.in/library/satellites/skylab.glb · 25,292 tris · 38.7×11.8×29.9 · 185 KB · 1 animation inside
+- [Solar and Heliospheric Observatory](https://models.codelove.in/models/solar-and-heliospheric-observatory/) — https://models.codelove.in/library/satellites/solar-and-heliospheric-observatory.glb · 26,547 tris · 43.3×14.4×17.3 · 186 KB
+- [Solar Dynamics Observatory](https://models.codelove.in/models/solar-dynamics-observatory/) — https://models.codelove.in/library/satellites/solar-dynamics-observatory.glb · 119,989 tris · 37×30.7×37 · 783 KB
+- [Solar Radiation and Climate Experiment (SORCE)](https://models.codelove.in/models/solar-radiation-and-climate-experiment-sorce/) — https://models.codelove.in/library/satellites/solar-radiation-and-climate-experiment-sorce.glb · 115,513 tris · 229.6×120.7×243 · 698 KB
+- [Solar Sail Concept](https://models.codelove.in/models/solar-sail-concept/) — https://models.codelove.in/library/satellites/solar-sail-concept.glb · 10,316 tris · 5.05×11.6×11.6 · 94 KB
+- [Solar TErrestrial RElations Observatory (STEREO)](https://models.codelove.in/models/solar-terrestrial-relations-observatory-stereo/) — https://models.codelove.in/library/satellites/solar-terrestrial-relations-observatory-stereo.glb · 41,169 tris · 3142.2×2425.2×2434.5 · 570 KB
+- [Space Exploration Vehicle](https://models.codelove.in/models/space-exploration-vehicle/) — https://models.codelove.in/library/satellites/space-exploration-vehicle.glb · 119,999 tris · 4.04×3.97×5.91 · 1.9 MB
+- [Space Systems Loral (SSL-1300)](https://models.codelove.in/models/space-systems-loral-ssl-1300/) — https://models.codelove.in/library/satellites/space-systems-loral-ssl-1300.glb · 119,252 tris · 268.3×61.3×80.4 · 812 KB
+- [Spartan 201](https://models.codelove.in/models/spartan-201/) — https://models.codelove.in/library/satellites/spartan-201.glb · 35,378 tris · 3.33×1.53×1.46 · 248 KB
+- [Spitzer Space Telescope](https://models.codelove.in/models/spitzer-space-telescope/) — https://models.codelove.in/library/satellites/spitzer-space-telescope.glb · 62,256 tris · 1.62×4.49×2.11 · 498 KB
+- [Stardust](https://models.codelove.in/models/stardust/) — https://models.codelove.in/library/satellites/stardust.glb · 12,061 tris · 2.94×1.17×5.01 · 505 KB
+- [Stardust (2)](https://models.codelove.in/models/stardust-2/) — https://models.codelove.in/library/satellites/stardust-2.glb · 2,214 tris · 0.72×0.72×0.49 · 218 KB
+- [Stardust (3)](https://models.codelove.in/models/stardust-3/) — https://models.codelove.in/library/satellites/stardust-3.glb · 9,847 tris · 2.94×1.17×5.01 · 473 KB
+- [Stardust (4)](https://models.codelove.in/models/stardust-4/) — https://models.codelove.in/library/satellites/stardust-4.glb · 14,456 tris · 2.94×1.45×5.01 · 547 KB
+- [Submillimeter Wave Astronomy Satellite (SWAS)](https://models.codelove.in/models/submillimeter-wave-astronomy-satellite-swas/) — https://models.codelove.in/library/satellites/submillimeter-wave-astronomy-satellite-swas.glb · 12,908 tris · 21.8×32.6×82.3 · 236 KB
+- [Suomi National Polar-orbiting Partnership (Suomi NPP)](https://models.codelove.in/models/suomi-national-polar-orbiting-partnership-suomi-npp/) — https://models.codelove.in/library/satellites/suomi-national-polar-orbiting-partnership-suomi-npp.glb · 4,024 tris · 2.57×4.18×8.96 · 229 KB
+- [Super Lightweight Interchangeable](https://models.codelove.in/models/super-lightweight-interchangeable/) — https://models.codelove.in/library/satellites/super-lightweight-interchangeable.glb · 5,444 tris · 193.3×173.4×109.5 · 244 KB
+- [Suzaku](https://models.codelove.in/models/suzaku/) — https://models.codelove.in/library/satellites/suzaku.glb · 40,725 tris · 5.22×2.17×6.75 · 607 KB
+- [Swift](https://models.codelove.in/models/swift/) — https://models.codelove.in/library/satellites/swift.glb · 38,032 tris · 39.9×29.4×28.3 · 409 KB
+- [Tall Dish (2)](https://models.codelove.in/models/tall-dish-2/) — https://models.codelove.in/library/satellites/tall-dish-2.glb · 506 tris · 170×1095×170 · 33 KB
+- [Tether](https://models.codelove.in/models/tether/) — https://models.codelove.in/library/satellites/tether.glb · 19,300 tris · 32.8×34.8×169 · 111 KB · 1 animation inside
+- [Time History of Events and Macroscale Interactions During Substorms (THEMIS)](https://models.codelove.in/models/time-history-of-events-and-macroscale-interactions-during-substorms-themis/) — https://models.codelove.in/library/satellites/time-history-of-events-and-macroscale-interactions-during-substorms-themis.glb · 11,424 tris · 6.09×7.21×6.09 · 152 KB
+- [TOPEX-Poseidon](https://models.codelove.in/models/topex-poseidon/) — https://models.codelove.in/library/satellites/topex-poseidon.glb · 20,926 tris · 373.2×277.2×230.1 · 364 KB
+- [Total Ozone Mapping Spectrometer (TOMS)](https://models.codelove.in/models/total-ozone-mapping-spectrometer-toms/) — https://models.codelove.in/library/satellites/total-ozone-mapping-spectrometer-toms.glb · 22,842 tris · 38.9×24.2×12.4 · 208 KB
+- [Tracking and Data Relay Satellites (TDRS) (A)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-a/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-a.glb · 2,964 tris · 0.89×0.45×0.47 · 37 KB
+- [Tracking and Data Relay Satellites (TDRS) (B)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-b/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-b.glb · 20,014 tris · 21.1×5.76×13.1 · 404 KB
+- [Tracking and Data Relay Satellites (TDRS) (C)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-c/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-c.glb · 2,228 tris · 8.1×2.04×8.1 · 233 KB
+- [Tracking and Data Relay Satellites (TDRS) (C) (2)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-c-2/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-c-2.glb · 2,228 tris · 8.1×2.04×8.1 · 233 KB
+- [Tracking and Data Relay Satellites (TDRS) (C) (3)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-c-3/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-c-3.glb · 51,218 tris · 40.7×11.9×19.9 · 1.9 MB
+- [Tracking and Data Relay Satellites (TDRS) (D)](https://models.codelove.in/models/tracking-and-data-relay-satellites-tdrs-d/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-tdrs-d.glb · 186,860 tris · 1.71×0.91×3.02 · 2.3 MB
+- [Tracking and Data Relay Satellites (TRDS) (E)](https://models.codelove.in/models/tracking-and-data-relay-satellites-trds-e/) — https://models.codelove.in/library/satellites/tracking-and-data-relay-trds-e.glb · 66,962 tris · 94.4×21.2×75.4 · 471 KB
+- [Tselina-2](https://models.codelove.in/models/tselina-2/) — https://models.codelove.in/library/satellites/tselina-2.glb · 97,052 tris · 46.8×33.4×46.8 · 1.2 MB
+- [Ulysses](https://models.codelove.in/models/ulysses/) — https://models.codelove.in/library/satellites/ulysses.glb · 6,986 tris · 68×10.2×7.73 · 266 KB
+- [Van Allen Probes](https://models.codelove.in/models/van-allen-probes/) — https://models.codelove.in/library/satellites/van-allen-probes.glb · 108,415 tris · 1277.5×401.5×1277.6 · 1.3 MB
+- [Vehicle Assembly Building (VAB)](https://models.codelove.in/models/vehicle-assembly-building-vab/) — https://models.codelove.in/library/satellites/vehicle-assembly-building-vab.glb · 6,458 tris · 15×13.7×21.3 · 91 KB
+- [Voyager Probe (A)](https://models.codelove.in/models/voyager-probe-a/) — https://models.codelove.in/library/satellites/voyager-probe-a.glb · 29,911 tris · 0.1×0.21×0.34 · 556 KB
+- [Voyager Probe (B)](https://models.codelove.in/models/voyager-probe-b/) — https://models.codelove.in/library/satellites/voyager-probe-b.glb · 11,610 tris · 16×22.4×30.4 · 195 KB
+- [Voyager Probe (B) (2)](https://models.codelove.in/models/voyager-probe-b-2/) — https://models.codelove.in/library/satellites/voyager-probe-b-2.glb · 20,390 tris · 7.75×11×16.9 · 407 KB
+- [Wide-Field Infrared Explorer (WIRE)](https://models.codelove.in/models/wide-field-infrared-explorer-wire/) — https://models.codelove.in/library/satellites/wide-field-infrared-explorer-wire.glb · 35,482 tris · 32.5×34.3×21.2 · 632 KB
+- [Wilkinson Microwave Anisotropy Probe (WMAP)](https://models.codelove.in/models/wilkinson-microwave-anisotropy-probe-wmap/) — https://models.codelove.in/library/satellites/wilkinson-microwave-anisotropy-probe-wmap.glb · 111,746 tris · 278.3×207.6×282.6 · 1.9 MB
+- [Wind](https://models.codelove.in/models/wind/) — https://models.codelove.in/library/satellites/wind.glb · 25,844 tris · 41.6×52.4×37.3 · 369 KB
+- [Wrench](https://models.codelove.in/models/wrench/) — https://models.codelove.in/library/satellites/wrench.glb · 6,310 tris · 30×10×157.2 · 54 KB · 1 animation inside
+
+### Weapons (1)
+
+- [Grease Gun](https://models.codelove.in/models/grease-gun/) — https://models.codelove.in/library/satellites/grease-gun.glb · 9,808 tris · 38×92.5×198 · 80 KB · 1 animation inside

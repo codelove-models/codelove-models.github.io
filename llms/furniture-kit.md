@@ -1,0 +1,157 @@
+# Furniture Kit — 140 free 3D models (Furniture)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/furniture-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/furniture-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 918 KB.
+
+## Models
+
+- [Bathroom Cabinet](https://models.codelove.in/models/furniture-kit-bathroom-cabinet/) — https://models.codelove.in/library/furniture-kit/bathroom-cabinet.glb · 64 tris · 0.23×0.39×0.13 · 6 KB
+- [Bathroom Cabinet Drawer](https://models.codelove.in/models/furniture-kit-bathroom-cabinet-drawer/) — https://models.codelove.in/library/furniture-kit/bathroom-cabinet-drawer.glb · 384 tris · 0.43×0.47×0.32 · 13 KB
+- [Bathroom Mirror](https://models.codelove.in/models/furniture-kit-bathroom-mirror/) — https://models.codelove.in/library/furniture-kit/bathroom-mirror.glb · 72 tris · 0.3×0.43×0.14 · 5 KB
+- [Bathroom Sink](https://models.codelove.in/models/furniture-kit-bathroom-sink/) — https://models.codelove.in/library/furniture-kit/bathroom-sink.glb · 316 tris · 0.34×0.56×0.29 · 8 KB
+- [Bathroom Sink Square](https://models.codelove.in/models/furniture-kit-bathroom-sink-square/) — https://models.codelove.in/library/furniture-kit/bathroom-sink-square.glb · 234 tris · 0.43×0.58×0.3 · 7 KB
+- [Bathtub](https://models.codelove.in/models/furniture-kit-bathtub/) — https://models.codelove.in/library/furniture-kit/bathtub.glb · 602 tris · 1.19×0.42×0.56 · 12 KB
+- [Bear](https://models.codelove.in/models/furniture-kit-bear/) — https://models.codelove.in/library/furniture-kit/bear.glb · 134 tris · 0.39×0.45×0.25 · 7 KB
+- [Bed Bunk](https://models.codelove.in/models/furniture-kit-bed-bunk/) — https://models.codelove.in/library/furniture-kit/bed-bunk.glb · 466 tris · 0.57×0.85×1.09 · 12 KB
+- [Bed Double](https://models.codelove.in/models/furniture-kit-bed-double/) — https://models.codelove.in/library/furniture-kit/bed-double.glb · 214 tris · 0.96×0.38×1.13 · 11 KB
+- [Bed Single](https://models.codelove.in/models/furniture-kit-bed-single/) — https://models.codelove.in/library/furniture-kit/bed-single.glb · 214 tris · 0.57×0.38×1.13 · 10 KB
+- [Bench](https://models.codelove.in/models/furniture-kit-bench/) — https://models.codelove.in/library/furniture-kit/bench.glb · 170 tris · 0.4×0.47×0.2 · 4 KB
+- [Bench Cushion](https://models.codelove.in/models/furniture-kit-bench-cushion/) — https://models.codelove.in/library/furniture-kit/bench-cushion.glb · 196 tris · 0.4×0.46×0.2 · 5 KB
+- [Bench Cushion Low](https://models.codelove.in/models/furniture-kit-bench-cushion-low/) — https://models.codelove.in/library/furniture-kit/bench-cushion-low.glb · 138 tris · 0.42×0.2×0.22 · 6 KB
+- [Bookcase Closed](https://models.codelove.in/models/furniture-kit-bookcase-closed/) — https://models.codelove.in/library/furniture-kit/bookcase-closed.glb · 372 tris · 0.4×0.85×0.25 · 6 KB
+- [Bookcase Closed Doors](https://models.codelove.in/models/furniture-kit-bookcase-closed-doors/) — https://models.codelove.in/library/furniture-kit/bookcase-closed-doors.glb · 296 tris · 0.4×0.85×0.25 · 10 KB
+- [Bookcase Closed Wide](https://models.codelove.in/models/furniture-kit-bookcase-closed-wide/) — https://models.codelove.in/library/furniture-kit/bookcase-closed-wide.glb · 372 tris · 0.8×0.79×0.25 · 6 KB
+- [Bookcase Open](https://models.codelove.in/models/furniture-kit-bookcase-open/) — https://models.codelove.in/library/furniture-kit/bookcase-open.glb · 320 tris · 0.4×0.88×0.25 · 5 KB
+- [Bookcase Open Low](https://models.codelove.in/models/furniture-kit-bookcase-open-low/) — https://models.codelove.in/library/furniture-kit/bookcase-open-low.glb · 184 tris · 0.4×0.4×0.25 · 4 KB
+- [Books](https://models.codelove.in/models/furniture-kit-books/) — https://models.codelove.in/library/furniture-kit/books.glb · 62 tris · 0.15×0.1×0.09 · 6 KB
+- [Cabinet Bed](https://models.codelove.in/models/furniture-kit-cabinet-bed/) — https://models.codelove.in/library/furniture-kit/cabinet-bed.glb · 72 tris · 0.27×0.23×0.21 · 5 KB
+- [Cabinet Bed Drawer](https://models.codelove.in/models/furniture-kit-cabinet-bed-drawer/) — https://models.codelove.in/library/furniture-kit/cabinet-bed-drawer.glb · 182 tris · 0.27×0.26×0.22 · 10 KB
+- [Cabinet Bed Drawer Table](https://models.codelove.in/models/furniture-kit-cabinet-bed-drawer-table/) — https://models.codelove.in/library/furniture-kit/cabinet-bed-drawer-table.glb · 140 tris · 0.27×0.26×0.22 · 7 KB
+- [Cabinet Television](https://models.codelove.in/models/furniture-kit-cabinet-television/) — https://models.codelove.in/library/furniture-kit/cabinet-television.glb · 154 tris · 0.8×0.31×0.25 · 4 KB
+- [Cabinet Television Doors](https://models.codelove.in/models/furniture-kit-cabinet-television-doors/) — https://models.codelove.in/library/furniture-kit/cabinet-television-doors.glb · 210 tris · 0.8×0.31×0.26 · 9 KB
+- [Cardboard Box Closed](https://models.codelove.in/models/furniture-kit-cardboard-box-closed/) — https://models.codelove.in/library/furniture-kit/cardboard-box-closed.glb · 60 tris · 0.21×0.28×0.21 · 4 KB
+- [Cardboard Box Open](https://models.codelove.in/models/furniture-kit-cardboard-box-open/) — https://models.codelove.in/library/furniture-kit/cardboard-box-open.glb · 60 tris · 0.37×0.28×0.21 · 4 KB
+- [Ceiling Fan](https://models.codelove.in/models/furniture-kit-ceiling-fan/) — https://models.codelove.in/library/furniture-kit/ceiling-fan.glb · 214 tris · 0.46×0.13×0.53 · 7 KB
+- [Chair](https://models.codelove.in/models/furniture-kit-chair/) — https://models.codelove.in/library/furniture-kit/chair.glb · 170 tris · 0.2×0.47×0.2 · 4 KB
+- [Chair Cushion](https://models.codelove.in/models/furniture-kit-chair-cushion/) — https://models.codelove.in/library/furniture-kit/chair-cushion.glb · 198 tris · 0.2×0.46×0.2 · 5 KB
+- [Chair Desk](https://models.codelove.in/models/furniture-kit-chair-desk/) — https://models.codelove.in/library/furniture-kit/chair-desk.glb · 588 tris · 0.34×0.61×0.31 · 12 KB
+- [Chair Modern Cushion](https://models.codelove.in/models/furniture-kit-chair-modern-cushion/) — https://models.codelove.in/library/furniture-kit/chair-modern-cushion.glb · 92 tris · 0.2×0.46×0.2 · 5 KB
+- [Chair Modern Frame Cushion](https://models.codelove.in/models/furniture-kit-chair-modern-frame-cushion/) — https://models.codelove.in/library/furniture-kit/chair-modern-frame-cushion.glb · 284 tris · 0.2×0.46×0.2 · 7 KB
+- [Chair Rounded](https://models.codelove.in/models/furniture-kit-chair-rounded/) — https://models.codelove.in/library/furniture-kit/chair-rounded.glb · 280 tris · 0.2×0.46×0.2 · 5 KB
+- [Coat Rack](https://models.codelove.in/models/furniture-kit-coat-rack/) — https://models.codelove.in/library/furniture-kit/coat-rack.glb · 132 tris · 0.45×0.28×0.13 · 5 KB
+- [Coat Rack Standing](https://models.codelove.in/models/furniture-kit-coat-rack-standing/) — https://models.codelove.in/library/furniture-kit/coat-rack-standing.glb · 190 tris · 0.27×0.77×0.27 · 5 KB
+- [Computer Keyboard](https://models.codelove.in/models/furniture-kit-computer-keyboard/) — https://models.codelove.in/library/furniture-kit/computer-keyboard.glb · 32 tris · 0.28×0.03×0.12 · 4 KB
+- [Computer Mouse](https://models.codelove.in/models/furniture-kit-computer-mouse/) — https://models.codelove.in/library/furniture-kit/computer-mouse.glb · 71 tris · 0.05×0.02×0.09 · 3 KB
+- [Computer Screen](https://models.codelove.in/models/furniture-kit-computer-screen/) — https://models.codelove.in/library/furniture-kit/computer-screen.glb · 72 tris · 0.39×0.29×0.1 · 4 KB
+- [Desk](https://models.codelove.in/models/furniture-kit-desk/) — https://models.codelove.in/library/furniture-kit/desk.glb · 198 tris · 0.73×0.38×0.39 · 7 KB
+- [Desk Corner](https://models.codelove.in/models/furniture-kit-desk-corner/) — https://models.codelove.in/library/furniture-kit/desk-corner.glb · 250 tris · 0.97×0.38×0.97 · 7 KB
+- [Doorway](https://models.codelove.in/models/furniture-kit-doorway/) — https://models.codelove.in/library/furniture-kit/doorway.glb · 188 tris · 0.49×1.01×0.11 · 7 KB
+- [Doorway Front](https://models.codelove.in/models/furniture-kit-doorway-front/) — https://models.codelove.in/library/furniture-kit/doorway-front.glb · 156 tris · 0.49×1.01×0.11 · 7 KB
+- [Doorway Open](https://models.codelove.in/models/furniture-kit-doorway-open/) — https://models.codelove.in/library/furniture-kit/doorway-open.glb · 28 tris · 0.49×1.01×0.09 · 3 KB
+- [Dryer](https://models.codelove.in/models/furniture-kit-dryer/) — https://models.codelove.in/library/furniture-kit/dryer.glb · 262 tris · 0.39×0.47×0.38 · 9 KB
+- [Floor Corner](https://models.codelove.in/models/furniture-kit-floor-corner/) — https://models.codelove.in/library/furniture-kit/floor-corner.glb · 16 tris · 0.55×0.05×0.55 · 3 KB
+- [Floor Corner Round](https://models.codelove.in/models/furniture-kit-floor-corner-round/) — https://models.codelove.in/library/furniture-kit/floor-corner-round.glb · 60 tris · 0.55×0.05×0.55 · 3 KB
+- [Floor Full](https://models.codelove.in/models/furniture-kit-floor-full/) — https://models.codelove.in/library/furniture-kit/floor-full.glb · 12 tris · 1×0.05×1 · 3 KB
+- [Floor Half](https://models.codelove.in/models/furniture-kit-floor-half/) — https://models.codelove.in/library/furniture-kit/floor-half.glb · 12 tris · 0.5×0.05×1 · 3 KB
+- [Hood Large](https://models.codelove.in/models/furniture-kit-hood-large/) — https://models.codelove.in/library/furniture-kit/hood-large.glb · 36 tris · 0.43×0.37×0.28 · 4 KB
+- [Hood Modern](https://models.codelove.in/models/furniture-kit-hood-modern/) — https://models.codelove.in/library/furniture-kit/hood-modern.glb · 28 tris · 0.43×0.4×0.28 · 4 KB
+- [Kitchen Bar](https://models.codelove.in/models/furniture-kit-kitchen-bar/) — https://models.codelove.in/library/furniture-kit/kitchen-bar.glb · 76 tris · 0.43×0.42×0.21 · 5 KB
+- [Kitchen Bar End](https://models.codelove.in/models/furniture-kit-kitchen-bar-end/) — https://models.codelove.in/library/furniture-kit/kitchen-bar-end.glb · 152 tris · 0.1×0.42×0.21 · 6 KB
+- [Kitchen Blender](https://models.codelove.in/models/furniture-kit-kitchen-blender/) — https://models.codelove.in/library/furniture-kit/kitchen-blender.glb · 246 tris · 0.14×0.23×0.11 · 9 KB
+- [Kitchen Cabinet](https://models.codelove.in/models/furniture-kit-kitchen-cabinet/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet.glb · 114 tris · 0.43×0.45×0.45 · 8 KB
+- [Kitchen Cabinet Corner Inner](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-corner-inner/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-corner-inner.glb · 54 tris · 0.46×0.45×0.46 · 4 KB
+- [Kitchen Cabinet Corner Round](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-corner-round/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-corner-round.glb · 194 tris · 0.45×0.45×0.45 · 6 KB
+- [Kitchen Cabinet Drawer](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-drawer/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-drawer.glb · 174 tris · 0.43×0.45×0.45 · 11 KB
+- [Kitchen Cabinet Upper](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-upper/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-upper.glb · 80 tris · 0.43×0.39×0.22 · 7 KB
+- [Kitchen Cabinet Upper Corner](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-upper-corner/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-upper-corner.glb · 204 tris · 0.21×0.39×0.21 · 5 KB
+- [Kitchen Cabinet Upper Double](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-upper-double/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-upper-double.glb · 234 tris · 0.43×0.39×0.22 · 10 KB
+- [Kitchen Cabinet Upper Low](https://models.codelove.in/models/furniture-kit-kitchen-cabinet-upper-low/) — https://models.codelove.in/library/furniture-kit/kitchen-cabinet-upper-low.glb · 64 tris · 0.43×0.2×0.22 · 6 KB
+- [Kitchen Coffee Machine](https://models.codelove.in/models/furniture-kit-kitchen-coffee-machine/) — https://models.codelove.in/library/furniture-kit/kitchen-coffee-machine.glb · 166 tris · 0.19×0.18×0.24 · 7 KB
+- [Kitchen Fridge](https://models.codelove.in/models/furniture-kit-kitchen-fridge/) — https://models.codelove.in/library/furniture-kit/kitchen-fridge.glb · 250 tris · 0.43×0.92×0.29 · 11 KB
+- [Kitchen Fridge Built In](https://models.codelove.in/models/furniture-kit-kitchen-fridge-built-in/) — https://models.codelove.in/library/furniture-kit/kitchen-fridge-built-in.glb · 268 tris · 0.43×0.87×0.45 · 14 KB
+- [Kitchen Fridge Large](https://models.codelove.in/models/furniture-kit-kitchen-fridge-large/) — https://models.codelove.in/library/furniture-kit/kitchen-fridge-large.glb · 436 tris · 0.52×0.92×0.41 · 12 KB
+- [Kitchen Fridge Small](https://models.codelove.in/models/furniture-kit-kitchen-fridge-small/) — https://models.codelove.in/library/furniture-kit/kitchen-fridge-small.glb · 152 tris · 0.43×0.6×0.29 · 8 KB
+- [Kitchen Microwave](https://models.codelove.in/models/furniture-kit-kitchen-microwave/) — https://models.codelove.in/library/furniture-kit/kitchen-microwave.glb · 152 tris · 0.29×0.18×0.23 · 9 KB
+- [Kitchen Sink](https://models.codelove.in/models/furniture-kit-kitchen-sink/) — https://models.codelove.in/library/furniture-kit/kitchen-sink.glb · 318 tris · 0.43×0.49×0.45 · 13 KB
+- [Kitchen Stove](https://models.codelove.in/models/furniture-kit-kitchen-stove/) — https://models.codelove.in/library/furniture-kit/kitchen-stove.glb · 830 tris · 0.43×0.45×0.45 · 17 KB
+- [Kitchen Stove Electric](https://models.codelove.in/models/furniture-kit-kitchen-stove-electric/) — https://models.codelove.in/library/furniture-kit/kitchen-stove-electric.glb · 338 tris · 0.43×0.45×0.45 · 10 KB
+- [Lamp Round Floor](https://models.codelove.in/models/furniture-kit-lamp-round-floor/) — https://models.codelove.in/library/furniture-kit/lamp-round-floor.glb · 76 tris · 0.15×0.86×0.18 · 4 KB
+- [Lamp Round Table](https://models.codelove.in/models/furniture-kit-lamp-round-table/) — https://models.codelove.in/library/furniture-kit/lamp-round-table.glb · 76 tris · 0.15×0.31×0.18 · 4 KB
+- [Lamp Square Ceiling](https://models.codelove.in/models/furniture-kit-lamp-square-ceiling/) — https://models.codelove.in/library/furniture-kit/lamp-square-ceiling.glb · 60 tris · 0.12×0.23×0.12 · 4 KB
+- [Lamp Square Floor](https://models.codelove.in/models/furniture-kit-lamp-square-floor/) — https://models.codelove.in/library/furniture-kit/lamp-square-floor.glb · 60 tris · 0.12×0.86×0.12 · 4 KB
+- [Lamp Square Table](https://models.codelove.in/models/furniture-kit-lamp-square-table/) — https://models.codelove.in/library/furniture-kit/lamp-square-table.glb · 60 tris · 0.12×0.29×0.12 · 4 KB
+- [Lamp Wall](https://models.codelove.in/models/furniture-kit-lamp-wall/) — https://models.codelove.in/library/furniture-kit/lamp-wall.glb · 42 tris · 0.23×0.09×0.15 · 4 KB
+- [Laptop](https://models.codelove.in/models/furniture-kit-laptop/) — https://models.codelove.in/library/furniture-kit/laptop.glb · 68 tris · 0.26×0.16×0.24 · 5 KB
+- [Lounge Chair](https://models.codelove.in/models/furniture-kit-lounge-chair/) — https://models.codelove.in/library/furniture-kit/lounge-chair.glb · 128 tris · 0.49×0.46×0.41 · 5 KB
+- [Lounge Chair Relax](https://models.codelove.in/models/furniture-kit-lounge-chair-relax/) — https://models.codelove.in/library/furniture-kit/lounge-chair-relax.glb · 188 tris · 0.49×0.63×0.68 · 7 KB
+- [Lounge Design Chair](https://models.codelove.in/models/furniture-kit-lounge-design-chair/) — https://models.codelove.in/library/furniture-kit/lounge-design-chair.glb · 116 tris · 0.73×0.4×0.41 · 5 KB
+- [Lounge Design Sofa](https://models.codelove.in/models/furniture-kit-lounge-design-sofa/) — https://models.codelove.in/library/furniture-kit/lounge-design-sofa.glb · 116 tris · 1.12×0.4×0.41 · 5 KB
+- [Lounge Design Sofa Corner](https://models.codelove.in/models/furniture-kit-lounge-design-sofa-corner/) — https://models.codelove.in/library/furniture-kit/lounge-design-sofa-corner.glb · 176 tris · 1.35×0.4×1.35 · 7 KB
+- [Lounge Sofa](https://models.codelove.in/models/furniture-kit-lounge-sofa/) — https://models.codelove.in/library/furniture-kit/lounge-sofa.glb · 128 tris · 0.98×0.46×0.41 · 5 KB
+- [Lounge Sofa Corner](https://models.codelove.in/models/furniture-kit-lounge-sofa-corner/) — https://models.codelove.in/library/furniture-kit/lounge-sofa-corner.glb · 190 tris · 0.98×0.46×0.98 · 6 KB
+- [Lounge Sofa Long](https://models.codelove.in/models/furniture-kit-lounge-sofa-long/) — https://models.codelove.in/library/furniture-kit/lounge-sofa-long.glb · 186 tris · 0.98×0.46×0.82 · 6 KB
+- [Lounge Sofa Ottoman](https://models.codelove.in/models/furniture-kit-lounge-sofa-ottoman/) — https://models.codelove.in/library/furniture-kit/lounge-sofa-ottoman.glb · 84 tris · 0.44×0.23×0.45 · 4 KB
+- [Paneling](https://models.codelove.in/models/furniture-kit-paneling/) — https://models.codelove.in/library/furniture-kit/paneling.glb · 40 tris · 0.5×0.59×0.03 · 3 KB
+- [Pillow](https://models.codelove.in/models/furniture-kit-pillow/) — https://models.codelove.in/library/furniture-kit/pillow.glb · 50 tris · 0.23×0.22×0.09 · 3 KB
+- [Pillow Blue](https://models.codelove.in/models/furniture-kit-pillow-blue/) — https://models.codelove.in/library/furniture-kit/pillow-blue.glb · 50 tris · 0.23×0.13×0.06 · 3 KB
+- [Pillow Blue Long](https://models.codelove.in/models/furniture-kit-pillow-blue-long/) — https://models.codelove.in/library/furniture-kit/pillow-blue-long.glb · 50 tris · 0.52×0.22×0.09 · 3 KB
+- [Pillow Long](https://models.codelove.in/models/furniture-kit-pillow-long/) — https://models.codelove.in/library/furniture-kit/pillow-long.glb · 50 tris · 0.39×0.22×0.09 · 3 KB
+- [Plant Small1](https://models.codelove.in/models/furniture-kit-plant-small1/) — https://models.codelove.in/library/furniture-kit/plant-small1.glb · 102 tris · 0.1×0.14×0.1 · 5 KB
+- [Plant Small2](https://models.codelove.in/models/furniture-kit-plant-small2/) — https://models.codelove.in/library/furniture-kit/plant-small2.glb · 158 tris · 0.1×0.14×0.1 · 6 KB
+- [Plant Small3](https://models.codelove.in/models/furniture-kit-plant-small3/) — https://models.codelove.in/library/furniture-kit/plant-small3.glb · 98 tris · 0.1×0.14×0.09 · 5 KB
+- [Potted Plant](https://models.codelove.in/models/furniture-kit-potted-plant/) — https://models.codelove.in/library/furniture-kit/potted-plant.glb · 60 tris · 0.21×0.65×0.24 · 6 KB
+- [Radio](https://models.codelove.in/models/furniture-kit-radio/) — https://models.codelove.in/library/furniture-kit/radio.glb · 432 tris · 0.32×0.23×0.1 · 9 KB
+- [Rug Doormat](https://models.codelove.in/models/furniture-kit-rug-doormat/) — https://models.codelove.in/library/furniture-kit/rug-doormat.glb · 204 tris · 0.43×0.01×0.24 · 5 KB
+- [Rug Rectangle](https://models.codelove.in/models/furniture-kit-rug-rectangle/) — https://models.codelove.in/library/furniture-kit/rug-rectangle.glb · 28 tris · 1.57×0.01×0.92 · 4 KB
+- [Rug Round](https://models.codelove.in/models/furniture-kit-rug-round/) — https://models.codelove.in/library/furniture-kit/rug-round.glb · 188 tris · 0.92×0.01×0.92 · 5 KB
+- [Rug Rounded](https://models.codelove.in/models/furniture-kit-rug-rounded/) — https://models.codelove.in/library/furniture-kit/rug-rounded.glb · 204 tris · 1.57×0.01×0.92 · 5 KB
+- [Rug Square](https://models.codelove.in/models/furniture-kit-rug-square/) — https://models.codelove.in/library/furniture-kit/rug-square.glb · 28 tris · 0.9×0.01×0.92 · 4 KB
+- [Shower](https://models.codelove.in/models/furniture-kit-shower/) — https://models.codelove.in/library/furniture-kit/shower.glb · 810 tris · 0.56×1.09×0.58 · 16 KB
+- [Shower Round](https://models.codelove.in/models/furniture-kit-shower-round/) — https://models.codelove.in/library/furniture-kit/shower-round.glb · 960 tris · 0.56×1.09×0.56 · 19 KB
+- [Side Table](https://models.codelove.in/models/furniture-kit-side-table/) — https://models.codelove.in/library/furniture-kit/side-table.glb · 118 tris · 0.53×0.38×0.22 · 5 KB
+- [Side Table Drawers](https://models.codelove.in/models/furniture-kit-side-table-drawers/) — https://models.codelove.in/library/furniture-kit/side-table-drawers.glb · 194 tris · 0.53×0.38×0.22 · 8 KB
+- [Speaker](https://models.codelove.in/models/furniture-kit-speaker/) — https://models.codelove.in/library/furniture-kit/speaker.glb · 228 tris · 0.15×0.64×0.15 · 6 KB
+- [Speaker Small](https://models.codelove.in/models/furniture-kit-speaker-small/) — https://models.codelove.in/library/furniture-kit/speaker-small.glb · 220 tris · 0.15×0.3×0.13 · 6 KB
+- [Stairs](https://models.codelove.in/models/furniture-kit-stairs/) — https://models.codelove.in/library/furniture-kit/stairs.glb · 308 tris · 1.82×1.34×0.79 · 7 KB
+- [Stairs Corner](https://models.codelove.in/models/furniture-kit-stairs-corner/) — https://models.codelove.in/library/furniture-kit/stairs-corner.glb · 312 tris · 1.77×1.34×1.43 · 7 KB
+- [Stairs Open](https://models.codelove.in/models/furniture-kit-stairs-open/) — https://models.codelove.in/library/furniture-kit/stairs-open.glb · 366 tris · 1.82×1.34×0.79 · 9 KB
+- [Stairs Open Single](https://models.codelove.in/models/furniture-kit-stairs-open-single/) — https://models.codelove.in/library/furniture-kit/stairs-open-single.glb · 326 tris · 1.82×1.34×0.79 · 7 KB
+- [Stool Bar](https://models.codelove.in/models/furniture-kit-stool-bar/) — https://models.codelove.in/library/furniture-kit/stool-bar.glb · 176 tris · 0.27×0.43×0.23 · 5 KB
+- [Stool Bar Square](https://models.codelove.in/models/furniture-kit-stool-bar-square/) — https://models.codelove.in/library/furniture-kit/stool-bar-square.glb · 142 tris · 0.15×0.41×0.15 · 5 KB
+- [Table](https://models.codelove.in/models/furniture-kit-table/) — https://models.codelove.in/library/furniture-kit/table.glb · 120 tris · 0.84×0.33×0.45 · 4 KB
+- [Table Cloth](https://models.codelove.in/models/furniture-kit-table-cloth/) — https://models.codelove.in/library/furniture-kit/table-cloth.glb · 144 tris · 0.84×0.33×0.45 · 5 KB
+- [Table Coffee](https://models.codelove.in/models/furniture-kit-table-coffee/) — https://models.codelove.in/library/furniture-kit/table-coffee.glb · 124 tris · 0.66×0.23×0.4 · 4 KB
+- [Table Coffee Glass](https://models.codelove.in/models/furniture-kit-table-coffee-glass/) — https://models.codelove.in/library/furniture-kit/table-coffee-glass.glb · 140 tris · 0.66×0.23×0.4 · 5 KB
+- [Table Coffee Glass Square](https://models.codelove.in/models/furniture-kit-table-coffee-glass-square/) — https://models.codelove.in/library/furniture-kit/table-coffee-glass-square.glb · 140 tris · 0.4×0.23×0.4 · 5 KB
+- [Table Coffee Square](https://models.codelove.in/models/furniture-kit-table-coffee-square/) — https://models.codelove.in/library/furniture-kit/table-coffee-square.glb · 124 tris · 0.4×0.23×0.4 · 4 KB
+- [Table Cross](https://models.codelove.in/models/furniture-kit-table-cross/) — https://models.codelove.in/library/furniture-kit/table-cross.glb · 178 tris · 0.85×0.35×0.45 · 4 KB
+- [Table Cross Cloth](https://models.codelove.in/models/furniture-kit-table-cross-cloth/) — https://models.codelove.in/library/furniture-kit/table-cross-cloth.glb · 202 tris · 0.85×0.35×0.45 · 6 KB
+- [Table Glass](https://models.codelove.in/models/furniture-kit-table-glass/) — https://models.codelove.in/library/furniture-kit/table-glass.glb · 144 tris · 0.84×0.33×0.45 · 5 KB
+- [Table Round](https://models.codelove.in/models/furniture-kit-table-round/) — https://models.codelove.in/library/furniture-kit/table-round.glb · 80 tris · 0.69×0.37×0.8 · 3 KB
+- [Television Antenna](https://models.codelove.in/models/furniture-kit-television-antenna/) — https://models.codelove.in/library/furniture-kit/television-antenna.glb · 44 tris · 0.27×0.1×0.08 · 3 KB
+- [Television Modern](https://models.codelove.in/models/furniture-kit-television-modern/) — https://models.codelove.in/library/furniture-kit/television-modern.glb · 72 tris · 0.69×0.46×0.13 · 4 KB
+- [Television Vintage](https://models.codelove.in/models/furniture-kit-television-vintage/) — https://models.codelove.in/library/furniture-kit/television-vintage.glb · 280 tris · 0.41×0.27×0.27 · 9 KB
+- [Toaster](https://models.codelove.in/models/furniture-kit-toaster/) — https://models.codelove.in/library/furniture-kit/toaster.glb · 220 tris · 0.19×0.13×0.1 · 6 KB
+- [Toilet](https://models.codelove.in/models/furniture-kit-toilet/) — https://models.codelove.in/library/furniture-kit/toilet.glb · 230 tris · 0.31×0.45×0.48 · 9 KB
+- [Toilet Square](https://models.codelove.in/models/furniture-kit-toilet-square/) — https://models.codelove.in/library/furniture-kit/toilet-square.glb · 228 tris · 0.3×0.45×0.39 · 8 KB
+- [Trashcan](https://models.codelove.in/models/furniture-kit-trashcan/) — https://models.codelove.in/library/furniture-kit/trashcan.glb · 68 tris · 0.21×0.43×0.23 · 5 KB
+- [Wall](https://models.codelove.in/models/furniture-kit-wall/) — https://models.codelove.in/library/furniture-kit/wall.glb · 12 tris · 1×1.29×0.05 · 5 KB
+- [Wall Corner](https://models.codelove.in/models/furniture-kit-wall-corner/) — https://models.codelove.in/library/furniture-kit/wall-corner.glb · 28 tris · 0.55×1.29×0.55 · 5 KB
+- [Wall Corner Rond](https://models.codelove.in/models/furniture-kit-wall-corner-rond/) — https://models.codelove.in/library/furniture-kit/wall-corner-rond.glb · 116 tris · 0.55×1.29×0.55 · 6 KB
+- [Wall Doorway](https://models.codelove.in/models/furniture-kit-wall-doorway/) — https://models.codelove.in/library/furniture-kit/wall-doorway.glb · 60 tris · 1×1.29×0.09 · 5 KB
+- [Wall Doorway Wide](https://models.codelove.in/models/furniture-kit-wall-doorway-wide/) — https://models.codelove.in/library/furniture-kit/wall-doorway-wide.glb · 60 tris · 1×1.29×0.09 · 5 KB
+- [Wall Half](https://models.codelove.in/models/furniture-kit-wall-half/) — https://models.codelove.in/library/furniture-kit/wall-half.glb · 12 tris · 0.5×1.29×0.05 · 5 KB
+- [Wall Window](https://models.codelove.in/models/furniture-kit-wall-window/) — https://models.codelove.in/library/furniture-kit/wall-window.glb · 108 tris · 1×1.29×0.09 · 8 KB
+- [Wall Window Slide](https://models.codelove.in/models/furniture-kit-wall-window-slide/) — https://models.codelove.in/library/furniture-kit/wall-window-slide.glb · 108 tris · 1×1.29×0.09 · 10 KB
+- [Washer](https://models.codelove.in/models/furniture-kit-washer/) — https://models.codelove.in/library/furniture-kit/washer.glb · 720 tris · 0.39×0.47×0.39 · 18 KB
+- [Washer Dryer Stacked](https://models.codelove.in/models/furniture-kit-washer-dryer-stacked/) — https://models.codelove.in/library/furniture-kit/washer-dryer-stacked.glb · 992 tris · 0.39×0.94×0.39 · 22 KB

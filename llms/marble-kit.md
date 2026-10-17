@@ -1,0 +1,184 @@
+# Marble Kit — 162 free 3D models (Trees 4, Props 158)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/marble-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/marble-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.7 MB.
+
+## Models
+
+### Trees (4)
+
+- [Tree](https://models.codelove.in/models/marble-kit-tree/) — https://models.codelove.in/library/marble-kit/tree.glb · 80 tris · 0.75×1.43×0.75 · 8 KB
+- [Tree Large](https://models.codelove.in/models/marble-kit-tree-large/) — https://models.codelove.in/library/marble-kit/tree-large.glb · 80 tris · 1×1.91×1 · 8 KB
+- [Tree Tall](https://models.codelove.in/models/marble-kit-tree-tall/) — https://models.codelove.in/library/marble-kit/tree-tall.glb · 80 tris · 0.75×2.43×0.75 · 8 KB
+- [Tree Tall Large](https://models.codelove.in/models/marble-kit-tree-tall-large/) — https://models.codelove.in/library/marble-kit/tree-tall-large.glb · 80 tris · 1×2.91×1 · 8 KB
+
+### Props (158)
+
+- [Banner](https://models.codelove.in/models/marble-kit-banner/) — https://models.codelove.in/library/marble-kit/banner.glb · 64 tris · 0.93×0.5×0.07 · 8 KB
+- [Banner Double](https://models.codelove.in/models/marble-kit-banner-double/) — https://models.codelove.in/library/marble-kit/banner-double.glb · 128 tris · 0.93×0.5×0.93 · 9 KB
+- [Banner Double High](https://models.codelove.in/models/marble-kit-banner-double-high/) — https://models.codelove.in/library/marble-kit/banner-double-high.glb · 128 tris · 0.93×1×0.93 · 9 KB
+- [Banner Hanging](https://models.codelove.in/models/marble-kit-banner-hanging/) — https://models.codelove.in/library/marble-kit/banner-hanging.glb · 84 tris · 0.93×0.5×0.07 · 8 KB
+- [Banner Hanging Double](https://models.codelove.in/models/marble-kit-banner-hanging-double/) — https://models.codelove.in/library/marble-kit/banner-hanging-double.glb · 168 tris · 0.93×0.5×0.93 · 9 KB
+- [Banner Hanging Double High](https://models.codelove.in/models/marble-kit-banner-hanging-double-high/) — https://models.codelove.in/library/marble-kit/banner-hanging-double-high.glb · 168 tris · 0.93×1×0.93 · 9 KB
+- [Banner Hanging High](https://models.codelove.in/models/marble-kit-banner-hanging-high/) — https://models.codelove.in/library/marble-kit/banner-hanging-high.glb · 84 tris · 0.93×1×0.07 · 8 KB
+- [Banner High](https://models.codelove.in/models/marble-kit-banner-high/) — https://models.codelove.in/library/marble-kit/banner-high.glb · 64 tris · 0.93×1×0.07 · 8 KB
+- [Bend](https://models.codelove.in/models/marble-kit-bend/) — https://models.codelove.in/library/marble-kit/bend.glb · 446 tris · 1×0.5×2 · 14 KB
+- [Bend Large](https://models.codelove.in/models/marble-kit-bend-large/) — https://models.codelove.in/library/marble-kit/bend-large.glb · 516 tris · 3×0.5×6 · 15 KB
+- [Bend Medium](https://models.codelove.in/models/marble-kit-bend-medium/) — https://models.codelove.in/library/marble-kit/bend-medium.glb · 276 tris · 2×0.5×4 · 11 KB
+- [Bend Solid Large](https://models.codelove.in/models/marble-kit-bend-solid-large/) — https://models.codelove.in/library/marble-kit/bend-solid-large.glb · 412 tris · 3×0.5×6 · 14 KB
+- [Bend Solid Medium](https://models.codelove.in/models/marble-kit-bend-solid-medium/) — https://models.codelove.in/library/marble-kit/bend-solid-medium.glb · 220 tris · 2×0.5×4 · 10 KB
+- [Bump A](https://models.codelove.in/models/marble-kit-bump-a/) — https://models.codelove.in/library/marble-kit/bump-a.glb · 376 tris · 1×0.75×4 · 13 KB
+- [Bump B](https://models.codelove.in/models/marble-kit-bump-b/) — https://models.codelove.in/library/marble-kit/bump-b.glb · 376 tris · 1×1×4 · 14 KB
+- [Bump C](https://models.codelove.in/models/marble-kit-bump-c/) — https://models.codelove.in/library/marble-kit/bump-c.glb · 376 tris · 1×1.5×4 · 14 KB
+- [Bump D](https://models.codelove.in/models/marble-kit-bump-d/) — https://models.codelove.in/library/marble-kit/bump-d.glb · 376 tris · 1×2×4 · 14 KB
+- [Bump Solid A](https://models.codelove.in/models/marble-kit-bump-solid-a/) — https://models.codelove.in/library/marble-kit/bump-solid-a.glb · 308 tris · 1×0.75×4 · 13 KB
+- [Bump Solid B](https://models.codelove.in/models/marble-kit-bump-solid-b/) — https://models.codelove.in/library/marble-kit/bump-solid-b.glb · 308 tris · 1×1×4 · 13 KB
+- [Bump Solid C](https://models.codelove.in/models/marble-kit-bump-solid-c/) — https://models.codelove.in/library/marble-kit/bump-solid-c.glb · 308 tris · 1×1.5×4 · 13 KB
+- [Bump Solid D](https://models.codelove.in/models/marble-kit-bump-solid-d/) — https://models.codelove.in/library/marble-kit/bump-solid-d.glb · 308 tris · 1×2×4 · 13 KB
+- [Corner](https://models.codelove.in/models/marble-kit-corner/) — https://models.codelove.in/library/marble-kit/corner.glb · 244 tris · 1×0.5×1 · 11 KB
+- [Corner Solid](https://models.codelove.in/models/marble-kit-corner-solid/) — https://models.codelove.in/library/marble-kit/corner-solid.glb · 200 tris · 1×0.5×1 · 10 KB
+- [Cross](https://models.codelove.in/models/marble-kit-cross/) — https://models.codelove.in/library/marble-kit/cross.glb · 84 tris · 1×0.5×1 · 8 KB
+- [Curve](https://models.codelove.in/models/marble-kit-curve/) — https://models.codelove.in/library/marble-kit/curve.glb · 156 tris · 2×0.5×2 · 9 KB
+- [Curve Large](https://models.codelove.in/models/marble-kit-curve-large/) — https://models.codelove.in/library/marble-kit/curve-large.glb · 276 tris · 3×0.5×3 · 11 KB
+- [Curve Solid](https://models.codelove.in/models/marble-kit-curve-solid/) — https://models.codelove.in/library/marble-kit/curve-solid.glb · 128 tris · 2×0.5×2 · 9 KB
+- [Curve Solid Large](https://models.codelove.in/models/marble-kit-curve-solid-large/) — https://models.codelove.in/library/marble-kit/curve-solid-large.glb · 224 tris · 3×0.5×3 · 10 KB
+- [Curve Wide](https://models.codelove.in/models/marble-kit-curve-wide/) — https://models.codelove.in/library/marble-kit/curve-wide.glb · 240 tris · 1.7×0.5×1.7 · 11 KB
+- [Curve Wide Large](https://models.codelove.in/models/marble-kit-curve-wide-large/) — https://models.codelove.in/library/marble-kit/curve-wide-large.glb · 296 tris · 3.7×0.5×3.7 · 12 KB
+- [Curve Wide Medium](https://models.codelove.in/models/marble-kit-curve-wide-medium/) — https://models.codelove.in/library/marble-kit/curve-wide-medium.glb · 296 tris · 2.7×0.5×2.7 · 12 KB
+- [Curve Wide Solid Large](https://models.codelove.in/models/marble-kit-curve-wide-solid-large/) — https://models.codelove.in/library/marble-kit/curve-wide-solid-large.glb · 240 tris · 3.7×0.5×3.7 · 11 KB
+- [Curve Wide Solid Medium](https://models.codelove.in/models/marble-kit-curve-wide-solid-medium/) — https://models.codelove.in/library/marble-kit/curve-wide-solid-medium.glb · 240 tris · 2.7×0.5×2.7 · 11 KB
+- [End Hole Rounded](https://models.codelove.in/models/marble-kit-end-hole-rounded/) — https://models.codelove.in/library/marble-kit/end-hole-rounded.glb · 120 tris · 1×0.5×1 · 8 KB
+- [End Hole Square](https://models.codelove.in/models/marble-kit-end-hole-square/) — https://models.codelove.in/library/marble-kit/end-hole-square.glb · 104 tris · 1×0.5×1 · 8 KB
+- [End Rounded](https://models.codelove.in/models/marble-kit-end-rounded/) — https://models.codelove.in/library/marble-kit/end-rounded.glb · 52 tris · 1×0.5×1 · 7 KB
+- [End Square](https://models.codelove.in/models/marble-kit-end-square/) — https://models.codelove.in/library/marble-kit/end-square.glb · 36 tris · 1×0.5×1 · 7 KB
+- [Fan Four](https://models.codelove.in/models/marble-kit-fan-four/) — https://models.codelove.in/library/marble-kit/fan-four.glb · 178 tris · 1×0.5×1 · 11 KB
+- [Fan Simple Four](https://models.codelove.in/models/marble-kit-fan-simple-four/) — https://models.codelove.in/library/marble-kit/fan-simple-four.glb · 156 tris · 0.68×0.5×0.68 · 11 KB
+- [Fan Simple Two](https://models.codelove.in/models/marble-kit-fan-simple-two/) — https://models.codelove.in/library/marble-kit/fan-simple-two.glb · 108 tris · 0.68×0.5×0.3 · 10 KB
+- [Fan Standing Four](https://models.codelove.in/models/marble-kit-fan-standing-four/) — https://models.codelove.in/library/marble-kit/fan-standing-four.glb · 210 tris · 1×1×0.4 · 12 KB
+- [Fan Standing Two](https://models.codelove.in/models/marble-kit-fan-standing-two/) — https://models.codelove.in/library/marble-kit/fan-standing-two.glb · 162 tris · 1×1×0.4 · 11 KB
+- [Fan Two](https://models.codelove.in/models/marble-kit-fan-two/) — https://models.codelove.in/library/marble-kit/fan-two.glb · 130 tris · 1×0.5×1 · 10 KB
+- [Funnel](https://models.codelove.in/models/marble-kit-funnel/) — https://models.codelove.in/library/marble-kit/funnel.glb · 36 tris · 1.7×0.5×1 · 7 KB
+- [Funnel Long](https://models.codelove.in/models/marble-kit-funnel-long/) — https://models.codelove.in/library/marble-kit/funnel-long.glb · 76 tris · 1.7×0.5×3 · 8 KB
+- [Helix Half Left](https://models.codelove.in/models/marble-kit-helix-half-left/) — https://models.codelove.in/library/marble-kit/helix-half-left.glb · 324 tris · 2×1.5×4.01 · 17 KB
+- [Helix Half Right](https://models.codelove.in/models/marble-kit-helix-half-right/) — https://models.codelove.in/library/marble-kit/helix-half-right.glb · 324 tris · 2×1.5×4.01 · 17 KB
+- [Helix Large Half Left](https://models.codelove.in/models/marble-kit-helix-large-half-left/) — https://models.codelove.in/library/marble-kit/helix-large-half-left.glb · 588 tris · 3×1.5×6 · 25 KB
+- [Helix Large Half Right](https://models.codelove.in/models/marble-kit-helix-large-half-right/) — https://models.codelove.in/library/marble-kit/helix-large-half-right.glb · 588 tris · 3×1.5×6 · 25 KB
+- [Helix Large Left](https://models.codelove.in/models/marble-kit-helix-large-left/) — https://models.codelove.in/library/marble-kit/helix-large-left.glb · 1,160 tris · 6×2.5×6 · 43 KB
+- [Helix Large Quarter Left](https://models.codelove.in/models/marble-kit-helix-large-quarter-left/) — https://models.codelove.in/library/marble-kit/helix-large-quarter-left.glb · 302 tris · 3×1×3 · 16 KB
+- [Helix Large Quarter Right](https://models.codelove.in/models/marble-kit-helix-large-quarter-right/) — https://models.codelove.in/library/marble-kit/helix-large-quarter-right.glb · 302 tris · 3×1×3 · 16 KB
+- [Helix Large Right](https://models.codelove.in/models/marble-kit-helix-large-right/) — https://models.codelove.in/library/marble-kit/helix-large-right.glb · 1,160 tris · 6×2.5×6 · 43 KB
+- [Helix Left](https://models.codelove.in/models/marble-kit-helix-left/) — https://models.codelove.in/library/marble-kit/helix-left.glb · 632 tris · 4.01×2.5×4.01 · 27 KB
+- [Helix Quarter Left](https://models.codelove.in/models/marble-kit-helix-quarter-left/) — https://models.codelove.in/library/marble-kit/helix-quarter-left.glb · 170 tris · 2×1×2 · 12 KB
+- [Helix Quarter Right](https://models.codelove.in/models/marble-kit-helix-quarter-right/) — https://models.codelove.in/library/marble-kit/helix-quarter-right.glb · 170 tris · 2×1×2 · 12 KB
+- [Helix Right](https://models.codelove.in/models/marble-kit-helix-right/) — https://models.codelove.in/library/marble-kit/helix-right.glb · 632 tris · 4.01×2.5×4.01 · 27 KB
+- [Marble Center Butterfly High](https://models.codelove.in/models/marble-kit-marble-center-butterfly-high/) — https://models.codelove.in/library/marble-kit/marble-center-butterfly-high.glb · 304 tris · 0.39×0.4×0.39 · 15 KB
+- [Marble Center Butterfly Low](https://models.codelove.in/models/marble-kit-marble-center-butterfly-low/) — https://models.codelove.in/library/marble-kit/marble-center-butterfly-low.glb · 88 tris · 0.38×0.4×0.38 · 10 KB
+- [Marble Center High](https://models.codelove.in/models/marble-kit-marble-center-high/) — https://models.codelove.in/library/marble-kit/marble-center-high.glb · 316 tris · 0.39×0.4×0.39 · 15 KB
+- [Marble Center Low](https://models.codelove.in/models/marble-kit-marble-center-low/) — https://models.codelove.in/library/marble-kit/marble-center-low.glb · 92 tris · 0.38×0.4×0.38 · 10 KB
+- [Marble High](https://models.codelove.in/models/marble-kit-marble-high/) — https://models.codelove.in/library/marble-kit/marble-high.glb · 256 tris · 0.39×0.4×0.39 · 9 KB
+- [Marble Low](https://models.codelove.in/models/marble-kit-marble-low/) — https://models.codelove.in/library/marble-kit/marble-low.glb · 64 tris · 0.38×0.4×0.38 · 4 KB
+- [Ramp End A](https://models.codelove.in/models/marble-kit-ramp-end-a/) — https://models.codelove.in/library/marble-kit/ramp-end-a.glb · 116 tris · 1×0.63×1 · 9 KB
+- [Ramp End B](https://models.codelove.in/models/marble-kit-ramp-end-b/) — https://models.codelove.in/library/marble-kit/ramp-end-b.glb · 116 tris · 1×0.75×1 · 9 KB
+- [Ramp End C](https://models.codelove.in/models/marble-kit-ramp-end-c/) — https://models.codelove.in/library/marble-kit/ramp-end-c.glb · 116 tris · 1×1×1 · 9 KB
+- [Ramp End D](https://models.codelove.in/models/marble-kit-ramp-end-d/) — https://models.codelove.in/library/marble-kit/ramp-end-d.glb · 116 tris · 1×1.25×1 · 9 KB
+- [Ramp End Solid A](https://models.codelove.in/models/marble-kit-ramp-end-solid-a/) — https://models.codelove.in/library/marble-kit/ramp-end-solid-a.glb · 100 tris · 1×0.63×1 · 8 KB
+- [Ramp End Solid B](https://models.codelove.in/models/marble-kit-ramp-end-solid-b/) — https://models.codelove.in/library/marble-kit/ramp-end-solid-b.glb · 100 tris · 1×0.75×1 · 9 KB
+- [Ramp End Solid C](https://models.codelove.in/models/marble-kit-ramp-end-solid-c/) — https://models.codelove.in/library/marble-kit/ramp-end-solid-c.glb · 100 tris · 1×1×1 · 9 KB
+- [Ramp End Solid D](https://models.codelove.in/models/marble-kit-ramp-end-solid-d/) — https://models.codelove.in/library/marble-kit/ramp-end-solid-d.glb · 100 tris · 1×1.25×1 · 9 KB
+- [Ramp Long A](https://models.codelove.in/models/marble-kit-ramp-long-a/) — https://models.codelove.in/library/marble-kit/ramp-long-a.glb · 196 tris · 1×0.75×2 · 10 KB
+- [Ramp Long B](https://models.codelove.in/models/marble-kit-ramp-long-b/) — https://models.codelove.in/library/marble-kit/ramp-long-b.glb · 196 tris · 1×1×2 · 10 KB
+- [Ramp Long C](https://models.codelove.in/models/marble-kit-ramp-long-c/) — https://models.codelove.in/library/marble-kit/ramp-long-c.glb · 196 tris · 1×1.5×2 · 10 KB
+- [Ramp Long D](https://models.codelove.in/models/marble-kit-ramp-long-d/) — https://models.codelove.in/library/marble-kit/ramp-long-d.glb · 196 tris · 1×2×2 · 10 KB
+- [Ramp Long Solid A](https://models.codelove.in/models/marble-kit-ramp-long-solid-a/) — https://models.codelove.in/library/marble-kit/ramp-long-solid-a.glb · 164 tris · 1×0.75×2 · 10 KB
+- [Ramp Long Solid B](https://models.codelove.in/models/marble-kit-ramp-long-solid-b/) — https://models.codelove.in/library/marble-kit/ramp-long-solid-b.glb · 164 tris · 1×1×2 · 10 KB
+- [Ramp Long Solid C](https://models.codelove.in/models/marble-kit-ramp-long-solid-c/) — https://models.codelove.in/library/marble-kit/ramp-long-solid-c.glb · 164 tris · 1×1.5×2 · 10 KB
+- [Ramp Long Solid D](https://models.codelove.in/models/marble-kit-ramp-long-solid-d/) — https://models.codelove.in/library/marble-kit/ramp-long-solid-d.glb · 164 tris · 1×2×2 · 10 KB
+- [Ramp Start A](https://models.codelove.in/models/marble-kit-ramp-start-a/) — https://models.codelove.in/library/marble-kit/ramp-start-a.glb · 116 tris · 1×0.63×1 · 9 KB
+- [Ramp Start B](https://models.codelove.in/models/marble-kit-ramp-start-b/) — https://models.codelove.in/library/marble-kit/ramp-start-b.glb · 116 tris · 1×0.75×1 · 9 KB
+- [Ramp Start C](https://models.codelove.in/models/marble-kit-ramp-start-c/) — https://models.codelove.in/library/marble-kit/ramp-start-c.glb · 116 tris · 1×1×1 · 9 KB
+- [Ramp Start D](https://models.codelove.in/models/marble-kit-ramp-start-d/) — https://models.codelove.in/library/marble-kit/ramp-start-d.glb · 116 tris · 1×1.25×1 · 9 KB
+- [Ramp Start Solid A](https://models.codelove.in/models/marble-kit-ramp-start-solid-a/) — https://models.codelove.in/library/marble-kit/ramp-start-solid-a.glb · 100 tris · 1×0.63×1 · 9 KB
+- [Ramp Start Solid B](https://models.codelove.in/models/marble-kit-ramp-start-solid-b/) — https://models.codelove.in/library/marble-kit/ramp-start-solid-b.glb · 100 tris · 1×0.75×1 · 9 KB
+- [Ramp Start Solid C](https://models.codelove.in/models/marble-kit-ramp-start-solid-c/) — https://models.codelove.in/library/marble-kit/ramp-start-solid-c.glb · 100 tris · 1×1×1 · 9 KB
+- [Ramp Start Solid D](https://models.codelove.in/models/marble-kit-ramp-start-solid-d/) — https://models.codelove.in/library/marble-kit/ramp-start-solid-d.glb · 100 tris · 1×1.25×1 · 9 KB
+- [S Curve Left](https://models.codelove.in/models/marble-kit-s-curve-left/) — https://models.codelove.in/library/marble-kit/s-curve-left.glb · 276 tris · 4×0.5×3 · 11 KB
+- [S Curve Left Large](https://models.codelove.in/models/marble-kit-s-curve-left-large/) — https://models.codelove.in/library/marble-kit/s-curve-left-large.glb · 516 tris · 6×0.5×5 · 15 KB
+- [S Curve Right](https://models.codelove.in/models/marble-kit-s-curve-right/) — https://models.codelove.in/library/marble-kit/s-curve-right.glb · 276 tris · 4×0.5×3 · 11 KB
+- [S Curve Right Large](https://models.codelove.in/models/marble-kit-s-curve-right-large/) — https://models.codelove.in/library/marble-kit/s-curve-right-large.glb · 516 tris · 6×0.5×5 · 15 KB
+- [S Curve Short Left A](https://models.codelove.in/models/marble-kit-s-curve-short-left-a/) — https://models.codelove.in/library/marble-kit/s-curve-short-left-a.glb · 216 tris · 1.25×0.5×2 · 11 KB
+- [S Curve Short Left B](https://models.codelove.in/models/marble-kit-s-curve-short-left-b/) — https://models.codelove.in/library/marble-kit/s-curve-short-left-b.glb · 216 tris · 1.5×0.5×2 · 11 KB
+- [S Curve Short Left C](https://models.codelove.in/models/marble-kit-s-curve-short-left-c/) — https://models.codelove.in/library/marble-kit/s-curve-short-left-c.glb · 216 tris · 2×0.5×2 · 11 KB
+- [Slant A](https://models.codelove.in/models/marble-kit-slant-a/) — https://models.codelove.in/library/marble-kit/slant-a.glb · 36 tris · 1×0.75×1 · 7 KB
+- [Slant B](https://models.codelove.in/models/marble-kit-slant-b/) — https://models.codelove.in/library/marble-kit/slant-b.glb · 72 tris · 1×1×1 · 8 KB
+- [Slant C](https://models.codelove.in/models/marble-kit-slant-c/) — https://models.codelove.in/library/marble-kit/slant-c.glb · 72 tris · 1×1.5×1 · 8 KB
+- [Slant D](https://models.codelove.in/models/marble-kit-slant-d/) — https://models.codelove.in/library/marble-kit/slant-d.glb · 36 tris · 1×2×1 · 7 KB
+- [Slant Long A](https://models.codelove.in/models/marble-kit-slant-long-a/) — https://models.codelove.in/library/marble-kit/slant-long-a.glb · 36 tris · 1×0.75×2 · 7 KB
+- [Slant Long B](https://models.codelove.in/models/marble-kit-slant-long-b/) — https://models.codelove.in/library/marble-kit/slant-long-b.glb · 36 tris · 1×1×2 · 7 KB
+- [Slant Long C](https://models.codelove.in/models/marble-kit-slant-long-c/) — https://models.codelove.in/library/marble-kit/slant-long-c.glb · 36 tris · 1×1.5×2 · 7 KB
+- [Slant Long D](https://models.codelove.in/models/marble-kit-slant-long-d/) — https://models.codelove.in/library/marble-kit/slant-long-d.glb · 36 tris · 1×2×2 · 7 KB
+- [Slant Solid A](https://models.codelove.in/models/marble-kit-slant-solid-a/) — https://models.codelove.in/library/marble-kit/slant-solid-a.glb · 36 tris · 1×0.75×1 · 7 KB
+- [Slant Solid B](https://models.codelove.in/models/marble-kit-slant-solid-b/) — https://models.codelove.in/library/marble-kit/slant-solid-b.glb · 36 tris · 1×1×1 · 7 KB
+- [Slant Solid C](https://models.codelove.in/models/marble-kit-slant-solid-c/) — https://models.codelove.in/library/marble-kit/slant-solid-c.glb · 36 tris · 1×1.5×1 · 7 KB
+- [Slant Solid D](https://models.codelove.in/models/marble-kit-slant-solid-d/) — https://models.codelove.in/library/marble-kit/slant-solid-d.glb · 36 tris · 1×2×1 · 7 KB
+- [Slant Solid Long A](https://models.codelove.in/models/marble-kit-slant-solid-long-a/) — https://models.codelove.in/library/marble-kit/slant-solid-long-a.glb · 36 tris · 1×0.75×2 · 7 KB
+- [Slant Solid Long B](https://models.codelove.in/models/marble-kit-slant-solid-long-b/) — https://models.codelove.in/library/marble-kit/slant-solid-long-b.glb · 36 tris · 1×1×2 · 7 KB
+- [Slant Solid Long C](https://models.codelove.in/models/marble-kit-slant-solid-long-c/) — https://models.codelove.in/library/marble-kit/slant-solid-long-c.glb · 36 tris · 1×1.5×2 · 7 KB
+- [Slant Solid Long D](https://models.codelove.in/models/marble-kit-slant-solid-long-d/) — https://models.codelove.in/library/marble-kit/slant-solid-long-d.glb · 36 tris · 1×2×2 · 7 KB
+- [Split](https://models.codelove.in/models/marble-kit-split/) — https://models.codelove.in/library/marble-kit/split.glb · 60 tris · 1×0.5×1 · 7 KB
+- [Split Double](https://models.codelove.in/models/marble-kit-split-double/) — https://models.codelove.in/library/marble-kit/split-double.glb · 378 tris · 3×0.5×2 · 14 KB
+- [Split Double Sides](https://models.codelove.in/models/marble-kit-split-double-sides/) — https://models.codelove.in/library/marble-kit/split-double-sides.glb · 494 tris · 3×0.5×2 · 15 KB
+- [Split Double Sides Solid](https://models.codelove.in/models/marble-kit-split-double-sides-solid/) — https://models.codelove.in/library/marble-kit/split-double-sides-solid.glb · 438 tris · 3×0.5×2 · 14 KB
+- [Split Double Solid](https://models.codelove.in/models/marble-kit-split-double-solid/) — https://models.codelove.in/library/marble-kit/split-double-solid.glb · 326 tris · 3×0.5×2 · 14 KB
+- [Split Large Left](https://models.codelove.in/models/marble-kit-split-large-left/) — https://models.codelove.in/library/marble-kit/split-large-left.glb · 260 tris · 3×0.5×3 · 11 KB
+- [Split Large Right](https://models.codelove.in/models/marble-kit-split-large-right/) — https://models.codelove.in/library/marble-kit/split-large-right.glb · 260 tris · 3×0.5×3 · 11 KB
+- [Split Large Solid Left](https://models.codelove.in/models/marble-kit-split-large-solid-left/) — https://models.codelove.in/library/marble-kit/split-large-solid-left.glb · 176 tris · 3×0.5×3 · 10 KB
+- [Split Large Solid Right](https://models.codelove.in/models/marble-kit-split-large-solid-right/) — https://models.codelove.in/library/marble-kit/split-large-solid-right.glb · 176 tris · 3×0.5×3 · 10 KB
+- [Split Left](https://models.codelove.in/models/marble-kit-split-left/) — https://models.codelove.in/library/marble-kit/split-left.glb · 158 tris · 2×0.5×2 · 9 KB
+- [Split Right](https://models.codelove.in/models/marble-kit-split-right/) — https://models.codelove.in/library/marble-kit/split-right.glb · 158 tris · 2×0.5×2 · 9 KB
+- [Split Solid Left](https://models.codelove.in/models/marble-kit-split-solid-left/) — https://models.codelove.in/library/marble-kit/split-solid-left.glb · 114 tris · 2×0.5×2 · 8 KB
+- [Split Solid Right](https://models.codelove.in/models/marble-kit-split-solid-right/) — https://models.codelove.in/library/marble-kit/split-solid-right.glb · 114 tris · 2×0.5×2 · 8 KB
+- [Straight](https://models.codelove.in/models/marble-kit-straight/) — https://models.codelove.in/library/marble-kit/straight.glb · 36 tris · 1×0.5×1 · 7 KB
+- [Straight Hole](https://models.codelove.in/models/marble-kit-straight-hole/) — https://models.codelove.in/library/marble-kit/straight-hole.glb · 112 tris · 1×0.5×1 · 8 KB
+- [Straight Wide](https://models.codelove.in/models/marble-kit-straight-wide/) — https://models.codelove.in/library/marble-kit/straight-wide.glb · 36 tris · 1.7×0.5×1 · 7 KB
+- [Straight Wide Hole](https://models.codelove.in/models/marble-kit-straight-wide-hole/) — https://models.codelove.in/library/marble-kit/straight-wide-hole.glb · 112 tris · 1.7×0.5×1 · 8 KB
+- [Support Color Four Bottom](https://models.codelove.in/models/marble-kit-support-color-four-bottom/) — https://models.codelove.in/library/marble-kit/support-color-four-bottom.glb · 240 tris · 1×0.5×1 · 12 KB
+- [Support Color Four Middle](https://models.codelove.in/models/marble-kit-support-color-four-middle/) — https://models.codelove.in/library/marble-kit/support-color-four-middle.glb · 112 tris · 0.9×0.5×0.9 · 9 KB
+- [Support Color Four Top](https://models.codelove.in/models/marble-kit-support-color-four-top/) — https://models.codelove.in/library/marble-kit/support-color-four-top.glb · 156 tris · 1.2×0.7×1 · 9 KB
+- [Support Color Four Top Double](https://models.codelove.in/models/marble-kit-support-color-four-top-double/) — https://models.codelove.in/library/marble-kit/support-color-four-top-double.glb · 216 tris · 1.2×0.7×1 · 10 KB
+- [Support Color Single Bottom](https://models.codelove.in/models/marble-kit-support-color-single-bottom/) — https://models.codelove.in/library/marble-kit/support-color-single-bottom.glb · 44 tris · 0.6×0.5×0.6 · 8 KB
+- [Support Color Single Middle](https://models.codelove.in/models/marble-kit-support-color-single-middle/) — https://models.codelove.in/library/marble-kit/support-color-single-middle.glb · 28 tris · 0.4×0.5×0.4 · 7 KB
+- [Support Color Single Top](https://models.codelove.in/models/marble-kit-support-color-single-top/) — https://models.codelove.in/library/marble-kit/support-color-single-top.glb · 66 tris · 1.2×0.7×0.6 · 8 KB
+- [Support Color Single Top Double](https://models.codelove.in/models/marble-kit-support-color-single-top-double/) — https://models.codelove.in/library/marble-kit/support-color-single-top-double.glb · 116 tris · 1.2×0.7×0.6 · 9 KB
+- [Support Color Two Bottom](https://models.codelove.in/models/marble-kit-support-color-two-bottom/) — https://models.codelove.in/library/marble-kit/support-color-two-bottom.glb · 120 tris · 1×0.5×0.3 · 9 KB
+- [Support Color Two Middle](https://models.codelove.in/models/marble-kit-support-color-two-middle/) — https://models.codelove.in/library/marble-kit/support-color-two-middle.glb · 56 tris · 0.9×0.5×0.2 · 8 KB
+- [Support Color Two Top](https://models.codelove.in/models/marble-kit-support-color-two-top/) — https://models.codelove.in/library/marble-kit/support-color-two-top.glb · 88 tris · 1.2×0.7×0.6 · 8 KB
+- [Support Color Two Top Double](https://models.codelove.in/models/marble-kit-support-color-two-top-double/) — https://models.codelove.in/library/marble-kit/support-color-two-top-double.glb · 160 tris · 1.2×0.7×0.6 · 9 KB
+- [Support Four Bottom](https://models.codelove.in/models/marble-kit-support-four-bottom/) — https://models.codelove.in/library/marble-kit/support-four-bottom.glb · 240 tris · 1×0.5×1 · 12 KB
+- [Support Four Middle](https://models.codelove.in/models/marble-kit-support-four-middle/) — https://models.codelove.in/library/marble-kit/support-four-middle.glb · 112 tris · 0.9×0.5×0.9 · 9 KB
+- [Support Four Top](https://models.codelove.in/models/marble-kit-support-four-top/) — https://models.codelove.in/library/marble-kit/support-four-top.glb · 156 tris · 1.2×0.7×1 · 9 KB
+- [Support Four Top Double](https://models.codelove.in/models/marble-kit-support-four-top-double/) — https://models.codelove.in/library/marble-kit/support-four-top-double.glb · 216 tris · 1.2×0.7×1 · 10 KB
+- [Support Single Bottom](https://models.codelove.in/models/marble-kit-support-single-bottom/) — https://models.codelove.in/library/marble-kit/support-single-bottom.glb · 44 tris · 0.6×0.5×0.6 · 8 KB
+- [Support Single Middle](https://models.codelove.in/models/marble-kit-support-single-middle/) — https://models.codelove.in/library/marble-kit/support-single-middle.glb · 28 tris · 0.4×0.5×0.4 · 7 KB
+- [Support Single Top](https://models.codelove.in/models/marble-kit-support-single-top/) — https://models.codelove.in/library/marble-kit/support-single-top.glb · 66 tris · 1.2×0.7×0.6 · 8 KB
+- [Support Single Top Double](https://models.codelove.in/models/marble-kit-support-single-top-double/) — https://models.codelove.in/library/marble-kit/support-single-top-double.glb · 116 tris · 1.2×0.7×0.6 · 9 KB
+- [Support Two Bottom](https://models.codelove.in/models/marble-kit-support-two-bottom/) — https://models.codelove.in/library/marble-kit/support-two-bottom.glb · 120 tris · 1×0.5×0.3 · 9 KB
+- [Support Two Middle](https://models.codelove.in/models/marble-kit-support-two-middle/) — https://models.codelove.in/library/marble-kit/support-two-middle.glb · 56 tris · 0.9×0.5×0.2 · 8 KB
+- [Support Two Top](https://models.codelove.in/models/marble-kit-support-two-top/) — https://models.codelove.in/library/marble-kit/support-two-top.glb · 88 tris · 1.2×0.7×0.6 · 8 KB
+- [Support Two Top Double](https://models.codelove.in/models/marble-kit-support-two-top-double/) — https://models.codelove.in/library/marble-kit/support-two-top-double.glb · 160 tris · 1.2×0.7×0.6 · 9 KB
+- [Tunnel](https://models.codelove.in/models/marble-kit-tunnel/) — https://models.codelove.in/library/marble-kit/tunnel.glb · 60 tris · 1×0.6×1 · 7 KB
+- [Wave A](https://models.codelove.in/models/marble-kit-wave-a/) — https://models.codelove.in/library/marble-kit/wave-a.glb · 416 tris · 1.25×0.5×4 · 14 KB
+- [Wave B](https://models.codelove.in/models/marble-kit-wave-b/) — https://models.codelove.in/library/marble-kit/wave-b.glb · 416 tris · 1.5×0.5×4 · 14 KB
+- [Wave C](https://models.codelove.in/models/marble-kit-wave-c/) — https://models.codelove.in/library/marble-kit/wave-c.glb · 416 tris · 2×0.5×4 · 15 KB
+- [Wave Solid A](https://models.codelove.in/models/marble-kit-wave-solid-a/) — https://models.codelove.in/library/marble-kit/wave-solid-a.glb · 340 tris · 1.25×0.5×4 · 13 KB
+- [Wave Solid B](https://models.codelove.in/models/marble-kit-wave-solid-b/) — https://models.codelove.in/library/marble-kit/wave-solid-b.glb · 340 tris · 1.5×0.5×4 · 14 KB
+- [Wave Solid C](https://models.codelove.in/models/marble-kit-wave-solid-c/) — https://models.codelove.in/library/marble-kit/wave-solid-c.glb · 340 tris · 2×0.5×4 · 14 KB

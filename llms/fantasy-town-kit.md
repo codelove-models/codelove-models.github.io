@@ -1,0 +1,189 @@
+# Fantasy Town Kit — 167 free 3D models (Buildings 162, Trees 5)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/fantasy-town-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/fantasy-town-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.6 MB.
+
+## Models
+
+### Buildings (162)
+
+- [Balcony Wall](https://models.codelove.in/models/fantasy-town-kit-balcony-wall/) — https://models.codelove.in/library/fantasy-town-kit/balcony-wall.glb · 64 tris · 0.1×1×1 · 8 KB
+- [Balcony Wall Fence](https://models.codelove.in/models/fantasy-town-kit-balcony-wall-fence/) — https://models.codelove.in/library/fantasy-town-kit/balcony-wall-fence.glb · 102 tris · 0.1×1×1 · 9 KB
+- [Banner Green](https://models.codelove.in/models/fantasy-town-kit-banner-green/) — https://models.codelove.in/library/fantasy-town-kit/banner-green.glb · 102 tris · 0.05×0.84×0.5 · 9 KB
+- [Banner Red](https://models.codelove.in/models/fantasy-town-kit-banner-red/) — https://models.codelove.in/library/fantasy-town-kit/banner-red.glb · 98 tris · 0.05×0.84×0.5 · 9 KB
+- [Blade](https://models.codelove.in/models/fantasy-town-kit-blade/) — https://models.codelove.in/library/fantasy-town-kit/blade.glb · 180 tris · 0.11×2×0.43 · 10 KB
+- [Cart](https://models.codelove.in/models/fantasy-town-kit-cart/) — https://models.codelove.in/library/fantasy-town-kit/cart.glb · 416 tris · 0.89×0.54×1.34 · 21 KB
+- [Cart High](https://models.codelove.in/models/fantasy-town-kit-cart-high/) — https://models.codelove.in/library/fantasy-town-kit/cart-high.glb · 836 tris · 0.89×0.86×1.39 · 30 KB
+- [Chimney](https://models.codelove.in/models/fantasy-town-kit-chimney/) — https://models.codelove.in/library/fantasy-town-kit/chimney.glb · 32 tris · 0.21×1×0.34 · 7 KB
+- [Chimney Base](https://models.codelove.in/models/fantasy-town-kit-chimney-base/) — https://models.codelove.in/library/fantasy-town-kit/chimney-base.glb · 78 tris · 0.34×1×0.52 · 8 KB
+- [Chimney Top](https://models.codelove.in/models/fantasy-town-kit-chimney-top/) — https://models.codelove.in/library/fantasy-town-kit/chimney-top.glb · 78 tris · 0.25×0.63×0.34 · 8 KB
+- [Fence](https://models.codelove.in/models/fantasy-town-kit-fence/) — https://models.codelove.in/library/fantasy-town-kit/fence.glb · 84 tris · 0.07×0.38×1 · 8 KB
+- [Fence Broken](https://models.codelove.in/models/fantasy-town-kit-fence-broken/) — https://models.codelove.in/library/fantasy-town-kit/fence-broken.glb · 124 tris · 0.26×0.38×1 · 9 KB
+- [Fence Curved](https://models.codelove.in/models/fantasy-town-kit-fence-curved/) — https://models.codelove.in/library/fantasy-town-kit/fence-curved.glb · 308 tris · 1×0.38×1 · 12 KB
+- [Fence Gate](https://models.codelove.in/models/fantasy-town-kit-fence-gate/) — https://models.codelove.in/library/fantasy-town-kit/fence-gate.glb · 560 tris · 0.07×0.38×1 · 16 KB
+- [Fountain Center](https://models.codelove.in/models/fantasy-town-kit-fountain-center/) — https://models.codelove.in/library/fantasy-town-kit/fountain-center.glb · 4 tris · 1×0.14×1 · 7 KB
+- [Fountain Corner](https://models.codelove.in/models/fantasy-town-kit-fountain-corner/) — https://models.codelove.in/library/fantasy-town-kit/fountain-corner.glb · 60 tris · 1×0.28×1 · 9 KB
+- [Fountain Corner Inner](https://models.codelove.in/models/fantasy-town-kit-fountain-corner-inner/) — https://models.codelove.in/library/fantasy-town-kit/fountain-corner-inner.glb · 146 tris · 1×0.28×1 · 11 KB
+- [Fountain Corner Inner Square](https://models.codelove.in/models/fantasy-town-kit-fountain-corner-inner-square/) — https://models.codelove.in/library/fantasy-town-kit/fountain-corner-inner-square.glb · 46 tris · 1×0.28×1 · 9 KB
+- [Fountain Curved](https://models.codelove.in/models/fantasy-town-kit-fountain-curved/) — https://models.codelove.in/library/fantasy-town-kit/fountain-curved.glb · 266 tris · 1×0.28×1 · 13 KB
+- [Fountain Edge](https://models.codelove.in/models/fantasy-town-kit-fountain-edge/) — https://models.codelove.in/library/fantasy-town-kit/fountain-edge.glb · 36 tris · 1×0.28×1 · 9 KB
+- [Fountain Round](https://models.codelove.in/models/fantasy-town-kit-fountain-round/) — https://models.codelove.in/library/fantasy-town-kit/fountain-round.glb · 1,002 tris · 2×0.28×2 · 25 KB
+- [Fountain Round Detail](https://models.codelove.in/models/fantasy-town-kit-fountain-round-detail/) — https://models.codelove.in/library/fantasy-town-kit/fountain-round-detail.glb · 1,628 tris · 2×0.48×2 · 35 KB
+- [Fountain Square](https://models.codelove.in/models/fantasy-town-kit-fountain-square/) — https://models.codelove.in/library/fantasy-town-kit/fountain-square.glb · 270 tris · 2×0.46×2 · 13 KB
+- [Fountain Square Detail](https://models.codelove.in/models/fantasy-town-kit-fountain-square-detail/) — https://models.codelove.in/library/fantasy-town-kit/fountain-square-detail.glb · 334 tris · 2×0.48×2 · 14 KB
+- [Hedge](https://models.codelove.in/models/fantasy-town-kit-hedge/) — https://models.codelove.in/library/fantasy-town-kit/hedge.glb · 54 tris · 0.25×0.25×1 · 8 KB
+- [Hedge Curved](https://models.codelove.in/models/fantasy-town-kit-hedge-curved/) — https://models.codelove.in/library/fantasy-town-kit/hedge-curved.glb · 280 tris · 1×0.25×1 · 13 KB
+- [Hedge Gate](https://models.codelove.in/models/fantasy-town-kit-hedge-gate/) — https://models.codelove.in/library/fantasy-town-kit/hedge-gate.glb · 76 tris · 0.25×0.25×1 · 8 KB
+- [Hedge Large](https://models.codelove.in/models/fantasy-town-kit-hedge-large/) — https://models.codelove.in/library/fantasy-town-kit/hedge-large.glb · 90 tris · 0.4×0.6×1 · 9 KB
+- [Hedge Large Curved](https://models.codelove.in/models/fantasy-town-kit-hedge-large-curved/) — https://models.codelove.in/library/fantasy-town-kit/hedge-large-curved.glb · 252 tris · 1×0.6×1 · 13 KB
+- [Hedge Large Gate](https://models.codelove.in/models/fantasy-town-kit-hedge-large-gate/) — https://models.codelove.in/library/fantasy-town-kit/hedge-large-gate.glb · 164 tris · 0.4×0.6×1 · 11 KB
+- [Lantern](https://models.codelove.in/models/fantasy-town-kit-lantern/) — https://models.codelove.in/library/fantasy-town-kit/lantern.glb · 158 tris · 0.22×1.56×0.22 · 10 KB
+- [Overhang](https://models.codelove.in/models/fantasy-town-kit-overhang/) — https://models.codelove.in/library/fantasy-town-kit/overhang.glb · 68 tris · 0.28×0.33×1 · 8 KB
+- [Pillar Stone](https://models.codelove.in/models/fantasy-town-kit-pillar-stone/) — https://models.codelove.in/library/fantasy-town-kit/pillar-stone.glb · 124 tris · 0.16×1×0.16 · 9 KB
+- [Pillar Wood](https://models.codelove.in/models/fantasy-town-kit-pillar-wood/) — https://models.codelove.in/library/fantasy-town-kit/pillar-wood.glb · 44 tris · 0.16×1×0.16 · 8 KB
+- [Planks](https://models.codelove.in/models/fantasy-town-kit-planks/) — https://models.codelove.in/library/fantasy-town-kit/planks.glb · 96 tris · 1×0.06×1 · 8 KB
+- [Planks Half](https://models.codelove.in/models/fantasy-town-kit-planks-half/) — https://models.codelove.in/library/fantasy-town-kit/planks-half.glb · 84 tris · 0.5×0.06×1 · 8 KB
+- [Planks Opening](https://models.codelove.in/models/fantasy-town-kit-planks-opening/) — https://models.codelove.in/library/fantasy-town-kit/planks-opening.glb · 144 tris · 1×0.06×1 · 9 KB
+- [Poles](https://models.codelove.in/models/fantasy-town-kit-poles/) — https://models.codelove.in/library/fantasy-town-kit/poles.glb · 28 tris · 0.1×1×1 · 7 KB
+- [Poles Horizontal](https://models.codelove.in/models/fantasy-town-kit-poles-horizontal/) — https://models.codelove.in/library/fantasy-town-kit/poles-horizontal.glb · 40 tris · 0.1×1×1 · 8 KB
+- [Road](https://models.codelove.in/models/fantasy-town-kit-road/) — https://models.codelove.in/library/fantasy-town-kit/road.glb · 12 tris · 1×0.03×1 · 7 KB
+- [Road Bend](https://models.codelove.in/models/fantasy-town-kit-road-bend/) — https://models.codelove.in/library/fantasy-town-kit/road-bend.glb · 280 tris · 3×0.05×3 · 11 KB
+- [Road Corner](https://models.codelove.in/models/fantasy-town-kit-road-corner/) — https://models.codelove.in/library/fantasy-town-kit/road-corner.glb · 150 tris · 1×0.05×1 · 9 KB
+- [Road Corner Inner](https://models.codelove.in/models/fantasy-town-kit-road-corner-inner/) — https://models.codelove.in/library/fantasy-town-kit/road-corner-inner.glb · 146 tris · 1×0.05×1 · 9 KB
+- [Road Curb](https://models.codelove.in/models/fantasy-town-kit-road-curb/) — https://models.codelove.in/library/fantasy-town-kit/road-curb.glb · 12 tris · 1×0.05×1 · 7 KB
+- [Road Curb End](https://models.codelove.in/models/fantasy-town-kit-road-curb-end/) — https://models.codelove.in/library/fantasy-town-kit/road-curb-end.glb · 36 tris · 1×0.05×1 · 7 KB
+- [Road Edge](https://models.codelove.in/models/fantasy-town-kit-road-edge/) — https://models.codelove.in/library/fantasy-town-kit/road-edge.glb · 36 tris · 1×0.05×1 · 7 KB
+- [Road Edge Slope](https://models.codelove.in/models/fantasy-town-kit-road-edge-slope/) — https://models.codelove.in/library/fantasy-town-kit/road-edge-slope.glb · 38 tris · 1×0.25×1 · 7 KB
+- [Road Slope](https://models.codelove.in/models/fantasy-town-kit-road-slope/) — https://models.codelove.in/library/fantasy-town-kit/road-slope.glb · 12 tris · 1×0.23×1 · 7 KB
+- [Rock Large](https://models.codelove.in/models/fantasy-town-kit-rock-large/) — https://models.codelove.in/library/fantasy-town-kit/rock-large.glb · 200 tris · 1.67×1.16×1.55 · 11 KB
+- [Rock Small](https://models.codelove.in/models/fantasy-town-kit-rock-small/) — https://models.codelove.in/library/fantasy-town-kit/rock-small.glb · 128 tris · 1×1.02×1.33 · 9 KB
+- [Rock Wide](https://models.codelove.in/models/fantasy-town-kit-rock-wide/) — https://models.codelove.in/library/fantasy-town-kit/rock-wide.glb · 156 tris · 1.09×1.02×1.57 · 10 KB
+- [Roof](https://models.codelove.in/models/fantasy-town-kit-roof/) — https://models.codelove.in/library/fantasy-town-kit/roof.glb · 64 tris · 1.07×0.65×1 · 8 KB
+- [Roof Corner](https://models.codelove.in/models/fantasy-town-kit-roof-corner/) — https://models.codelove.in/library/fantasy-town-kit/roof-corner.glb · 36 tris · 1.07×0.65×1.07 · 8 KB
+- [Roof Corner Inner](https://models.codelove.in/models/fantasy-town-kit-roof-corner-inner/) — https://models.codelove.in/library/fantasy-town-kit/roof-corner-inner.glb · 30 tris · 1×0.63×1 · 8 KB
+- [Roof Corner Round](https://models.codelove.in/models/fantasy-town-kit-roof-corner-round/) — https://models.codelove.in/library/fantasy-town-kit/roof-corner-round.glb · 44 tris · 1.07×0.65×1.07 · 8 KB
+- [Roof Flat](https://models.codelove.in/models/fantasy-town-kit-roof-flat/) — https://models.codelove.in/library/fantasy-town-kit/roof-flat.glb · 20 tris · 1×0.13×1 · 7 KB
+- [Roof Gable](https://models.codelove.in/models/fantasy-town-kit-roof-gable/) — https://models.codelove.in/library/fantasy-town-kit/roof-gable.glb · 72 tris · 1.1×0.57×1.07 · 8 KB
+- [Roof Gable Detail](https://models.codelove.in/models/fantasy-town-kit-roof-gable-detail/) — https://models.codelove.in/library/fantasy-town-kit/roof-gable-detail.glb · 128 tris · 1.1×0.68×1.21 · 9 KB
+- [Roof Gable End](https://models.codelove.in/models/fantasy-town-kit-roof-gable-end/) — https://models.codelove.in/library/fantasy-town-kit/roof-gable-end.glb · 50 tris · 1.08×0.57×1.07 · 8 KB
+- [Roof Gable Top](https://models.codelove.in/models/fantasy-town-kit-roof-gable-top/) — https://models.codelove.in/library/fantasy-town-kit/roof-gable-top.glb · 56 tris · 1×0.38×1 · 8 KB
+- [Roof High](https://models.codelove.in/models/fantasy-town-kit-roof-high/) — https://models.codelove.in/library/fantasy-town-kit/roof-high.glb · 64 tris · 1.07×1.18×1 · 8 KB
+- [Roof High Corner](https://models.codelove.in/models/fantasy-town-kit-roof-high-corner/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-corner.glb · 36 tris · 1.07×1.18×1.07 · 8 KB
+- [Roof High Corner Round](https://models.codelove.in/models/fantasy-town-kit-roof-high-corner-round/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-corner-round.glb · 48 tris · 1.07×1.18×1.07 · 8 KB
+- [Roof High Cornerinner](https://models.codelove.in/models/fantasy-town-kit-roof-high-cornerinner/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-cornerinner.glb · 30 tris · 1×1.14×1 · 8 KB
+- [Roof High Flat](https://models.codelove.in/models/fantasy-town-kit-roof-high-flat/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-flat.glb · 20 tris · 1×0.14×1 · 7 KB
+- [Roof High Gable](https://models.codelove.in/models/fantasy-town-kit-roof-high-gable/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-gable.glb · 72 tris · 1.1×1.16×1.13 · 8 KB
+- [Roof High Gable Detail](https://models.codelove.in/models/fantasy-town-kit-roof-high-gable-detail/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-gable-detail.glb · 140 tris · 1.1×1.31×1.27 · 9 KB
+- [Roof High Gable End](https://models.codelove.in/models/fantasy-town-kit-roof-high-gable-end/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-gable-end.glb · 52 tris · 1.12×1.16×1.13 · 8 KB
+- [Roof High Gable Top](https://models.codelove.in/models/fantasy-town-kit-roof-high-gable-top/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-gable-top.glb · 56 tris · 1×0.64×1 · 8 KB
+- [Roof High Left](https://models.codelove.in/models/fantasy-town-kit-roof-high-left/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-left.glb · 84 tris · 1.14×1.26×1 · 8 KB
+- [Roof High Point](https://models.codelove.in/models/fantasy-town-kit-roof-high-point/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-point.glb · 44 tris · 1.1×1×1.1 · 8 KB
+- [Roof High Right](https://models.codelove.in/models/fantasy-town-kit-roof-high-right/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-right.glb · 84 tris · 1.14×1.26×1 · 8 KB
+- [Roof High Window](https://models.codelove.in/models/fantasy-town-kit-roof-high-window/) — https://models.codelove.in/library/fantasy-town-kit/roof-high-window.glb · 258 tris · 1.07×1.18×1 · 10 KB
+- [Roof Left](https://models.codelove.in/models/fantasy-town-kit-roof-left/) — https://models.codelove.in/library/fantasy-town-kit/roof-left.glb · 84 tris · 1.13×0.72×1 · 8 KB
+- [Roof Point](https://models.codelove.in/models/fantasy-town-kit-roof-point/) — https://models.codelove.in/library/fantasy-town-kit/roof-point.glb · 44 tris · 1.1×0.5×1.1 · 8 KB
+- [Roof Right](https://models.codelove.in/models/fantasy-town-kit-roof-right/) — https://models.codelove.in/library/fantasy-town-kit/roof-right.glb · 84 tris · 1.13×0.72×1 · 8 KB
+- [Roof Window](https://models.codelove.in/models/fantasy-town-kit-roof-window/) — https://models.codelove.in/library/fantasy-town-kit/roof-window.glb · 176 tris · 1.07×0.65×1 · 9 KB
+- [Stairs Full](https://models.codelove.in/models/fantasy-town-kit-stairs-full/) — https://models.codelove.in/library/fantasy-town-kit/stairs-full.glb · 68 tris · 1.02×0.5×1 · 8 KB
+- [Stairs Full Corner Inner](https://models.codelove.in/models/fantasy-town-kit-stairs-full-corner-inner/) — https://models.codelove.in/library/fantasy-town-kit/stairs-full-corner-inner.glb · 84 tris · 1×0.5×1 · 8 KB
+- [Stairs Full Corner Outer](https://models.codelove.in/models/fantasy-town-kit-stairs-full-corner-outer/) — https://models.codelove.in/library/fantasy-town-kit/stairs-full-corner-outer.glb · 100 tris · 1.02×0.5×1.02 · 9 KB
+- [Stairs Stone](https://models.codelove.in/models/fantasy-town-kit-stairs-stone/) — https://models.codelove.in/library/fantasy-town-kit/stairs-stone.glb · 136 tris · 1.02×1×0.5 · 9 KB
+- [Stairs Stone Corner](https://models.codelove.in/models/fantasy-town-kit-stairs-stone-corner/) — https://models.codelove.in/library/fantasy-town-kit/stairs-stone-corner.glb · 144 tris · 1.02×1×1 · 9 KB
+- [Stairs Stone Handrail](https://models.codelove.in/models/fantasy-town-kit-stairs-stone-handrail/) — https://models.codelove.in/library/fantasy-town-kit/stairs-stone-handrail.glb · 272 tris · 1.02×1.45×0.5 · 11 KB
+- [Stairs Stone Round](https://models.codelove.in/models/fantasy-town-kit-stairs-stone-round/) — https://models.codelove.in/library/fantasy-town-kit/stairs-stone-round.glb · 154 tris · 0.86×1×0.49 · 10 KB
+- [Stairs Wide Stone](https://models.codelove.in/models/fantasy-town-kit-stairs-wide-stone/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wide-stone.glb · 136 tris · 1.02×1×1 · 9 KB
+- [Stairs Wide Stone Handrail](https://models.codelove.in/models/fantasy-town-kit-stairs-wide-stone-handrail/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wide-stone-handrail.glb · 272 tris · 1.02×1.45×1 · 11 KB
+- [Stairs Wide Wood](https://models.codelove.in/models/fantasy-town-kit-stairs-wide-wood/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wide-wood.glb · 424 tris · 1.02×1×1 · 12 KB
+- [Stairs Wide Wood Handrail](https://models.codelove.in/models/fantasy-town-kit-stairs-wide-wood-handrail/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wide-wood-handrail.glb · 560 tris · 1.02×1.45×1 · 14 KB
+- [Stairs Wood](https://models.codelove.in/models/fantasy-town-kit-stairs-wood/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wood.glb · 432 tris · 1.02×1×0.5 · 12 KB
+- [Stairs Wood Handrail](https://models.codelove.in/models/fantasy-town-kit-stairs-wood-handrail/) — https://models.codelove.in/library/fantasy-town-kit/stairs-wood-handrail.glb · 568 tris · 1.02×1.45×0.5 · 14 KB
+- [Stall](https://models.codelove.in/models/fantasy-town-kit-stall/) — https://models.codelove.in/library/fantasy-town-kit/stall.glb · 106 tris · 0.65×0.37×1 · 9 KB
+- [Stall Bench](https://models.codelove.in/models/fantasy-town-kit-stall-bench/) — https://models.codelove.in/library/fantasy-town-kit/stall-bench.glb · 180 tris · 0.26×0.23×0.94 · 9 KB
+- [Stall Green](https://models.codelove.in/models/fantasy-town-kit-stall-green/) — https://models.codelove.in/library/fantasy-town-kit/stall-green.glb · 322 tris · 1×1.24×1 · 11 KB
+- [Stall Red](https://models.codelove.in/models/fantasy-town-kit-stall-red/) — https://models.codelove.in/library/fantasy-town-kit/stall-red.glb · 270 tris · 1×1.24×1 · 11 KB
+- [Stall Stool](https://models.codelove.in/models/fantasy-town-kit-stall-stool/) — https://models.codelove.in/library/fantasy-town-kit/stall-stool.glb · 180 tris · 0.26×0.23×0.26 · 9 KB
+- [Wall](https://models.codelove.in/models/fantasy-town-kit-wall/) — https://models.codelove.in/library/fantasy-town-kit/wall.glb · 32 tris · 0.1×1×1 · 7 KB
+- [Wall Arch](https://models.codelove.in/models/fantasy-town-kit-wall-arch/) — https://models.codelove.in/library/fantasy-town-kit/wall-arch.glb · 32 tris · 0.1×1×0.3 · 7 KB
+- [Wall Arch Top](https://models.codelove.in/models/fantasy-town-kit-wall-arch-top/) — https://models.codelove.in/library/fantasy-town-kit/wall-arch-top.glb · 146 tris · 0.1×1×1 · 9 KB
+- [Wall Arch Top Detail](https://models.codelove.in/models/fantasy-town-kit-wall-arch-top-detail/) — https://models.codelove.in/library/fantasy-town-kit/wall-arch-top-detail.glb · 168 tris · 0.16×1×1 · 10 KB
+- [Wall Block](https://models.codelove.in/models/fantasy-town-kit-wall-block/) — https://models.codelove.in/library/fantasy-town-kit/wall-block.glb · 76 tris · 1×1×1 · 8 KB
+- [Wall Block Half](https://models.codelove.in/models/fantasy-town-kit-wall-block-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-block-half.glb · 76 tris · 1×0.5×1 · 8 KB
+- [Wall Broken](https://models.codelove.in/models/fantasy-town-kit-wall-broken/) — https://models.codelove.in/library/fantasy-town-kit/wall-broken.glb · 166 tris · 0.12×1×1 · 10 KB
+- [Wall Corner](https://models.codelove.in/models/fantasy-town-kit-wall-corner/) — https://models.codelove.in/library/fantasy-town-kit/wall-corner.glb · 52 tris · 1×1×1 · 8 KB
+- [Wall Corner Detail](https://models.codelove.in/models/fantasy-town-kit-wall-corner-detail/) — https://models.codelove.in/library/fantasy-town-kit/wall-corner-detail.glb · 176 tris · 0.16×1×0.16 · 10 KB
+- [Wall Corner Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-corner-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-corner-diagonal.glb · 48 tris · 1×1×1 · 8 KB
+- [Wall Corner Diagonal Half](https://models.codelove.in/models/fantasy-town-kit-wall-corner-diagonal-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-corner-diagonal-half.glb · 34 tris · 0.55×1×0.97 · 7 KB
+- [Wall Corner Edge](https://models.codelove.in/models/fantasy-town-kit-wall-corner-edge/) — https://models.codelove.in/library/fantasy-town-kit/wall-corner-edge.glb · 40 tris · 1×1×1 · 8 KB
+- [Wall Curved](https://models.codelove.in/models/fantasy-town-kit-wall-curved/) — https://models.codelove.in/library/fantasy-town-kit/wall-curved.glb · 120 tris · 1×1×1 · 9 KB
+- [Wall Detail Cross](https://models.codelove.in/models/fantasy-town-kit-wall-detail-cross/) — https://models.codelove.in/library/fantasy-town-kit/wall-detail-cross.glb · 80 tris · 0.1×1×1 · 8 KB
+- [Wall Detail Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-detail-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-detail-diagonal.glb · 56 tris · 0.1×1×1 · 8 KB
+- [Wall Detail Horizontal](https://models.codelove.in/models/fantasy-town-kit-wall-detail-horizontal/) — https://models.codelove.in/library/fantasy-town-kit/wall-detail-horizontal.glb · 46 tris · 0.1×1×1 · 8 KB
+- [Wall Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-diagonal.glb · 38 tris · 1×1×1 · 8 KB
+- [Wall Door](https://models.codelove.in/models/fantasy-town-kit-wall-door/) — https://models.codelove.in/library/fantasy-town-kit/wall-door.glb · 376 tris · 0.1×1×1 · 13 KB
+- [Wall Doorway Base](https://models.codelove.in/models/fantasy-town-kit-wall-doorway-base/) — https://models.codelove.in/library/fantasy-town-kit/wall-doorway-base.glb · 64 tris · 0.1×1×1 · 8 KB
+- [Wall Doorway Round](https://models.codelove.in/models/fantasy-town-kit-wall-doorway-round/) — https://models.codelove.in/library/fantasy-town-kit/wall-doorway-round.glb · 172 tris · 0.1×1×1 · 9 KB
+- [Wall Doorway Square](https://models.codelove.in/models/fantasy-town-kit-wall-doorway-square/) — https://models.codelove.in/library/fantasy-town-kit/wall-doorway-square.glb · 70 tris · 0.1×1×1 · 8 KB
+- [Wall Doorway Square Wide](https://models.codelove.in/models/fantasy-town-kit-wall-doorway-square-wide/) — https://models.codelove.in/library/fantasy-town-kit/wall-doorway-square-wide.glb · 46 tris · 0.1×1×1 · 8 KB
+- [Wall Doorway Square Wide Curved](https://models.codelove.in/models/fantasy-town-kit-wall-doorway-square-wide-curved/) — https://models.codelove.in/library/fantasy-town-kit/wall-doorway-square-wide-curved.glb · 166 tris · 0.1×1×1 · 9 KB
+- [Wall Half](https://models.codelove.in/models/fantasy-town-kit-wall-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-half.glb · 32 tris · 0.1×0.5×1 · 7 KB
+- [Wall Rounded](https://models.codelove.in/models/fantasy-town-kit-wall-rounded/) — https://models.codelove.in/library/fantasy-town-kit/wall-rounded.glb · 136 tris · 1×1×1 · 9 KB
+- [Wall Side](https://models.codelove.in/models/fantasy-town-kit-wall-side/) — https://models.codelove.in/library/fantasy-town-kit/wall-side.glb · 22 tris · 0.1×1×0.26 · 7 KB
+- [Wall Slope](https://models.codelove.in/models/fantasy-town-kit-wall-slope/) — https://models.codelove.in/library/fantasy-town-kit/wall-slope.glb · 32 tris · 0.1×1×1 · 7 KB
+- [Wall Window Glass](https://models.codelove.in/models/fantasy-town-kit-wall-window-glass/) — https://models.codelove.in/library/fantasy-town-kit/wall-window-glass.glb · 178 tris · 0.1×1×1 · 9 KB
+- [Wall Window Round](https://models.codelove.in/models/fantasy-town-kit-wall-window-round/) — https://models.codelove.in/library/fantasy-town-kit/wall-window-round.glb · 278 tris · 0.1×1×1 · 11 KB
+- [Wall Window Shutters](https://models.codelove.in/models/fantasy-town-kit-wall-window-shutters/) — https://models.codelove.in/library/fantasy-town-kit/wall-window-shutters.glb · 286 tris · 0.17×1×1 · 11 KB
+- [Wall Window Small](https://models.codelove.in/models/fantasy-town-kit-wall-window-small/) — https://models.codelove.in/library/fantasy-town-kit/wall-window-small.glb · 102 tris · 0.1×1×1 · 8 KB
+- [Wall Window Stone](https://models.codelove.in/models/fantasy-town-kit-wall-window-stone/) — https://models.codelove.in/library/fantasy-town-kit/wall-window-stone.glb · 140 tris · 0.15×1×1 · 9 KB
+- [Wall Wood](https://models.codelove.in/models/fantasy-town-kit-wall-wood/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood.glb · 32 tris · 0.1×1×1 · 7 KB
+- [Wall Wood Arch](https://models.codelove.in/models/fantasy-town-kit-wall-wood-arch/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-arch.glb · 32 tris · 0.1×1×0.3 · 7 KB
+- [Wall Wood Arch Top](https://models.codelove.in/models/fantasy-town-kit-wall-wood-arch-top/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-arch-top.glb · 146 tris · 0.1×1×1 · 9 KB
+- [Wall Wood Arch Top Detail](https://models.codelove.in/models/fantasy-town-kit-wall-wood-arch-top-detail/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-arch-top-detail.glb · 168 tris · 0.16×1×1 · 10 KB
+- [Wall Wood Block](https://models.codelove.in/models/fantasy-town-kit-wall-wood-block/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-block.glb · 76 tris · 1×1×1 · 8 KB
+- [Wall Wood Block Half](https://models.codelove.in/models/fantasy-town-kit-wall-wood-block-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-block-half.glb · 76 tris · 1×0.5×1 · 8 KB
+- [Wall Wood Broken](https://models.codelove.in/models/fantasy-town-kit-wall-wood-broken/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-broken.glb · 166 tris · 0.11×1×1 · 9 KB
+- [Wall Wood Corner](https://models.codelove.in/models/fantasy-town-kit-wall-wood-corner/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-corner.glb · 52 tris · 1×1×1 · 8 KB
+- [Wall Wood Corner Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-wood-corner-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-corner-diagonal.glb · 48 tris · 1×1×1 · 8 KB
+- [Wall Wood Corner Diagonal Half](https://models.codelove.in/models/fantasy-town-kit-wall-wood-corner-diagonal-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-corner-diagonal-half.glb · 34 tris · 0.55×1×0.97 · 8 KB
+- [Wall Wood Corner Edge](https://models.codelove.in/models/fantasy-town-kit-wall-wood-corner-edge/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-corner-edge.glb · 40 tris · 1×1×1 · 8 KB
+- [Wall Wood Curved](https://models.codelove.in/models/fantasy-town-kit-wall-wood-curved/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-curved.glb · 120 tris · 1×1×1 · 9 KB
+- [Wall Wood Detail Cross](https://models.codelove.in/models/fantasy-town-kit-wall-wood-detail-cross/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-detail-cross.glb · 80 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Detail Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-wood-detail-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-detail-diagonal.glb · 56 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Detail Horizontal](https://models.codelove.in/models/fantasy-town-kit-wall-wood-detail-horizontal/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-detail-horizontal.glb · 46 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Diagonal](https://models.codelove.in/models/fantasy-town-kit-wall-wood-diagonal/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-diagonal.glb · 38 tris · 1×1×1 · 8 KB
+- [Wall Wood Door](https://models.codelove.in/models/fantasy-town-kit-wall-wood-door/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-door.glb · 376 tris · 0.1×1×1 · 14 KB
+- [Wall Wood Doorway Base](https://models.codelove.in/models/fantasy-town-kit-wall-wood-doorway-base/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-doorway-base.glb · 64 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Doorway Round](https://models.codelove.in/models/fantasy-town-kit-wall-wood-doorway-round/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-doorway-round.glb · 172 tris · 0.1×1×1 · 9 KB
+- [Wall Wood Doorway Square](https://models.codelove.in/models/fantasy-town-kit-wall-wood-doorway-square/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-doorway-square.glb · 82 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Doorway Square Wide](https://models.codelove.in/models/fantasy-town-kit-wall-wood-doorway-square-wide/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-doorway-square-wide.glb · 46 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Doorway Square Wide Curved](https://models.codelove.in/models/fantasy-town-kit-wall-wood-doorway-square-wide-curved/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-doorway-square-wide-curved.glb · 166 tris · 0.1×1×1 · 9 KB
+- [Wall Wood Half](https://models.codelove.in/models/fantasy-town-kit-wall-wood-half/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-half.glb · 32 tris · 0.1×0.5×1 · 7 KB
+- [Wall Wood Rounded](https://models.codelove.in/models/fantasy-town-kit-wall-wood-rounded/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-rounded.glb · 136 tris · 1×1×1 · 9 KB
+- [Wall Wood Side](https://models.codelove.in/models/fantasy-town-kit-wall-wood-side/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-side.glb · 22 tris · 0.1×1×0.26 · 7 KB
+- [Wall Wood Slope](https://models.codelove.in/models/fantasy-town-kit-wall-wood-slope/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-slope.glb · 84 tris · 0.1×1×1 · 8 KB
+- [Wall Wood Window Glass](https://models.codelove.in/models/fantasy-town-kit-wall-wood-window-glass/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-window-glass.glb · 122 tris · 0.1×1×1 · 9 KB
+- [Wall Wood Window Round](https://models.codelove.in/models/fantasy-town-kit-wall-wood-window-round/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-window-round.glb · 294 tris · 0.2×1×1 · 11 KB
+- [Wall Wood Window Shutters](https://models.codelove.in/models/fantasy-town-kit-wall-wood-window-shutters/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-window-shutters.glb · 122 tris · 0.1×1×1 · 9 KB
+- [Wall Wood Window Small](https://models.codelove.in/models/fantasy-town-kit-wall-wood-window-small/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-window-small.glb · 134 tris · 0.2×1×1 · 9 KB
+- [Wall Wood Window Stone](https://models.codelove.in/models/fantasy-town-kit-wall-wood-window-stone/) — https://models.codelove.in/library/fantasy-town-kit/wall-wood-window-stone.glb · 202 tris · 0.15×1×1 · 10 KB
+- [Watermill](https://models.codelove.in/models/fantasy-town-kit-watermill/) — https://models.codelove.in/library/fantasy-town-kit/watermill.glb · 600 tris · 0.85×1.8×1.8 · 18 KB
+- [Watermill Wide](https://models.codelove.in/models/fantasy-town-kit-watermill-wide/) — https://models.codelove.in/library/fantasy-town-kit/watermill-wide.glb · 600 tris · 1.05×1.8×1.8 · 18 KB
+- [Wheel](https://models.codelove.in/models/fantasy-town-kit-wheel/) — https://models.codelove.in/library/fantasy-town-kit/wheel.glb · 192 tris · 0.24×0.48×0.47 · 11 KB
+- [Windmill](https://models.codelove.in/models/fantasy-town-kit-windmill/) — https://models.codelove.in/library/fantasy-town-kit/windmill.glb · 732 tris · 0.47×3.11×3.11 · 22 KB
+
+### Trees (5)
+
+- [Tree](https://models.codelove.in/models/fantasy-town-kit-tree/) — https://models.codelove.in/library/fantasy-town-kit/tree.glb · 168 tris · 1.02×2.41×1.02 · 11 KB
+- [Tree Crooked](https://models.codelove.in/models/fantasy-town-kit-tree-crooked/) — https://models.codelove.in/library/fantasy-town-kit/tree-crooked.glb · 178 tris · 1.02×2.41×1.02 · 12 KB
+- [Tree High](https://models.codelove.in/models/fantasy-town-kit-tree-high/) — https://models.codelove.in/library/fantasy-town-kit/tree-high.glb · 200 tris · 1.02×2.97×1.02 · 12 KB
+- [Tree High Crooked](https://models.codelove.in/models/fantasy-town-kit-tree-high-crooked/) — https://models.codelove.in/library/fantasy-town-kit/tree-high-crooked.glb · 210 tris · 1.02×2.97×1.02 · 12 KB
+- [Tree High Round](https://models.codelove.in/models/fantasy-town-kit-tree-high-round/) — https://models.codelove.in/library/fantasy-town-kit/tree-high-round.glb · 126 tris · 1.02×2.75×1.02 · 10 KB

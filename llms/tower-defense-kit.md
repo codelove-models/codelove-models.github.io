@@ -1,0 +1,185 @@
+# Tower Defense Kit — 160 free 3D models (Trees 4, Weapons 12, Props 144)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/tower-defense-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/tower-defense-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 2.5 MB.
+
+## Models
+
+### Trees (4)
+
+- [Detail Tree](https://models.codelove.in/models/tower-defense-kit-detail-tree/) — https://models.codelove.in/library/tower-defense-kit/detail-tree.glb · 168 tris · 0.35×0.53×0.35 · 13 KB
+- [Detail Tree Large](https://models.codelove.in/models/tower-defense-kit-detail-tree-large/) — https://models.codelove.in/library/tower-defense-kit/detail-tree-large.glb · 168 tris · 0.5×0.76×0.5 · 13 KB
+- [Snow Detail Tree](https://models.codelove.in/models/tower-defense-kit-snow-detail-tree/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-tree.glb · 168 tris · 0.35×0.53×0.35 · 13 KB
+- [Snow Detail Tree Large](https://models.codelove.in/models/tower-defense-kit-snow-detail-tree-large/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-tree-large.glb · 168 tris · 0.5×0.76×0.5 · 13 KB
+
+### Weapons (12)
+
+- [Enemy Ufo A Weapon](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-a-weapon/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-a-weapon.glb · 1,028 tris · 1×0.75×1 · 31 KB
+- [Enemy Ufo B Weapon](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-b-weapon/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-b-weapon.glb · 988 tris · 1×0.63×1 · 29 KB
+- [Enemy Ufo C Weapon](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-c-weapon/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-c-weapon.glb · 972 tris · 1×0.68×1 · 30 KB
+- [Enemy Ufo D Weapon](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-d-weapon/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-d-weapon.glb · 996 tris · 0.95×0.64×0.95 · 30 KB
+- [Weapon Ammo Arrow](https://models.codelove.in/models/tower-defense-kit-weapon-ammo-arrow/) — https://models.codelove.in/library/tower-defense-kit/weapon-ammo-arrow.glb · 72 tris · 0.16×0.16×0.78 · 10 KB
+- [Weapon Ammo Boulder](https://models.codelove.in/models/tower-defense-kit-weapon-ammo-boulder/) — https://models.codelove.in/library/tower-defense-kit/weapon-ammo-boulder.glb · 88 tris · 0.32×0.24×0.28 · 11 KB
+- [Weapon Ammo Bullet](https://models.codelove.in/models/tower-defense-kit-weapon-ammo-bullet/) — https://models.codelove.in/library/tower-defense-kit/weapon-ammo-bullet.glb · 152 tris · 0.2×0.2×0.3 · 12 KB
+- [Weapon Ammo Cannonball](https://models.codelove.in/models/tower-defense-kit-weapon-ammo-cannonball/) — https://models.codelove.in/library/tower-defense-kit/weapon-ammo-cannonball.glb · 160 tris · 0.28×0.28×0.28 · 13 KB
+- [Weapon Ballista](https://models.codelove.in/models/tower-defense-kit-weapon-ballista/) — https://models.codelove.in/library/tower-defense-kit/weapon-ballista.glb · 620 tris · 0.66×0.5×0.78 · 22 KB
+- [Weapon Cannon](https://models.codelove.in/models/tower-defense-kit-weapon-cannon/) — https://models.codelove.in/library/tower-defense-kit/weapon-cannon.glb · 644 tris · 0.6×0.53×0.6 · 23 KB
+- [Weapon Catapult](https://models.codelove.in/models/tower-defense-kit-weapon-catapult/) — https://models.codelove.in/library/tower-defense-kit/weapon-catapult.glb · 628 tris · 0.6×0.46×0.84 · 22 KB
+- [Weapon Turret](https://models.codelove.in/models/tower-defense-kit-weapon-turret/) — https://models.codelove.in/library/tower-defense-kit/weapon-turret.glb · 620 tris · 0.51×0.53×0.62 · 23 KB
+
+### Props (144)
+
+- [Detail Crystal](https://models.codelove.in/models/tower-defense-kit-detail-crystal/) — https://models.codelove.in/library/tower-defense-kit/detail-crystal.glb · 68 tris · 0.25×0.42×0.29 · 11 KB
+- [Detail Crystal Large](https://models.codelove.in/models/tower-defense-kit-detail-crystal-large/) — https://models.codelove.in/library/tower-defense-kit/detail-crystal-large.glb · 436 tris · 0.89×0.55×0.86 · 19 KB
+- [Detail Dirt](https://models.codelove.in/models/tower-defense-kit-detail-dirt/) — https://models.codelove.in/library/tower-defense-kit/detail-dirt.glb · 232 tris · 0.7×0.27×0.71 · 14 KB
+- [Detail Dirt Large](https://models.codelove.in/models/tower-defense-kit-detail-dirt-large/) — https://models.codelove.in/library/tower-defense-kit/detail-dirt-large.glb · 232 tris · 0.85×0.41×0.78 · 13 KB
+- [Detail Rocks](https://models.codelove.in/models/tower-defense-kit-detail-rocks/) — https://models.codelove.in/library/tower-defense-kit/detail-rocks.glb · 184 tris · 0.6×0.18×0.6 · 13 KB
+- [Detail Rocks Large](https://models.codelove.in/models/tower-defense-kit-detail-rocks-large/) — https://models.codelove.in/library/tower-defense-kit/detail-rocks-large.glb · 232 tris · 0.89×0.41×0.86 · 14 KB
+- [Enemy Ufo A](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-a/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-a.glb · 520 tris · 1×0.68×1 · 17 KB
+- [Enemy Ufo B](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-b/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-b.glb · 472 tris · 1×0.57×1 · 17 KB
+- [Enemy Ufo Beam](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-beam/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-beam.glb · 56 tris · 0.8×1×0.8 · 10 KB
+- [Enemy Ufo Beam Burst](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-beam-burst/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-beam-burst.glb · 72 tris · 1.05×1×1.05 · 10 KB
+- [Enemy Ufo C](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-c/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-c.glb · 440 tris · 1×0.53×1 · 17 KB
+- [Enemy Ufo D](https://models.codelove.in/models/tower-defense-kit-enemy-ufo-d/) — https://models.codelove.in/library/tower-defense-kit/enemy-ufo-d.glb · 584 tris · 0.95×0.54×0.95 · 19 KB
+- [Selection A](https://models.codelove.in/models/tower-defense-kit-selection-a/) — https://models.codelove.in/library/tower-defense-kit/selection-a.glb · 192 tris · 1×0.05×1 · 12 KB
+- [Selection B](https://models.codelove.in/models/tower-defense-kit-selection-b/) — https://models.codelove.in/library/tower-defense-kit/selection-b.glb · 32 tris · 1×0.2×1 · 9 KB
+- [Snow Detail Crystal](https://models.codelove.in/models/tower-defense-kit-snow-detail-crystal/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-crystal.glb · 68 tris · 0.25×0.42×0.29 · 11 KB
+- [Snow Detail Crystal Large](https://models.codelove.in/models/tower-defense-kit-snow-detail-crystal-large/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-crystal-large.glb · 436 tris · 0.89×0.55×0.86 · 19 KB
+- [Snow Detail Dirt](https://models.codelove.in/models/tower-defense-kit-snow-detail-dirt/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-dirt.glb · 232 tris · 0.7×0.27×0.71 · 13 KB
+- [Snow Detail Dirt Large](https://models.codelove.in/models/tower-defense-kit-snow-detail-dirt-large/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-dirt-large.glb · 232 tris · 0.85×0.41×0.78 · 14 KB
+- [Snow Detail Rocks](https://models.codelove.in/models/tower-defense-kit-snow-detail-rocks/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-rocks.glb · 184 tris · 0.6×0.18×0.6 · 13 KB
+- [Snow Detail Rocks Large](https://models.codelove.in/models/tower-defense-kit-snow-detail-rocks-large/) — https://models.codelove.in/library/tower-defense-kit/snow-detail-rocks-large.glb · 232 tris · 0.89×0.41×0.86 · 14 KB
+- [Snow Tile](https://models.codelove.in/models/tower-defense-kit-snow-tile/) — https://models.codelove.in/library/tower-defense-kit/snow-tile.glb · 24 tris · 1×0.2×1 · 9 KB
+- [Snow Tile Bump](https://models.codelove.in/models/tower-defense-kit-snow-tile-bump/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-bump.glb · 320 tris · 1×0.3×1 · 15 KB
+- [Snow Tile Corner Inner](https://models.codelove.in/models/tower-defense-kit-snow-tile-corner-inner/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-corner-inner.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Snow Tile Corner Large](https://models.codelove.in/models/tower-defense-kit-snow-tile-corner-large/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-corner-large.glb · 1,104 tris · 2×0.96×2 · 33 KB
+- [Snow Tile Corner Outer](https://models.codelove.in/models/tower-defense-kit-snow-tile-corner-outer/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-corner-outer.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Snow Tile Corner Round](https://models.codelove.in/models/tower-defense-kit-snow-tile-corner-round/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-corner-round.glb · 332 tris · 1×0.3×1 · 16 KB
+- [Snow Tile Corner Square](https://models.codelove.in/models/tower-defense-kit-snow-tile-corner-square/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-corner-square.glb · 168 tris · 1×0.2×1 · 12 KB
+- [Snow Tile Crossing](https://models.codelove.in/models/tower-defense-kit-snow-tile-crossing/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-crossing.glb · 276 tris · 1×0.2×1 · 14 KB
+- [Snow Tile Crystal](https://models.codelove.in/models/tower-defense-kit-snow-tile-crystal/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-crystal.glb · 460 tris · 1×0.75×1 · 20 KB
+- [Snow Tile Dirt](https://models.codelove.in/models/tower-defense-kit-snow-tile-dirt/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-dirt.glb · 24 tris · 1×0.1×1 · 9 KB
+- [Snow Tile End](https://models.codelove.in/models/tower-defense-kit-snow-tile-end/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-end.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Snow Tile End Round](https://models.codelove.in/models/tower-defense-kit-snow-tile-end-round/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-end-round.glb · 208 tris · 1×0.2×1 · 13 KB
+- [Snow Tile Hill](https://models.codelove.in/models/tower-defense-kit-snow-tile-hill/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-hill.glb · 376 tris · 1×0.61×1 · 17 KB
+- [Snow Tile River Bridge](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-bridge/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-bridge.glb · 340 tris · 1×0.3×1 · 14 KB
+- [Snow Tile River Corner](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-corner/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-corner.glb · 664 tris · 1×0.77×1 · 23 KB
+- [Snow Tile River Slope](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-slope/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-slope.glb · 184 tris · 1×0.45×1 · 12 KB
+- [Snow Tile River Slope Large](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-slope-large/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-slope-large.glb · 88 tris · 1×0.45×2 · 10 KB
+- [Snow Tile River Straight](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-straight/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-straight.glb · 184 tris · 1×0.25×1 · 12 KB
+- [Snow Tile River Transition](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-transition/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-transition.glb · 236 tris · 1×0.25×1 · 13 KB
+- [Snow Tile River Waterfall](https://models.codelove.in/models/tower-defense-kit-snow-tile-river-waterfall/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-river-waterfall.glb · 432 tris · 1×0.45×1 · 17 KB
+- [Snow Tile Rock](https://models.codelove.in/models/tower-defense-kit-snow-tile-rock/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-rock.glb · 376 tris · 1×0.61×1 · 17 KB
+- [Snow Tile Slope](https://models.codelove.in/models/tower-defense-kit-snow-tile-slope/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-slope.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Snow Tile Spawn](https://models.codelove.in/models/tower-defense-kit-snow-tile-spawn/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-spawn.glb · 264 tris · 1×0.2×1 · 13 KB
+- [Snow Tile Spawn End](https://models.codelove.in/models/tower-defense-kit-snow-tile-spawn-end/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-spawn-end.glb · 232 tris · 1×0.2×1 · 13 KB
+- [Snow Tile Spawn End Round](https://models.codelove.in/models/tower-defense-kit-snow-tile-spawn-end-round/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-spawn-end-round.glb · 384 tris · 1×0.2×1 · 16 KB
+- [Snow Tile Spawn Round](https://models.codelove.in/models/tower-defense-kit-snow-tile-spawn-round/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-spawn-round.glb · 360 tris · 1×0.2×1 · 15 KB
+- [Snow Tile Split](https://models.codelove.in/models/tower-defense-kit-snow-tile-split/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-split.glb · 220 tris · 1×0.2×1 · 13 KB
+- [Snow Tile Straight](https://models.codelove.in/models/tower-defense-kit-snow-tile-straight/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-straight.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Snow Tile Straight Slope](https://models.codelove.in/models/tower-defense-kit-snow-tile-straight-slope/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-straight-slope.glb · 152 tris · 1×0.4×1 · 12 KB
+- [Snow Tile Straight Slope Large](https://models.codelove.in/models/tower-defense-kit-snow-tile-straight-slope-large/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-straight-slope-large.glb · 56 tris · 1×0.4×2 · 10 KB
+- [Snow Tile Transition](https://models.codelove.in/models/tower-defense-kit-snow-tile-transition/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-transition.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Snow Tile Tree](https://models.codelove.in/models/tower-defense-kit-snow-tile-tree/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-tree.glb · 192 tris · 1×0.96×1 · 13 KB
+- [Snow Tile Tree Double](https://models.codelove.in/models/tower-defense-kit-snow-tile-tree-double/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-tree-double.glb · 360 tris · 1×0.96×1 · 17 KB
+- [Snow Tile Tree Quad](https://models.codelove.in/models/tower-defense-kit-snow-tile-tree-quad/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-tree-quad.glb · 936 tris · 1×0.96×1 · 31 KB
+- [Snow Tile Wide Corner](https://models.codelove.in/models/tower-defense-kit-snow-tile-wide-corner/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-wide-corner.glb · 784 tris · 2×0.96×2 · 26 KB
+- [Snow Tile Wide Split](https://models.codelove.in/models/tower-defense-kit-snow-tile-wide-split/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-wide-split.glb · 216 tris · 2×0.2×1 · 13 KB
+- [Snow Tile Wide Straight](https://models.codelove.in/models/tower-defense-kit-snow-tile-wide-straight/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-wide-straight.glb · 96 tris · 2×0.2×1 · 10 KB
+- [Snow Tile Wide Transition](https://models.codelove.in/models/tower-defense-kit-snow-tile-wide-transition/) — https://models.codelove.in/library/tower-defense-kit/snow-tile-wide-transition.glb · 184 tris · 2×0.2×1 · 12 KB
+- [Snow Wood Structure](https://models.codelove.in/models/tower-defense-kit-snow-wood-structure/) — https://models.codelove.in/library/tower-defense-kit/snow-wood-structure.glb · 256 tris · 1×0.5×1 · 14 KB
+- [Snow Wood Structure High](https://models.codelove.in/models/tower-defense-kit-snow-wood-structure-high/) — https://models.codelove.in/library/tower-defense-kit/snow-wood-structure-high.glb · 416 tris · 1×1×1 · 17 KB
+- [Snow Wood Structure High Part](https://models.codelove.in/models/tower-defense-kit-snow-wood-structure-high-part/) — https://models.codelove.in/library/tower-defense-kit/snow-wood-structure-high-part.glb · 128 tris · 1×1×0.13 · 11 KB
+- [Snow Wood Structure Part](https://models.codelove.in/models/tower-defense-kit-snow-wood-structure-part/) — https://models.codelove.in/library/tower-defense-kit/snow-wood-structure-part.glb · 88 tris · 1×0.5×0.13 · 10 KB
+- [Spawn Round](https://models.codelove.in/models/tower-defense-kit-spawn-round/) — https://models.codelove.in/library/tower-defense-kit/spawn-round.glb · 188 tris · 0.69×0.1×0.69 · 12 KB
+- [Spawn Square](https://models.codelove.in/models/tower-defense-kit-spawn-square/) — https://models.codelove.in/library/tower-defense-kit/spawn-square.glb · 132 tris · 0.69×0.1×0.69 · 11 KB
+- [Tile](https://models.codelove.in/models/tower-defense-kit-tile/) — https://models.codelove.in/library/tower-defense-kit/tile.glb · 24 tris · 1×0.2×1 · 9 KB
+- [Tile Bump](https://models.codelove.in/models/tower-defense-kit-tile-bump/) — https://models.codelove.in/library/tower-defense-kit/tile-bump.glb · 320 tris · 1×0.3×1 · 15 KB
+- [Tile Corner Inner](https://models.codelove.in/models/tower-defense-kit-tile-corner-inner/) — https://models.codelove.in/library/tower-defense-kit/tile-corner-inner.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Tile Corner Large](https://models.codelove.in/models/tower-defense-kit-tile-corner-large/) — https://models.codelove.in/library/tower-defense-kit/tile-corner-large.glb · 1,104 tris · 2×0.96×2 · 33 KB
+- [Tile Corner Outer](https://models.codelove.in/models/tower-defense-kit-tile-corner-outer/) — https://models.codelove.in/library/tower-defense-kit/tile-corner-outer.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Tile Corner Round](https://models.codelove.in/models/tower-defense-kit-tile-corner-round/) — https://models.codelove.in/library/tower-defense-kit/tile-corner-round.glb · 332 tris · 1×0.3×1 · 16 KB
+- [Tile Corner Square](https://models.codelove.in/models/tower-defense-kit-tile-corner-square/) — https://models.codelove.in/library/tower-defense-kit/tile-corner-square.glb · 168 tris · 1×0.2×1 · 12 KB
+- [Tile Crossing](https://models.codelove.in/models/tower-defense-kit-tile-crossing/) — https://models.codelove.in/library/tower-defense-kit/tile-crossing.glb · 276 tris · 1×0.2×1 · 14 KB
+- [Tile Crystal](https://models.codelove.in/models/tower-defense-kit-tile-crystal/) — https://models.codelove.in/library/tower-defense-kit/tile-crystal.glb · 460 tris · 1×0.75×1 · 20 KB
+- [Tile Dirt](https://models.codelove.in/models/tower-defense-kit-tile-dirt/) — https://models.codelove.in/library/tower-defense-kit/tile-dirt.glb · 24 tris · 1×0.1×1 · 9 KB
+- [Tile End](https://models.codelove.in/models/tower-defense-kit-tile-end/) — https://models.codelove.in/library/tower-defense-kit/tile-end.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Tile End Round](https://models.codelove.in/models/tower-defense-kit-tile-end-round/) — https://models.codelove.in/library/tower-defense-kit/tile-end-round.glb · 208 tris · 1×0.2×1 · 13 KB
+- [Tile Hill](https://models.codelove.in/models/tower-defense-kit-tile-hill/) — https://models.codelove.in/library/tower-defense-kit/tile-hill.glb · 376 tris · 1×0.61×1 · 17 KB
+- [Tile River Bridge](https://models.codelove.in/models/tower-defense-kit-tile-river-bridge/) — https://models.codelove.in/library/tower-defense-kit/tile-river-bridge.glb · 340 tris · 1×0.3×1 · 14 KB
+- [Tile River Corner](https://models.codelove.in/models/tower-defense-kit-tile-river-corner/) — https://models.codelove.in/library/tower-defense-kit/tile-river-corner.glb · 664 tris · 1×0.77×1 · 23 KB
+- [Tile River Slope](https://models.codelove.in/models/tower-defense-kit-tile-river-slope/) — https://models.codelove.in/library/tower-defense-kit/tile-river-slope.glb · 184 tris · 1×0.45×1 · 12 KB
+- [Tile River Slope Large](https://models.codelove.in/models/tower-defense-kit-tile-river-slope-large/) — https://models.codelove.in/library/tower-defense-kit/tile-river-slope-large.glb · 88 tris · 1×0.45×2 · 10 KB
+- [Tile River Straight](https://models.codelove.in/models/tower-defense-kit-tile-river-straight/) — https://models.codelove.in/library/tower-defense-kit/tile-river-straight.glb · 184 tris · 1×0.25×1 · 12 KB
+- [Tile River Transition](https://models.codelove.in/models/tower-defense-kit-tile-river-transition/) — https://models.codelove.in/library/tower-defense-kit/tile-river-transition.glb · 236 tris · 1×0.25×1 · 13 KB
+- [Tile River Waterfall](https://models.codelove.in/models/tower-defense-kit-tile-river-waterfall/) — https://models.codelove.in/library/tower-defense-kit/tile-river-waterfall.glb · 432 tris · 1×0.45×1 · 17 KB
+- [Tile Rock](https://models.codelove.in/models/tower-defense-kit-tile-rock/) — https://models.codelove.in/library/tower-defense-kit/tile-rock.glb · 376 tris · 1×0.61×1 · 17 KB
+- [Tile Slope](https://models.codelove.in/models/tower-defense-kit-tile-slope/) — https://models.codelove.in/library/tower-defense-kit/tile-slope.glb · 24 tris · 1×0.4×1 · 9 KB
+- [Tile Spawn](https://models.codelove.in/models/tower-defense-kit-tile-spawn/) — https://models.codelove.in/library/tower-defense-kit/tile-spawn.glb · 264 tris · 1×0.2×1 · 13 KB
+- [Tile Spawn End](https://models.codelove.in/models/tower-defense-kit-tile-spawn-end/) — https://models.codelove.in/library/tower-defense-kit/tile-spawn-end.glb · 232 tris · 1×0.2×1 · 13 KB
+- [Tile Spawn End Round](https://models.codelove.in/models/tower-defense-kit-tile-spawn-end-round/) — https://models.codelove.in/library/tower-defense-kit/tile-spawn-end-round.glb · 384 tris · 1×0.2×1 · 16 KB
+- [Tile Spawn Round](https://models.codelove.in/models/tower-defense-kit-tile-spawn-round/) — https://models.codelove.in/library/tower-defense-kit/tile-spawn-round.glb · 360 tris · 1×0.2×1 · 15 KB
+- [Tile Split](https://models.codelove.in/models/tower-defense-kit-tile-split/) — https://models.codelove.in/library/tower-defense-kit/tile-split.glb · 220 tris · 1×0.2×1 · 13 KB
+- [Tile Straight](https://models.codelove.in/models/tower-defense-kit-tile-straight/) — https://models.codelove.in/library/tower-defense-kit/tile-straight.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Tile Straight Slope](https://models.codelove.in/models/tower-defense-kit-tile-straight-slope/) — https://models.codelove.in/library/tower-defense-kit/tile-straight-slope.glb · 152 tris · 1×0.4×1 · 12 KB
+- [Tile Straight Slope Large](https://models.codelove.in/models/tower-defense-kit-tile-straight-slope-large/) — https://models.codelove.in/library/tower-defense-kit/tile-straight-slope-large.glb · 56 tris · 1×0.4×2 · 10 KB
+- [Tile Transition](https://models.codelove.in/models/tower-defense-kit-tile-transition/) — https://models.codelove.in/library/tower-defense-kit/tile-transition.glb · 152 tris · 1×0.2×1 · 12 KB
+- [Tile Tree](https://models.codelove.in/models/tower-defense-kit-tile-tree/) — https://models.codelove.in/library/tower-defense-kit/tile-tree.glb · 312 tris · 1×0.96×1 · 16 KB
+- [Tile Tree Double](https://models.codelove.in/models/tower-defense-kit-tile-tree-double/) — https://models.codelove.in/library/tower-defense-kit/tile-tree-double.glb · 600 tris · 1×0.96×1 · 23 KB
+- [Tile Tree Quad](https://models.codelove.in/models/tower-defense-kit-tile-tree-quad/) — https://models.codelove.in/library/tower-defense-kit/tile-tree-quad.glb · 936 tris · 1×0.96×1 · 31 KB
+- [Tile Wide Corner](https://models.codelove.in/models/tower-defense-kit-tile-wide-corner/) — https://models.codelove.in/library/tower-defense-kit/tile-wide-corner.glb · 784 tris · 2×0.96×2 · 26 KB
+- [Tile Wide Split](https://models.codelove.in/models/tower-defense-kit-tile-wide-split/) — https://models.codelove.in/library/tower-defense-kit/tile-wide-split.glb · 216 tris · 2×0.2×1 · 13 KB
+- [Tile Wide Straight](https://models.codelove.in/models/tower-defense-kit-tile-wide-straight/) — https://models.codelove.in/library/tower-defense-kit/tile-wide-straight.glb · 96 tris · 2×0.2×1 · 10 KB
+- [Tile Wide Transition](https://models.codelove.in/models/tower-defense-kit-tile-wide-transition/) — https://models.codelove.in/library/tower-defense-kit/tile-wide-transition.glb · 184 tris · 2×0.2×1 · 12 KB
+- [Tower Round Base](https://models.codelove.in/models/tower-defense-kit-tower-round-base/) — https://models.codelove.in/library/tower-defense-kit/tower-round-base.glb · 408 tris · 1×0.21×1 · 17 KB
+- [Tower Round Bottom A](https://models.codelove.in/models/tower-defense-kit-tower-round-bottom-a/) — https://models.codelove.in/library/tower-defense-kit/tower-round-bottom-a.glb · 368 tris · 1×0.6×1 · 16 KB
+- [Tower Round Bottom B](https://models.codelove.in/models/tower-defense-kit-tower-round-bottom-b/) — https://models.codelove.in/library/tower-defense-kit/tower-round-bottom-b.glb · 360 tris · 1×0.6×1 · 16 KB
+- [Tower Round Bottom C](https://models.codelove.in/models/tower-defense-kit-tower-round-bottom-c/) — https://models.codelove.in/library/tower-defense-kit/tower-round-bottom-c.glb · 360 tris · 1×0.6×1 · 17 KB
+- [Tower Round Build A](https://models.codelove.in/models/tower-defense-kit-tower-round-build-a/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-a.glb · 524 tris · 1×1×1 · 20 KB
+- [Tower Round Build B](https://models.codelove.in/models/tower-defense-kit-tower-round-build-b/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-b.glb · 648 tris · 1×1×1 · 23 KB
+- [Tower Round Build C](https://models.codelove.in/models/tower-defense-kit-tower-round-build-c/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-c.glb · 776 tris · 1×1×1 · 23 KB
+- [Tower Round Build D](https://models.codelove.in/models/tower-defense-kit-tower-round-build-d/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-d.glb · 824 tris · 1×1.79×1 · 26 KB
+- [Tower Round Build E](https://models.codelove.in/models/tower-defense-kit-tower-round-build-e/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-e.glb · 948 tris · 1×1.56×1 · 28 KB
+- [Tower Round Build F](https://models.codelove.in/models/tower-defense-kit-tower-round-build-f/) — https://models.codelove.in/library/tower-defense-kit/tower-round-build-f.glb · 1,076 tris · 1×1.79×1 · 30 KB
+- [Tower Round Crystals](https://models.codelove.in/models/tower-defense-kit-tower-round-crystals/) — https://models.codelove.in/library/tower-defense-kit/tower-round-crystals.glb · 464 tris · 1×0.82×1 · 37 KB
+- [Tower Round Middle A](https://models.codelove.in/models/tower-defense-kit-tower-round-middle-a/) — https://models.codelove.in/library/tower-defense-kit/tower-round-middle-a.glb · 628 tris · 1.11×0.6×1.11 · 23 KB
+- [Tower Round Middle B](https://models.codelove.in/models/tower-defense-kit-tower-round-middle-b/) — https://models.codelove.in/library/tower-defense-kit/tower-round-middle-b.glb · 612 tris · 1.13×0.6×1.24 · 20 KB
+- [Tower Round Middle C](https://models.codelove.in/models/tower-defense-kit-tower-round-middle-c/) — https://models.codelove.in/library/tower-defense-kit/tower-round-middle-c.glb · 588 tris · 1.15×0.6×1.15 · 19 KB
+- [Tower Round Roof A](https://models.codelove.in/models/tower-defense-kit-tower-round-roof-a/) — https://models.codelove.in/library/tower-defense-kit/tower-round-roof-a.glb · 772 tris · 0.92×1.15×0.92 · 25 KB
+- [Tower Round Roof B](https://models.codelove.in/models/tower-defense-kit-tower-round-roof-b/) — https://models.codelove.in/library/tower-defense-kit/tower-round-roof-b.glb · 812 tris · 1×1.29×1 · 24 KB
+- [Tower Round Roof C](https://models.codelove.in/models/tower-defense-kit-tower-round-roof-c/) — https://models.codelove.in/library/tower-defense-kit/tower-round-roof-c.glb · 752 tris · 0.98×1.04×0.98 · 25 KB
+- [Tower Round Top A](https://models.codelove.in/models/tower-defense-kit-tower-round-top-a/) — https://models.codelove.in/library/tower-defense-kit/tower-round-top-a.glb · 472 tris · 0.92×0.5×0.92 · 18 KB
+- [Tower Round Top B](https://models.codelove.in/models/tower-defense-kit-tower-round-top-b/) — https://models.codelove.in/library/tower-defense-kit/tower-round-top-b.glb · 512 tris · 1×0.5×1 · 17 KB
+- [Tower Round Top C](https://models.codelove.in/models/tower-defense-kit-tower-round-top-c/) — https://models.codelove.in/library/tower-defense-kit/tower-round-top-c.glb · 472 tris · 0.98×0.53×0.98 · 19 KB
+- [Tower Square Bottom A](https://models.codelove.in/models/tower-defense-kit-tower-square-bottom-a/) — https://models.codelove.in/library/tower-defense-kit/tower-square-bottom-a.glb · 120 tris · 1×0.5×1 · 11 KB
+- [Tower Square Bottom B](https://models.codelove.in/models/tower-defense-kit-tower-square-bottom-b/) — https://models.codelove.in/library/tower-defense-kit/tower-square-bottom-b.glb · 384 tris · 1×0.5×1 · 16 KB
+- [Tower Square Bottom C](https://models.codelove.in/models/tower-defense-kit-tower-square-bottom-c/) — https://models.codelove.in/library/tower-defense-kit/tower-square-bottom-c.glb · 268 tris · 1×0.5×1 · 13 KB
+- [Tower Square Build A](https://models.codelove.in/models/tower-defense-kit-tower-square-build-a/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-a.glb · 824 tris · 1.1×1×1.1 · 24 KB
+- [Tower Square Build B](https://models.codelove.in/models/tower-defense-kit-tower-square-build-b/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-b.glb · 888 tris · 1.1×1×1.1 · 24 KB
+- [Tower Square Build C](https://models.codelove.in/models/tower-defense-kit-tower-square-build-c/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-c.glb · 772 tris · 1×1×1 · 21 KB
+- [Tower Square Build D](https://models.codelove.in/models/tower-defense-kit-tower-square-build-d/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-d.glb · 916 tris · 1.1×1.77×1.1 · 25 KB
+- [Tower Square Build E](https://models.codelove.in/models/tower-defense-kit-tower-square-build-e/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-e.glb · 984 tris · 1.1×1.74×1.1 · 25 KB
+- [Tower Square Build F](https://models.codelove.in/models/tower-defense-kit-tower-square-build-f/) — https://models.codelove.in/library/tower-defense-kit/tower-square-build-f.glb · 864 tris · 1×1.72×1 · 23 KB
+- [Tower Square Middle A](https://models.codelove.in/models/tower-defense-kit-tower-square-middle-a/) — https://models.codelove.in/library/tower-defense-kit/tower-square-middle-a.glb · 452 tris · 1.1×0.5×1.1 · 17 KB
+- [Tower Square Middle B](https://models.codelove.in/models/tower-defense-kit-tower-square-middle-b/) — https://models.codelove.in/library/tower-defense-kit/tower-square-middle-b.glb · 272 tris · 1×0.5×1 · 13 KB
+- [Tower Square Middle C](https://models.codelove.in/models/tower-defense-kit-tower-square-middle-c/) — https://models.codelove.in/library/tower-defense-kit/tower-square-middle-c.glb · 292 tris · 1×0.5×1 · 13 KB
+- [Tower Square Roof A](https://models.codelove.in/models/tower-defense-kit-tower-square-roof-a/) — https://models.codelove.in/library/tower-defense-kit/tower-square-roof-a.glb · 820 tris · 1.1×1.27×1.1 · 23 KB
+- [Tower Square Roof B](https://models.codelove.in/models/tower-defense-kit-tower-square-roof-b/) — https://models.codelove.in/library/tower-defense-kit/tower-square-roof-b.glb · 600 tris · 1.1×1.24×1.1 · 18 KB
+- [Tower Square Roof C](https://models.codelove.in/models/tower-defense-kit-tower-square-roof-c/) — https://models.codelove.in/library/tower-defense-kit/tower-square-roof-c.glb · 596 tris · 1×1.22×1 · 19 KB
+- [Tower Square Top A](https://models.codelove.in/models/tower-defense-kit-tower-square-top-a/) — https://models.codelove.in/library/tower-defense-kit/tower-square-top-a.glb · 728 tris · 1.1×0.5×1.1 · 21 KB
+- [Tower Square Top B](https://models.codelove.in/models/tower-defense-kit-tower-square-top-b/) — https://models.codelove.in/library/tower-defense-kit/tower-square-top-b.glb · 504 tris · 1.1×0.5×1.1 · 16 KB
+- [Tower Square Top C](https://models.codelove.in/models/tower-defense-kit-tower-square-top-c/) — https://models.codelove.in/library/tower-defense-kit/tower-square-top-c.glb · 504 tris · 1×0.5×1 · 17 KB
+- [Wood Structure](https://models.codelove.in/models/tower-defense-kit-wood-structure/) — https://models.codelove.in/library/tower-defense-kit/wood-structure.glb · 160 tris · 1×0.5×1 · 11 KB
+- [Wood Structure High](https://models.codelove.in/models/tower-defense-kit-wood-structure-high/) — https://models.codelove.in/library/tower-defense-kit/wood-structure-high.glb · 224 tris · 1×1×1 · 12 KB
+- [Wood Structure High Part](https://models.codelove.in/models/tower-defense-kit-wood-structure-high-part/) — https://models.codelove.in/library/tower-defense-kit/wood-structure-high-part.glb · 80 tris · 1×1×0.13 · 10 KB
+- [Wood Structure Part](https://models.codelove.in/models/tower-defense-kit-wood-structure-part/) — https://models.codelove.in/library/tower-defense-kit/wood-structure-part.glb · 64 tris · 1×0.5×0.13 · 10 KB

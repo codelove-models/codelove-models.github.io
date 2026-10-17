@@ -1,0 +1,175 @@
+# Space Kit — 153 free 3D models (Space 149, Weapons 4)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/space-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/space-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.1 MB.
+
+## Models
+
+### Space (149)
+
+- [Alien](https://models.codelove.in/models/space-kit-alien/) — https://models.codelove.in/library/space-kit/alien.glb · 292 tris · 0.48×0.84×0.33 · 22 KB
+- [Astronaut A](https://models.codelove.in/models/space-kit-astronaut-a/) — https://models.codelove.in/library/space-kit/astronaut-a.glb · 296 tris · 0.48×0.79×0.33 · 22 KB
+- [Astronaut B](https://models.codelove.in/models/space-kit-astronaut-b/) — https://models.codelove.in/library/space-kit/astronaut-b.glb · 314 tris · 0.48×0.79×0.33 · 21 KB
+- [Barrel](https://models.codelove.in/models/space-kit-barrel/) — https://models.codelove.in/library/space-kit/barrel.glb · 56 tris · 0.2×0.25×0.17 · 4 KB
+- [Barrels](https://models.codelove.in/models/space-kit-barrels/) — https://models.codelove.in/library/space-kit/barrels.glb · 100 tris · 0.55×0.35×0.5 · 7 KB
+- [Barrels Rail](https://models.codelove.in/models/space-kit-barrels-rail/) — https://models.codelove.in/library/space-kit/barrels-rail.glb · 260 tris · 0.55×0.35×0.5 · 12 KB
+- [Bones](https://models.codelove.in/models/space-kit-bones/) — https://models.codelove.in/library/space-kit/bones.glb · 168 tris · 0.86×0.44×0.58 · 5 KB
+- [Chimney](https://models.codelove.in/models/space-kit-chimney/) — https://models.codelove.in/library/space-kit/chimney.glb · 140 tris · 0.4×2×0.4 · 5 KB
+- [Chimney Detailed](https://models.codelove.in/models/space-kit-chimney-detailed/) — https://models.codelove.in/library/space-kit/chimney-detailed.glb · 332 tris · 0.4×2×0.4 · 10 KB
+- [Corridor](https://models.codelove.in/models/space-kit-corridor/) — https://models.codelove.in/library/space-kit/corridor.glb · 84 tris · 1×1×1 · 5 KB
+- [Corridor Corner](https://models.codelove.in/models/space-kit-corridor-corner/) — https://models.codelove.in/library/space-kit/corridor-corner.glb · 110 tris · 1×1×1 · 6 KB
+- [Corridor Corner Round](https://models.codelove.in/models/space-kit-corridor-corner-round/) — https://models.codelove.in/library/space-kit/corridor-corner-round.glb · 414 tris · 1×1×1 · 11 KB
+- [Corridor Corner Round Window](https://models.codelove.in/models/space-kit-corridor-corner-round-window/) — https://models.codelove.in/library/space-kit/corridor-corner-round-window.glb · 484 tris · 1×1×1 · 13 KB
+- [Corridor Cross](https://models.codelove.in/models/space-kit-corridor-cross/) — https://models.codelove.in/library/space-kit/corridor-cross.glb · 172 tris · 1×1×1 · 7 KB
+- [Corridor Detailed](https://models.codelove.in/models/space-kit-corridor-detailed/) — https://models.codelove.in/library/space-kit/corridor-detailed.glb · 164 tris · 1.2×1.1×1 · 7 KB
+- [Corridor End](https://models.codelove.in/models/space-kit-corridor-end/) — https://models.codelove.in/library/space-kit/corridor-end.glb · 120 tris · 1×1×0.5 · 7 KB
+- [Corridor Open](https://models.codelove.in/models/space-kit-corridor-open/) — https://models.codelove.in/library/space-kit/corridor-open.glb · 170 tris · 1×1×1 · 5 KB
+- [Corridor Roof](https://models.codelove.in/models/space-kit-corridor-roof/) — https://models.codelove.in/library/space-kit/corridor-roof.glb · 44 tris · 1×0.24×1 · 4 KB
+- [Corridor Split](https://models.codelove.in/models/space-kit-corridor-split/) — https://models.codelove.in/library/space-kit/corridor-split.glb · 128 tris · 1×1×1 · 7 KB
+- [Corridor Wall](https://models.codelove.in/models/space-kit-corridor-wall/) — https://models.codelove.in/library/space-kit/corridor-wall.glb · 36 tris · 0.1×0.8×1 · 5 KB
+- [Corridor Wall Corner](https://models.codelove.in/models/space-kit-corridor-wall-corner/) — https://models.codelove.in/library/space-kit/corridor-wall-corner.glb · 256 tris · 1×0.8×1 · 10 KB
+- [Corridor Window](https://models.codelove.in/models/space-kit-corridor-window/) — https://models.codelove.in/library/space-kit/corridor-window.glb · 190 tris · 1×1×1 · 7 KB
+- [Corridor Window Closed](https://models.codelove.in/models/space-kit-corridor-window-closed/) — https://models.codelove.in/library/space-kit/corridor-window-closed.glb · 214 tris · 1×1×1 · 8 KB
+- [Craft Cargo A](https://models.codelove.in/models/space-kit-craft-cargo-a/) — https://models.codelove.in/library/space-kit/craft-cargo-a.glb · 264 tris · 1.6×0.8×2.45 · 9 KB
+- [Craft Cargo B](https://models.codelove.in/models/space-kit-craft-cargo-b/) — https://models.codelove.in/library/space-kit/craft-cargo-b.glb · 380 tris · 1.5×0.9×2.5 · 10 KB
+- [Craft Miner](https://models.codelove.in/models/space-kit-craft-miner/) — https://models.codelove.in/library/space-kit/craft-miner.glb · 384 tris · 1.8×0.7×2.6 · 10 KB
+- [Craft Racer](https://models.codelove.in/models/space-kit-craft-racer/) — https://models.codelove.in/library/space-kit/craft-racer.glb · 280 tris · 1.2×0.75×2.03 · 9 KB
+- [Craft Speeder A](https://models.codelove.in/models/space-kit-craft-speeder-a/) — https://models.codelove.in/library/space-kit/craft-speeder-a.glb · 280 tris · 2×0.8×2.1 · 9 KB
+- [Craft Speeder B](https://models.codelove.in/models/space-kit-craft-speeder-b/) — https://models.codelove.in/library/space-kit/craft-speeder-b.glb · 270 tris · 2×0.6×2.03 · 9 KB
+- [Craft Speeder C](https://models.codelove.in/models/space-kit-craft-speeder-c/) — https://models.codelove.in/library/space-kit/craft-speeder-c.glb · 292 tris · 2.8×0.6×1.93 · 9 KB
+- [Craft Speeder D](https://models.codelove.in/models/space-kit-craft-speeder-d/) — https://models.codelove.in/library/space-kit/craft-speeder-d.glb · 322 tris · 2.8×0.9×2.23 · 10 KB
+- [Crater](https://models.codelove.in/models/space-kit-crater/) — https://models.codelove.in/library/space-kit/crater.glb · 60 tris · 0.71×0.12×0.83 · 4 KB
+- [Crater Large](https://models.codelove.in/models/space-kit-crater-large/) — https://models.codelove.in/library/space-kit/crater-large.glb · 60 tris · 0.89×0.12×0.89 · 4 KB
+- [Desk Chair](https://models.codelove.in/models/space-kit-desk-chair/) — https://models.codelove.in/library/space-kit/desk-chair.glb · 88 tris · 0.15×0.29×0.15 · 6 KB
+- [Desk Chair Arms](https://models.codelove.in/models/space-kit-desk-chair-arms/) — https://models.codelove.in/library/space-kit/desk-chair-arms.glb · 128 tris · 0.25×0.34×0.15 · 6 KB
+- [Desk Chair Stool](https://models.codelove.in/models/space-kit-desk-chair-stool/) — https://models.codelove.in/library/space-kit/desk-chair-stool.glb · 76 tris · 0.15×0.17×0.15 · 4 KB
+- [Desk Computer](https://models.codelove.in/models/space-kit-desk-computer/) — https://models.codelove.in/library/space-kit/desk-computer.glb · 88 tris · 0.53×0.38×0.23 · 5 KB
+- [Desk Computer Corner](https://models.codelove.in/models/space-kit-desk-computer-corner/) — https://models.codelove.in/library/space-kit/desk-computer-corner.glb · 126 tris · 0.75×0.38×0.75 · 6 KB
+- [Desk Computer Screen](https://models.codelove.in/models/space-kit-desk-computer-screen/) — https://models.codelove.in/library/space-kit/desk-computer-screen.glb · 108 tris · 0.53×0.64×0.23 · 6 KB
+- [Gate Complex](https://models.codelove.in/models/space-kit-gate-complex/) — https://models.codelove.in/library/space-kit/gate-complex.glb · 460 tris · 1×1.01×0.5 · 11 KB
+- [Gate Simple](https://models.codelove.in/models/space-kit-gate-simple/) — https://models.codelove.in/library/space-kit/gate-simple.glb · 212 tris · 1×1.08×0.5 · 7 KB
+- [Hangar Large A](https://models.codelove.in/models/space-kit-hangar-large-a/) — https://models.codelove.in/library/space-kit/hangar-large-a.glb · 314 tris · 2×1×3 · 11 KB
+- [Hangar Large B](https://models.codelove.in/models/space-kit-hangar-large-b/) — https://models.codelove.in/library/space-kit/hangar-large-b.glb · 262 tris · 2.2×1.1×3 · 11 KB
+- [Hangar Round A](https://models.codelove.in/models/space-kit-hangar-round-a/) — https://models.codelove.in/library/space-kit/hangar-round-a.glb · 166 tris · 3.27×1.5×2.83 · 8 KB
+- [Hangar Round B](https://models.codelove.in/models/space-kit-hangar-round-b/) — https://models.codelove.in/library/space-kit/hangar-round-b.glb · 166 tris · 3.27×1.8×2.83 · 8 KB
+- [Hangar Round Glass](https://models.codelove.in/models/space-kit-hangar-round-glass/) — https://models.codelove.in/library/space-kit/hangar-round-glass.glb · 113 tris · 3.27×1.4×2.83 · 7 KB
+- [Hangar Small A](https://models.codelove.in/models/space-kit-hangar-small-a/) — https://models.codelove.in/library/space-kit/hangar-small-a.glb · 182 tris · 2×1×2 · 9 KB
+- [Hangar Small B](https://models.codelove.in/models/space-kit-hangar-small-b/) — https://models.codelove.in/library/space-kit/hangar-small-b.glb · 186 tris · 2×1×2 · 10 KB
+- [Machine Barrel](https://models.codelove.in/models/space-kit-machine-barrel/) — https://models.codelove.in/library/space-kit/machine-barrel.glb · 338 tris · 0.65×0.6×0.52 · 12 KB
+- [Machine Barrel Large](https://models.codelove.in/models/space-kit-machine-barrel-large/) — https://models.codelove.in/library/space-kit/machine-barrel-large.glb · 192 tris · 0.75×0.6×0.75 · 8 KB
+- [Machine Generator](https://models.codelove.in/models/space-kit-machine-generator/) — https://models.codelove.in/library/space-kit/machine-generator.glb · 406 tris · 0.7×0.4×0.53 · 12 KB
+- [Machine Generator Large](https://models.codelove.in/models/space-kit-machine-generator-large/) — https://models.codelove.in/library/space-kit/machine-generator-large.glb · 126 tris · 1×0.68×1.3 · 7 KB
+- [Machine Wireless](https://models.codelove.in/models/space-kit-machine-wireless/) — https://models.codelove.in/library/space-kit/machine-wireless.glb · 174 tris · 0.75×0.6×0.5 · 7 KB
+- [Machine Wireless Cable](https://models.codelove.in/models/space-kit-machine-wireless-cable/) — https://models.codelove.in/library/space-kit/machine-wireless-cable.glb · 282 tris · 0.75×0.8×0.6 · 12 KB
+- [Meteor](https://models.codelove.in/models/space-kit-meteor/) — https://models.codelove.in/library/space-kit/meteor.glb · 68 tris · 0.87×0.73×0.75 · 4 KB
+- [Meteor Detailed](https://models.codelove.in/models/space-kit-meteor-detailed/) — https://models.codelove.in/library/space-kit/meteor-detailed.glb · 196 tris · 0.87×0.73×0.82 · 5 KB
+- [Meteor Half](https://models.codelove.in/models/space-kit-meteor-half/) — https://models.codelove.in/library/space-kit/meteor-half.glb · 44 tris · 0.87×0.37×0.75 · 3 KB
+- [Monorail Track Corner Large](https://models.codelove.in/models/space-kit-monorail-track-corner-large/) — https://models.codelove.in/library/space-kit/monorail-track-corner-large.glb · 204 tris · 1.6×0.13×1.6 · 6 KB
+- [Monorail Track Corner Small](https://models.codelove.in/models/space-kit-monorail-track-corner-small/) — https://models.codelove.in/library/space-kit/monorail-track-corner-small.glb · 408 tris · 0.6×0.13×0.6 · 9 KB
+- [Monorail Track Slope](https://models.codelove.in/models/space-kit-monorail-track-slope/) — https://models.codelove.in/library/space-kit/monorail-track-slope.glb · 28 tris · 0.2×0.63×1 · 4 KB
+- [Monorail Track Straight](https://models.codelove.in/models/space-kit-monorail-track-straight/) — https://models.codelove.in/library/space-kit/monorail-track-straight.glb · 28 tris · 0.2×0.13×1 · 4 KB
+- [Monorail Track Support](https://models.codelove.in/models/space-kit-monorail-track-support/) — https://models.codelove.in/library/space-kit/monorail-track-support.glb · 176 tris · 0.2×0.5×0.2 · 6 KB
+- [Monorail Track Support Corner](https://models.codelove.in/models/space-kit-monorail-track-support-corner/) — https://models.codelove.in/library/space-kit/monorail-track-support-corner.glb · 164 tris · 0.2×0.5×0.2 · 6 KB
+- [Monorail Train Box](https://models.codelove.in/models/space-kit-monorail-train-box/) — https://models.codelove.in/library/space-kit/monorail-train-box.glb · 100 tris · 0.5×0.8×1 · 5 KB
+- [Monorail Train Cargo](https://models.codelove.in/models/space-kit-monorail-train-cargo/) — https://models.codelove.in/library/space-kit/monorail-train-cargo.glb · 816 tris · 0.5×0.64×1 · 19 KB
+- [Monorail Train End](https://models.codelove.in/models/space-kit-monorail-train-end/) — https://models.codelove.in/library/space-kit/monorail-train-end.glb · 190 tris · 0.5×0.8×1 · 8 KB
+- [Monorail Train Flat](https://models.codelove.in/models/space-kit-monorail-train-flat/) — https://models.codelove.in/library/space-kit/monorail-train-flat.glb · 84 tris · 0.5×0.25×1 · 5 KB
+- [Monorail Train Front](https://models.codelove.in/models/space-kit-monorail-train-front/) — https://models.codelove.in/library/space-kit/monorail-train-front.glb · 242 tris · 0.6×0.8×1.05 · 7 KB
+- [Monorail Train Passenger](https://models.codelove.in/models/space-kit-monorail-train-passenger/) — https://models.codelove.in/library/space-kit/monorail-train-passenger.glb · 164 tris · 0.5×0.8×1 · 7 KB
+- [Pipe Corner](https://models.codelove.in/models/space-kit-pipe-corner/) — https://models.codelove.in/library/space-kit/pipe-corner.glb · 84 tris · 0.85×0.6×0.85 · 4 KB
+- [Pipe Corner Diagonal](https://models.codelove.in/models/space-kit-pipe-corner-diagonal/) — https://models.codelove.in/library/space-kit/pipe-corner-diagonal.glb · 48 tris · 0.85×0.6×0.85 · 4 KB
+- [Pipe Corner Round](https://models.codelove.in/models/space-kit-pipe-corner-round/) — https://models.codelove.in/library/space-kit/pipe-corner-round.glb · 352 tris · 0.85×0.6×0.85 · 9 KB
+- [Pipe Corner Round Large](https://models.codelove.in/models/space-kit-pipe-corner-round-large/) — https://models.codelove.in/library/space-kit/pipe-corner-round-large.glb · 356 tris · 1.85×0.6×1.85 · 9 KB
+- [Pipe Cross](https://models.codelove.in/models/space-kit-pipe-cross/) — https://models.codelove.in/library/space-kit/pipe-cross.glb · 200 tris · 1×0.6×1 · 7 KB
+- [Pipe End](https://models.codelove.in/models/space-kit-pipe-end/) — https://models.codelove.in/library/space-kit/pipe-end.glb · 82 tris · 0.69×0.6×1 · 5 KB
+- [Pipe Entrance](https://models.codelove.in/models/space-kit-pipe-entrance/) — https://models.codelove.in/library/space-kit/pipe-entrance.glb · 126 tris · 0.92×0.8×0.6 · 5 KB
+- [Pipe Open](https://models.codelove.in/models/space-kit-pipe-open/) — https://models.codelove.in/library/space-kit/pipe-open.glb · 104 tris · 0.69×0.6×1 · 4 KB
+- [Pipe Ramp Large](https://models.codelove.in/models/space-kit-pipe-ramp-large/) — https://models.codelove.in/library/space-kit/pipe-ramp-large.glb · 160 tris · 0.69×1.2×2 · 6 KB
+- [Pipe Ramp Small](https://models.codelove.in/models/space-kit-pipe-ramp-small/) — https://models.codelove.in/library/space-kit/pipe-ramp-small.glb · 160 tris · 0.69×0.9×2 · 6 KB
+- [Pipe Ring](https://models.codelove.in/models/space-kit-pipe-ring/) — https://models.codelove.in/library/space-kit/pipe-ring.glb · 144 tris · 0.92×0.8×1 · 7 KB
+- [Pipe Ring High](https://models.codelove.in/models/space-kit-pipe-ring-high/) — https://models.codelove.in/library/space-kit/pipe-ring-high.glb · 190 tris · 0.92×1.3×1 · 9 KB
+- [Pipe Ring High End](https://models.codelove.in/models/space-kit-pipe-ring-high-end/) — https://models.codelove.in/library/space-kit/pipe-ring-high-end.glb · 186 tris · 0.92×1.3×0.8 · 9 KB
+- [Pipe Ring Support](https://models.codelove.in/models/space-kit-pipe-ring-support/) — https://models.codelove.in/library/space-kit/pipe-ring-support.glb · 104 tris · 0.92×1.3×0.4 · 6 KB
+- [Pipe Split](https://models.codelove.in/models/space-kit-pipe-split/) — https://models.codelove.in/library/space-kit/pipe-split.glb · 142 tris · 1×0.6×0.85 · 6 KB
+- [Pipe Straight](https://models.codelove.in/models/space-kit-pipe-straight/) — https://models.codelove.in/library/space-kit/pipe-straight.glb · 80 tris · 0.69×0.6×1 · 5 KB
+- [Pipe Support High](https://models.codelove.in/models/space-kit-pipe-support-high/) — https://models.codelove.in/library/space-kit/pipe-support-high.glb · 40 tris · 0.4×1×0.4 · 5 KB
+- [Pipe Support Low](https://models.codelove.in/models/space-kit-pipe-support-low/) — https://models.codelove.in/library/space-kit/pipe-support-low.glb · 40 tris · 0.4×0.5×0.4 · 5 KB
+- [Platform Center](https://models.codelove.in/models/space-kit-platform-center/) — https://models.codelove.in/library/space-kit/platform-center.glb · 4 tris · 1×0×1 · 2 KB
+- [Platform Corner](https://models.codelove.in/models/space-kit-platform-corner/) — https://models.codelove.in/library/space-kit/platform-corner.glb · 84 tris · 1×0.1×1 · 5 KB
+- [Platform Corner Open](https://models.codelove.in/models/space-kit-platform-corner-open/) — https://models.codelove.in/library/space-kit/platform-corner-open.glb · 50 tris · 1×0.1×1 · 5 KB
+- [Platform Corner Round](https://models.codelove.in/models/space-kit-platform-corner-round/) — https://models.codelove.in/library/space-kit/platform-corner-round.glb · 356 tris · 1×0.1×1 · 8 KB
+- [Platform End](https://models.codelove.in/models/space-kit-platform-end/) — https://models.codelove.in/library/space-kit/platform-end.glb · 64 tris · 1×0.1×1 · 5 KB
+- [Platform High](https://models.codelove.in/models/space-kit-platform-high/) — https://models.codelove.in/library/space-kit/platform-high.glb · 236 tris · 1×1×1 · 8 KB
+- [Platform Large](https://models.codelove.in/models/space-kit-platform-large/) — https://models.codelove.in/library/space-kit/platform-large.glb · 76 tris · 2×0.1×2 · 5 KB
+- [Platform Long](https://models.codelove.in/models/space-kit-platform-long/) — https://models.codelove.in/library/space-kit/platform-long.glb · 76 tris · 2×0.1×1 · 5 KB
+- [Platform Low](https://models.codelove.in/models/space-kit-platform-low/) — https://models.codelove.in/library/space-kit/platform-low.glb · 156 tris · 1×0.5×1 · 6 KB
+- [Platform Side](https://models.codelove.in/models/space-kit-platform-side/) — https://models.codelove.in/library/space-kit/platform-side.glb · 30 tris · 1×0.1×1 · 6 KB
+- [Platform Small](https://models.codelove.in/models/space-kit-platform-small/) — https://models.codelove.in/library/space-kit/platform-small.glb · 76 tris · 1×0.1×1 · 5 KB
+- [Platform Small Diagonal](https://models.codelove.in/models/space-kit-platform-small-diagonal/) — https://models.codelove.in/library/space-kit/platform-small-diagonal.glb · 72 tris · 1×0.1×1 · 5 KB
+- [Platform Straight](https://models.codelove.in/models/space-kit-platform-straight/) — https://models.codelove.in/library/space-kit/platform-straight.glb · 56 tris · 1×0.1×1 · 6 KB
+- [Rail](https://models.codelove.in/models/space-kit-rail/) — https://models.codelove.in/library/space-kit/rail.glb · 76 tris · 0.8×0.25×0.05 · 4 KB
+- [Rail Corner](https://models.codelove.in/models/space-kit-rail-corner/) — https://models.codelove.in/library/space-kit/rail-corner.glb · 130 tris · 0.9×0.25×0.9 · 5 KB
+- [Rail End](https://models.codelove.in/models/space-kit-rail-end/) — https://models.codelove.in/library/space-kit/rail-end.glb · 46 tris · 0.9×0.25×0.05 · 4 KB
+- [Rail Middle](https://models.codelove.in/models/space-kit-rail-middle/) — https://models.codelove.in/library/space-kit/rail-middle.glb · 46 tris · 1×0.25×0.05 · 4 KB
+- [Rock](https://models.codelove.in/models/space-kit-rock/) — https://models.codelove.in/library/space-kit/rock.glb · 172 tris · 0.8×0.3×0.85 · 6 KB
+- [Rock Crystals](https://models.codelove.in/models/space-kit-rock-crystals/) — https://models.codelove.in/library/space-kit/rock-crystals.glb · 364 tris · 0.85×0.34×0.8 · 9 KB
+- [Rock Crystals Large A](https://models.codelove.in/models/space-kit-rock-crystals-large-a/) — https://models.codelove.in/library/space-kit/rock-crystals-large-a.glb · 384 tris · 0.83×0.54×0.92 · 10 KB
+- [Rock Crystals Large B](https://models.codelove.in/models/space-kit-rock-crystals-large-b/) — https://models.codelove.in/library/space-kit/rock-crystals-large-b.glb · 380 tris · 0.94×0.55×0.93 · 10 KB
+- [Rock Large A](https://models.codelove.in/models/space-kit-rock-large-a/) — https://models.codelove.in/library/space-kit/rock-large-a.glb · 176 tris · 0.92×0.5×0.83 · 6 KB
+- [Rock Large B](https://models.codelove.in/models/space-kit-rock-large-b/) — https://models.codelove.in/library/space-kit/rock-large-b.glb · 172 tris · 0.93×0.5×0.94 · 6 KB
+- [Rocket Base A](https://models.codelove.in/models/space-kit-rocket-base-a/) — https://models.codelove.in/library/space-kit/rocket-base-a.glb · 300 tris · 1.8×1.6×1.8 · 8 KB
+- [Rocket Base B](https://models.codelove.in/models/space-kit-rocket-base-b/) — https://models.codelove.in/library/space-kit/rocket-base-b.glb · 284 tris · 1.8×1.3×1.8 · 8 KB
+- [Rocket Fins A](https://models.codelove.in/models/space-kit-rocket-fins-a/) — https://models.codelove.in/library/space-kit/rocket-fins-a.glb · 192 tris · 1.2×0.7×1.2 · 7 KB
+- [Rocket Fins B](https://models.codelove.in/models/space-kit-rocket-fins-b/) — https://models.codelove.in/library/space-kit/rocket-fins-b.glb · 249 tris · 1.2×0.7×1.2 · 7 KB
+- [Rocket Fuel A](https://models.codelove.in/models/space-kit-rocket-fuel-a/) — https://models.codelove.in/library/space-kit/rocket-fuel-a.glb · 94 tris · 1×0.5×1 · 4 KB
+- [Rocket Fuel B](https://models.codelove.in/models/space-kit-rocket-fuel-b/) — https://models.codelove.in/library/space-kit/rocket-fuel-b.glb · 130 tris · 1×1×1 · 5 KB
+- [Rocket Sides A](https://models.codelove.in/models/space-kit-rocket-sides-a/) — https://models.codelove.in/library/space-kit/rocket-sides-a.glb · 222 tris · 1×1×1 · 7 KB
+- [Rocket Sides B](https://models.codelove.in/models/space-kit-rocket-sides-b/) — https://models.codelove.in/library/space-kit/rocket-sides-b.glb · 206 tris · 1.3×1×1.3 · 7 KB
+- [Rocket Top A](https://models.codelove.in/models/space-kit-rocket-top-a/) — https://models.codelove.in/library/space-kit/rocket-top-a.glb · 50 tris · 1×0.8×1 · 6 KB
+- [Rocket Top B](https://models.codelove.in/models/space-kit-rocket-top-b/) — https://models.codelove.in/library/space-kit/rocket-top-b.glb · 82 tris · 1×1.1×1 · 6 KB
+- [Rocks Small A](https://models.codelove.in/models/space-kit-rocks-small-a/) — https://models.codelove.in/library/space-kit/rocks-small-a.glb · 60 tris · 0.94×0.1×0.87 · 3 KB
+- [Rocks Small B](https://models.codelove.in/models/space-kit-rocks-small-b/) — https://models.codelove.in/library/space-kit/rocks-small-b.glb · 48 tris · 0.73×0.19×0.7 · 3 KB
+- [Rover](https://models.codelove.in/models/space-kit-rover/) — https://models.codelove.in/library/space-kit/rover.glb · 172 tris · 0.3×0.39×0.35 · 8 KB
+- [Satellite Dish](https://models.codelove.in/models/space-kit-satellite-dish/) — https://models.codelove.in/library/space-kit/satellite-dish.glb · 274 tris · 0.69×0.62×0.57 · 10 KB
+- [Satellite Dish Detailed](https://models.codelove.in/models/space-kit-satellite-dish-detailed/) — https://models.codelove.in/library/space-kit/satellite-dish-detailed.glb · 390 tris · 0.7×0.62×0.7 · 11 KB
+- [Satellite Dish Large](https://models.codelove.in/models/space-kit-satellite-dish-large/) — https://models.codelove.in/library/space-kit/satellite-dish-large.glb · 186 tris · 0.85×0.81×0.74 · 7 KB
+- [Stairs](https://models.codelove.in/models/space-kit-stairs/) — https://models.codelove.in/library/space-kit/stairs.glb · 208 tris · 0.3×0.5×0.7 · 7 KB
+- [Stairs Corner](https://models.codelove.in/models/space-kit-stairs-corner/) — https://models.codelove.in/library/space-kit/stairs-corner.glb · 306 tris · 0.6×0.5×0.6 · 8 KB
+- [Stairs Short](https://models.codelove.in/models/space-kit-stairs-short/) — https://models.codelove.in/library/space-kit/stairs-short.glb · 136 tris · 0.3×0.28×0.4 · 6 KB
+- [Structure](https://models.codelove.in/models/space-kit-structure/) — https://models.codelove.in/library/space-kit/structure.glb · 168 tris · 1×1×1 · 5 KB
+- [Structure Closed](https://models.codelove.in/models/space-kit-structure-closed/) — https://models.codelove.in/library/space-kit/structure-closed.glb · 264 tris · 1×1×1 · 7 KB
+- [Structure Detailed](https://models.codelove.in/models/space-kit-structure-detailed/) — https://models.codelove.in/library/space-kit/structure-detailed.glb · 232 tris · 1×1×1 · 7 KB
+- [Structure Diagonal](https://models.codelove.in/models/space-kit-structure-diagonal/) — https://models.codelove.in/library/space-kit/structure-diagonal.glb · 344 tris · 1×1×1 · 8 KB
+- [Supports High](https://models.codelove.in/models/space-kit-supports-high/) — https://models.codelove.in/library/space-kit/supports-high.glb · 312 tris · 0.82×1×0.82 · 8 KB
+- [Supports Low](https://models.codelove.in/models/space-kit-supports-low/) — https://models.codelove.in/library/space-kit/supports-low.glb · 184 tris · 0.82×0.5×0.82 · 7 KB
+- [Terrain](https://models.codelove.in/models/space-kit-terrain/) — https://models.codelove.in/library/space-kit/terrain.glb · 2 tris · 1×0×1 · 2 KB
+- [Terrain Ramp](https://models.codelove.in/models/space-kit-terrain-ramp/) — https://models.codelove.in/library/space-kit/terrain-ramp.glb · 4 tris · 1×0.5×1 · 3 KB
+- [Terrain Ramp Large](https://models.codelove.in/models/space-kit-terrain-ramp-large/) — https://models.codelove.in/library/space-kit/terrain-ramp-large.glb · 4 tris · 1×0.5×2 · 3 KB
+- [Terrain Ramp Large Detailed](https://models.codelove.in/models/space-kit-terrain-ramp-large-detailed/) — https://models.codelove.in/library/space-kit/terrain-ramp-large-detailed.glb · 12 tris · 1×0.5×2 · 4 KB
+- [Terrain Road Corner](https://models.codelove.in/models/space-kit-terrain-road-corner/) — https://models.codelove.in/library/space-kit/terrain-road-corner.glb · 98 tris · 1×0×1 · 4 KB
+- [Terrain Road Cross](https://models.codelove.in/models/space-kit-terrain-road-cross/) — https://models.codelove.in/library/space-kit/terrain-road-cross.glb · 50 tris · 1×0×1 · 4 KB
+- [Terrain Road End](https://models.codelove.in/models/space-kit-terrain-road-end/) — https://models.codelove.in/library/space-kit/terrain-road-end.glb · 58 tris · 1×0×1 · 4 KB
+- [Terrain Road Split](https://models.codelove.in/models/space-kit-terrain-road-split/) — https://models.codelove.in/library/space-kit/terrain-road-split.glb · 162 tris · 1×0×1 · 4 KB
+- [Terrain Road Straight](https://models.codelove.in/models/space-kit-terrain-road-straight/) — https://models.codelove.in/library/space-kit/terrain-road-straight.glb · 10 tris · 1×0×1 · 3 KB
+- [Terrain Side](https://models.codelove.in/models/space-kit-terrain-side/) — https://models.codelove.in/library/space-kit/terrain-side.glb · 2 tris · 1×0.5×1 · 2 KB
+- [Terrain Side Cliff](https://models.codelove.in/models/space-kit-terrain-side-cliff/) — https://models.codelove.in/library/space-kit/terrain-side-cliff.glb · 12 tris · 1×0.5×1 · 4 KB
+- [Terrain Side Corner](https://models.codelove.in/models/space-kit-terrain-side-corner/) — https://models.codelove.in/library/space-kit/terrain-side-corner.glb · 12 tris · 1×0.5×1 · 4 KB
+- [Terrain Side Corner Inner](https://models.codelove.in/models/space-kit-terrain-side-corner-inner/) — https://models.codelove.in/library/space-kit/terrain-side-corner-inner.glb · 10 tris · 1×0.5×1 · 3 KB
+- [Terrain Side End](https://models.codelove.in/models/space-kit-terrain-side-end/) — https://models.codelove.in/library/space-kit/terrain-side-end.glb · 9 tris · 1×0.5×1 · 4 KB
+
+### Weapons (4)
+
+- [Turret Double](https://models.codelove.in/models/space-kit-turret-double/) — https://models.codelove.in/library/space-kit/turret-double.glb · 876 tris · 0.9×0.7×0.6 · 17 KB
+- [Turret Single](https://models.codelove.in/models/space-kit-turret-single/) — https://models.codelove.in/library/space-kit/turret-single.glb · 458 tris · 0.6×0.9×0.72 · 19 KB
+- [Weapon Gun](https://models.codelove.in/models/space-kit-weapon-gun/) — https://models.codelove.in/library/space-kit/weapon-gun.glb · 70 tris · 0.1×0.23×0.35 · 6 KB
+- [Weapon Rifle](https://models.codelove.in/models/space-kit-weapon-rifle/) — https://models.codelove.in/library/space-kit/weapon-rifle.glb · 106 tris · 0.1×0.28×0.5 · 7 KB

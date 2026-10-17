@@ -1,0 +1,160 @@
+# Factory Kit — 143 free 3D models (Buildings)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/factory-kit/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/factory-kit.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 1.7 MB.
+
+## Models
+
+- [Arrow](https://models.codelove.in/models/factory-kit-arrow/) — https://models.codelove.in/library/factory-kit/arrow.glb · 24 tris · 0.8×0.2×0.69 · 7 KB
+- [Arrow Basic](https://models.codelove.in/models/factory-kit-arrow-basic/) — https://models.codelove.in/library/factory-kit/arrow-basic.glb · 20 tris · 0.57×0.2×0.85 · 7 KB
+- [Arrow Basic Rounded](https://models.codelove.in/models/factory-kit-arrow-basic-rounded/) — https://models.codelove.in/library/factory-kit/arrow-basic-rounded.glb · 40 tris · 0.49×0.2×0.78 · 8 KB
+- [Arrow Rounded](https://models.codelove.in/models/factory-kit-arrow-rounded/) — https://models.codelove.in/library/factory-kit/arrow-rounded.glb · 44 tris · 0.76×0.2×0.6 · 8 KB
+- [Box Large](https://models.codelove.in/models/factory-kit-box-large/) — https://models.codelove.in/library/factory-kit/box-large.glb · 70 tris · 1.1×0.55×1 · 8 KB
+- [Box Long](https://models.codelove.in/models/factory-kit-box-long/) — https://models.codelove.in/library/factory-kit/box-long.glb · 70 tris · 1.1×0.55×0.5 · 8 KB
+- [Box Small](https://models.codelove.in/models/factory-kit-box-small/) — https://models.codelove.in/library/factory-kit/box-small.glb · 70 tris · 0.59×0.55×0.5 · 8 KB
+- [Box Wide](https://models.codelove.in/models/factory-kit-box-wide/) — https://models.codelove.in/library/factory-kit/box-wide.glb · 70 tris · 0.59×0.55×1 · 8 KB
+- [Button Floor Round](https://models.codelove.in/models/factory-kit-button-floor-round/) — https://models.codelove.in/library/factory-kit/button-floor-round.glb · 92 tris · 0.5×0.15×0.5 · 13 KB · 3 animations inside
+- [Button Floor Round Small](https://models.codelove.in/models/factory-kit-button-floor-round-small/) — https://models.codelove.in/library/factory-kit/button-floor-round-small.glb · 92 tris · 0.3×0.1×0.3 · 13 KB · 3 animations inside
+- [Button Floor Square](https://models.codelove.in/models/factory-kit-button-floor-square/) — https://models.codelove.in/library/factory-kit/button-floor-square.glb · 102 tris · 1×0.17×1 · 13 KB · 3 animations inside
+- [Button Floor Square Small](https://models.codelove.in/models/factory-kit-button-floor-square-small/) — https://models.codelove.in/library/factory-kit/button-floor-square-small.glb · 102 tris · 0.5×0.17×0.5 · 13 KB · 3 animations inside
+- [Catwalk Corner](https://models.codelove.in/models/factory-kit-catwalk-corner/) — https://models.codelove.in/library/factory-kit/catwalk-corner.glb · 486 tris · 1.15×0.6×1.15 · 19 KB
+- [Catwalk Cross](https://models.codelove.in/models/factory-kit-catwalk-cross/) — https://models.codelove.in/library/factory-kit/catwalk-cross.glb · 196 tris · 1×0.4×1 · 11 KB
+- [Catwalk Junction](https://models.codelove.in/models/factory-kit-catwalk-junction/) — https://models.codelove.in/library/factory-kit/catwalk-junction.glb · 290 tris · 1×0.6×1.13 · 14 KB
+- [Catwalk Stairs](https://models.codelove.in/models/factory-kit-catwalk-stairs/) — https://models.codelove.in/library/factory-kit/catwalk-stairs.glb · 668 tris · 2×1.4×1.25 · 23 KB
+- [Catwalk Stairs Loop](https://models.codelove.in/models/factory-kit-catwalk-stairs-loop/) — https://models.codelove.in/library/factory-kit/catwalk-stairs-loop.glb · 328 tris · 1×0.9×1.25 · 15 KB
+- [Catwalk Straight](https://models.codelove.in/models/factory-kit-catwalk-straight/) — https://models.codelove.in/library/factory-kit/catwalk-straight.glb · 328 tris · 1×0.6×1.25 · 15 KB
+- [Cog A](https://models.codelove.in/models/factory-kit-cog-a/) — https://models.codelove.in/library/factory-kit/cog-a.glb · 160 tris · 1×0.23×1 · 9 KB
+- [Cog B](https://models.codelove.in/models/factory-kit-cog-b/) — https://models.codelove.in/library/factory-kit/cog-b.glb · 192 tris · 1×0.23×1 · 10 KB
+- [Cog C](https://models.codelove.in/models/factory-kit-cog-c/) — https://models.codelove.in/library/factory-kit/cog-c.glb · 160 tris · 1×0.23×1 · 9 KB
+- [Cog D](https://models.codelove.in/models/factory-kit-cog-d/) — https://models.codelove.in/library/factory-kit/cog-d.glb · 160 tris · 1×0.23×1 · 9 KB
+- [Cog E](https://models.codelove.in/models/factory-kit-cog-e/) — https://models.codelove.in/library/factory-kit/cog-e.glb · 224 tris · 1×0.23×1 · 10 KB
+- [Cone](https://models.codelove.in/models/factory-kit-cone/) — https://models.codelove.in/library/factory-kit/cone.glb · 66 tris · 0.3×0.31×0.3 · 8 KB
+- [Conveyor](https://models.codelove.in/models/factory-kit-conveyor/) — https://models.codelove.in/library/factory-kit/conveyor.glb · 196 tris · 1×0.4×1 · 11 KB
+- [Conveyor Bars](https://models.codelove.in/models/factory-kit-conveyor-bars/) — https://models.codelove.in/library/factory-kit/conveyor-bars.glb · 240 tris · 1×0.25×1 · 10 KB
+- [Conveyor Bars Fence](https://models.codelove.in/models/factory-kit-conveyor-bars-fence/) — https://models.codelove.in/library/factory-kit/conveyor-bars-fence.glb · 296 tris · 1.01×0.8×1.2 · 13 KB
+- [Conveyor Bars Fence Slope](https://models.codelove.in/models/factory-kit-conveyor-bars-fence-slope/) — https://models.codelove.in/library/factory-kit/conveyor-bars-fence-slope.glb · 296 tris · 1.01×1.15×1.2 · 13 KB
+- [Conveyor Bars High](https://models.codelove.in/models/factory-kit-conveyor-bars-high/) — https://models.codelove.in/library/factory-kit/conveyor-bars-high.glb · 204 tris · 1×0.42×1.01 · 11 KB
+- [Conveyor Bars High Slope](https://models.codelove.in/models/factory-kit-conveyor-bars-high-slope/) — https://models.codelove.in/library/factory-kit/conveyor-bars-high-slope.glb · 204 tris · 1×0.8×1.01 · 11 KB
+- [Conveyor Bars Sides](https://models.codelove.in/models/factory-kit-conveyor-bars-sides/) — https://models.codelove.in/library/factory-kit/conveyor-bars-sides.glb · 272 tris · 1×0.3×1 · 11 KB
+- [Conveyor Bars Stripe](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe.glb · 368 tris · 1×0.25×1 · 13 KB
+- [Conveyor Bars Stripe Fence](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe-fence/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe-fence.glb · 472 tris · 1.01×0.8×1.2 · 17 KB
+- [Conveyor Bars Stripe Fence Slope](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe-fence-slope/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe-fence-slope.glb · 472 tris · 1.01×1.15×1.2 · 17 KB
+- [Conveyor Bars Stripe High](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe-high/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe-high.glb · 380 tris · 1×0.42×1.01 · 15 KB
+- [Conveyor Bars Stripe High Slope](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe-high-slope/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe-high-slope.glb · 380 tris · 1×0.8×1.01 · 15 KB
+- [Conveyor Bars Stripe Side](https://models.codelove.in/models/factory-kit-conveyor-bars-stripe-side/) — https://models.codelove.in/library/factory-kit/conveyor-bars-stripe-side.glb · 400 tris · 1×0.3×1 · 14 KB
+- [Conveyor Corner](https://models.codelove.in/models/factory-kit-conveyor-corner/) — https://models.codelove.in/library/factory-kit/conveyor-corner.glb · 234 tris · 1×0.45×1 · 12 KB
+- [Conveyor Cross](https://models.codelove.in/models/factory-kit-conveyor-cross/) — https://models.codelove.in/library/factory-kit/conveyor-cross.glb · 44 tris · 1×0.4×1 · 8 KB
+- [Conveyor Junction T](https://models.codelove.in/models/factory-kit-conveyor-junction-t/) — https://models.codelove.in/library/factory-kit/conveyor-junction-t.glb · 120 tris · 1×0.4×1 · 9 KB
+- [Conveyor Long](https://models.codelove.in/models/factory-kit-conveyor-long/) — https://models.codelove.in/library/factory-kit/conveyor-long.glb · 196 tris · 2×0.4×1 · 11 KB
+- [Conveyor Long Part End](https://models.codelove.in/models/factory-kit-conveyor-long-part-end/) — https://models.codelove.in/library/factory-kit/conveyor-long-part-end.glb · 152 tris · 0.5×0.4×1 · 9 KB
+- [Conveyor Long Part Middle](https://models.codelove.in/models/factory-kit-conveyor-long-part-middle/) — https://models.codelove.in/library/factory-kit/conveyor-long-part-middle.glb · 44 tris · 0.5×0.4×1 · 7 KB
+- [Conveyor Long Sides](https://models.codelove.in/models/factory-kit-conveyor-long-sides/) — https://models.codelove.in/library/factory-kit/conveyor-long-sides.glb · 228 tris · 2×0.4×1 · 11 KB
+- [Conveyor Long Sides Part End](https://models.codelove.in/models/factory-kit-conveyor-long-sides-part-end/) — https://models.codelove.in/library/factory-kit/conveyor-long-sides-part-end.glb · 184 tris · 0.5×0.4×1 · 10 KB
+- [Conveyor Long Sides Part Middle](https://models.codelove.in/models/factory-kit-conveyor-long-sides-part-middle/) — https://models.codelove.in/library/factory-kit/conveyor-long-sides-part-middle.glb · 76 tris · 0.5×0.4×1 · 8 KB
+- [Conveyor Long Stripe](https://models.codelove.in/models/factory-kit-conveyor-long-stripe/) — https://models.codelove.in/library/factory-kit/conveyor-long-stripe.glb · 244 tris · 2×0.4×1 · 12 KB
+- [Conveyor Long Stripe Sides](https://models.codelove.in/models/factory-kit-conveyor-long-stripe-sides/) — https://models.codelove.in/library/factory-kit/conveyor-long-stripe-sides.glb · 276 tris · 2×0.4×1 · 12 KB
+- [Conveyor Long Stripe Sides Part End](https://models.codelove.in/models/factory-kit-conveyor-long-stripe-sides-part-end/) — https://models.codelove.in/library/factory-kit/conveyor-long-stripe-sides-part-end.glb · 216 tris · 0.5×0.4×1 · 11 KB
+- [Conveyor Long Stripe Sides Part Middle](https://models.codelove.in/models/factory-kit-conveyor-long-stripe-sides-part-middle/) — https://models.codelove.in/library/factory-kit/conveyor-long-stripe-sides-part-middle.glb · 92 tris · 0.5×0.4×1 · 8 KB
+- [Conveyor Sides](https://models.codelove.in/models/factory-kit-conveyor-sides/) — https://models.codelove.in/library/factory-kit/conveyor-sides.glb · 228 tris · 1×0.4×1 · 11 KB
+- [Conveyor Sides Cross](https://models.codelove.in/models/factory-kit-conveyor-sides-cross/) — https://models.codelove.in/library/factory-kit/conveyor-sides-cross.glb · 44 tris · 1×0.4×1 · 8 KB
+- [Conveyor Sides Junction T](https://models.codelove.in/models/factory-kit-conveyor-sides-junction-t/) — https://models.codelove.in/library/factory-kit/conveyor-sides-junction-t.glb · 136 tris · 1×0.4×1 · 10 KB
+- [Conveyor Stripe](https://models.codelove.in/models/factory-kit-conveyor-stripe/) — https://models.codelove.in/library/factory-kit/conveyor-stripe.glb · 244 tris · 1×0.4×1 · 12 KB
+- [Conveyor Stripe Corner](https://models.codelove.in/models/factory-kit-conveyor-stripe-corner/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-corner.glb · 258 tris · 1×0.45×1 · 12 KB
+- [Conveyor Stripe Cross](https://models.codelove.in/models/factory-kit-conveyor-stripe-cross/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-cross.glb · 172 tris · 1×0.4×1 · 11 KB
+- [Conveyor Stripe Junction T](https://models.codelove.in/models/factory-kit-conveyor-stripe-junction-t/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-junction-t.glb · 207 tris · 1×0.4×1 · 12 KB
+- [Conveyor Stripe Part End](https://models.codelove.in/models/factory-kit-conveyor-stripe-part-end/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-part-end.glb · 184 tris · 0.5×0.4×1 · 10 KB
+- [Conveyor Stripe Part Middle](https://models.codelove.in/models/factory-kit-conveyor-stripe-part-middle/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-part-middle.glb · 60 tris · 0.5×0.4×1 · 8 KB
+- [Conveyor Stripe Sides](https://models.codelove.in/models/factory-kit-conveyor-stripe-sides/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-sides.glb · 276 tris · 1×0.4×1 · 12 KB
+- [Conveyor Stripe Sides Cross](https://models.codelove.in/models/factory-kit-conveyor-stripe-sides-cross/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-sides-cross.glb · 172 tris · 1×0.4×1 · 11 KB
+- [Conveyor Stripe Sides Junction T](https://models.codelove.in/models/factory-kit-conveyor-stripe-sides-junction-t/) — https://models.codelove.in/library/factory-kit/conveyor-stripe-sides-junction-t.glb · 223 tris · 1×0.4×1 · 12 KB
+- [Crane](https://models.codelove.in/models/factory-kit-crane/) — https://models.codelove.in/library/factory-kit/crane.glb · 564 tris · 1.93×3.55×3.68 · 19 KB
+- [Crane Lift](https://models.codelove.in/models/factory-kit-crane-lift/) — https://models.codelove.in/library/factory-kit/crane-lift.glb · 304 tris · 0.72×2.5×0.72 · 16 KB
+- [Crane Magnet](https://models.codelove.in/models/factory-kit-crane-magnet/) — https://models.codelove.in/library/factory-kit/crane-magnet.glb · 172 tris · 0.72×0.9×0.72 · 10 KB
+- [Door](https://models.codelove.in/models/factory-kit-door/) — https://models.codelove.in/library/factory-kit/door.glb · 156 tris · 0.8×1.6×0.3 · 12 KB · 3 animations inside
+- [Door Wide Closed](https://models.codelove.in/models/factory-kit-door-wide-closed/) — https://models.codelove.in/library/factory-kit/door-wide-closed.glb · 22 tris · 1.8×1.6×0 · 7 KB
+- [Door Wide Half](https://models.codelove.in/models/factory-kit-door-wide-half/) — https://models.codelove.in/library/factory-kit/door-wide-half.glb · 20 tris · 1.8×1.24×0.3 · 7 KB
+- [Door Wide Open](https://models.codelove.in/models/factory-kit-door-wide-open/) — https://models.codelove.in/library/factory-kit/door-wide-open.glb · 16 tris · 1.8×0.78×0.3 · 7 KB
+- [Floor](https://models.codelove.in/models/factory-kit-floor/) — https://models.codelove.in/library/factory-kit/floor.glb · 2 tris · 1×0×1 · 7 KB
+- [Floor Large](https://models.codelove.in/models/factory-kit-floor-large/) — https://models.codelove.in/library/factory-kit/floor-large.glb · 2 tris · 2×0×2 · 7 KB
+- [Hopper High Round](https://models.codelove.in/models/factory-kit-hopper-high-round/) — https://models.codelove.in/library/factory-kit/hopper-high-round.glb · 176 tris · 1.12×1.5×1.12 · 10 KB
+- [Hopper High Square](https://models.codelove.in/models/factory-kit-hopper-high-square/) — https://models.codelove.in/library/factory-kit/hopper-high-square.glb · 120 tris · 1.12×1.5×1.12 · 9 KB
+- [Hopper Round](https://models.codelove.in/models/factory-kit-hopper-round/) — https://models.codelove.in/library/factory-kit/hopper-round.glb · 144 tris · 1.12×1×1.12 · 10 KB
+- [Hopper Square](https://models.codelove.in/models/factory-kit-hopper-square/) — https://models.codelove.in/library/factory-kit/hopper-square.glb · 104 tris · 1.12×1×1.12 · 9 KB
+- [Indicator Special Area](https://models.codelove.in/models/factory-kit-indicator-special-area/) — https://models.codelove.in/library/factory-kit/indicator-special-area.glb · 18 tris · 1×0×1 · 7 KB
+- [Indicator Special Arrow](https://models.codelove.in/models/factory-kit-indicator-special-arrow/) — https://models.codelove.in/library/factory-kit/indicator-special-arrow.glb · 15 tris · 1×0×1 · 7 KB
+- [Indicator Special Cross](https://models.codelove.in/models/factory-kit-indicator-special-cross/) — https://models.codelove.in/library/factory-kit/indicator-special-cross.glb · 22 tris · 1×0×1 · 7 KB
+- [Indicator Special Lines](https://models.codelove.in/models/factory-kit-indicator-special-lines/) — https://models.codelove.in/library/factory-kit/indicator-special-lines.glb · 16 tris · 1×0×1 · 7 KB
+- [Lever Double](https://models.codelove.in/models/factory-kit-lever-double/) — https://models.codelove.in/library/factory-kit/lever-double.glb · 118 tris · 0.54×0.38×0.54 · 14 KB · 3 animations inside
+- [Lever Single](https://models.codelove.in/models/factory-kit-lever-single/) — https://models.codelove.in/library/factory-kit/lever-single.glb · 102 tris · 0.5×0.47×0.34 · 14 KB · 3 animations inside
+- [Machine](https://models.codelove.in/models/factory-kit-machine/) — https://models.codelove.in/library/factory-kit/machine.glb · 268 tris · 1.2×1.3×1.5 · 12 KB
+- [Machine Bed](https://models.codelove.in/models/factory-kit-machine-bed/) — https://models.codelove.in/library/factory-kit/machine-bed.glb · 568 tris · 2.35×1.3×2.35 · 19 KB
+- [Machine Connection Hole](https://models.codelove.in/models/factory-kit-machine-connection-hole/) — https://models.codelove.in/library/factory-kit/machine-connection-hole.glb · 294 tris · 1.2×1.29×1.5 · 13 KB
+- [Machine Connection Pipe](https://models.codelove.in/models/factory-kit-machine-connection-pipe/) — https://models.codelove.in/library/factory-kit/machine-connection-pipe.glb · 342 tris · 1.2×1.75×1.5 · 13 KB
+- [Machine Fortified](https://models.codelove.in/models/factory-kit-machine-fortified/) — https://models.codelove.in/library/factory-kit/machine-fortified.glb · 320 tris · 1.2×1.35×1.6 · 12 KB
+- [Machine Window](https://models.codelove.in/models/factory-kit-machine-window/) — https://models.codelove.in/library/factory-kit/machine-window.glb · 428 tris · 1.2×1.29×1.5 · 15 KB
+- [Machine Window Bar](https://models.codelove.in/models/factory-kit-machine-window-bar/) — https://models.codelove.in/library/factory-kit/machine-window-bar.glb · 444 tris · 1.2×1.29×1.5 · 16 KB
+- [Oopi](https://models.codelove.in/models/factory-kit-oopi/) — https://models.codelove.in/library/factory-kit/oopi.glb · 938 tris · 0.42×0.56×0.53 · 28 KB
+- [Pipe Glass Large](https://models.codelove.in/models/factory-kit-pipe-glass-large/) — https://models.codelove.in/library/factory-kit/pipe-glass-large.glb · 160 tris · 1×1×1 · 11 KB
+- [Pipe Glass Large Bend](https://models.codelove.in/models/factory-kit-pipe-glass-large-bend/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-bend.glb · 448 tris · 1.9×1×1.9 · 18 KB
+- [Pipe Glass Large Bump](https://models.codelove.in/models/factory-kit-pipe-glass-large-bump/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-bump.glb · 256 tris · 1×1×1 · 13 KB
+- [Pipe Glass Large Cross](https://models.codelove.in/models/factory-kit-pipe-glass-large-cross/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-cross.glb · 384 tris · 2×2×1 · 15 KB
+- [Pipe Glass Large Curve](https://models.codelove.in/models/factory-kit-pipe-glass-large-curve/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-curve.glb · 288 tris · 1.5×1×1.25 · 14 KB
+- [Pipe Glass Large Junction](https://models.codelove.in/models/factory-kit-pipe-glass-large-junction/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-junction.glb · 276 tris · 2.06×2.06×1 · 13 KB
+- [Pipe Glass Large Long](https://models.codelove.in/models/factory-kit-pipe-glass-large-long/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-long.glb · 160 tris · 2×1×1 · 11 KB
+- [Pipe Glass Large Side](https://models.codelove.in/models/factory-kit-pipe-glass-large-side/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-side.glb · 276 tris · 2×1.5×1 · 13 KB
+- [Pipe Glass Large Valve](https://models.codelove.in/models/factory-kit-pipe-glass-large-valve/) — https://models.codelove.in/library/factory-kit/pipe-glass-large-valve.glb · 416 tris · 1×1×1.02 · 17 KB
+- [Pipe Large](https://models.codelove.in/models/factory-kit-pipe-large/) — https://models.codelove.in/library/factory-kit/pipe-large.glb · 248 tris · 1×1×1 · 12 KB
+- [Pipe Large Bend](https://models.codelove.in/models/factory-kit-pipe-large-bend/) — https://models.codelove.in/library/factory-kit/pipe-large-bend.glb · 448 tris · 1.9×1×1.9 · 18 KB
+- [Pipe Large Bump](https://models.codelove.in/models/factory-kit-pipe-large-bump/) — https://models.codelove.in/library/factory-kit/pipe-large-bump.glb · 296 tris · 1×1×1 · 13 KB
+- [Pipe Large Cross](https://models.codelove.in/models/factory-kit-pipe-large-cross/) — https://models.codelove.in/library/factory-kit/pipe-large-cross.glb · 472 tris · 2×2×1 · 16 KB
+- [Pipe Large Curve](https://models.codelove.in/models/factory-kit-pipe-large-curve/) — https://models.codelove.in/library/factory-kit/pipe-large-curve.glb · 332 tris · 1.5×1×1.25 · 15 KB
+- [Pipe Large Junction](https://models.codelove.in/models/factory-kit-pipe-large-junction/) — https://models.codelove.in/library/factory-kit/pipe-large-junction.glb · 412 tris · 2.06×2.06×1 · 15 KB
+- [Pipe Large Long](https://models.codelove.in/models/factory-kit-pipe-large-long/) — https://models.codelove.in/library/factory-kit/pipe-large-long.glb · 292 tris · 2×1×1 · 13 KB
+- [Pipe Large Side](https://models.codelove.in/models/factory-kit-pipe-large-side/) — https://models.codelove.in/library/factory-kit/pipe-large-side.glb · 364 tris · 2×1.5×1 · 14 KB
+- [Pipe Large Valve](https://models.codelove.in/models/factory-kit-pipe-large-valve/) — https://models.codelove.in/library/factory-kit/pipe-large-valve.glb · 456 tris · 1×1×1.02 · 17 KB
+- [Piston Round](https://models.codelove.in/models/factory-kit-piston-round/) — https://models.codelove.in/library/factory-kit/piston-round.glb · 276 tris · 1×1×1 · 21 KB · 3 animations inside
+- [Piston Square](https://models.codelove.in/models/factory-kit-piston-square/) — https://models.codelove.in/library/factory-kit/piston-square.glb · 180 tris · 1×1×1 · 18 KB · 3 animations inside
+- [Piston Thin Round](https://models.codelove.in/models/factory-kit-piston-thin-round/) — https://models.codelove.in/library/factory-kit/piston-thin-round.glb · 276 tris · 0.5×1×0.5 · 21 KB · 3 animations inside
+- [Piston Thin Square](https://models.codelove.in/models/factory-kit-piston-thin-square/) — https://models.codelove.in/library/factory-kit/piston-thin-square.glb · 180 tris · 0.5×1×0.5 · 18 KB · 3 animations inside
+- [Robot Arm A](https://models.codelove.in/models/factory-kit-robot-arm-a/) — https://models.codelove.in/library/factory-kit/robot-arm-a.glb · 472 tris · 1×3.2×1 · 26 KB
+- [Robot Arm B](https://models.codelove.in/models/factory-kit-robot-arm-b/) — https://models.codelove.in/library/factory-kit/robot-arm-b.glb · 420 tris · 1×3×1 · 23 KB
+- [Scanner High](https://models.codelove.in/models/factory-kit-scanner-high/) — https://models.codelove.in/library/factory-kit/scanner-high.glb · 240 tris · 0.48×1.27×1.77 · 11 KB
+- [Scanner Low](https://models.codelove.in/models/factory-kit-scanner-low/) — https://models.codelove.in/library/factory-kit/scanner-low.glb · 240 tris · 0.7×1.07×1.6 · 11 KB
+- [Screen Flat](https://models.codelove.in/models/factory-kit-screen-flat/) — https://models.codelove.in/library/factory-kit/screen-flat.glb · 120 tris · 1.2×0.74×0.65 · 9 KB
+- [Screen Hanging Small](https://models.codelove.in/models/factory-kit-screen-hanging-small/) — https://models.codelove.in/library/factory-kit/screen-hanging-small.glb · 86 tris · 0.6×0.69×0.58 · 9 KB
+- [Screen Hanging Wide](https://models.codelove.in/models/factory-kit-screen-hanging-wide/) — https://models.codelove.in/library/factory-kit/screen-hanging-wide.glb · 96 tris · 0.9×0.69×0.58 · 9 KB
+- [Screen Panel Flat](https://models.codelove.in/models/factory-kit-screen-panel-flat/) — https://models.codelove.in/library/factory-kit/screen-panel-flat.glb · 138 tris · 1.2×0.74×0.8 · 9 KB
+- [Screen Panel Small](https://models.codelove.in/models/factory-kit-screen-panel-small/) — https://models.codelove.in/library/factory-kit/screen-panel-small.glb · 144 tris · 0.6×0.99×0.66 · 10 KB
+- [Screen Panel Wide](https://models.codelove.in/models/factory-kit-screen-panel-wide/) — https://models.codelove.in/library/factory-kit/screen-panel-wide.glb · 162 tris · 1.2×0.99×0.66 · 10 KB
+- [Screen Small](https://models.codelove.in/models/factory-kit-screen-small/) — https://models.codelove.in/library/factory-kit/screen-small.glb · 126 tris · 0.6×0.99×0.5 · 9 KB
+- [Screen Wide](https://models.codelove.in/models/factory-kit-screen-wide/) — https://models.codelove.in/library/factory-kit/screen-wide.glb · 144 tris · 1.2×0.99×0.49 · 9 KB
+- [Structure Corner Inner](https://models.codelove.in/models/factory-kit-structure-corner-inner/) — https://models.codelove.in/library/factory-kit/structure-corner-inner.glb · 50 tris · 2×3×2 · 8 KB
+- [Structure Corner Outer](https://models.codelove.in/models/factory-kit-structure-corner-outer/) — https://models.codelove.in/library/factory-kit/structure-corner-outer.glb · 50 tris · 2×3×2 · 8 KB
+- [Structure Doorway](https://models.codelove.in/models/factory-kit-structure-doorway/) — https://models.codelove.in/library/factory-kit/structure-doorway.glb · 60 tris · 1×3×2 · 8 KB
+- [Structure Doorway Wide](https://models.codelove.in/models/factory-kit-structure-doorway-wide/) — https://models.codelove.in/library/factory-kit/structure-doorway-wide.glb · 46 tris · 2×3×2 · 8 KB
+- [Structure High](https://models.codelove.in/models/factory-kit-structure-high/) — https://models.codelove.in/library/factory-kit/structure-high.glb · 268 tris · 0.3×1.5×1.1 · 12 KB
+- [Structure Medium](https://models.codelove.in/models/factory-kit-structure-medium/) — https://models.codelove.in/library/factory-kit/structure-medium.glb · 268 tris · 0.3×1×1.1 · 12 KB
+- [Structure Short](https://models.codelove.in/models/factory-kit-structure-short/) — https://models.codelove.in/library/factory-kit/structure-short.glb · 268 tris · 0.3×0.5×1.1 · 12 KB
+- [Structure Tall](https://models.codelove.in/models/factory-kit-structure-tall/) — https://models.codelove.in/library/factory-kit/structure-tall.glb · 268 tris · 0.3×2×1.1 · 12 KB
+- [Structure Wall](https://models.codelove.in/models/factory-kit-structure-wall/) — https://models.codelove.in/library/factory-kit/structure-wall.glb · 26 tris · 1×3×2 · 7 KB
+- [Structure Window](https://models.codelove.in/models/factory-kit-structure-window/) — https://models.codelove.in/library/factory-kit/structure-window.glb · 226 tris · 1×3×2 · 10 KB
+- [Structure Window Wide](https://models.codelove.in/models/factory-kit-structure-window-wide/) — https://models.codelove.in/library/factory-kit/structure-window-wide.glb · 274 tris · 2×3×2 · 11 KB
+- [Structure Yellow High](https://models.codelove.in/models/factory-kit-structure-yellow-high/) — https://models.codelove.in/library/factory-kit/structure-yellow-high.glb · 392 tris · 0.3×1.5×1.1 · 14 KB
+- [Structure Yellow Medium](https://models.codelove.in/models/factory-kit-structure-yellow-medium/) — https://models.codelove.in/library/factory-kit/structure-yellow-medium.glb · 392 tris · 0.3×1×1.1 · 15 KB
+- [Structure Yellow Short](https://models.codelove.in/models/factory-kit-structure-yellow-short/) — https://models.codelove.in/library/factory-kit/structure-yellow-short.glb · 268 tris · 0.3×0.5×1.1 · 12 KB
+- [Structure Yellow Tall](https://models.codelove.in/models/factory-kit-structure-yellow-tall/) — https://models.codelove.in/library/factory-kit/structure-yellow-tall.glb · 392 tris · 0.3×2×1.1 · 14 KB
+- [Top](https://models.codelove.in/models/factory-kit-top/) — https://models.codelove.in/library/factory-kit/top.glb · 2 tris · 1×0×1 · 7 KB
+- [Top Large](https://models.codelove.in/models/factory-kit-top-large/) — https://models.codelove.in/library/factory-kit/top-large.glb · 2 tris · 2×0×2 · 7 KB
+- [Top Large Checkerboard](https://models.codelove.in/models/factory-kit-top-large-checkerboard/) — https://models.codelove.in/library/factory-kit/top-large-checkerboard.glb · 8 tris · 2×0×2 · 7 KB
+- [Warning Orange](https://models.codelove.in/models/factory-kit-warning-orange/) — https://models.codelove.in/library/factory-kit/warning-orange.glb · 154 tris · 0.4×1.29×0.4 · 10 KB
+- [Warning Traffic](https://models.codelove.in/models/factory-kit-warning-traffic/) — https://models.codelove.in/library/factory-kit/warning-traffic.glb · 176 tris · 0.4×1.55×0.4 · 10 KB

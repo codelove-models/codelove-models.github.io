@@ -1,0 +1,161 @@
+# Restaurant Bits — 144 free 3D models (Food)
+
+> Part of models.codelove.in (https://models.codelove.in/), 6,792 free 3D models. License: CC0 1.0 — public domain — No attribution required.
+
+- Collection page: https://models.codelove.in/models/collection/restaurant-bits/
+- Whole collection as one .zip: https://models.codelove.in/packs/ (file list: https://models.codelove.in/data/packs/restaurant-bits.json)
+- Every collection: https://models.codelove.in/llms.txt
+
+- Format: glTF 2.0 binary (.glb), one file per model with textures embedded, compressed with EXT_meshopt_compression and EXT_texture_webp. three.js (GLTFLoader + MeshoptDecoder; drei's useGLTF sets this up) and Babylon.js load them directly; other engines need meshopt support or a decompressed copy.
+- Size is the bounding box (width × height × depth) in glTF units, which are metres by the glTF spec; models are Y-up. A few imported models are not to real-world scale, so scale them to fit.
+- Rigged humans use a Biped skeleton (root bone Bip01; the child characters use Bip02). The 20 animation clips (10 motions: idle, look around, talk, thoughtful, wave, cheer, clap, dance, walk, run) are separate skeleton-only .glb files in a female (f_) and a male (m_) set: load a character and a clip from its set, then play the clip with THREE.AnimationMixer — the bone names match.
+- Each .glb carries its license and credit in the glTF asset block (asset.copyright, asset.extras).
+
+Each line: name and model page — .glb URL · triangles · size · file size, then notes. Total 3.3 MB.
+
+## Models
+
+- [Bowl](https://models.codelove.in/models/restaurant-bits-bowl/) — https://models.codelove.in/library/restaurant-bits/bowl.glb · 256 tris · 0.95×0.3×0.95 · 19 KB
+- [Bowl Dirty](https://models.codelove.in/models/restaurant-bits-bowl-dirty/) — https://models.codelove.in/library/restaurant-bits/bowl-dirty.glb · 319 tris · 0.95×0.3×0.95 · 20 KB
+- [Bowl Small](https://models.codelove.in/models/restaurant-bits-bowl-small/) — https://models.codelove.in/library/restaurant-bits/bowl-small.glb · 256 tris · 0.75×0.3×0.75 · 19 KB
+- [Chair A](https://models.codelove.in/models/restaurant-bits-chair-a/) — https://models.codelove.in/library/restaurant-bits/chair-a.glb · 428 tris · 0.75×1.21×0.8 · 22 KB
+- [Chair B](https://models.codelove.in/models/restaurant-bits-chair-b/) — https://models.codelove.in/library/restaurant-bits/chair-b.glb · 428 tris · 0.75×1.21×0.8 · 22 KB
+- [Chair Stool](https://models.codelove.in/models/restaurant-bits-chair-stool/) — https://models.codelove.in/library/restaurant-bits/chair-stool.glb · 272 tris · 0.75×0.5×0.75 · 20 KB
+- [Crate](https://models.codelove.in/models/restaurant-bits-crate/) — https://models.codelove.in/library/restaurant-bits/crate.glb · 132 tris · 2×0.8×2 · 19 KB
+- [Crate Buns](https://models.codelove.in/models/restaurant-bits-crate-buns/) — https://models.codelove.in/library/restaurant-bits/crate-buns.glb · 2,772 tris · 2×0.8×2 · 56 KB
+- [Crate Carrots](https://models.codelove.in/models/restaurant-bits-crate-carrots/) — https://models.codelove.in/library/restaurant-bits/crate-carrots.glb · 1,752 tris · 2×0.94×2 · 41 KB
+- [Crate Cheese](https://models.codelove.in/models/restaurant-bits-crate-cheese/) — https://models.codelove.in/library/restaurant-bits/crate-cheese.glb · 1,164 tris · 2×0.95×2 · 35 KB
+- [Crate Ham](https://models.codelove.in/models/restaurant-bits-crate-ham/) — https://models.codelove.in/library/restaurant-bits/crate-ham.glb · 676 tris · 2×0.89×2 · 26 KB
+- [Crate Lettuce](https://models.codelove.in/models/restaurant-bits-crate-lettuce/) — https://models.codelove.in/library/restaurant-bits/crate-lettuce.glb · 1,980 tris · 2×1×2 · 44 KB
+- [Crate Lid](https://models.codelove.in/models/restaurant-bits-crate-lid/) — https://models.codelove.in/library/restaurant-bits/crate-lid.glb · 164 tris · 2×0.2×2 · 19 KB
+- [Crate Onions](https://models.codelove.in/models/restaurant-bits-crate-onions/) — https://models.codelove.in/library/restaurant-bits/crate-onions.glb · 1,652 tris · 2×0.92×2 · 40 KB
+- [Crate Potatoes](https://models.codelove.in/models/restaurant-bits-crate-potatoes/) — https://models.codelove.in/library/restaurant-bits/crate-potatoes.glb · 1,068 tris · 2×0.97×2 · 27 KB
+- [Crate Steak](https://models.codelove.in/models/restaurant-bits-crate-steak/) — https://models.codelove.in/library/restaurant-bits/crate-steak.glb · 1,188 tris · 2×0.88×2 · 35 KB
+- [Crate Tomatoes](https://models.codelove.in/models/restaurant-bits-crate-tomatoes/) — https://models.codelove.in/library/restaurant-bits/crate-tomatoes.glb · 2,072 tris · 2×0.92×2 · 47 KB
+- [Cuttingboard](https://models.codelove.in/models/restaurant-bits-cuttingboard/) — https://models.codelove.in/library/restaurant-bits/cuttingboard.glb · 38 tris · 1.5×0.15×1 · 17 KB
+- [Dishrack](https://models.codelove.in/models/restaurant-bits-dishrack/) — https://models.codelove.in/library/restaurant-bits/dishrack.glb · 240 tris · 1.2×0.6×1.2 · 21 KB
+- [Dishrack Plates](https://models.codelove.in/models/restaurant-bits-dishrack-plates/) — https://models.codelove.in/library/restaurant-bits/dishrack-plates.glb · 880 tris · 1.2×1.09×1.2 · 29 KB
+- [Door A](https://models.codelove.in/models/restaurant-bits-door-a/) — https://models.codelove.in/library/restaurant-bits/door-a.glb · 188 tris · 1.6×2.8×0.77 · 20 KB
+- [Door B](https://models.codelove.in/models/restaurant-bits-door-b/) — https://models.codelove.in/library/restaurant-bits/door-b.glb · 188 tris · 1.6×2.8×0.77 · 20 KB
+- [Extractorhood](https://models.codelove.in/models/restaurant-bits-extractorhood/) — https://models.codelove.in/library/restaurant-bits/extractorhood.glb · 204 tris · 2×2×1.61 · 20 KB
+- [Floor Kitchen](https://models.codelove.in/models/restaurant-bits-floor-kitchen/) — https://models.codelove.in/library/restaurant-bits/floor-kitchen.glb · 48 tris · 4×0.5×4 · 17 KB
+- [Floor Kitchen Small](https://models.codelove.in/models/restaurant-bits-floor-kitchen-small/) — https://models.codelove.in/library/restaurant-bits/floor-kitchen-small.glb · 48 tris · 2×0.5×2 · 17 KB
+- [Food Burger](https://models.codelove.in/models/restaurant-bits-food-burger/) — https://models.codelove.in/library/restaurant-bits/food-burger.glb · 1,622 tris · 0.95×0.86×0.95 · 39 KB
+- [Food Dinner](https://models.codelove.in/models/restaurant-bits-food-dinner/) — https://models.codelove.in/library/restaurant-bits/food-dinner.glb · 1,196 tris · 1.04×0.91×0.95 · 34 KB
+- [Food Ingredient Bun](https://models.codelove.in/models/restaurant-bits-food-ingredient-bun/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-bun.glb · 440 tris · 0.7×0.51×0.7 · 22 KB
+- [Food Ingredient Bun Bottom](https://models.codelove.in/models/restaurant-bits-food-ingredient-bun-bottom/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-bun-bottom.glb · 152 tris · 0.69×0.2×0.69 · 18 KB
+- [Food Ingredient Bun Top](https://models.codelove.in/models/restaurant-bits-food-ingredient-bun-top/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-bun-top.glb · 320 tris · 0.7×0.31×0.7 · 21 KB
+- [Food Ingredient Burger Cooked](https://models.codelove.in/models/restaurant-bits-food-ingredient-burger-cooked/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-burger-cooked.glb · 208 tris · 0.7×0.2×0.7 · 19 KB
+- [Food Ingredient Burger Trash](https://models.codelove.in/models/restaurant-bits-food-ingredient-burger-trash/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-burger-trash.glb · 208 tris · 0.7×0.2×0.7 · 19 KB
+- [Food Ingredient Burger Uncooked](https://models.codelove.in/models/restaurant-bits-food-ingredient-burger-uncooked/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-burger-uncooked.glb · 208 tris · 0.7×0.2×0.7 · 19 KB
+- [Food Ingredient Carrot](https://models.codelove.in/models/restaurant-bits-food-ingredient-carrot/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-carrot.glb · 324 tris · 0.56×1.27×0.55 · 20 KB
+- [Food Ingredient Carrot Chopped](https://models.codelove.in/models/restaurant-bits-food-ingredient-carrot-chopped/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-carrot-chopped.glb · 534 tris · 1.33×0.56×0.57 · 23 KB
+- [Food Ingredient Carrot Pieces](https://models.codelove.in/models/restaurant-bits-food-ingredient-carrot-pieces/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-carrot-pieces.glb · 576 tris · 0.54×0.32×0.72 · 25 KB
+- [Food Ingredient Cheese](https://models.codelove.in/models/restaurant-bits-food-ingredient-cheese/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-cheese.glb · 258 tris · 0.98×0.5×0.72 · 20 KB
+- [Food Ingredient Cheese Chopped](https://models.codelove.in/models/restaurant-bits-food-ingredient-cheese-chopped/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-cheese-chopped.glb · 254 tris · 1.02×0.5×0.72 · 20 KB
+- [Food Ingredient Cheese Slice](https://models.codelove.in/models/restaurant-bits-food-ingredient-cheese-slice/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-cheese-slice.glb · 54 tris · 0.82×0.1×0.82 · 17 KB
+- [Food Ingredient Ham](https://models.codelove.in/models/restaurant-bits-food-ingredient-ham/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-ham.glb · 272 tris · 1.39×0.83×0.83 · 20 KB
+- [Food Ingredient Ham Cooked](https://models.codelove.in/models/restaurant-bits-food-ingredient-ham-cooked/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-ham-cooked.glb · 272 tris · 1.39×0.83×0.83 · 20 KB
+- [Food Ingredient Ham Trash](https://models.codelove.in/models/restaurant-bits-food-ingredient-ham-trash/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-ham-trash.glb · 272 tris · 1.39×0.83×0.83 · 20 KB
+- [Food Ingredient Lettuce](https://models.codelove.in/models/restaurant-bits-food-ingredient-lettuce/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-lettuce.glb · 462 tris · 1.1×0.82×1.13 · 22 KB
+- [Food Ingredient Lettuce Chopped](https://models.codelove.in/models/restaurant-bits-food-ingredient-lettuce-chopped/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-lettuce-chopped.glb · 462 tris · 1.8×0.81×1.21 · 23 KB
+- [Food Ingredient Lettuce Slice](https://models.codelove.in/models/restaurant-bits-food-ingredient-lettuce-slice/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-lettuce-slice.glb · 124 tris · 0.81×0.09×0.81 · 18 KB
+- [Food Ingredient Onion](https://models.codelove.in/models/restaurant-bits-food-ingredient-onion/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-onion.glb · 304 tris · 0.75×0.86×0.75 · 20 KB
+- [Food Ingredient Onion Chopped](https://models.codelove.in/models/restaurant-bits-food-ingredient-onion-chopped/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-onion-chopped.glb · 704 tris · 1.23×0.75×0.75 · 26 KB
+- [Food Ingredient Onion Rings](https://models.codelove.in/models/restaurant-bits-food-ingredient-onion-rings/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-onion-rings.glb · 384 tris · 0.78×0.11×0.73 · 21 KB
+- [Food Ingredient Potato](https://models.codelove.in/models/restaurant-bits-food-ingredient-potato/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-potato.glb · 156 tris · 0.6×0.78×0.68 · 17 KB
+- [Food Ingredient Potato Chopped](https://models.codelove.in/models/restaurant-bits-food-ingredient-potato-chopped/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-potato-chopped.glb · 308 tris · 1.05×0.6×0.7 · 20 KB
+- [Food Ingredient Potato Mashed](https://models.codelove.in/models/restaurant-bits-food-ingredient-potato-mashed/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-potato-mashed.glb · 32 tris · 0.6×0.21×0.64 · 17 KB
+- [Food Ingredient Steak](https://models.codelove.in/models/restaurant-bits-food-ingredient-steak/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-steak.glb · 352 tris · 1.05×0.28×0.9 · 21 KB
+- [Food Ingredient Steak Pieces](https://models.codelove.in/models/restaurant-bits-food-ingredient-steak-pieces/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-steak-pieces.glb · 264 tris · 0.65×0.43×0.62 · 20 KB
+- [Food Ingredient Tomato](https://models.codelove.in/models/restaurant-bits-food-ingredient-tomato/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-tomato.glb · 388 tris · 0.75×0.7×0.75 · 21 KB
+- [Food Ingredient Tomato Slice](https://models.codelove.in/models/restaurant-bits-food-ingredient-tomato-slice/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-tomato-slice.glb · 220 tris · 0.65×0.1×0.65 · 19 KB
+- [Food Ingredient Tomato Slices](https://models.codelove.in/models/restaurant-bits-food-ingredient-tomato-slices/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-tomato-slices.glb · 476 tris · 0.76×0.3×0.65 · 23 KB
+- [Food Ingredient Vegetableburger Cooked](https://models.codelove.in/models/restaurant-bits-food-ingredient-vegetableburger-cooked/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-vegetableburger-cooked.glb · 338 tris · 0.73×0.22×0.72 · 22 KB
+- [Food Ingredient Vegetableburger Uncooked](https://models.codelove.in/models/restaurant-bits-food-ingredient-vegetableburger-uncooked/) — https://models.codelove.in/library/restaurant-bits/food-ingredient-vegetableburger-uncooked.glb · 338 tris · 0.73×0.22×0.72 · 22 KB
+- [Food Stew](https://models.codelove.in/models/restaurant-bits-food-stew/) — https://models.codelove.in/library/restaurant-bits/food-stew.glb · 560 tris · 0.95×0.37×0.95 · 25 KB
+- [Food Vegetableburger](https://models.codelove.in/models/restaurant-bits-food-vegetableburger/) — https://models.codelove.in/library/restaurant-bits/food-vegetableburger.glb · 1,698 tris · 0.95×0.86×0.95 · 41 KB
+- [Fridge A](https://models.codelove.in/models/restaurant-bits-fridge-a/) — https://models.codelove.in/library/restaurant-bits/fridge-a.glb · 614 tris · 2×2.5×2.24 · 29 KB
+- [Fridge A Decorated](https://models.codelove.in/models/restaurant-bits-fridge-a-decorated/) — https://models.codelove.in/library/restaurant-bits/fridge-a-decorated.glb · 2,398 tris · 2×2.5×2.24 · 53 KB
+- [Fridge B](https://models.codelove.in/models/restaurant-bits-fridge-b/) — https://models.codelove.in/library/restaurant-bits/fridge-b.glb · 426 tris · 2×2.5×2.24 · 24 KB
+- [Jar A Large](https://models.codelove.in/models/restaurant-bits-jar-a-large/) — https://models.codelove.in/library/restaurant-bits/jar-a-large.glb · 168 tris · 0.5×0.75×0.5 · 18 KB
+- [Jar A Medium](https://models.codelove.in/models/restaurant-bits-jar-a-medium/) — https://models.codelove.in/library/restaurant-bits/jar-a-medium.glb · 188 tris · 0.5×0.65×0.5 · 19 KB
+- [Jar A Small](https://models.codelove.in/models/restaurant-bits-jar-a-small/) — https://models.codelove.in/library/restaurant-bits/jar-a-small.glb · 192 tris · 0.57×0.55×0.57 · 19 KB
+- [Jar B Large](https://models.codelove.in/models/restaurant-bits-jar-b-large/) — https://models.codelove.in/library/restaurant-bits/jar-b-large.glb · 168 tris · 0.5×0.75×0.5 · 18 KB
+- [Jar B Medium](https://models.codelove.in/models/restaurant-bits-jar-b-medium/) — https://models.codelove.in/library/restaurant-bits/jar-b-medium.glb · 188 tris · 0.5×0.65×0.5 · 19 KB
+- [Jar B Small](https://models.codelove.in/models/restaurant-bits-jar-b-small/) — https://models.codelove.in/library/restaurant-bits/jar-b-small.glb · 192 tris · 0.57×0.55×0.57 · 19 KB
+- [Jar C Large](https://models.codelove.in/models/restaurant-bits-jar-c-large/) — https://models.codelove.in/library/restaurant-bits/jar-c-large.glb · 168 tris · 0.5×0.75×0.5 · 18 KB
+- [Jar C Medium](https://models.codelove.in/models/restaurant-bits-jar-c-medium/) — https://models.codelove.in/library/restaurant-bits/jar-c-medium.glb · 188 tris · 0.5×0.65×0.5 · 19 KB
+- [Jar C Small](https://models.codelove.in/models/restaurant-bits-jar-c-small/) — https://models.codelove.in/library/restaurant-bits/jar-c-small.glb · 192 tris · 0.57×0.55×0.57 · 19 KB
+- [Jar D Large](https://models.codelove.in/models/restaurant-bits-jar-d-large/) — https://models.codelove.in/library/restaurant-bits/jar-d-large.glb · 168 tris · 0.5×0.75×0.5 · 18 KB
+- [Jar D Medium](https://models.codelove.in/models/restaurant-bits-jar-d-medium/) — https://models.codelove.in/library/restaurant-bits/jar-d-medium.glb · 188 tris · 0.5×0.65×0.5 · 19 KB
+- [Jar D Small](https://models.codelove.in/models/restaurant-bits-jar-d-small/) — https://models.codelove.in/library/restaurant-bits/jar-d-small.glb · 192 tris · 0.57×0.55×0.57 · 19 KB
+- [Ketchup](https://models.codelove.in/models/restaurant-bits-ketchup/) — https://models.codelove.in/library/restaurant-bits/ketchup.glb · 168 tris · 0.3×0.78×0.3 · 18 KB
+- [Kitchencabinet](https://models.codelove.in/models/restaurant-bits-kitchencabinet/) — https://models.codelove.in/library/restaurant-bits/kitchencabinet.glb · 156 tris · 2×2×1.04 · 18 KB
+- [Kitchencabinet Corner](https://models.codelove.in/models/restaurant-bits-kitchencabinet-corner/) — https://models.codelove.in/library/restaurant-bits/kitchencabinet-corner.glb · 172 tris · 2×2×2 · 19 KB
+- [Kitchencabinet Corner Half](https://models.codelove.in/models/restaurant-bits-kitchencabinet-corner-half/) — https://models.codelove.in/library/restaurant-bits/kitchencabinet-corner-half.glb · 172 tris · 2×1×2 · 19 KB
+- [Kitchencabinet Half](https://models.codelove.in/models/restaurant-bits-kitchencabinet-half/) — https://models.codelove.in/library/restaurant-bits/kitchencabinet-half.glb · 156 tris · 2×1×1.04 · 19 KB
+- [Kitchencounter Innercorner](https://models.codelove.in/models/restaurant-bits-kitchencounter-innercorner/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-innercorner.glb · 38 tris · 2×1×2 · 17 KB
+- [Kitchencounter Innercorner Backsplash](https://models.codelove.in/models/restaurant-bits-kitchencounter-innercorner-backsplash/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-innercorner-backsplash.glb · 56 tris · 2×1.2×2 · 17 KB
+- [Kitchencounter Outercorner](https://models.codelove.in/models/restaurant-bits-kitchencounter-outercorner/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-outercorner.glb · 38 tris · 2×1×2 · 17 KB
+- [Kitchencounter Outercorner Backsplash](https://models.codelove.in/models/restaurant-bits-kitchencounter-outercorner-backsplash/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-outercorner-backsplash.glb · 56 tris · 2×1.2×2 · 17 KB
+- [Kitchencounter Sink](https://models.codelove.in/models/restaurant-bits-kitchencounter-sink/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-sink.glb · 674 tris · 2×1.8×2.04 · 26 KB
+- [Kitchencounter Sink Backsplash](https://models.codelove.in/models/restaurant-bits-kitchencounter-sink-backsplash/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-sink-backsplash.glb · 686 tris · 2×1.8×2.04 · 26 KB
+- [Kitchencounter Straight A](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-a/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-a.glb · 168 tris · 2×1×2.04 · 19 KB
+- [Kitchencounter Straight A Backsplash](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-a-backsplash/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-a-backsplash.glb · 180 tris · 2×1.2×2.04 · 19 KB
+- [Kitchencounter Straight A Decorated](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-a-decorated/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-a-decorated.glb · 1,456 tris · 2.01×2.1×2.26 · 38 KB
+- [Kitchencounter Straight B](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-b/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-b.glb · 168 tris · 2×1×2.04 · 19 KB
+- [Kitchencounter Straight B Backsplash](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-b-backsplash/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-b-backsplash.glb · 180 tris · 2×1.2×2.04 · 19 KB
+- [Kitchencounter Straight Decorated](https://models.codelove.in/models/restaurant-bits-kitchencounter-straight-decorated/) — https://models.codelove.in/library/restaurant-bits/kitchencounter-straight-decorated.glb · 894 tris · 2×1.91×2.04 · 29 KB
+- [Kitchentable A](https://models.codelove.in/models/restaurant-bits-kitchentable-a/) — https://models.codelove.in/library/restaurant-bits/kitchentable-a.glb · 236 tris · 2×1×2 · 20 KB
+- [Kitchentable A Large](https://models.codelove.in/models/restaurant-bits-kitchentable-a-large/) — https://models.codelove.in/library/restaurant-bits/kitchentable-a-large.glb · 236 tris · 3×1×2 · 20 KB
+- [Kitchentable A Large Decorated](https://models.codelove.in/models/restaurant-bits-kitchentable-a-large-decorated/) — https://models.codelove.in/library/restaurant-bits/kitchentable-a-large-decorated.glb · 1,996 tris · 3×1.93×2 · 44 KB
+- [Kitchentable B](https://models.codelove.in/models/restaurant-bits-kitchentable-b/) — https://models.codelove.in/library/restaurant-bits/kitchentable-b.glb · 236 tris · 2×1×2 · 20 KB
+- [Kitchentable B Large](https://models.codelove.in/models/restaurant-bits-kitchentable-b-large/) — https://models.codelove.in/library/restaurant-bits/kitchentable-b-large.glb · 236 tris · 3×1×2 · 20 KB
+- [Kitchentable Sink](https://models.codelove.in/models/restaurant-bits-kitchentable-sink/) — https://models.codelove.in/library/restaurant-bits/kitchentable-sink.glb · 742 tris · 2×1.8×2 · 27 KB
+- [Kitchentable Sink Large](https://models.codelove.in/models/restaurant-bits-kitchentable-sink-large/) — https://models.codelove.in/library/restaurant-bits/kitchentable-sink-large.glb · 846 tris · 3×1.8×2 · 28 KB
+- [Kitchentable Sink Large Decorated](https://models.codelove.in/models/restaurant-bits-kitchentable-sink-large-decorated/) — https://models.codelove.in/library/restaurant-bits/kitchentable-sink-large-decorated.glb · 2,589 tris · 3×1.95×2 · 54 KB
+- [Knife](https://models.codelove.in/models/restaurant-bits-knife/) — https://models.codelove.in/library/restaurant-bits/knife.glb · 104 tris · 0.25×1.15×0.1 · 18 KB
+- [Lid A](https://models.codelove.in/models/restaurant-bits-lid-a/) — https://models.codelove.in/library/restaurant-bits/lid-a.glb · 200 tris · 1×0.2×1 · 18 KB
+- [Lid B](https://models.codelove.in/models/restaurant-bits-lid-b/) — https://models.codelove.in/library/restaurant-bits/lid-b.glb · 200 tris · 1×0.2×1 · 18 KB
+- [Lid Large](https://models.codelove.in/models/restaurant-bits-lid-large/) — https://models.codelove.in/library/restaurant-bits/lid-large.glb · 200 tris · 1.5×0.3×1.2 · 18 KB
+- [Menu](https://models.codelove.in/models/restaurant-bits-menu/) — https://models.codelove.in/library/restaurant-bits/menu.glb · 108 tris · 0.5×0.8×0.3 · 18 KB
+- [Mustard](https://models.codelove.in/models/restaurant-bits-mustard/) — https://models.codelove.in/library/restaurant-bits/mustard.glb · 168 tris · 0.3×0.78×0.3 · 18 KB
+- [Oven](https://models.codelove.in/models/restaurant-bits-oven/) — https://models.codelove.in/library/restaurant-bits/oven.glb · 542 tris · 2×2.02×2.35 · 28 KB
+- [Pan 006](https://models.codelove.in/models/restaurant-bits-pan-006/) — https://models.codelove.in/library/restaurant-bits/pan-006.glb · 278 tris · 0.75×0.35×1.27 · 20 KB
+- [Pan A](https://models.codelove.in/models/restaurant-bits-pan-a/) — https://models.codelove.in/library/restaurant-bits/pan-a.glb · 310 tris · 1×0.25×1.5 · 20 KB
+- [Pan B](https://models.codelove.in/models/restaurant-bits-pan-b/) — https://models.codelove.in/library/restaurant-bits/pan-b.glb · 310 tris · 1×0.25×1.5 · 20 KB
+- [Papertowel](https://models.codelove.in/models/restaurant-bits-papertowel/) — https://models.codelove.in/library/restaurant-bits/papertowel.glb · 228 tris · 0.5×0.91×0.5 · 19 KB
+- [Pillar A](https://models.codelove.in/models/restaurant-bits-pillar-a/) — https://models.codelove.in/library/restaurant-bits/pillar-a.glb · 44 tris · 0.6×4.1×0.6 · 17 KB
+- [Pillar B](https://models.codelove.in/models/restaurant-bits-pillar-b/) — https://models.codelove.in/library/restaurant-bits/pillar-b.glb · 44 tris · 1×4.1×1 · 17 KB
+- [Plate](https://models.codelove.in/models/restaurant-bits-plate/) — https://models.codelove.in/library/restaurant-bits/plate.glb · 160 tris · 0.95×0.1×0.95 · 18 KB
+- [Plate Dirty](https://models.codelove.in/models/restaurant-bits-plate-dirty/) — https://models.codelove.in/library/restaurant-bits/plate-dirty.glb · 262 tris · 0.95×0.1×0.95 · 20 KB
+- [Plate Small](https://models.codelove.in/models/restaurant-bits-plate-small/) — https://models.codelove.in/library/restaurant-bits/plate-small.glb · 120 tris · 0.75×0.1×0.75 · 17 KB
+- [Pot A](https://models.codelove.in/models/restaurant-bits-pot-a/) — https://models.codelove.in/library/restaurant-bits/pot-a.glb · 324 tris · 1.4×0.5×1 · 20 KB
+- [Pot A Stew](https://models.codelove.in/models/restaurant-bits-pot-a-stew/) — https://models.codelove.in/library/restaurant-bits/pot-a-stew.glb · 612 tris · 1.4×0.52×1 · 26 KB
+- [Pot B](https://models.codelove.in/models/restaurant-bits-pot-b/) — https://models.codelove.in/library/restaurant-bits/pot-b.glb · 324 tris · 1.4×0.5×1 · 20 KB
+- [Pot B Stew](https://models.codelove.in/models/restaurant-bits-pot-b-stew/) — https://models.codelove.in/library/restaurant-bits/pot-b-stew.glb · 612 tris · 1.4×0.52×1 · 26 KB
+- [Pot Large](https://models.codelove.in/models/restaurant-bits-pot-large/) — https://models.codelove.in/library/restaurant-bits/pot-large.glb · 388 tris · 2×0.75×1.2 · 22 KB
+- [Shelf Papertowel](https://models.codelove.in/models/restaurant-bits-shelf-papertowel/) — https://models.codelove.in/library/restaurant-bits/shelf-papertowel.glb · 284 tris · 2×1.06×0.6 · 21 KB
+- [Shelf Papertowel Decorated](https://models.codelove.in/models/restaurant-bits-shelf-papertowel-decorated/) — https://models.codelove.in/library/restaurant-bits/shelf-papertowel-decorated.glb · 832 tris · 2×1.71×0.63 · 29 KB
+- [Stew Bowl](https://models.codelove.in/models/restaurant-bits-stew-bowl/) — https://models.codelove.in/library/restaurant-bits/stew-bowl.glb · 304 tris · 0.79×0.25×0.79 · 22 KB
+- [Stew Pot](https://models.codelove.in/models/restaurant-bits-stew-pot/) — https://models.codelove.in/library/restaurant-bits/stew-pot.glb · 304 tris · 0.74×0.25×0.74 · 22 KB
+- [Stove Multi](https://models.codelove.in/models/restaurant-bits-stove-multi/) — https://models.codelove.in/library/restaurant-bits/stove-multi.glb · 1,084 tris · 2×1.2×2.29 · 34 KB
+- [Stove Multi Countertop](https://models.codelove.in/models/restaurant-bits-stove-multi-countertop/) — https://models.codelove.in/library/restaurant-bits/stove-multi-countertop.glb · 708 tris · 1.75×0.27×1.75 · 28 KB
+- [Stove Multi Decorated](https://models.codelove.in/models/restaurant-bits-stove-multi-decorated/) — https://models.codelove.in/library/restaurant-bits/stove-multi-decorated.glb · 2,270 tris · 2.2×1.72×2.29 · 52 KB
+- [Stove Single](https://models.codelove.in/models/restaurant-bits-stove-single/) — https://models.codelove.in/library/restaurant-bits/stove-single.glb · 680 tris · 2×1.21×2.29 · 28 KB
+- [Stove Single Countertop](https://models.codelove.in/models/restaurant-bits-stove-single-countertop/) — https://models.codelove.in/library/restaurant-bits/stove-single-countertop.glb · 304 tris · 1.75×0.28×1.75 · 22 KB
+- [Table Round A](https://models.codelove.in/models/restaurant-bits-table-round-a/) — https://models.codelove.in/library/restaurant-bits/table-round-a.glb · 312 tris · 3×1×3 · 20 KB
+- [Table Round A Decorated](https://models.codelove.in/models/restaurant-bits-table-round-a-decorated/) — https://models.codelove.in/library/restaurant-bits/table-round-a-decorated.glb · 4,422 tris · 3×1.86×3 · 77 KB
+- [Table Round A Small](https://models.codelove.in/models/restaurant-bits-table-round-a-small/) — https://models.codelove.in/library/restaurant-bits/table-round-a-small.glb · 312 tris · 1.5×1×1.5 · 20 KB
+- [Table Round A Small Decorated](https://models.codelove.in/models/restaurant-bits-table-round-a-small-decorated/) — https://models.codelove.in/library/restaurant-bits/table-round-a-small-decorated.glb · 756 tris · 1.5×1.8×1.5 · 27 KB
+- [Table Round B](https://models.codelove.in/models/restaurant-bits-table-round-b/) — https://models.codelove.in/library/restaurant-bits/table-round-b.glb · 300 tris · 3×1×3 · 21 KB
+- [Towelrail](https://models.codelove.in/models/restaurant-bits-towelrail/) — https://models.codelove.in/library/restaurant-bits/towelrail.glb · 180 tris · 1.6×0.58×0.46 · 19 KB
+- [Wall](https://models.codelove.in/models/restaurant-bits-wall/) — https://models.codelove.in/library/restaurant-bits/wall.glb · 76 tris · 4×4×0.5 · 18 KB
+- [Wall Decorated](https://models.codelove.in/models/restaurant-bits-wall-decorated/) — https://models.codelove.in/library/restaurant-bits/wall-decorated.glb · 3,880 tris · 4×4×2.91 · 75 KB
+- [Wall Doorway](https://models.codelove.in/models/restaurant-bits-wall-doorway/) — https://models.codelove.in/library/restaurant-bits/wall-doorway.glb · 162 tris · 4×4×0.5 · 19 KB
+- [Wall Half](https://models.codelove.in/models/restaurant-bits-wall-half/) — https://models.codelove.in/library/restaurant-bits/wall-half.glb · 76 tris · 2×4×0.5 · 18 KB
+- [Wall Orderwindow](https://models.codelove.in/models/restaurant-bits-wall-orderwindow/) — https://models.codelove.in/library/restaurant-bits/wall-orderwindow.glb · 206 tris · 4×4×0.9 · 19 KB
+- [Wall Orderwindow Decorated](https://models.codelove.in/models/restaurant-bits-wall-orderwindow-decorated/) — https://models.codelove.in/library/restaurant-bits/wall-orderwindow-decorated.glb · 650 tris · 4×4×0.9 · 26 KB
+- [Wall Window Closed](https://models.codelove.in/models/restaurant-bits-wall-window-closed/) — https://models.codelove.in/library/restaurant-bits/wall-window-closed.glb · 196 tris · 4×4×0.5 · 19 KB
+- [Wall Window Open](https://models.codelove.in/models/restaurant-bits-wall-window-open/) — https://models.codelove.in/library/restaurant-bits/wall-window-open.glb · 192 tris · 4×4×0.5 · 19 KB
